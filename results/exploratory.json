@@ -84,6 +84,7 @@
   }
  },
  "X4_wscaled": {
+  "w_syn_multiplier": 0.5233013784366783,
   "MN9_R_contra": {
    "active": 0,
    "mean": 0.0,

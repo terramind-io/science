@@ -34,5 +34,31 @@ for k, c in [('fw783', fwc), ('mcns', mcc)]:
     out.setdefault('X3_network', {})[k] = {'edges': len(c), 'synapses_total': int(c.Connectivity.sum()),
         'inhibitory_neuron_frac': round(float((c.groupby('Presynaptic_ID').Excitatory.first() < 0).mean()), 4),
         'inhibitory_synapse_frac': round(float(c.Connectivity[c.Excitatory < 0].sum() / c.Connectivity.sum()), 4)}
+
+# X4 (exploratory): male CNS with w_syn x (FlyWire/male synapses per neuron)
+from scipy.stats import spearmanr
+if (R / 'X4_mcns_typesetL_wscaled.parquet').exists():
+    rx, dx, kx = rates('X4_mcns_typesetL_wscaled')
+    mm = S['malecns']['mn9']
+    per = lambda nid: dx[dx.neuron_id == nid].set_index('trial').n_spikes.reindex(range(kx), fill_value=0)
+    r_, l_ = per(mm['R']), per(mm['L'])
+    fwt = pd.read_csv(ROOT / 'data' / 'flywire' / 'neuron_annotations.tsv', sep='\t', usecols=['root_id', 'cell_type'], low_memory=False).dropna().set_index('root_id').cell_type
+    mct = mc[['bodyId', 'flywireType']].dropna().set_index('bodyId').flywireType
+    shared = set(fwt.unique()) & set(mct.unique())
+    def tr(name, types, stim):
+        rr, _, _ = rates(name); rr = rr[~rr.index.isin(stim)]; tt = types.reindex(rr.index).dropna()
+        return rr.loc[tt.index].groupby(tt.values).mean()
+    fa = tr('E3_fw783_typeset_real', fwt, S['flywire783']['stim_typeset']); mb = tr('X4_mcns_typesetL_wscaled', mct, S['malecns']['stim_typeset_L'])
+    keys = sorted(t for t in shared if fa.get(t, 0) > 0 or mb.get(t, 0) > 0)
+    top = lambda s: set(s[s.index.isin(shared)].sort_values(ascending=False).index[:50])
+    out['X4_wscaled'] = {
+        'w_syn_multiplier': json.load(open(R / 'X4_mcns_typesetL_wscaled.json'))['w_syn_multiplier'],
+        'MN9_R_contra': {'active': int((r_ > 0).sum()), 'mean': round(float(r_.mean()), 2), 'sd': round(float(r_.std(ddof=0)), 2)},
+        'MN9_L_ipsi': {'active': int((l_ > 0).sum()), 'mean': round(float(l_.mean()), 2)},
+        'neurons_firing_mean_per_trial': round(dx.groupby('trial').size().mean(), 1),
+        'total_spikes_per_trial': round(dx.n_spikes.sum() / kx, 1),
+        'D1_style_vs_female': {'n_types': len(keys), 'spearman_rho': round(float(spearmanr([fa.get(t, 0) for t in keys], [mb.get(t, 0) for t in keys])[0]), 3),
+                               'top50_jaccard': round(len(top(fa) & top(mb)) / len(top(fa) | top(mb)), 3)},
+        'top10_male_types': mb[mb.index.isin(shared)].sort_values(ascending=False).head(10).round(1).to_dict()}
 json.dump(out, open(R / 'exploratory.json', 'w'), indent=1, default=str)
 print(json.dumps(out, indent=1, default=str))
