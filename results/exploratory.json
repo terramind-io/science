@@ -1,0 +1,86 @@
+{
+ "X1_spread": {
+  "E1_fw630_shiu_real": {
+   "neurons_firing_mean_per_trial": 359.7,
+   "neurons_ge_10hz": 233,
+   "total_spikes_per_trial": 9746.8
+  },
+  "E3_fw783_typeset_real": {
+   "neurons_firing_mean_per_trial": 441.9,
+   "neurons_ge_10hz": 331,
+   "total_spikes_per_trial": 17720.8
+  },
+  "E3_mcns_typesetL_real": {
+   "neurons_firing_mean_per_trial": 12378.2,
+   "neurons_ge_10hz": 12693,
+   "total_spikes_per_trial": 593811.0
+  },
+  "S1_mcns_sugaronlyL_real": {
+   "neurons_firing_mean_per_trial": 14869.8,
+   "neurons_ge_10hz": 13334,
+   "total_spikes_per_trial": 789136.7
+  },
+  "E4_mcns_typesetL_shuffled": {
+   "neurons_firing_mean_per_trial": 124.7,
+   "neurons_ge_10hz": 57,
+   "total_spikes_per_trial": 4448.2
+  },
+  "E2_fw630_shiu_shuffled": {
+   "neurons_firing_mean_per_trial": 40.9,
+   "neurons_ge_10hz": 21,
+   "total_spikes_per_trial": 2312.5
+  }
+ },
+ "X2_laterality": {
+  "fw783_typeset(left GRNs)": {
+   "MN9_contra": 99.13,
+   "MN9_ipsi": 75.2
+  },
+  "fw783_sugaronly(left GRNs)": {
+   "MN9_contra": 73.03,
+   "MN9_ipsi": 48.43
+  },
+  "mcns_typesetL": {
+   "MN9_R(contra)": 28.67,
+   "MN9_L(ipsi)": 111.83
+  },
+  "mcns_typesetR": {
+   "MN9_L(contra)": 138.1,
+   "MN9_R(ipsi)": 28.83
+  },
+  "mcns_sugaronlyL": {
+   "MN9_R(contra)": 16.77,
+   "MN9_L(ipsi)": 76.3
+  }
+ },
+ "X3_male_inputs": {
+  "n_neurons": 165122,
+  "predicted_nt_missing_frac": 0.003,
+  "nt_counts": {
+   "acetylcholine": 94946,
+   "glutamate": 28055,
+   "gaba": 20218,
+   "unclear": 14365,
+   "dopamine": 4443,
+   "histamine": 2026,
+   "NaN": 502,
+   "serotonin": 465,
+   "octopamine": 102
+  },
+  "inhibitory_neuron_frac": 0.2923
+ },
+ "X3_network": {
+  "fw783": {
+   "edges": 15091983,
+   "synapses_total": 54492922,
+   "inhibitory_neuron_frac": 0.2995,
+   "inhibitory_synapse_frac": 0.4037
+  },
+  "mcns": {
+   "edges": 25563096,
+   "synapses_total": 124024573,
+   "inhibitory_neuron_frac": 0.2952,
+   "inhibitory_synapse_frac": 0.3744
+  }
+ }
+}

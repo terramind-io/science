@@ -36,16 +36,26 @@ CONDITIONS = {
     'S1_mcns_sugaronlyL_real':  ('malecns', S['malecns']['stim_sugaronly_L'], 30, False),
     'S2_mcns_typesetR_real':    ('malecns', S['malecns']['stim_typeset_R'], 30, False),
     'BENCH_mcns_nostim':        ('malecns', [], 1, False),
+    # EXPLORATORY (post hoc, added after results): w_syn scaled by FlyWire/male synapses-per-neuron ratio
+    'X4_mcns_typesetL_wscaled': ('malecns', S['malecns']['stim_typeset_L'], 30, False),
 }
 RATE_HZ = 100
+W_SCALE = {'X4_mcns_typesetL_wscaled': None}  # filled at runtime from data (see w_scale())
 
 
-def trial(dataset, stim_ids, shuffle, t_seed, t_run_ms):
+def w_scale():
+    fw = pd.read_parquet(DATA['flywire783'][1], columns=['Connectivity']).Connectivity.sum() / len(pd.read_csv(DATA['flywire783'][0], index_col=0))
+    mc = pd.read_parquet(DATA['malecns'][1], columns=['Connectivity']).Connectivity.sum() / len(pd.read_csv(DATA['malecns'][0], index_col=0))
+    return float(fw / mc)
+
+
+def trial(dataset, stim_ids, shuffle, t_seed, t_run_ms, wmul=1.0):
     prefs.codegen.target = 'cython'
     comp, con = DATA[dataset]
     params = dict(default_params)
     params['r_poi'] = RATE_HZ * Hz
     params['t_run'] = t_run_ms * ms
+    params['w_syn'] = params['w_syn'] * wmul
     b2seed(t_seed)
     neu, syn, spk = create_model(comp, con, params)
     if shuffle:
@@ -66,12 +76,13 @@ def main(name, n_proc=7, t_run_ms=1000):
     out = ROOT / 'results' / f'{name}.parquet'
     t0 = time.time()
     seeds = [10_000 * (list(CONDITIONS).index(name) + 1) + k for k in range(n)]
-    res = Parallel(n_jobs=n_proc)(delayed(trial)(dataset, stim, shuffle, s, t_run_ms) for s in seeds)
+    wmul = w_scale() if name in W_SCALE else 1.0
+    res = Parallel(n_jobs=n_proc)(delayed(trial)(dataset, stim, shuffle, s, t_run_ms, wmul) for s in seeds)
     df = pd.concat([r.assign(trial=k, seed=s) for k, (r, s) in enumerate(zip(res, seeds))], ignore_index=True)
     df['condition'] = name
     df.to_parquet(out)
     meta = {'condition': name, 'dataset': dataset, 'n_stim': len(stim), 'n_trials': n, 'shuffle': shuffle,
-            'rate_hz': RATE_HZ, 't_run_ms': t_run_ms, 'wall_s': round(time.time() - t0, 1), 'seeds': seeds}
+            'rate_hz': RATE_HZ, 't_run_ms': t_run_ms, 'w_syn_multiplier': wmul, 'wall_s': round(time.time() - t0, 1), 'seeds': seeds}
     json.dump(meta, open(out.with_suffix('.json'), 'w'), indent=1)
     print(json.dumps({k: v for k, v in meta.items() if k != 'seeds'}))
 
