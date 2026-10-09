@@ -113,5 +113,74 @@
    "CB0499": 33.5,
    "CB0062": 31.1
   }
+ },
+ "A1_mn9_inputs": {
+  "female_right_720575940660219265": 5579,
+  "female_left_720575940618238523": 5886,
+  "male_MN9_L_10331": {
+   "input_synapses": 6012,
+   "statusLabel": "Roughly traced"
+  },
+  "male_MN9_R_16949": {
+   "input_synapses": 555,
+   "statusLabel": "RT Hard to trace"
+  }
+ },
+ "A2_spread_excluding_stimulated": {
+  "E3_fw783_typeset_real": 389.9,
+  "E3_mcns_typesetL_real": 12346.2,
+  "X4_mcns_typesetL_wscaled": 79.6,
+  "E1_fw630_shiu_real": 338.7
+ },
+ "A3_synapse_density": {
+  "type_matched_n_types": 7081,
+  "median_input_ratio_male_over_female": 1.782,
+  "iqr": [
+   1.42,
+   2.34
+  ],
+  "synapses_per_edge": {
+   "fw783": 3.61,
+   "mcns": 4.85
+  },
+  "input_synapses_per_neuron_all": {
+   "fw783": 393.1,
+   "mcns": 751.1
+  },
+  "mcns_brain_only_input_per_neuron": 716.6
+ },
+ "A4_rho_on_female_active_types": {
+  "n_types": 258,
+  "E3_mcns_typesetL_real": 0.428,
+  "X4_mcns_typesetL_wscaled": 0.348,
+  "E4_mcns_typesetL_shuffled": 0.456
+ },
+ "A5_male_MN9L_readout": {
+  "E3_mcns_typesetL_real": {
+   "active": 30,
+   "n": 30,
+   "rate_hz": 111.83
+  },
+  "E4_mcns_typesetL_shuffled": {
+   "active": 1,
+   "n": 100,
+   "rate_hz": 0.04
+  },
+  "S2_mcns_typesetR_real": {
+   "active": 30,
+   "n": 30,
+   "rate_hz": 138.1
+  },
+  "S1_mcns_sugaronlyL_real": {
+   "active": 30,
+   "n": 30,
+   "rate_hz": 76.3
+  },
+  "X4_mcns_typesetL_wscaled": {
+   "active": 1,
+   "n": 30,
+   "rate_hz": 0.03
+  },
+  "fisher_p_real_vs_shuffled": 1.1866762958902997e-28
  }
 }
