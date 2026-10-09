@@ -1,0 +1,22 @@
+{
+ "V0": {
+  "n_types": 106,
+  "classification_match": 106,
+  "pearson_r": 0.9986,
+  "verdict": "supported",
+  "scores_vs_observed": {
+   "n_types": 106,
+   "TP": 10,
+   "FP": 1,
+   "FN": 4,
+   "TN": 91,
+   "accuracy": 0.953,
+   "acc_ci95": [
+    0.906,
+    0.991
+   ],
+   "trivial_all_negative_acc": 0.868
+  },
+  "mismatches": {}
+ }
+}
