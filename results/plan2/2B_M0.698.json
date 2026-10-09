@@ -1,0 +1,12 @@
+{
+ "job": "2B_M0.698",
+ "n_items": 1,
+ "rate_hz": 100,
+ "n_trials": 10,
+ "w_syn_multiplier": 0.698,
+ "readouts": [
+  10331,
+  16949
+ ],
+ "wall_s": 96.3
+}

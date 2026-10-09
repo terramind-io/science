@@ -1,0 +1,12 @@
+{
+ "job": "2C_Mbrain",
+ "n_items": 1,
+ "rate_hz": 100,
+ "n_trials": 10,
+ "w_syn_multiplier": 1.0,
+ "readouts": [
+  10331,
+  16949
+ ],
+ "wall_s": 94.3
+}

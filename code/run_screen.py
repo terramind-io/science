@@ -70,19 +70,23 @@ def worker(data, chunk, rate_hz, n_trials, wmul, readouts, job_idx):
                          **{f'ro_{readouts[k]}': int(cnt[ro[k]]) for k in range(len(ro))}})
     return rows
 
-def main(job, n_proc):
-    if (ROOT / 'results' / 'plan2' / f'{job}.json').exists():
-        print(json.dumps({'job': job, 'skipped': 'already done'})); return
+def main(job, n_proc, shard=None):
+    tag = job if shard is None else f'{job}__s{shard[0]}of{shard[1]}'
+    if (ROOT / 'results' / 'plan2' / f'{tag}.json').exists():
+        print(json.dumps({'job': tag, 'skipped': 'already done'})); return
     data, items, rate, n, wmul, readouts = JOBS[job]
     t0 = time.time()
     idx_items = list(enumerate(items))
+    if shard is not None:
+        idx_items = idx_items[shard[0]::shard[1]]  # item seeds stay keyed on the global item index
     chunks = [idx_items[k::n_proc] for k in range(n_proc)]
     res = Parallel(n_jobs=n_proc)(delayed(worker)(data, c, rate, n, wmul, readouts, list(JOBS).index(job)) for c in chunks if c)
     df = pd.DataFrame([r for rr in res for r in rr]); df['job'] = job
-    out = ROOT / 'results' / 'plan2' / f'{job}.parquet'; out.parent.mkdir(exist_ok=True); df.to_parquet(out)
-    meta = {'job': job, 'n_items': len(items), 'rate_hz': rate, 'n_trials': n, 'w_syn_multiplier': wmul, 'readouts': readouts,
+    out = ROOT / 'results' / 'plan2' / f'{tag}.parquet'; out.parent.mkdir(exist_ok=True); df.to_parquet(out)
+    meta = {'job': job, 'shard': shard, 'n_items': len(idx_items), 'rate_hz': rate, 'n_trials': n, 'w_syn_multiplier': wmul, 'readouts': readouts,
             'wall_s': round(time.time() - t0, 1)}
     json.dump(meta, open(out.with_suffix('.json'), 'w'), indent=1); print(json.dumps(meta))
 
 if __name__ == '__main__':
-    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 6)
+    sh = tuple(int(x) for x in sys.argv[3].split('/')) if len(sys.argv) > 3 else None
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 6, sh)
