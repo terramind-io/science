@@ -31,7 +31,7 @@ JOBS = {
     '2A_M': (MCNS, sez_items('male_ids'), 50, 30, 1.0, [MN9_ML, MN9_MR]),
     '2A_Ms': (MCNS, sez_items('male_ids'), 50, 30, DENS, [MN9_ML, MN9_MR]),
     '2B_F178': (FW783, [('typeset', S['flywire783']['stim_typeset'])], 100, 10, 1.782, [S['flywire783']['mn9_contra'], S['flywire783']['mn9_ipsi']]),
-    **{f'2B_M{m:.3f}': (MCNS, [('typesetL', S['malecns']['stim_typeset_L'])], 100, 10, m, [MN9_ML, MN9_MR]) for m in (DENS, 0.65, 0.75, 0.85)},
+    **{f'2B_M{m:.3f}': (MCNS, [('typesetL', S['malecns']['stim_typeset_L'])], 100, 10, m, [MN9_ML, MN9_MR]) for m in (DENS, 0.65, 0.698, 0.75, 0.85)},
     '2C_Mbrain': (MCNS_BRAIN, [('typesetL', S['malecns']['stim_typeset_L'])], 100, 10, 1.0, [MN9_ML, MN9_MR]),
 }
 

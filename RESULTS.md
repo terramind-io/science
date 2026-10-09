@@ -54,6 +54,24 @@ MN9_R has about a tenth of the input of every other MN9, so its firing rate isn'
 ![MN9 per trial](results/figures/fig1_mn9_real_vs_shuffled.png)
 *Fig 1.* MN9 spikes per 1 s trial at 100 Hz input. Female uses Shiu et al.'s 21 GRNs on FlyWire v630. Male uses the 32 left-side GRNs of the same four types, read out at the pre-registered MN9_R. Shuffled means signed weights permuted across existing edges, with a new permutation each trial. *To do: redraw with MN9_L for the video (see A5).*
 
+## Prior work we must credit (found 9 Oct 2026, after these runs)
+
+Several of our findings were **already reported** before we ran anything. We present them as independent confirmations, not as discoveries.
+
+- **The male map has more synapses per neuron.** Berg et al. (the male CNS paper itself; preprint doi:10.1101/2025.10.09.680999, *Cell* doi:10.1016/j.cell.2026.08.015) state: "there are more synapses in male CNS". For cross-dataset comparisons they scale male weights by **0.581**. They also say "Synapse counts also differ systematically across datasets mostly due to technical factors" (preprint pp. 19 and Methods; `../sources/text/S3pre_*`). That factor corresponds to about 1.72×. Our 1.78× (A3) agrees with them independently.
+- **flymsg** (G. Mazza, GitHub, commit `cb3ed70`, 23 Sep 2026; open-source, not peer-reviewed; `../sources/web/S43_*`) had already done four things:
+  - run a Shiu et al.-style model on MaleCNS v1.0
+  - reported "a median 1.81× the synapses of its female counterpart over 7,327 matched cell types"
+  - flagged MN9_R as incompletely reconstructed
+  - noted that Shiu's "sugar" set includes LB3d-like neurons
+
+  Crucially, with w_syn divided by a density factor (default 0.192, about ×0.70), it reports sugar → MN9_L passing **with no self-sustained runaway**. It also reports a **specificity problem**: a control set of 17 random labial sensory neurons drove MN9 to 17.8 Hz in an earlier engine version. So a working setting may exist between our two tested points (×0.523 and ×1.0). PLAN2 2B tests this directly.
+- **Still apparently new** (one literature and code search on 9 Oct; not exhaustive):
+  - scoring the transferred model against Shiu et al.'s real-fly optogenetic screen of 106 cell types (PLAN2 2A)
+  - the pre-registered reproduction, transfer and shuffle design
+
+  Before any novelty claim in the paper, we need a proper literature search.
+
 ## Exploratory analyses (post hoc, NOT pre-registered)
 
 **X1 / A2. Activity spread.** The same stimulus spreads far wider in the male network. Counts below exclude the stimulated sensory neurons themselves.
@@ -86,7 +104,7 @@ What this means for the model: the weight per synapse is identical, but each mal
 - **The most active cell types now overlap with the female's.** Top-50 overlap is 35%, against 3% at default weights. The audit found the Spearman ρ comparison is sensitive to which types are compared, so we no longer use it.
 - **But MN9 goes silent.** MN9_R fired in 0/30 trials and MN9_L in 1/30 (0.03 Hz).
 
-At default weights MN9 fires but activity runs away. At density-matched weights the active types overlap more with the female's, but MN9 doesn't fire. **Of the two settings we tested, neither gives both.** The planned 0.6–0.9 sweep (X5) didn't run; its approval timed out.
+At default weights MN9 fires but activity runs away. At density-matched weights the active types overlap more with the female's, but MN9 doesn't fire. **Of the two settings we tested, neither gives both. But flymsg reports a working setting at about ×0.70 (see Prior work), so we must not claim no such setting exists.** The planned 0.6–0.9 sweep (X5) didn't run; its approval timed out.
 
 **X2. The male "laterality reversal" is a reconstruction artefact.** In the male, MN9_L fires strongly from either side (111.8 Hz ipsilateral, 138.1 Hz contralateral), while MN9_R stays weak (28.7 and 28.8 Hz). A1 explains this: MN9_R is only partly reconstructed. Using the well-traced MN9_L, contralateral input drives it harder than ipsilateral (138 vs 112 Hz). That is the same direction as the female (99 vs 75 Hz) and as the paper. The two male stimuli differ slightly (36 vs 32 GRNs), so this is suggestive only.
 

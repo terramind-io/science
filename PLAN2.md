@@ -77,3 +77,7 @@ This is mathematically the same input process. **V0 is the test that it reproduc
 ## Reporting
 
 Every verdict is reported, including failures. Anything added after seeing results is labelled exploratory. The video and paper say "our own analysis, not peer-reviewed".
+
+## Amendment 1 (9 Oct 2026, before any 2A/2B/2C run)
+
+A prior-work check found flymsg (GitHub `cb3ed70`). Its default setting, w_syn 0.192 = 0.275/1.43, uses the lower interquartile bound of its density ratio and reports sugar → MN9_L without runaway. To test that directly, **2B adds a male multiplier of 0.698** (= 0.192/0.275). Adding this point doesn't change R2's decision rule; R2 is now evaluated over 5 settings, and we report it as such. No other change.
