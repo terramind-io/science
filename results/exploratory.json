@@ -82,5 +82,35 @@
    "inhibitory_neuron_frac": 0.2952,
    "inhibitory_synapse_frac": 0.3744
   }
+ },
+ "X4_wscaled": {
+  "MN9_R_contra": {
+   "active": 0,
+   "mean": 0.0,
+   "sd": 0.0
+  },
+  "MN9_L_ipsi": {
+   "active": 1,
+   "mean": 0.03
+  },
+  "neurons_firing_mean_per_trial": 111.6,
+  "total_spikes_per_trial": 4478.0,
+  "D1_style_vs_female": {
+   "n_types": 265,
+   "spearman_rho": 0.287,
+   "top50_jaccard": 0.351
+  },
+  "top10_male_types": {
+   "CB0248": 84.0,
+   "AN_GNG_30": 61.5,
+   "CB0118": 54.0,
+   "AN_GNG_68": 52.9,
+   "CB0366": 46.2,
+   "CB0192": 45.4,
+   "CB0020": 39.0,
+   "DNge031": 36.1,
+   "CB0499": 33.5,
+   "CB0062": 31.1
+  }
  }
 }

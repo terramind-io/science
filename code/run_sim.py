@@ -41,6 +41,10 @@ CONDITIONS = {
 }
 RATE_HZ = 100
 W_SCALE = {'X4_mcns_typesetL_wscaled': None}  # filled at runtime from data (see w_scale())
+# EXPLORATORY X5 sweep (post hoc): fixed w_syn multipliers, 10 trials each
+X5 = {f'X5_mcns_typesetL_w{m:.2f}': m for m in (0.60, 0.70, 0.80, 0.90)}
+for _n in X5:
+    CONDITIONS[_n] = ('malecns', S['malecns']['stim_typeset_L'], 10, False)
 
 
 def w_scale():
@@ -76,7 +80,7 @@ def main(name, n_proc=7, t_run_ms=1000):
     out = ROOT / 'results' / f'{name}.parquet'
     t0 = time.time()
     seeds = [10_000 * (list(CONDITIONS).index(name) + 1) + k for k in range(n)]
-    wmul = w_scale() if name in W_SCALE else 1.0
+    wmul = w_scale() if name in W_SCALE else X5.get(name, 1.0)
     res = Parallel(n_jobs=n_proc)(delayed(trial)(dataset, stim, shuffle, s, t_run_ms, wmul) for s in seeds)
     df = pd.concat([r.assign(trial=k, seed=s) for k, (r, s) in enumerate(zip(res, seeds))], ignore_index=True)
     df['condition'] = name
