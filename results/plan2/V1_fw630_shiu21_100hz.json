@@ -1,0 +1,12 @@
+{
+ "job": "V1_fw630_shiu21_100hz",
+ "n_items": 1,
+ "rate_hz": 100,
+ "n_trials": 30,
+ "w_syn_multiplier": 1.0,
+ "readouts": [
+  720575940660219265,
+  720575940645521262
+ ],
+ "wall_s": 241.5
+}
