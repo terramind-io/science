@@ -15,7 +15,7 @@ from model import create_model, default_params  # noqa: E402
 from brian2 import Network, PoissonGroup, Synapses, Hz, ms, mV, seed as b2seed, prefs  # noqa: E402
 
 V, I = ROOT / 'vendor' / 'Drosophila_brain_model', ROOT / 'inputs'
-S = json.load(open(I / 'stimuli.json')); SEZ = json.load(open(I / 'sez_screen.json'))
+S = json.load(open(I / 'stimuli.json')); CTRL = json.load(open(I / 'controls.json')); SEZ = json.load(open(I / 'sez_screen.json'))
 FW630 = (V / '2023_03_23_completeness_630_final.csv', V / '2023_03_23_connectivity_630_final.parquet')
 FW783 = (V / 'Completeness_783.csv', V / 'Connectivity_783.parquet')
 MCNS = (I / 'malecns_completeness.csv', I / 'malecns_connectivity.parquet')
@@ -32,6 +32,12 @@ JOBS = {
     '2A_Ms': (MCNS, sez_items('male_ids'), 50, 30, DENS, [MN9_ML, MN9_MR]),
     '2B_F178': (FW783, [('typeset', S['flywire783']['stim_typeset'])], 100, 10, 1.782, [S['flywire783']['mn9_contra'], S['flywire783']['mn9_ipsi']]),
     **{f'2B_M{m:.3f}': (MCNS, [('typesetL', S['malecns']['stim_typeset_L'])], 100, 10, m, [MN9_ML, MN9_MR]) for m in (DENS, 0.65, 0.698, 0.75, 0.85)},
+    '2A_F783T': (FW783, sez_items('female783_typed_ids'), 50, 30, 1.0, [MN9_F, 720575940618238523]),
+    '2A_M698': (MCNS, sez_items('male_ids'), 50, 30, 0.698, [MN9_ML, MN9_MR]),
+    'SPEC_F': (FW783, [(f'ctrl{k}', d) for k, d in enumerate(CTRL['female_draws'])], 100, 10, 1.0, [MN9_F, 720575940618238523]),
+    **{f'SPEC_M{m:.3f}': (MCNS, [(f'ctrl{k}', d) for k, d in enumerate(CTRL['male_draws'])], 100, 10, m, [MN9_ML, MN9_MR]) for m in (1.0, DENS, 0.698)},
+    **{f'ROB_F783T_{tag}': (FW783, sez_items('female783_typed_ids'), hz, 10, w, [MN9_F, 720575940618238523]) for tag, hz, w in (('w0.7', 50, 0.7), ('w1.3', 50, 1.3), ('10hz', 10, 1.0), ('200hz', 200, 1.0))},
+    **{f'ROB_Ms_{tag}': (MCNS, sez_items('male_ids'), hz, 10, DENS * w, [MN9_ML, MN9_MR]) for tag, hz, w in (('w0.7', 50, 0.7), ('w1.3', 50, 1.3), ('10hz', 10, 1.0), ('200hz', 200, 1.0))},
     '2C_Mbrain': (MCNS_BRAIN, [('typesetL', S['malecns']['stim_typeset_L'])], 100, 10, 1.0, [MN9_ML, MN9_MR]),
 }
 

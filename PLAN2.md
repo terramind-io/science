@@ -81,3 +81,28 @@ Every verdict is reported, including failures. Anything added after seeing resul
 ## Amendment 1 (9 Oct 2026, before any 2A/2B/2C run)
 
 A prior-work check found flymsg (GitHub `cb3ed70`). Its default setting, w_syn 0.192 = 0.275/1.43, uses the lower interquartile bound of its density ratio and reports sugar → MN9_L without runaway. To test that directly, **2B adds a male multiplier of 0.698** (= 0.192/0.275). Adding this point doesn't change R2's decision rule; R2 is now evaluated over 5 settings, and we report it as such. No other change.
+
+## Amendment 2 (9 Oct 2026, before any 2A/2B/2C/new run): controls and robustness
+
+Agrim asked for the paper to be as robust as possible. All of the following is fixed before any of these runs.
+
+**A. A fair female comparator for 2A (`2A_F783T`).** The male stimulus sets are built by mapping each SEZ type to *all* neurons of its FlyWire cell type(s). The paper's own lists (used in 2A-F) are narrower. To separate "different fly" from "different neuron selection", we add 2A_F783T: FlyWire v783, the **same type-mapping procedure** as the male, 50 Hz, 30 trials, readout MN9 `720575940660219265`. **T1 and T2 are now judged against 2A_F783T.** 2A-F (the paper's own lists) stays as the check that we reproduce the paper (V0).
+
+**B. Male at flymsg's setting (`2A_M698`).** Male CNS, w_syn × 0.698, otherwise identical to 2A-M. It is scored with T1/T2's rules and reported as **T3**.
+
+**C. Specificity control (`SPEC_*`).** The question is whether sugar input is special, or whether any head taste input drives MN9.
+- **Stimulus:** 10 fixed random draws (`inputs/controls.json`, seed 20261009) of head gustatory neurons on the stimulus side, excluding the stimulus types (LB3b/c/d, LB4b). Each draw has the same number of neurons as the sugar-set stimulus: 52 in the female (pool of 154), 32 in the male (pool of 106).
+- **Run:** 100 Hz, 10 trials per draw.
+- **Networks:** female v783 (×1.0), and male at ×1.0, ×0.561 and ×0.698.
+- **Readouts:** female MN9 `720575940660219265`; male MN9_L.
+- **Sp (fixed now):** at each setting, the sugar-set response is **specific** if the mean sugar MN9 rate is **≥ 3× the mean control rate + 2 Hz** **and** sugar drives MN9 in ≥ 90% of trials. Sugar rates come from E3a, E3b and 2B_M0.561 / 2B_M0.698. Otherwise it is **not specific**.
+
+**D. Robustness of 2A (`ROB_*`).** On 2A_F783T and 2A_Ms (×0.561), 10 trials each:
+- 50 Hz with w_syn ×0.7 and ×1.3 of that network's setting (Shiu's ±30% check)
+- 10 Hz and 200 Hz at the network's setting
+
+We report accuracy and true positives for each. A transfer conclusion (T1/T2) counts as **robust** only if its verdict is the same across all four.
+
+**E. Order of runs:** 2B → 2C → SPEC → 2A (F, F783T, Ms, M698, M) → ROB. Every job is resumable. The approximate total is about 14 h of local compute.
+
+**F. Publication gate (from AGENTS.md):** nothing is published unless the results meet the "Credibility comes first" bar *and* the prior-work search (PRIOR_WORK.md) finds the main contribution not already done. If it was done, we credit it and the paper doesn't go ahead.
