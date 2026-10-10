@@ -33,7 +33,7 @@ def worker(jobs, n_trials, shuffle_seed, base_seed):
     p = dict(default_params); S = senses()
     neu, syn, spk = create_model(COMP, CON, p)
     if shuffle_seed is not None:
-        w = np.asarray(syn.w[:]); syn.w[:] = np.random.default_rng(shuffle_seed).permutation(w)
+        w = np.asarray(syn.w_[:]); syn.w_[:] = np.random.default_rng(shuffle_seed).permutation(w)  # unitless view; the first attempt failed on units before any scrambled run
     ids = pd.read_csv(COMP, index_col=0).index.values.astype('int64'); pos = {int(k): i for i, k in enumerate(ids)}; N = len(ids)
     pg = PoissonGroup(N, rates=np.zeros(N) * Hz, name='stim')
     s_in = Synapses(pg, neu, on_pre='v += w_in', namespace={'w_in': p['w_syn'] * p['f_poi']}, name='stim_syn'); s_in.connect(j='i')

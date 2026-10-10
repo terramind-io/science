@@ -1,0 +1,14 @@
+{
+ "mode": "real",
+ "wall_s": 1048.5,
+ "n_rows": 450,
+ "sense_sizes": {
+  "sweet": 21,
+  "bitter": 21,
+  "water": 18,
+  "Ir94e": 18,
+  "touch": 146,
+  "touchCE": 70,
+  "touchF": 60
+ }
+}
