@@ -1,0 +1,559 @@
+url,owner,repo_created,last_push,stars,licence,description
+https://github.com/eonsystemspbc/drosophila_brain_model_lif,eonsystemspbc,2025-09-22,2025-09-22,10,MIT,A leaky integrate-and-fire computational model of the Drosophila brain - forked from Phil's original LIF model
+https://github.com/captaincael/Drosophila_brain_model,captaincael,2026-08-18,2026-08-18,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/carlosperez67/Drosophila_brain_model,carlosperez67,2025-05-07,2025-08-31,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/CesiumChloride/Drosophila_brain_model,CesiumChloride,2025-12-18,2025-12-18,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/sihoo7005/Drosophila_brain_model,sihoo7005,2026-09-28,2026-09-28,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/cwklurks/Drosophila_brain_model,cwklurks,2026-08-30,2026-08-30,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/AdityaPujari22/Drosophila_brain_model,AdityaPujari22,2025-03-06,2025-03-20,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/yshuai1984/Drosophila_brain_model,yshuai1984,2024-10-10,2026-08-06,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/enginism/drosophila_brain_model_lif,enginism,2026-03-09,2025-09-22,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain - forked from Phil's original LIF model
+https://github.com/Nero-Disney/drosophila_brain_model_lif,Nero-Disney,2026-05-08,2025-09-22,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain - forked from Phil's original LIF model
+https://github.com/higadias-web/drosophila_brain_model_lif,higadias-web,2026-09-24,2025-09-22,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain - forked from Phil's original LIF model
+https://github.com/codingconfluence/drosophila_brain_model_lif,codingconfluence,2026-03-18,2025-09-22,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain - forked from Phil's original LIF model
+https://github.com/AxiMinds/eonsystemspbc-drosophila_brain_model_lif,AxiMinds,2026-09-11,2025-09-22,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain - forked from Phil's original LIF model
+https://github.com/suewei-lin/leaky_integrate_model,suewei-lin,2025-10-30,2025-10-30,0,MIT,A leaky integrate-and-fire computational model of the Drosophila brain
+https://github.com/iambluefred/fruit-fly-lab,iambluefred,2026-09-14,2026-08-28,0,none detected,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/seniorfura/fruit-fly-lab,seniorfura,2026-09-14,2026-08-28,0,none detected,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/AJ576/fruit-fly-lab,AJ576,2026-09-16,2026-08-28,0,none detected,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/ydyvip/fruit-fly-lab,ydyvip,2026-09-26,2026-08-28,0,none detected,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/canzthu/fruit-fly-lab,canzthu,2026-09-12,2026-08-28,0,none detected,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/syn-ack-ai/fruit-fly-lab,syn-ack-ai,2026-09-26,2026-10-02,0,NOASSERTION,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/hzdlive/fruit-fly-lab-vaibhavkedarisetti,hzdlive,2026-09-16,2026-08-28,0,none detected,"Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/gondwanagenesis/fly-brain,gondwanagenesis,2026-07-29,2026-10-09,0,none detected,"Whole-brain Drosophila simulation at 2.2x real time on 4 CPU cores, no GPU. 138,639 neurons bit-identical to the reference, with nine switchable neuron models and a live 3D interface."
+https://github.com/yuejunzhang/fruit-fly-lab,yuejunzhang,2026-09-18,2026-08-28,0,none detected,"果蝇神经网络可视化Interactive whole-brain Drosophila simulation on the real FlyWire FAFB v783 connectome (139,255 neurons) running the Shiu et al. 2024 leaky integrate-and-fire model"
+https://github.com/ToRtiKoSteroid/drosophila-brain-mlx,ToRtiKoSteroid,2026-09-27,2026-09-26,0,MIT,"Shiu et al.'s Drosophila brain model (leaky integrate-and-fire) on Apple Silicon with MLX and Metal: FlyWire v630 and MaleCNS v1.0 connectomes, upstream-compatible run_exp, checked against Brian2, 0.2"
+https://github.com/kiminbean/drosophila-brain-mlx,kiminbean,2026-10-05,2026-10-05,0,MIT,"Shiu et al.'s Drosophila brain model (leaky integrate-and-fire) on Apple Silicon with MLX and Metal: FlyWire v630 and MaleCNS v1.0 connectomes, upstream-compatible run_exp, checked against Brian2, 0.2"
+https://github.com/luudhung/webgpu-fly,luudhung,2026-09-25,2026-09-25,0,MIT,"Realtime LIF simulation of FlyWire brain + MANC spine + flybody body, all in WebGPU/WASM in your browser."
+https://github.com/ximinwu/webgpu-fly,ximinwu,2026-05-31,2026-05-05,0,none detected,"Realtime LIF simulation of FlyWire brain + MANC spine + flybody body, all in WebGPU/WASM in your browser."
+https://github.com/G0r1ls/webgpu-fly,G0r1ls,2026-09-21,2026-09-04,0,MIT,"Realtime LIF simulation of FlyWire brain + MANC spine + flybody body, all in WebGPU/WASM in your browser."
+https://github.com/hzdlive/fly-chess-tolatolatop,hzdlive,2026-09-16,2026-09-12,0,none detected,"Fruit-fly connectome chess experiment: full FlyWire network, Rust/WASM LIF simulation, reproducible spike traces and causal controls."
+https://github.com/pxzleo/fly-brain-bench,pxzleo,2026-09-17,2026-09-13,0,NOASSERTION,"Stimulate a real fruit fly's brain in your browser. Leaky integrate-and-fire over the FlyWire connectome — 138,639 neurons, 2.7M connections, 60 fps, no dependencies."
+https://github.com/khpnhfpkpz-max/fly-brain-bench,khpnhfpkpz-max,2026-09-21,2026-09-22,0,NOASSERTION,"Stimulate a real fruit fly's brain in your browser. Leaky integrate-and-fire over the FlyWire connectome — 138,639 neurons, 2.7M connections, 60 fps, no dependencies."
+https://github.com/hzdlive/fly-brain-bench,hzdlive,2026-09-14,2026-09-13,0,NOASSERTION,"Stimulate a real fruit fly's brain in your browser. Leaky integrate-and-fire over the FlyWire connectome — 138,639 neurons, 2.7M connections, 60 fps, no dependencies."
+https://github.com/rndlabsoy/fly-brain-full,rndlabsoy,2026-06-27,2026-03-21,2,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/Abdulbosit1215/FLY,Abdulbosit1215,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/drozzzzd/fly-brain2,drozzzzd,2026-09-21,2026-04-02,1,MIT,"🪰 Chat with 138,000 neurons — whole-brain fruit fly simulation with natural language interface and dopamine learning"
+https://github.com/ximinwu/fly-brain2,ximinwu,2026-05-31,2026-04-02,0,MIT,"🪰 Chat with 138,000 neurons — whole-brain fruit fly simulation with natural language interface and dopamine learning"
+https://github.com/Zhibin88/fly-brain,Zhibin88,2026-09-23,2026-04-02,0,MIT,"🪰 Chat with 138,000 neurons — whole-brain fruit fly simulation with natural language interface and dopamine learning"
+https://github.com/ydyvip/fly-brain,ydyvip,2026-09-26,2026-04-02,0,MIT,"🪰 Chat with 138,000 neurons — whole-brain fruit fly simulation with natural language interface and dopamine learning"
+https://github.com/Liamdev631/fly-brain,Liamdev631,2026-10-04,2026-04-02,0,MIT,"🪰 Chat with 138,000 neurons — whole-brain fruit fly simulation with natural language interface and dopamine learning"
+https://github.com/saad-aamir/fly-dysseus,saad-aamir,2026-09-25,2026-09-25,0,none detected,Whole-brain fruit fly connectome simulation with an embodied virtual environment.
+https://github.com/wencescarlos/fly-brain2,wencescarlos,2026-09-14,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/FermataRest/fly-brain2,FermataRest,2026-09-11,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/MiracleBlue/fly-brain2,MiracleBlue,2026-03-16,2026-03-13,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/hzdlive/flyverse-core,hzdlive,2026-09-16,2026-09-16,0,MIT,"a richer core simulation of janelia's fruit fly brain, including neurotransmitters"
+https://github.com/DebatableMiracle/fly-brain,DebatableMiracle,2026-09-12,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/kohjt/fly-brain,kohjt,2026-04-13,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/unlimitedtsar/fly-brain,unlimitedtsar,2026-09-11,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/Alex-Hunter/fly-brain,Alex-Hunter,2026-09-17,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/nexWay2040/fly-brain,nexWay2040,2026-09-29,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/Ma-Dan/fly-brain,Ma-Dan,2026-09-13,2026-10-06,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/Arol223/fly-brain,Arol223,2026-09-12,2026-09-14,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/DimitryGarces/fly-brain,DimitryGarces,2026-10-03,2026-10-03,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/dhruv2601/fly-brain,dhruv2601,2026-04-20,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/cyb3r17/fly-brain,cyb3r17,2026-04-29,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/ximinwu/fly-brain,ximinwu,2026-05-31,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/aalzehla/fly-brain,aalzehla,2026-04-07,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/ZhenLiuBuaa/fly-brain,ZhenLiuBuaa,2026-09-15,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/iamdebasis/fly-brain,iamdebasis,2026-09-10,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/Pathos0925/fly-brain,Pathos0925,2026-04-17,2026-03-21,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/ElliNet13/fly-brain,ElliNet13,2026-09-13,2026-09-13,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/rodot2000/NeuroFly,rodot2000,2026-09-13,2026-04-05,0,none detected,"The FlyWire Consortium mapped the complete adult fly central brain connectome, enabling brain-wide simulations, this me trying to implement it using available data"
+https://github.com/hzdlive/fly-brain-olympiad,hzdlive,2026-09-14,2026-09-13,0,MIT,"Can a fruit fly brain solve an olympiad problem? A spiking simulation of the full FlyWire connectome (138,639 neurons) put through a Polish Olympiad in Informatics task."
+https://github.com/rjo6615/fly-brain-interactive,rjo6615,2026-09-13,2026-09-14,0,MIT,"Embodied Drosophila: 138,639-neuron whole-brain connectome simulation (FlyWire v783) in a biomechanical body (NeuroMechFly v2 / MuJoCo). Vision, olfaction, gustation, flight, and emergent behaviors — "
+https://github.com/hzdlive/accurate-fly-brain,hzdlive,2026-09-16,2026-09-14,0,none detected,Most accurate practical whole-CNS Drosophila melanogaster (MaleCNS) LIF simulation based on Shiu et al. 2024 parameters + official neurotransmitter signs. Includes visual input pipeline for arbitrary 
+https://github.com/inboxxobni/awesome-fly,inboxxobni,2026-09-26,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/egginheaven/awesome-fly,egginheaven,2026-09-14,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/mskutlu/awesome-fly,mskutlu,2026-09-12,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/himomohi/awesome-fly,himomohi,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/kuishou68/awesome-fly,kuishou68,2026-09-20,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/DigitalPotter/awesome-fly,DigitalPotter,2026-09-16,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/jniimi/awesome-fly,jniimi,2026-09-16,2026-09-16,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/yukincom/awesome-fly,yukincom,2026-09-17,2026-09-17,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/rayfinite/awesome-fly,rayfinite,2026-09-18,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/jamesbiederbeck/awesome-fly,jamesbiederbeck,2026-09-25,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/1486482143/awesome-fly,1486482143,2026-09-17,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/el-li07/awesome-fly,el-li07,2026-09-25,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/surapoom/awesome-fly,surapoom,2026-10-01,2026-09-30,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/GauriShinde911/awesome-fly,GauriShinde911,2026-09-16,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/professorwang/awesome-fly,professorwang,2026-09-25,2026-09-25,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/eudald-seeslab/awesome-fly,eudald-seeslab,2026-09-14,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Baroni7777/awesome-fly,Baroni7777,2026-09-15,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/kiminbean/awesome-fly,kiminbean,2026-09-15,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/yagarwal1307/awesome-fly,yagarwal1307,2026-09-25,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/dtecx/awesome-fly,dtecx,2026-10-01,2026-10-01,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/berkancinar/awesome-fly,berkancinar,2026-10-03,2026-09-30,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/karthick-sk20/awesome-fly,karthick-sk20,2026-10-05,2026-10-03,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Mscient/awesome-fly,Mscient,2026-09-22,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/ArtyMend07/awesome-fly,ArtyMend07,2026-09-19,2026-10-06,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/igdigitallab/awesome-fly,igdigitallab,2026-09-22,2026-09-22,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/PedroKeita/awesome-fly,PedroKeita,2026-10-10,2026-10-10,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/harsha-sharma356/awesome-fly,harsha-sharma356,2026-10-06,2026-10-05,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/JHC56/awesome-fly,JHC56,2026-09-16,2026-09-19,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/ProfTAlent/awesome-fly,ProfTAlent,2026-10-06,2026-10-06,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/AmesianX/awesome-fly,AmesianX,2026-09-16,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/clay-abercrombie/awesome-fly,clay-abercrombie,2026-09-25,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/TomYang9/awesome-fly,TomYang9,2026-10-02,2026-09-30,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/tonyAtmeMe/awesome-fly,tonyAtmeMe,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/hzdlive/awesome-fly,hzdlive,2026-09-14,2026-09-15,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/sigco3111/awesome-fly,sigco3111,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/BeneElohim/awesome-fly,BeneElohim,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/seanphan/awesome-fly,seanphan,2026-09-14,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/pakornch1/awesome-fly,pakornch1,2026-10-10,2026-10-05,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Shane-33/awesome-fly,Shane-33,2026-09-29,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/kenghzou95/awesome-fly,kenghzou95,2026-09-14,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/jcatanza/awesome-fly,jcatanza,2026-09-18,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Curt-Park/awesome-fly,Curt-Park,2026-10-01,2026-10-01,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/habillerj/awesome-fly,habillerj,2026-09-15,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/dhruvin-sarkar/awesome-fly,dhruvin-sarkar,2026-09-16,2026-10-03,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/u20024804/awesome-fly,u20024804,2026-09-16,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/shinSG/awesome-fly,shinSG,2026-09-15,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/chenglinpeng1/awesome-fly,chenglinpeng1,2026-09-17,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/linuxmahara/thefly-brain,linuxmahara,2026-09-11,2026-09-10,0,NOASSERTION,"Whole-brain Drosophila connectome simulation (FlyWire v783, 138 639 neurons) that decides on-chain buybacks of $FLY on Robinhood Chain by proboscis extension. The proof behind inthebrainofafly.com"
+https://github.com/Abcdef2393/thefly-brain,Abcdef2393,2026-09-27,2026-09-10,0,NOASSERTION,"Whole-brain Drosophila connectome simulation (FlyWire v783, 138 639 neurons) that decides on-chain buybacks of $FLY on Robinhood Chain by proboscis extension. The proof behind inthebrainofafly.com"
+https://github.com/vamseekris/flysim,vamseekris,2026-06-16,2026-06-15,0,NOASSERTION,"Whole-brain Drosophila connectome (139k neurons, 16.8M synapses) run as a leaky integrate-and-fire network on Apple Silicon — deterministic CPU + Metal GPU backends, full MCP control plane."
+https://github.com/AristoYU/flysim-toy,AristoYU,2026-09-16,2026-09-16,0,NOASSERTION,"Whole-brain Drosophila connectome (139k neurons, 16.8M synapses) run as a leaky integrate-and-fire network on Apple Silicon — deterministic CPU + Metal GPU backends, full MCP control plane."
+https://github.com/luminaula/awesome-fruit-fly,luminaula,2026-10-10,2026-10-10,0,CC0-1.0,"Awesome list of fruit-fly connectome simulations, demos, and use cases (MaleCNS / FlyWire and friends)."
+https://github.com/Taki-Bh/awesome-fly,Taki-Bh,2026-09-18,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/NuclearGeekETH/awesome-fly,NuclearGeekETH,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/h30190/awesome-fly,h30190,2026-09-14,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/alextitonis/awesome-fly,alextitonis,2026-10-06,2026-10-06,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/0xSojalSec/awesome-fly,0xSojalSec,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/xumoyan/awesome-fly,xumoyan,2026-09-17,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/imran-nazir0011/awesome-fly,imran-nazir0011,2026-09-19,2026-09-19,1,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/CyberSys/awesome-fly,CyberSys,2026-09-18,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Aniekanetim/awesome-fly,Aniekanetim,2026-09-12,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/gmh5225/awesome-fly,gmh5225,2026-09-13,2026-09-12,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/min1336/awesome-fly,min1336,2026-09-15,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/WilliamJones/awesome-fly,WilliamJones,2026-09-15,2026-09-15,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/weerath/awesome-fly,weerath,2026-09-25,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/wkdcltk/awesome-fly,wkdcltk,2026-09-14,2026-09-14,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/2026-LENA/awesome-fly,2026-LENA,2026-09-23,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Zhibin88/awesome-fly,Zhibin88,2026-09-23,2026-09-20,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/Lucreitus/awesome-fly,Lucreitus,2026-10-02,2026-09-30,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/onurergun316/awesome-fly,onurergun316,2026-10-07,2026-10-05,0,CC0-1.0,"A curated list of fruit fly connectome projects: MaleCNS, FlyWire, brain simulations, embodied models, games, and research tools."
+https://github.com/hzdlive/FLY,hzdlive,2026-09-14,2026-09-14,0,none detected,"A desktop pet fruit fly with a real brain. FLY runs a spiking simulation of the complete MaleCNS connectome, 166,700 neurons and 25.6 million connections, on your GPU. Your keyboard, mouse, and window"
+https://github.com/longman888/malecns,longman888,2026-09-19,2026-09-17,0,none detected,"Complete male Drosophila CNS connectome (MaleCNS) wired to an F1 car on Circuit de Monaco; ES-trained sensorimotor interface, live neuron-level viewer"
+https://github.com/azrijamil/ommatid,azrijamil,2026-09-16,2026-09-11,0,NOASSERTION,A real fruit-fly connectome (FlyVis optic lobe + male CNS spiking model) driving a hexapod robot. Live experiment at ommatid.org
+https://github.com/ohmygaugh-crypto/Fly.exe,ohmygaugh-crypto,2026-09-14,2026-09-14,0,GPL-2.0,"Runs the complete released Drosophila male CNS connectome (165,122 neurons, 25.5M edges) inside a physical fly body, in closed loop, on one GPU."
+https://github.com/s232764623/haltere,s232764623,2026-09-22,2026-09-21,0,NOASSERTION,"A fruit-fly connectome (Janelia male CNS v1.0, 30,000 neurons) trained to fly an FPV drone in Liftoff, with live neural activity video"
+https://github.com/infinity111infinity/ConnectomeToBehaviour,infinity111infinity,2026-09-23,2026-09-14,0,none detected,Closed-loop whole-brain emulation of the fruit fly: connecting a real biological wiring diagram to a physical body simulation to produce natural behaviors.
+https://github.com/baratony/fly-api,baratony,2026-09-20,2026-09-20,0,MIT,Deploy and train the fruit-fly (FlyWire) connectome in realistic simulation
+https://github.com/Bf109G-14/fly_play_music_game,Bf109G-14,2026-09-16,2026-09-16,0,MIT,"A spiking simulation of a real fruit fly brain learns a rhythm game through dopamine: FlyWire connectome, brain-style learning vs a trained readout, and wiring and dopamine controls."
+https://github.com/adrianodias8/infinite-sugar,adrianodias8,2026-09-13,2026-09-17,1,none detected,Infinite Sugar — a browser-based fruit fly connectome artwork
+https://github.com/Vinzcoder/Fly,Vinzcoder,2026-09-18,2026-09-16,0,none detected,A browser game powered by a real fruit-fly connectome: catch the fly and watch its neurons fire.
+https://github.com/douglascorreacavasso/fly-brain,douglascorreacavasso,2026-05-22,2026-05-22,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/maaz7409/fly-brain,maaz7409,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/HirotakaUchishiba/fly-brain,HirotakaUchishiba,2026-09-08,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/MjRi999/fly-brain,MjRi999,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Thomas-Busch-Waterloo/fly-brain,Thomas-Busch-Waterloo,2026-09-19,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/higadias-web/fly-brain,higadias-web,2026-09-24,2026-09-24,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ckaraca/fly-brain,ckaraca,2026-04-09,2026-09-27,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/quantumai101/fly-brain,quantumai101,2026-03-15,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/wata-t/fly-brain,wata-t,2026-09-08,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Penguinjanator/fly-brain,Penguinjanator,2026-09-16,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/s6endemi/fly-brain,s6endemi,2026-09-22,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/nfreq/fly-brain,nfreq,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/SakuraEntropia/fly-brain,SakuraEntropia,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/theotheroracle/fly-brain,theotheroracle,2026-03-12,2026-03-27,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/mdelaguera/fly-brain,mdelaguera,2026-09-24,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Li-qian-neurosurgery/fly-brain,Li-qian-neurosurgery,2026-09-18,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ambra19-ai/fly-brain,ambra19-ai,2026-09-11,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Merrovingian/fly-brain,Merrovingian,2026-07-02,2026-06-24,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/egorpol/fly-brain,egorpol,2026-09-12,2026-09-13,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/chitianqilin/fly-brain,chitianqilin,2026-06-01,2026-05-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/0123universe/fly-brain,0123universe,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Unlisted-0/fly-brain,Unlisted-0,2026-09-29,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ur5fan/fly-brain,ur5fan,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Doesntevenwork/fly-brain,Doesntevenwork,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/yuan-er/fly-brain,yuan-er,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/javargasm/fly-brain,javargasm,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/mirianconceicao723-glitch/fly-brain,mirianconceicao723-glitch,2026-09-07,2026-08-29,1,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/FermataRest/fly-brain,FermataRest,2026-09-11,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/max1988815/fly-brain,max1988815,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/solomonsealed/fly-brain,solomonsealed,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Aochong-Li/fly-brain,Aochong-Li,2026-03-14,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/codingconfluence/fly-brain,codingconfluence,2026-03-18,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/deepalcoholic/fly-brain,deepalcoholic,2026-06-27,2026-06-24,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/likith3611/fly-brain,likith3611,2026-09-11,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Zollicoff/fly-brain,Zollicoff,2026-09-22,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/rgourley/fly-brain,rgourley,2026-09-18,2026-09-24,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/elliothe/fly-brain,elliothe,2026-03-10,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/aivoyager8/fly-brain,aivoyager8,2026-09-14,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/gexinworks/fly-brain,gexinworks,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/timwahoo/fly-brain,timwahoo,2026-09-24,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/884254-png/fly-brain,884254-png,2026-09-28,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/SpacedDot/fly-brain,SpacedDot,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/warlonacosta/fly-brain,warlonacosta,2026-03-15,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Nero-Disney/fly-brain,Nero-Disney,2026-05-08,2026-03-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/lunalobos/fly-brain,lunalobos,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/TheOne76/fly-brain,TheOne76,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/MiracleBlue/fly-brain,MiracleBlue,2026-03-15,2026-03-16,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/elektrischermoench/fly-brain,elektrischermoench,2026-03-23,2026-03-23,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/pauliyangwork-a11y/fly-brain,pauliyangwork-a11y,2026-06-25,2026-06-24,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Hakomatsu/fly-brain,Hakomatsu,2026-09-08,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/santoshdahale/fly-brain,santoshdahale,2026-09-20,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/gep/fly-brain,gep,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/kilockok/fly-brain,kilockok,2026-09-11,2026-09-11,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ruodingt-easygo/fly-brain,ruodingt-easygo,2026-09-24,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/latteine1217/fly-brain,latteine1217,2026-09-18,2026-09-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Service-AI-HQ/fly-brain,Service-AI-HQ,2026-10-08,2026-10-08,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ohmygaugh-crypto/fly-brain,ohmygaugh-crypto,2026-03-10,2026-03-06,1,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Lawliet-git/fly-brain,Lawliet-git,2026-03-19,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/lluisagusti/fly-brain,lluisagusti,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/quantumsage01-boop/fly-brain,quantumsage01-boop,2026-09-18,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/VladRTT/fly-brain,VladRTT,2026-10-04,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/DarrellThomas/fly-brain,DarrellThomas,2026-03-11,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/neworderofjamie/fly-brain,neworderofjamie,2026-06-01,2026-06-04,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/williamnourse/fly-brain,williamnourse,2026-06-22,2026-06-23,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/suryatmodulus/fly-brain,suryatmodulus,2026-09-08,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/mikelcy/fly-brain,mikelcy,2026-09-16,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/BlakeKarbon/fly-brain,BlakeKarbon,2026-03-10,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/yuch555/fly-brain,yuch555,2026-09-09,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/kdallaporta/fly-brain,kdallaporta,2026-03-10,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/anthony-evans/fly-brain,anthony-evans,2026-05-31,2026-05-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/5zxk98wz45-ai/fly-brain,5zxk98wz45-ai,2026-09-28,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/sgaseretto/fly-brain,sgaseretto,2026-03-10,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/edp1096/fly-brain,edp1096,2026-09-22,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/harshithmgowda/fly-brain,harshithmgowda,2026-10-03,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/tralamazza/fly-brain,tralamazza,2026-09-15,2026-09-15,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ilia-osipov/fly-brain,ilia-osipov,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Eribertoruiz1/fly-brain,Eribertoruiz1,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/0xasoba/fly-brain,0xasoba,2026-05-10,2026-03-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/uellenberg/fly-brain,uellenberg,2026-05-18,2026-06-08,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Sakyn04/fly-brain,Sakyn04,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/shiohiyoko/fly-brain,shiohiyoko,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/TBuksik/fly-brain,TBuksik,2026-10-05,2026-10-08,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/tastycandy/fly-brain,tastycandy,2026-03-10,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/jdisconnect/fly-brain,jdisconnect,2026-05-18,2026-03-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/yogee11/fly-brain,yogee11,2026-09-14,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/lsplancarte/fly-brain,lsplancarte,2026-09-16,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/dhirajpatra/fly-brain,dhirajpatra,2026-09-16,2026-09-16,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/CyberSys/fly-brain,CyberSys,2026-09-18,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/AdityaNarayan001/fly-brain,AdityaNarayan001,2026-09-19,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Erfankhodami/fly-brain,Erfankhodami,2026-09-25,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/rickqi/fly-brain,rickqi,2026-09-09,2026-08-29,1,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ordding/fly-brain,ordding,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/RoboHikanala/fly-brain,RoboHikanala,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/nicksonPeanuts/fly-brain,nicksonPeanuts,2026-03-09,2026-03-09,1,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/aaronmckeehan/fly-brain,aaronmckeehan,2026-09-17,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/selimsandal/fly-brain,selimsandal,2026-03-09,2026-03-09,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Labyrinthusaisecurity/fly-brain,Labyrinthusaisecurity,2026-05-20,2026-03-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/YUYANG0915/fly-brain,YUYANG0915,2026-03-23,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/leedaga/fly-brain,leedaga,2026-09-08,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/utkrishtkumar/fly-brain,utkrishtkumar,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/hanhaimitiu/fly-brain,hanhaimitiu,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/davaidev/fly-brain,davaidev,2026-09-16,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Ven-Z8/fly-brain,Ven-Z8,2026-09-13,2026-09-13,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/aoki-aki/fly-brain,aoki-aki,2026-09-18,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/zebtheincredibox/fly-brain,zebtheincredibox,2026-09-20,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/russellwmy/fly-brain,russellwmy,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Solizardking/fly-brain,Solizardking,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/YanfengChen/fly-brain,YanfengChen,2026-09-13,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/MohitSalvi16/fly-brain,MohitSalvi16,2026-09-19,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/veejayts/fly-brain,veejayts,2026-09-29,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/kenghzou95/fly-brain,kenghzou95,2026-09-14,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/cadukich/fly-brain,cadukich,2026-09-11,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/codehornets/fly-brain,codehornets,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/myfunc/fly-brain,myfunc,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/themainfascist-a11y/fly-brain,themainfascist-a11y,2026-08-18,2026-08-18,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/enginism/fly-brain,enginism,2026-03-09,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Puddings22/fly-brain,Puddings22,2026-03-28,2026-03-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Aniekanetim/fly-brain,Aniekanetim,2026-09-12,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/XXVIX/fly-brain,XXVIX,2026-09-15,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Max-Zh0/fly-brain,Max-Zh0,2026-09-28,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/jithinrajrk147-glitch/fly-brain,jithinrajrk147-glitch,2026-09-29,2026-08-29,1,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/cyb3r17/fly-brain-PBC,cyb3r17,2026-04-29,2026-03-28,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/hzdlive/fly-brain-eonsystemspbc,hzdlive,2026-09-16,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/nalin-dhiman/fly-brain_sim,nalin-dhiman,2026-03-09,2026-03-06,1,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/aleksejalex/fly-brain_FORKED,aleksejalex,2026-03-09,2026-09-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/y0y09696n1c3h4ck3r/fly-brain-V2,y0y09696n1c3h4ck3r,2026-09-17,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/BradleyJHinds/flymatrix,BradleyJHinds,2026-03-11,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Oatmeal505/the-fly,Oatmeal505,2026-03-11,2026-03-06,0,none detected,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/ozer-4/Digital-Circus-v1,ozer-4,2026-03-11,2026-09-12,1,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/Leno3z4/Raphael,Leno3z4,2026-09-10,2026-08-29,0,GPL-2.0,"Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips"
+https://github.com/chubbyk-uu/flyBrain,chubbyk-uu,2026-09-12,2026-09-13,5,MIT,
+https://github.com/XprismDev/FlyBrainMC,XprismDev,2026-09-11,2026-09-11,3,NOASSERTION,"A fly brain in minecraft, you can give it seizures"
+https://github.com/EdwinKestler/flybrain,EdwinKestler,2026-09-14,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/oz-dadirri/flybrain,oz-dadirri,2026-09-16,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/iflavian/flybrain,iflavian,2026-09-22,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/BadPixie/flybrain,BadPixie,2026-09-20,2026-09-19,0,MIT,Male fruit fly doomed to scroll instagram for eternity
+https://github.com/nikunj1431/flybrain,nikunj1431,2026-09-24,2026-09-24,0,NOASSERTION,"A whole fruit-fly brain (MaleCNS v1.0, 167k neurons) you can run, watch and poke in your browser"
+https://github.com/mbozdal/flybrain,mbozdal,2026-09-12,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/swire-chen/flybrain,swire-chen,2026-09-16,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/mz0in/flybrain,mz0in,2026-09-16,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/hzdlive/digitalfly,hzdlive,2026-09-14,2026-09-14,0,NOASSERTION,Digital Fly Built Using Google's Open-Source Fruit Fly Brain
+https://github.com/PROMT-protocol/digitalfly,PROMT-protocol,2026-09-23,2026-09-14,0,NOASSERTION,Digital Fly Built Using Google's Open-Source Fruit Fly Brain
+https://github.com/lijianhub/digitalfly,lijianhub,2026-09-23,2026-09-23,1,NOASSERTION,Digital Fly Built Using Google's Open-Source Fruit Fly Brain
+https://github.com/hg3992260/digitalfly,hg3992260,2026-10-07,2026-09-14,0,NOASSERTION,Digital Fly Built Using Google's Open-Source Fruit Fly Brain
+https://github.com/djairjr/digitalfly,djairjr,2026-09-13,2026-09-13,0,NOASSERTION,Digital Fly Built Using Google's Open-Source Fruit Fly Brain
+https://github.com/Rawdream-Xu/digitalfly,Rawdream-Xu,2026-10-08,2026-09-14,0,NOASSERTION,Digital Fly Built Using Google's Open-Source Fruit Fly Brain
+https://github.com/lyubo119/pilotfly,lyubo119,2026-10-05,2026-10-01,0,MIT,A simulated fruit fly brain (FlyWire connectome + flyvis eye) that flies a drone in the Uncrashed FPV simulator through a virtual RadioMaster TX12
+https://github.com/harshithmgowda/flybrain,harshithmgowda,2026-10-03,2026-09-21,0,NOASSERTION,"A whole fruit-fly brain (MaleCNS v1.0, 167k neurons) you can run, watch and poke in your browser"
+https://github.com/Khankindle/flybrain-robot-bridge,Khankindle,2026-09-16,2026-09-16,1,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/mwasa/flybrain-robot-bridge,mwasa,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/Aniekanetim/flybrain-robot-bridge,Aniekanetim,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/gh0stlon3r/flybrain-robot-bridge,gh0stlon3r,2026-09-15,2026-09-14,1,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/shiohiyoko/flybrain-robot-bridge,shiohiyoko,2026-09-17,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/jbb-kryo/flybrain-robot-bridge,jbb-kryo,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/vocalaffiliate-dot/flybrain-robot-bridge,vocalaffiliate-dot,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/levelupsoft/flybrain-robot-bridge,levelupsoft,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/gavgamellll/flybrain-robot-bridge,gavgamellll,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/unergybot/flybrain-robot-bridge,unergybot,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/IntrovertInDisguise/flybrain-robot-bridge,IntrovertInDisguise,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/gareththomasnz/flybrain-robot-bridge,gareththomasnz,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/Penguinjanator/flybrain-robot-bridge,Penguinjanator,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/SeaEastXu/flybrain-robot-bridge,SeaEastXu,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/CODEMAX666/flybrain-robot-bridge,CODEMAX666,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/Ma-Dan/flybrain-robot-bridge,Ma-Dan,2026-09-17,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/kevinmel2000/flybrain-robot-bridge,kevinmel2000,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/Perryong/flybrain-robot-bridge,Perryong,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/simacl/flybrain-robot-bridge,simacl,2026-09-17,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/BigElectricCat/flybrain-robot-bridge,BigElectricCat,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/HoneyAdam/flybrain-robot-bridge,HoneyAdam,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/Chronillogical-Potato/flybrain-robot-bridge,Chronillogical-Potato,2026-09-18,2026-09-16,1,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/hzdlive/PersonConnectome,hzdlive,2026-09-17,2026-09-16,0,NOASSERTION,A People Playground mod that uses a simulated MaleCNS fruit-fly connectome to control a human character through sensory and motor mappings.
+https://github.com/hzdlive/flybrain-robot-bridge,hzdlive,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/abpai/flybrain-robot-bridge,abpai,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/awdemos/flybrain-robot-bridge,awdemos,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/AdityaNarayan001/flybrain-robot-bridge,AdityaNarayan001,2026-09-19,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/mz0in/flybrain-robot-bridge,mz0in,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/matiasbaglieri/flybrain-robot-bridge,matiasbaglieri,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/infobull/flybrain-robot-bridge,infobull,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/0xSojalSec/flybrain-robot-bridge,0xSojalSec,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/NuclearGeekETH/flybrain-robot-bridge,NuclearGeekETH,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/0015/flybrain-robot-bridge,0015,2026-10-06,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/dmitryzenit/fly-brain-spectacles,dmitryzenit,2026-09-13,2026-09-13,0,MIT,"Hologram fruit flies on Snap Spectacles (2024), each driven by the full MaleCNS fly connectome running on a Mac (bit-exact Metal GPU kernel)"
+https://github.com/wicanr2/flybrain-robot-bridge,wicanr2,2026-09-15,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/pcedison/flybrain-robot-bridge,pcedison,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/ohmygaugh-crypto/flybrain-robot-bridge,ohmygaugh-crypto,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/sasobhabha/flybrain-robot-bridge,sasobhabha,2026-09-18,2026-09-16,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/yas/flybrain-robot-bridge,yas,2026-09-14,2026-09-14,0,MIT,"Experimental Drosophila-inspired camera-to-robot bridge. Working mock neural backend, optical flow, IMU feedback and UDP motor control. MaleCNS integration planned."
+https://github.com/kanezeng/fly-brain-spectacles,kanezeng,2026-09-14,2026-09-13,0,MIT,"Hologram fruit flies on Snap Spectacles (2024), each driven by the full MaleCNS fly connectome running on a Mac (bit-exact Metal GPU kernel)"
+https://github.com/1337or420/fly-brain-spectacles,1337or420,2026-09-13,2026-09-13,0,MIT,"Hologram fruit flies on Snap Spectacles (2024), each driven by the full MaleCNS fly connectome running on a Mac (bit-exact Metal GPU kernel)"
+https://github.com/adidat123/amflyn,adidat123,2026-09-17,2026-09-17,0,MIT,"Five fruit flies pinned to electric pins. A sixth fly, wired into a reward-punishment loop, decides which two get current, gets dopamine when one maxes out, and burns when the others go cold. Six copi"
+https://github.com/anthonyylee/amfly,anthonyylee,2026-09-17,2026-09-17,0,MIT,"Five fruit flies pinned to electric pins. A sixth fly, wired into a reward-punishment loop, decides which two get current, gets dopamine when one maxes out, and burns when the others go cold. Six copi"
+https://github.com/WaromiV/stonkfly,WaromiV,2026-09-17,2026-09-17,0,MIT,A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.
+https://github.com/LamboIsOverrated/flycoinrh,LamboIsOverrated,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/19-front/flycoinrh,19-front,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/imjaireddy/flycoinrh,imjaireddy,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Aniekanetim/flycoinrh,Aniekanetim,2026-09-12,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/opcastil11/flycoinrh,opcastil11,2026-09-12,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/gareththomasnz/flycoinrh,gareththomasnz,2026-09-12,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/beetee2/flycoinrh,beetee2,2026-09-11,2026-09-16,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/kutlusoy/flycoinrh,kutlusoy,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/jbb-kryo/flycoinrh,jbb-kryo,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/O1iveira7/flycoinrh,O1iveira7,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/dezhanche-cmd/flycoinrh,dezhanche-cmd,2026-09-13,2026-09-15,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Zhibin88/flycoinrh,Zhibin88,2026-09-23,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/ujgilani1/flycoinrh,ujgilani1,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/acceptcube/flycoinrh,acceptcube,2026-09-12,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/hzdlive/flycoinrh,hzdlive,2026-09-15,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/ericmatamoros/flycoinrh,ericmatamoros,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Swamisama/flycoinrh,Swamisama,2026-09-13,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/PatrickExtraordinary/flycoinrh,PatrickExtraordinary,2026-09-14,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/infobull/flycoinrh,infobull,2026-09-12,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Andres191200/flycoinrh,Andres191200,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/waleolapo/flycoinrh,waleolapo,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/UncertaintyDeterminesYou4ndMe/flycoinrh,UncertaintyDeterminesYou4ndMe,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/jarrensj/flycoinrh,jarrensj,2026-09-11,2026-09-10,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/kyus2001/flycoinrh,kyus2001,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/meefs/flycoinrh,meefs,2026-09-11,2026-09-26,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/a10011101/flycoinrh,a10011101,2026-09-13,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/CowPeas/flycoinrh,CowPeas,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/patrickhustonoly1996/flycoinrh,patrickhustonoly1996,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/cquyxp/flycoinrh,cquyxp,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Jacoo-Zhao/flycoinrh,Jacoo-Zhao,2026-09-19,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/djtrance/flycoinrh,djtrance,2026-09-23,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/mossadyagent/flycoinrh,mossadyagent,2026-09-12,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/whitespur/flycoinrh,whitespur,2026-09-13,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/colorlinketh/flycoinrh,colorlinketh,2026-09-14,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/LeapTechLLC/flycoinrh,LeapTechLLC,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Solizardking/flycoinrh,Solizardking,2026-09-12,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/cryptocurb2025-png/flycoinrh,cryptocurb2025-png,2026-09-19,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/piotr-mal/flycoinrh,piotr-mal,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/galerkin/flycoinrh,galerkin,2026-09-12,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/misix-git/flycoinrh,misix-git,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/flyfamilydev/flycoinrh,flyfamilydev,2026-09-12,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/opifor/flycoinrh,opifor,2026-09-11,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Taki-Bh/flycoinrh,Taki-Bh,2026-09-18,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/weijiaxing/flycoinrh,weijiaxing,2026-09-13,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/kenghzou95/flycoinrh,kenghzou95,2026-09-14,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/max-de-bug/flycoinrh,max-de-bug,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Ikarus0013/flycoinrh,Ikarus0013,2026-09-14,2026-09-18,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/bradAGI/flycoinrh,bradAGI,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/younglilastm-alt/flython,younglilastm-alt,2026-09-13,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/stevodevo1/flycoinrh,stevodevo1,2026-09-12,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/habilisl/flycoinrh,habilisl,2026-09-14,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Lance-9527/flycoinrh,Lance-9527,2026-09-13,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/makalin/flycoinrh,makalin,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/0xSojalSec/flycoinrh,0xSojalSec,2026-09-13,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/noinaylongvalanh-oss/flycoinrh,noinaylongvalanh-oss,2026-09-11,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/kingjohnchen/flycoinrh,kingjohnchen,2026-09-13,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/maggotsdev/flycoinrh-larva,maggotsdev,2026-09-12,2026-09-11,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/aiminnovations/robinhood-quant-trading-bot-flycoinrh,aiminnovations,2026-09-14,2026-09-14,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/SatoshiNakamato/binary,SatoshiNakamato,2026-09-13,2026-09-13,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/Hsky17/kick-the-fly,Hsky17,2026-09-20,2026-09-20,0,NOASSERTION,"Kick-the-buddy game where the buddy is a live 166,700-neuron fruit fly connectome"
+https://github.com/fomofly/fomofly,fomofly,2026-09-12,2026-09-12,0,MIT,"A real fruit fly connectome, 165,122 neurons, launching tokens on Robinhood Chain"
+https://github.com/hf-jz/FlyDrones,hf-jz,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/leilei-007/FlyDrones,leilei-007,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/alphapua/FlyDrones,alphapua,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/bccw2021/FlyDrones,bccw2021,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/arvind351/FlyDrones,arvind351,2026-09-19,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/azrijamil/FlyDrones,azrijamil,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/shiohiyoko/FlyDrones,shiohiyoko,2026-09-19,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/harivishnug/FlyDrones,harivishnug,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/kistik1/FlyDrones,kistik1,2026-09-20,2026-09-20,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/chen7509/FlyDrones,chen7509,2026-09-30,2026-10-10,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/CaffeeLake/FlyDrones,CaffeeLake,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/mikelcy/FlyDrones,mikelcy,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Arianit94/FlyDrones,Arianit94,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/land007/FlyDrones,land007,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/VicTestolaGoat/FlyDrones,VicTestolaGoat,2026-10-07,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Halishen/FlyDrones,Halishen,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/simacl/FlyDrones,simacl,2026-09-16,2026-09-17,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/wangdongyi1973/FlyDrones-,wangdongyi1973,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/zhangp11/FlyDrones,zhangp11,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Amr-Yusif/FlyDrones,Amr-Yusif,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/km-liberaware/FlyDrones,km-liberaware,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/dew77p/FlyDronesppp,dew77p,2026-09-21,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/mohdlatif/FlyDrones,mohdlatif,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/pietroagazzi/FlyDrones,pietroagazzi,2026-09-18,2026-09-18,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Tugiu123/FlyDrones,Tugiu123,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/jiewent1-cmyk/FlyDrones,jiewent1-cmyk,2026-09-30,2026-10-10,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/ZPengK/FlyDrones,ZPengK,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/vagi/FlyDrones,vagi,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/viswa-z1/FlyDrones,viswa-z1,2026-09-19,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/JUNIOR-YANG98/FlyDrones,JUNIOR-YANG98,2026-09-21,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/deepalcoholic/FlyDrones,deepalcoholic,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/spacemonkey-tech/FlyDrones,spacemonkey-tech,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/hzkyhao/FlyDrones,hzkyhao,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/jftochka/FlyDrones,jftochka,2026-09-17,2026-09-18,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Zhao-Hongbin/FlyDrones,Zhao-Hongbin,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/al51git/FlyDrones,al51git,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/rayfinite/FlyDrones,rayfinite,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/HernanDLC/FlyDrones,HernanDLC,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Chronillogical-Potato/FlyDrones,Chronillogical-Potato,2026-09-18,2026-09-16,1,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/skmoyi/FlyDrones,skmoyi,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/sunyanjie2020/FlyDrones,sunyanjie2020,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/21f1003593/FlyDrones,21f1003593,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/luislortega/FlyDrones,luislortega,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/matiasbaglieri/FlyDrones,matiasbaglieri,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Lance-9527/FlyDrones,Lance-9527,2026-09-16,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/Anuraj-Uthayasooriyan/FlyDrones_copy,Anuraj-Uthayasooriyan,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/WOAH-KAMRAN/FlyDrones_mod,WOAH-KAMRAN,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/hzdlive/Swat-hrook1,hzdlive,2026-09-16,2026-09-09,0,none detected,A browser game powered by a real fruit-fly connectome: catch the fly and watch its neurons fire.
+https://github.com/arpanguria68-ui/flybrain-nes,arpanguria68-ui,2026-10-04,2026-10-04,0,MIT,"A real fruit fly connectome (166,700 neurons) plays NES games: live dashboard, playable controller, brain view, reward editor. Bring your own ROMs."
+https://github.com/xddouble/ai-eye-FlyDrones,xddouble,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/hzdlive/FlyDrones-SpikeCalls,hzdlive,2026-09-18,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/strategist922/flydrones,strategist922,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/cyborg-ai-git/evo_flydrone,cyborg-ai-git,2026-09-17,2026-09-16,0,MIT,A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/mojo5-ai/FlyDrones,mojo5-ai,2026-09-17,2026-09-16,0,MIT,(果蝇-神经元仿真模型)A fruit fly connectome as a drone pilot. Camera -> fly eyes -> spiking brain -> descending neurons -> drone. Live 3D demo in your browser.
+https://github.com/KDevS/fruitfly-lab,KDevS,2026-09-18,2026-09-15,0,none detected,"Fruit fly connectome lab: real FlyWire pursuit circuit (3,963 neurons, no training) aims a gun on the web and plays Doom, with scrambled-wiring and lesion controls"
+https://github.com/mhbself/traderfly-brain,mhbself,2026-09-30,2026-09-10,0,none detected,"The mechanics behind TraderFly: a real fruit-fly connectome (176,422 neurons), simulated spike by spike, deciding what to trade."
+https://github.com/wecoinweb3/traderfly-brain,wecoinweb3,2026-09-14,2026-09-10,0,none detected,"The mechanics behind TraderFly: a real fruit-fly connectome (176,422 neurons), simulated spike by spike, deciding what to trade."
+https://github.com/baikunth-dev/flybrain,baikunth-dev,2026-09-18,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/GalaxyonGit/flybrain,GalaxyonGit,2026-10-05,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/adrianguzmanglez/flybrain,adrianguzmanglez,2026-09-16,2026-06-22,0,none detected,let's take the brain of a fruit fly and put it on a drone
+https://github.com/QtKaitly/FlyBrainMCExp,QtKaitly,2026-09-16,2026-09-17,0,NOASSERTION,
+https://github.com/abdulwassaybosan-star/fly.ai,abdulwassaybosan-star,2026-09-19,2026-09-19,0,MIT,working with brain of fly
+https://github.com/siddharthan-pradeep07/fly-brain,siddharthan-pradeep07,2026-09-29,2026-08-29,0,GPL-2.0,teaching the fly brain to code.
+https://github.com/TinayeSC/fly-brain,TinayeSC,2026-09-15,2026-09-15,0,MIT,
+https://github.com/procedural-studio/fly-brain-minecraft,procedural-studio,2026-09-08,2026-09-06,0,NOASSERTION,
+https://github.com/duanluong/fly-brain-snntorch,duanluong,2026-07-08,2026-07-07,0,MIT,Sparse snnTorch implementation of Fruit Fly (Drosophila Melanogaster) Brain
+https://github.com/Baroni7777/fly-brain-minecraft,Baroni7777,2026-09-15,2026-09-06,0,NOASSERTION,
+https://github.com/K-R-I-S-T-A-L/fly-brain-minecraft,K-R-I-S-T-A-L,2026-09-14,2026-09-06,0,NOASSERTION,neurons of fly
+https://github.com/wecoinweb3/fly-brain-minecraft,wecoinweb3,2026-09-14,2026-09-06,0,NOASSERTION,
+https://github.com/pineapplefish7/fly-brain-minecraft,pineapplefish7,2026-09-18,2026-09-06,0,NOASSERTION,
+https://github.com/iamdebasis/fly-brain-minecraft,iamdebasis,2026-09-10,2026-09-06,0,NOASSERTION,
+https://github.com/nwy140/fly-brain-minecraft,nwy140,2026-09-20,2026-09-06,0,NOASSERTION,
+https://github.com/s6endemi/fly-brain-minecraft,s6endemi,2026-09-13,2026-09-06,0,NOASSERTION,
+https://github.com/minhson/fly-brain-minecraft,minhson,2026-09-09,2026-09-06,0,NOASSERTION,
+https://github.com/CODEMAX666/fly-brain-minecraft,CODEMAX666,2026-09-08,2026-09-06,0,NOASSERTION,
+https://github.com/nikikitu15-web/fly-brain-minecraft,nikikitu15-web,2026-09-11,2026-09-06,0,NOASSERTION,
+https://github.com/garyramah/fly-brain-minecraft,garyramah,2026-09-08,2026-09-06,0,NOASSERTION,
+https://github.com/wlygon7/fly-brain-minecraft,wlygon7,2026-10-04,2026-10-04,0,NOASSERTION,
+https://github.com/Nav0d/fly-brain-minecraft,Nav0d,2026-09-13,2026-09-06,0,NOASSERTION,
+https://github.com/dove123123123/fly-brain-minecraft,dove123123123,2026-09-10,2026-09-06,0,NOASSERTION,
+https://github.com/FermataRest/fly-brain-minecraft,FermataRest,2026-09-11,2026-09-06,0,NOASSERTION,
+https://github.com/hzdlive/fly-brain-minecraft,hzdlive,2026-09-16,2026-09-06,0,NOASSERTION,
+https://github.com/Franzferdinan51/fly-brain-minecraft,Franzferdinan51,2026-09-06,2026-09-06,0,NOASSERTION,
+https://github.com/cyborg-ai-git/evo_fly_brain,cyborg-ai-git,2026-09-18,2026-09-05,0,MIT,
+https://github.com/pkang2017/fly-brain-snntorch,pkang2017,2026-07-15,2026-07-07,0,MIT,Sparse snnTorch implementation of Fruit Fly (Drosophila Melanogaster) Brain
+https://github.com/hzdlive/fly-trader,hzdlive,2026-09-14,2026-09-14,0,MIT,A fruit fly brain trained to trade memecoins
+https://github.com/mhbself/fly-trader,mhbself,2026-09-30,2026-09-29,0,MIT,A fruit fly brain trained to trade memecoins
+https://github.com/SouheiS/fly-brain-minecraft_NeoForge,SouheiS,2026-09-17,2026-09-06,0,NOASSERTION,
+https://github.com/uchidama/hae-addition,uchidama,2026-09-16,2026-09-22,3,NOASSERTION,ハエ脳に1桁足し算（0–9 + 0–9）を学習させる。ハエに数字(1-9)を読み書きさせて学習が元実装にあるので、それをベースに。数字認識は(0-9)にして足し算の学習を追加。
+https://github.com/hzdlive/FastFly-eonfathom,hzdlive,2026-09-16,2026-02-27,0,none detected,
+https://github.com/AntiqueFutures/FastFly,AntiqueFutures,2026-09-22,2026-09-22,0,none detected,
+https://github.com/oscardcstudio-cell/FastFly,oscardcstudio-cell,2026-09-18,2026-09-22,0,none detected,
+https://github.com/ananta888/FastFly,ananta888,2026-09-12,2026-09-12,0,none detected,
+https://github.com/aaravsinhaofficial/FastFly,aaravsinhaofficial,2026-03-11,2026-03-11,0,none detected,
+https://github.com/autofit-ai/FastFly,autofit-ai,2026-09-12,2026-02-27,0,none detected,
+https://github.com/AqeelAqeel/FastFly,AqeelAqeel,2026-03-02,2026-03-03,0,none detected,
+https://github.com/SoloFausto/FastFly_oneAPI,SoloFausto,2026-09-23,2026-09-23,0,none detected,Fork of FastFly that adds support for Intel GPUs
+https://github.com/clb1/taste-connectome,clb1,2026-07-28,2025-02-22,0,none detected,
+https://github.com/TiFoil/fly.ai,TiFoil,2026-09-12,2026-09-11,0,MIT,
+https://github.com/dudebot/FastFly-reservoir,dudebot,2026-09-12,2026-09-12,0,none detected,Fixed FlyWire v783 continuous-state GPU reservoir with a lossless full-connectome int16 archive. No training or readout.
+https://github.com/skywhylxst/making-fly-play-chess-additional-tests,skywhylxst,2026-09-16,2026-09-21,0,Apache-2.0,"Making fly brain play chess in python 3. This utilizes the common chess training algorithm, but with a little twist: the one to be trained is the fly, and it's neurons!"
+https://github.com/twinsmem/hae,twinsmem,2026-09-13,2026-09-13,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/ema28pro/hae,ema28pro,2026-09-16,2026-09-15,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/shiohiyoko/hae,shiohiyoko,2026-09-19,2026-09-18,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/wecoinweb3/hae,wecoinweb3,2026-09-14,2026-09-13,0,NOASSERTION,日本人做的果蝇学习系统
+https://github.com/anupamme/hae,anupamme,2026-09-18,2026-09-18,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/colorlinketh/hae,colorlinketh,2026-09-14,2026-09-14,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/kagerw/hae,kagerw,2026-09-23,2026-10-04,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/hzdlive/hae-satorunet,hzdlive,2026-09-18,2026-09-18,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/ivan-hrs/hae,ivan-hrs,2026-09-14,2026-09-13,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/jackyrx/NX_satorunet_hae,jackyrx,2026-09-13,2026-09-13,0,NOASSERTION,ハエにひらがな・数字を読み書きさせて学習
+https://github.com/nonameartintel/making-fly-play-chess,nonameartintel,2026-10-04,2026-10-04,0,Apache-2.0,"Making fly brain play chess in python 3. This utilizes the common chess training algorithm, but with a little twist: the one to be trained is the fly, and it's neurons!"
+https://github.com/abdoiiii/fly.ai,abdoiiii,2026-09-12,2026-09-12,0,MIT,
+https://github.com/coohu/fly.ai,coohu,2026-09-12,2026-09-12,0,MIT,
+https://github.com/tuthill-lab/Dallmann_2025,tuthill-lab,2026-03-09,2025-09-02,0,MIT,Code for recreating figures in Dallmann et al. (2025)
+https://github.com/Sal-ah-cmd/fly.ai,Sal-ah-cmd,2026-09-13,2026-09-12,0,MIT,
+https://github.com/Bf109G-14/flywire-fly-lab,Bf109G-14,2026-09-16,2026-09-16,0,GPL-3.0,"把果蝇全脑连接组跑在一台 16GB 笔记本上：接身体、做成浏览器游戏、17,628 次虚拟敲除。完整记录能做什么、做不到什么，以及自查出的每一处错误。Code GPL-3.0+, data CC BY-NC."
+https://github.com/hero9968/flywire-fly-lab,hero9968,2026-09-18,2026-09-16,0,GPL-3.0,"把果蝇全脑连接组跑在一台 16GB 笔记本上：接身体、做成浏览器游戏、17,628 次虚拟敲除。完整记录能做什么、做不到什么，以及自查出的每一处错误。Code GPL-3.0+, data CC BY-NC."
+https://github.com/pedrooydaniela16-byte/Mosca-Jalera,pedrooydaniela16-byte,2026-09-26,2026-09-26,0,MIT,
+https://github.com/ivan-hrs/fruitfly,ivan-hrs,2026-09-13,2026-09-12,0,MIT,A small pet fly for your Mac desktop. Drop food and watch it move.
+https://github.com/mhbself/flyquant,mhbself,2026-09-30,2026-09-12,0,MIT,
+https://github.com/Wlpython3/flywire-fly-lab,Wlpython3,2026-09-20,2026-09-20,0,GPL-3.0,"把果蝇全脑连接组跑在一台 16GB 笔记本上：接身体、做成浏览器游戏、17,628 次虚拟敲除。完整记录能做什么、做不到什么，以及自查出的每一处错误。Code GPL-3.0+, data CC BY-NC."
+https://github.com/GrigoriGrigoryan/Chanjs,GrigoriGrigoryan,2026-09-26,2026-09-27,0,NOASSERTION,
+https://github.com/Komaster12454/fly,Komaster12454,2026-09-11,2026-09-11,0,none detected,
+https://github.com/3D-Model-Builder/fly1,3D-Model-Builder,2026-09-11,2026-09-11,0,none detected,
+https://github.com/forrestgump610/fly-gym,forrestgump610,2026-10-07,2026-09-26,0,MIT,
+https://github.com/TheArkhitect/deskfly,TheArkhitect,2026-08-19,2026-08-17,0,MIT,
+https://github.com/christabaker-lab/Connectomic-Model,christabaker-lab,2025-07-14,2026-03-03,0,none detected,
+https://github.com/rohin-ghosh/fruit-fly-heaven,rohin-ghosh,2026-09-25,2026-09-19,0,GPL-2.0,
+https://github.com/yagarwal1307/flydrone,yagarwal1307,2026-09-25,2026-09-22,0,MIT,果蝇大脑无人机
+https://github.com/2theMAXtheStairFax/FlyDrones,2theMAXtheStairFax,2026-09-18,2026-09-16,0,MIT,"Testing INAV, Betaflight, and Ardupilot connections using real aircraft."
+https://github.com/lxy1992/FlyDrones-zh,lxy1992,2026-09-16,2026-09-16,0,MIT,FlyDrones 经典版中文试玩：固定为改版前的霓虹线框房间与简洁四旋翼，850 神经元 MiniFly 浏览器实时仿真。
+https://github.com/hzdlive/therealfly,hzdlive,2026-09-15,2026-09-13,0,NOASSERTION,"Close the loop from a measured fly nervous system to a physical body, with no controller written by anyone."
+https://github.com/femisapien/JevMinesweeper,femisapien,2026-09-21,2026-09-21,0,none detected,Jev Plays Minesweeper
+https://github.com/fotinidrouma/fly.ai,fotinidrouma,2026-09-13,2026-09-16,0,MIT,
+https://github.com/nevroxstudio-hash/fly.ai,nevroxstudio-hash,2026-09-16,2026-09-16,1,MIT,
+https://github.com/priestduofficial/fly.ai,priestduofficial,2026-09-13,2026-09-13,0,MIT,
+https://github.com/djoffrey/fly.ai,djoffrey,2026-09-16,2026-09-16,0,MIT,
+https://github.com/LinkSyk/fly.ai,LinkSyk,2026-09-15,2026-09-15,0,MIT,
+https://github.com/bnsh/fly.ai,bnsh,2026-09-15,2026-09-15,0,MIT,
+https://github.com/spacedouut/fly.ai,spacedouut,2026-09-14,2026-09-14,1,MIT,
+https://github.com/person55/fly.ai,person55,2026-09-15,2026-09-14,0,MIT,
+https://github.com/IIaJIaDuH/fly.ai,IIaJIaDuH,2026-10-02,2026-10-02,0,MIT,
+https://github.com/LxCenady/fly.ai,LxCenady,2026-09-29,2026-09-29,0,MIT,
+https://github.com/gamezaru691-pixel/fly.ai-1,gamezaru691-pixel,2026-09-15,2026-09-15,0,MIT,
+https://github.com/garyclee/fly.ai,garyclee,2026-09-19,2026-09-19,0,MIT,
+https://github.com/titan/fly.ai,titan,2026-09-16,2026-10-04,0,MIT,
+https://github.com/ShivamGawade-XS/fly.ai,ShivamGawade-XS,2026-09-23,2026-09-22,0,MIT,Brain of Fruitfly
+https://github.com/Surya9918/fly.ai,Surya9918,2026-10-10,2026-10-09,0,MIT,
+https://github.com/vonglasow/fly.ai,vonglasow,2026-09-15,2026-09-15,0,MIT,
+https://github.com/YahiaAli0/fly.ai,YahiaAli0,2026-09-30,2026-09-30,0,MIT,
+https://github.com/diegonov1/fly.ai,diegonov1,2026-09-18,2026-09-17,0,MIT,
+https://github.com/Gapyss/fly.ai,Gapyss,2026-10-02,2026-10-01,0,MIT,
+https://github.com/Hexoptimal/fly.ai-docker,Hexoptimal,2026-09-21,2026-09-22,0,MIT,
+https://github.com/FarhanFansuri2002/fly.ai,FarhanFansuri2002,2026-10-09,2026-10-09,0,MIT,
+https://github.com/techseeko/fly.ai,techseeko,2026-09-18,2026-09-18,0,MIT,
+https://github.com/fjycodelab/fly.ai,fjycodelab,2026-09-20,2026-09-19,0,MIT,
+https://github.com/Zhibin88/fly.ai,Zhibin88,2026-09-23,2026-09-22,0,MIT,
+https://github.com/Carlos8510/awesome-daily-AI-arxiv,Carlos8510,2026-01-02,2026-01-02,0,NOASSERTION,🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and paper navigation.
+https://github.com/xheloze/sesame_flyscreen,xheloze,2026-09-24,2026-09-20,0,MIT,把任意视频播进一只真果蝇的脑子里，用真实连接组驱动 MuJoCo 果蝇身体
+https://github.com/xunboo/fly-effect,xunboo,2026-09-09,2026-09-09,0,MIT,"Resource-aware open research on neural circuits, bodies, and simulated organisms. Starting with Drosophila."
