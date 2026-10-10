@@ -1,0 +1,661 @@
+{
+ "DEV_v630_exploratory": {
+  "n_types": 106,
+  "n_positive": 14,
+  "always_no_accuracy": 0.868,
+  "P1_steps": {
+   "auroc": 0.6,
+   "ci95": [
+    0.5,
+    0.715
+   ]
+  },
+  "P2_path3": {
+   "auroc": 0.804,
+   "ci95": [
+    0.631,
+    0.949
+   ],
+   "n_nonzero": 38
+  },
+  "sensitivity_only": {
+   "P2_path2": 0.721,
+   "P2_path4": 0.805,
+   "P2_excit3": 0.769
+  },
+  "steps_table": {
+   "1": [
+    13,
+    3
+   ],
+   "2": [
+    82,
+    11
+   ],
+   "3": [
+    11,
+    0
+   ]
+  },
+  "P3_paperST3": {
+   "auroc": 0.853,
+   "ci95": [
+    0.721,
+    0.966
+   ],
+   "diff_P3_minus_P2": 0.05,
+   "diff_P3_minus_P2_ci95": [
+    0.012,
+    0.096
+   ],
+   "diff_P3_minus_P1": 0.253,
+   "diff_P3_minus_P1_ci95": [
+    0.117,
+    0.39
+   ],
+   "P2_vs_simulation_calls_auroc": 0.983,
+   "n_sim_positive": 11
+  }
+ },
+ "P1_validity_vs_paper_column": {
+  "n_types": 105,
+  "exact_match": 56,
+  "frac": 0.533,
+  "mismatches": {
+   "OinkT": [
+    2,
+    3
+   ],
+   "Salivary_MN13": [
+    2,
+    null
+   ],
+   "TPN4": [
+    3,
+    4
+   ],
+   "aDT6": [
+    3,
+    4
+   ],
+   "aSG1": [
+    3,
+    null
+   ],
+   "aSG7": [
+    3,
+    4
+   ],
+   "amulet": [
+    2,
+    3
+   ],
+   "aster": [
+    2,
+    3
+   ],
+   "basket": [
+    2,
+    4
+   ],
+   "box": [
+    2,
+    3
+   ],
+   "bridle": [
+    3,
+    null
+   ],
+   "brontosaraus": [
+    2,
+    3
+   ],
+   "damsel": [
+    2,
+    3
+   ],
+   "doublescoop": [
+    2,
+    3
+   ],
+   "earmuff": [
+    2,
+    3
+   ],
+   "eiffel": [
+    2,
+    3
+   ],
+   "gallinule": [
+    2,
+    3
+   ],
+   "gazebo": [
+    2,
+    3
+   ],
+   "genie": [
+    1,
+    2
+   ],
+   "good_dog": [
+    2,
+    3
+   ],
+   "gumdrop": [
+    2,
+    3
+   ],
+   "haystack": [
+    2,
+    3
+   ],
+   "horseshoe": [
+    2,
+    3
+   ],
+   "hyacinth": [
+    2,
+    3
+   ],
+   "kelp": [
+    2,
+    3
+   ],
+   "knees": [
+    2,
+    4
+   ],
+   "landslide": [
+    2,
+    3
+   ],
+   "lion": [
+    1,
+    3
+   ],
+   "mandala": [
+    2,
+    3
+   ],
+   "meteor": [
+    2,
+    3
+   ],
+   "mime": [
+    2,
+    3
+   ],
+   "mute": [
+    2,
+    null
+   ],
+   "nagini": [
+    2,
+    3
+   ],
+   "oink": [
+    1,
+    3
+   ],
+   "pSG1": [
+    2,
+    4
+   ],
+   "peafowl": [
+    3,
+    4
+   ],
+   "peahen": [
+    3,
+    4
+   ],
+   "planter": [
+    1,
+    3
+   ],
+   "puddle": [
+    1,
+    2
+   ],
+   "rocket": [
+    2,
+    3
+   ],
+   "ruby": [
+    2,
+    5
+   ],
+   "shark": [
+    2,
+    null
+   ],
+   "snake": [
+    2,
+    3
+   ],
+   "spirit": [
+    2,
+    3
+   ],
+   "sullivan": [
+    2,
+    4
+   ],
+   "tophat": [
+    2,
+    3
+   ],
+   "trumpet": [
+    2,
+    3
+   ],
+   "usnea": [
+    2,
+    3
+   ],
+   "wafflecone": [
+    2,
+    3
+   ]
+  },
+  "paper_column_auroc": 0.773
+ },
+ "C2_v783": {
+  "n_types": 101,
+  "n_positive": 13,
+  "always_no_accuracy": 0.871,
+  "P1_steps": {
+   "auroc": 0.573,
+   "ci95": [
+    0.479,
+    0.685
+   ]
+  },
+  "P2_path3": {
+   "auroc": 0.78,
+   "ci95": [
+    0.608,
+    0.932
+   ],
+   "n_nonzero": 32
+  },
+  "sensitivity_only": {
+   "P2_path2": 0.706,
+   "P2_path4": 0.78,
+   "P2_excit3": 0.754
+  },
+  "steps_table": {
+   "1": [
+    12,
+    2
+   ],
+   "2": [
+    78,
+    11
+   ],
+   "3": [
+    11,
+    0
+   ]
+  },
+  "P3_2A_F783T": {
+   "auroc": 0.843,
+   "ci95": [
+    0.702,
+    0.962
+   ],
+   "diff_P3_minus_P2": 0.063,
+   "diff_P3_minus_P2_ci95": [
+    0.019,
+    0.119
+   ],
+   "diff_P3_minus_P1": 0.27,
+   "diff_P3_minus_P1_ci95": [
+    0.121,
+    0.411
+   ],
+   "P2_vs_simulation_calls_auroc": 0.963,
+   "n_sim_positive": 10
+  }
+ },
+ "C1_male": {
+  "n_types": 99,
+  "n_positive": 13,
+  "always_no_accuracy": 0.869,
+  "P1_steps": {
+   "auroc": 0.513,
+   "ci95": [
+    0.416,
+    0.628
+   ]
+  },
+  "P2_path3": {
+   "auroc": 0.707,
+   "ci95": [
+    0.511,
+    0.889
+   ],
+   "n_nonzero": 43
+  },
+  "sensitivity_only": {
+   "P2_path2": 0.731,
+   "P2_path4": 0.73,
+   "P2_excit3": 0.754
+  },
+  "steps_table": {
+   "1": [
+    19,
+    2
+   ],
+   "2": [
+    73,
+    11
+   ],
+   "3": [
+    7,
+    0
+   ]
+  },
+  "P3_2A_Ms": {
+   "auroc": 0.793,
+   "ci95": [
+    0.65,
+    0.927
+   ],
+   "diff_P3_minus_P2": 0.086,
+   "diff_P3_minus_P2_ci95": [
+    -0.06,
+    0.236
+   ],
+   "diff_P3_minus_P1": 0.28,
+   "diff_P3_minus_P1_ci95": [
+    0.135,
+    0.428
+   ],
+   "P2_vs_simulation_calls_auroc": 0.87,
+   "n_sim_positive": 11
+  },
+  "P3_2A_M698": {
+   "auroc": 0.823,
+   "ci95": [
+    0.676,
+    0.951
+   ],
+   "diff_P3_minus_P2": 0.116,
+   "diff_P3_minus_P2_ci95": [
+    0.022,
+    0.245
+   ],
+   "diff_P3_minus_P1": 0.31,
+   "diff_P3_minus_P1_ci95": [
+    0.157,
+    0.459
+   ],
+   "P2_vs_simulation_calls_auroc": 0.853,
+   "n_sim_positive": 17
+  },
+  "P3_2A_M": {
+   "auroc": 0.77,
+   "ci95": [
+    0.588,
+    0.93
+   ],
+   "diff_P3_minus_P2": 0.063,
+   "diff_P3_minus_P2_ci95": [
+    -0.026,
+    0.199
+   ],
+   "diff_P3_minus_P1": 0.258,
+   "diff_P3_minus_P1_ci95": [
+    0.076,
+    0.432
+   ],
+   "P2_vs_simulation_calls_auroc": 0.792,
+   "n_sim_positive": 41
+  }
+ },
+ "C3_silencing": {
+  "n_water_GRNs": 18,
+  "n_water_GRNs_found_in_map": 18,
+  "n_sugar_GRNs": 21,
+  "cases": [
+   {
+    "condition": "sugar",
+    "cell_type": "Bract",
+    "required_in_real_flies": false,
+    "n_neurons": 4,
+    "sim_ratio_paper": 1.08748,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 1.0,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.8058924723479887,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "Clavicle",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.6638080040837057,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 0.993336458453321,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.6888863029751203,
+    "map_pred_required_4steps": true
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "Fdg",
+    "required_in_real_flies": false,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.85420254789066,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 0.9965577169484421,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.9686420431896656,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "FMIn",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 1.3138938788840253,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 0.9424515289733655,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.991252316184218,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "G2N-1",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.6192110839127055,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 0.5140603680556133,
+    "map_pred_required_3steps": true,
+    "map_ratio_4steps": 0.7166780002077786,
+    "map_pred_required_4steps": true
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "Phantom",
+    "required_in_real_flies": false,
+    "n_neurons": 2,
+    "sim_ratio_paper": 1.0823329472269188,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 1.002103889557191,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.9172579794769741,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "Rattle",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.8644941448531981,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 1.017837379364233,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.8656206550544047,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "Roundup",
+    "required_in_real_flies": false,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.6672385364045482,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 0.4043869143962541,
+    "map_pred_required_3steps": true,
+    "map_ratio_4steps": 0.41196317747337324,
+    "map_pred_required_4steps": true
+   },
+   {
+    "condition": "sugar",
+    "cell_type": "Usnea",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 1.2298458370232994,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 0.9999720936087239,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.9981566003765463,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "water",
+    "cell_type": "Bract",
+    "required_in_real_flies": true,
+    "n_neurons": 4,
+    "sim_ratio_paper": 0.5548172757659401,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 1.0,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.8415249416960056,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "water",
+    "cell_type": "Clavicle",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.09966777408968996,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 0.9753994330007665,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.3513627493845126,
+    "map_pred_required_4steps": true
+   },
+   {
+    "condition": "water",
+    "cell_type": "G2N-1",
+    "required_in_real_flies": false,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.8205980066717804,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 0.5360499908600237,
+    "map_pred_required_3steps": true,
+    "map_ratio_4steps": 0.9145762741017593,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "water",
+    "cell_type": "Phantom",
+    "required_in_real_flies": false,
+    "n_neurons": 2,
+    "sim_ratio_paper": 2.797342192783958,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 1.004939195104821,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.7366606015817087,
+    "map_pred_required_4steps": true
+   },
+   {
+    "condition": "water",
+    "cell_type": "Rattle",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.5348837209480022,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 1.0111122870144988,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.9529290353873675,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "water",
+    "cell_type": "Roundup",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 0.0,
+    "sim_pred_required": true,
+    "map_ratio_3steps": 0.045883082064159426,
+    "map_pred_required_3steps": true,
+    "map_ratio_4steps": 0.4989743118833673,
+    "map_pred_required_4steps": true
+   },
+   {
+    "condition": "water",
+    "cell_type": "Tophat",
+    "required_in_real_flies": false,
+    "n_neurons": 4,
+    "sim_ratio_paper": 0.9435215947157309,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 1.0,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.9998340989854769,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "water",
+    "cell_type": "Tulip",
+    "required_in_real_flies": false,
+    "n_neurons": 2,
+    "sim_ratio_paper": 2.87707641205571,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 1.0,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 0.9999795110970221,
+    "map_pred_required_4steps": false
+   },
+   {
+    "condition": "water",
+    "cell_type": "Usnea",
+    "required_in_real_flies": true,
+    "n_neurons": 2,
+    "sim_ratio_paper": 1.88704318943146,
+    "sim_pred_required": false,
+    "map_ratio_3steps": 0.9998709178781144,
+    "map_pred_required_3steps": false,
+    "map_ratio_4steps": 1.0257636207990177,
+    "map_pred_required_4steps": false
+   }
+  ],
+  "excluded": [
+   "sugar:Zorro (not in sez_neurons.pickle)",
+   "water:Zorro (not in sez_neurons.pickle)"
+  ],
+  "sugar_baseline_P2_3steps": 13473616.0,
+  "sugar_baseline_P2_4steps": 5272969505.0,
+  "water_baseline_P2_3steps": 2494536.0,
+  "water_baseline_P2_4steps": 1918794776.0,
+  "n_cases": 18,
+  "sim_correct": 13,
+  "map_correct_3steps": 8,
+  "map_computable_3steps": 18,
+  "map_correct_4steps": 10,
+  "map_computable_4steps": 18
+ },
+ "verdicts": {
+  "M1_P2": "supported",
+  "M1_P1_reported": "not supported",
+  "M2": "not supported",
+  "M3": "supported"
+ }
+}
