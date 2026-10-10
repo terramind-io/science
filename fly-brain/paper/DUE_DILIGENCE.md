@@ -179,3 +179,5 @@ Agrim's decision: the repository goes public now. https://github.com/terramind-i
 - Commit author address `agrimgpt@gmail.com` in the history (41 commits).
 
 **Still to do:** licence files (none, so all rights reserved by default); independent fact-check; emails; Zenodo archive and DOI; the front-matter items listed under version 1.4.
+
+**Licences added (10 October 2026, Agrim's decision):** MIT for our code and CC BY 4.0 for our text, figures and result files, with the licence texts taken from GitHub's licence API. The repository README says they do not cover the copied third-party README files, FlyWire-derived data (CC BY-NC 4.0 per flywire.ai) or the fetched citation records. The paper itself does not yet state its licence.
