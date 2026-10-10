@@ -1,0 +1,13 @@
+{
+ "job": "ROB_F783T_10hz",
+ "shard": null,
+ "n_items": 101,
+ "rate_hz": 10,
+ "n_trials": 10,
+ "w_syn_multiplier": 1.0,
+ "readouts": [
+  720575940660219265,
+  720575940618238523
+ ],
+ "wall_s": 3366.4
+}

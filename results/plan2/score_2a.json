@@ -19,6 +19,38 @@
   },
   "mismatches": {}
  },
+ "T1": {
+  "job": "2A_M",
+  "female_783T": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 1,
+   "FN": 4,
+   "TN": 85,
+   "accuracy": 0.949,
+   "acc_ci95": [
+    0.899,
+    0.99
+   ],
+   "trivial_all_negative_acc": 0.869
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 32,
+   "FN": 4,
+   "TN": 54,
+   "accuracy": 0.636,
+   "acc_ci95": [
+    0.545,
+    0.727
+   ],
+   "trivial_all_negative_acc": 0.869
+  },
+  "agreement_with_female": 0.687,
+  "observed_positive_mappable": 13,
+  "verdict": "not supported"
+ },
  "T2": {
   "job": "2A_Ms",
   "female_783T": {

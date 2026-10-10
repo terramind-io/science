@@ -1,0 +1,5 @@
+{"job": "ROB_Ms_w0.7", "shard": null, "n_items": 99, "rate_hz": 50, "n_trials": 10, "w_syn_multiplier": 0.39281705948372614, "readouts": [10331, 16949], "wall_s": 5549.7}
+{"job": "ROB_Ms_w1.3", "shard": null, "n_items": 99, "rate_hz": 50, "n_trials": 10, "w_syn_multiplier": 0.7295173961840629, "readouts": [10331, 16949], "wall_s": 5189.9}
+{"job": "ROB_Ms_10hz", "shard": null, "n_items": 99, "rate_hz": 10, "n_trials": 10, "w_syn_multiplier": 0.5611672278338945, "readouts": [10331, 16949], "wall_s": 4230.5}
+{"job": "ROB_Ms_200hz", "shard": null, "n_items": 99, "rate_hz": 200, "n_trials": 10, "w_syn_multiplier": 0.5611672278338945, "readouts": [10331, 16949], "wall_s": 3312.3}
+CHAIN_DONE Ms

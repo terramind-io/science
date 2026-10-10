@@ -81,3 +81,10 @@ Screened and judged not relevant (application, game or learning repos, reviews, 
 ## Bottom line
 
 Only (d) survives, and only in a narrow form: "the Shiu split-GAL4 sufficiency benchmark, re-scored on a second, independently reconstructed connectome". Everything else, (a), (b), (c) and the general idea in (e), has named prior work from the last six weeks, all of it non-peer-reviewed. Per AGENTS.md, any write-up must credit Fugsukjit, Mazza (flymsg), Cho (flybench), Silva Santos (cerebro), Avetisyan and Aldunate Rodríguez by name, and call (b) and (c) confirmations.
+
+
+## Addendum, 10 Oct 2026: the 9 Oct search missed a prior result
+
+A re-check (GitHub code search, Zenodo, bioRxiv 20 Sep–10 Oct, arXiv) found **Fly.exe** (github.com/Ibtisam-Mohammad/Fly.exe, commit `cc25411e00f945e7330cb6f400372cce315c0802`, created 12 Sep 2026, last push 15 Sep 2026). Its `docs/evidence/STAGE1_SHIU_FEEDING.md` scores a male CNS model against Shiu et al. Supplementary Table 3 (101 types, 30 trials, 2,714-neuron sub-network): "Exact MaleCNS | 0.8077 | 0.8077 | 8 / 0 / 88 / 5" (balanced accuracy, AUROC, TP/FP/TN/FN). We fetched that file at the pinned commit and confirmed the quoted rows. The item we listed as "still open" on 9 Oct was not open.
+
+Unchanged on 10 Oct: Fugsukjit's repo (HEAD `c4ef087`, 6 Oct) and Zenodo record (one version, 29 Sep), flymsg (`cb3ed70`), flybench (v0.2.1). Not searched: Google Scholar, SSRN, OSF. GitHub code search is not exhaustive, so other small repos may exist.
