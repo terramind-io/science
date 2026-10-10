@@ -163,3 +163,19 @@ Files: `paper/final/what-the-flys-wiring-map-predicts-v1.4.md`, `.pdf` (15 pages
 - `fly-brain/experiment/census/readmes/` holds 97 README files copied from other people's repositories, and they are in the commit history. Decide whether to publish them; removing them from history would change the commit ids the paper cites.
 - Emails to the original authors and named projects; an independent fact-check of the paper text; the other release gates listed under version 1.0.
 - Zenodo archive and DOI after it is public.
+
+## Repository made public; version 1.5 (10 October 2026, evening)
+
+Agrim's decision: the repository goes public now. https://github.com/terramind-io/science returned HTTP 200 without a login after the switch (commit `0e30f77`).
+
+**Paper v1.5:** only the two sentences that called the repository private were changed. The repository link in the paper is now live for readers.
+
+**Checked before the switch:** no credentials in tracked files; `paper/emails.md` is not in the repository; no third party's email address in tracked files.
+
+**Now public as a consequence, each raised with Agrim beforehand:**
+- Every version of the paper, marked "release candidate" and "not peer-reviewed", before the emails to the original authors and before an independent fact-check of the text since v1.0.
+- This log and the journey log, including the open items.
+- `fly-brain/experiment/census/readmes/`: 97 README files copied from other people's repositories.
+- Commit author address `agrimgpt@gmail.com` in the history (41 commits).
+
+**Still to do:** licence files (none, so all rights reserved by default); independent fact-check; emails; Zenodo archive and DOI; the front-matter items listed under version 1.4.
