@@ -20,6 +20,19 @@
 
 On this map, read with this rule, the hearing neurons are not wired to the acceptance neurons more strongly than unrelated senses are. This agrees with the simulation staying silent when the hearing neurons are switched on (our exploratory lab runs; and, before us, opifor/femaleflybrain's pre-registered result that "courtship song entering the female's ear does not reach vpoDN"). It does not show the real circuit is absent: Wang et al. (https://doi.org/10.1038/s41586-020-2972-7) found it in real flies. Both the model and our score treat a song as "all hearing neurons on", with no rhythm or pitch.
 
+## Amendment A: the simulation in the authors' own code (Brian2)
+
+Rules fixed in `PLAN5.md` (commit `d047d48`) after L1 and L2 were scored and before these runs. FlyWire v783, published parameters, 30 one-second trials at 100 Hz. Numbers: `results/plan5/sim_vpoEN.json`, `sim_pC1.json` (cloud batch `plan5-song-brian2-b`).
+
+| | Statement | Result | Verdict |
+|---|---|---|---|
+| **C1** | The acceptance neurons stay silent under song | The run did not complete: two cloud attempts ran out of memory. A third, with one process per trial (commit `e6a8253`), needs an approval that timed out while Agrim was away | **Not yet scored** |
+| **C2** | The last link works | With the 4 vpoEN neurons on, vpoDN fires at 36.2 Hz on average, in 30 of 30 trials (bar: 5 Hz) | **Confirmed** |
+
+- With the 10 pC1 neurons on at 100 Hz, vpoDN fires at 81.7 Hz and vpoEN stays at 0 Hz (no rule set).
+- Our browser engine gave 36.3 Hz for the vpoEN condition (10 runs), so the two implementations agree there.
+- For song, what we have is the browser engine (vpoEN and vpoDN at 0 Hz with the hearing neurons at 40 to 200 Hz, 10 runs per setting, `playground/README.md`) and opifor's report. Neither is the reference implementation.
+
 ## Limits
 
 One fly. Percentile rank is our yardstick. One connection rule. No new simulation; the simulation side has not been repeated in Brian2. The percentiles fall as more steps are added (vpoEN: 62, 84, 61, 44, 31 for one to five steps), so the choice of step matters; the rule fixed three and four in advance.
