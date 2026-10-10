@@ -16,9 +16,9 @@ READ = {'MN9': 720575940660219265, 'aBN1': 720575940630907434, 'aDN1': 720575940
 
 def senses():
     t4 = pd.read_excel(XLS, sheet_name='ST 4 Interaction betw Sugar, Wa', header=1); n4 = t4['Neuron Names'].astype(str)
-    g = lambda p: [int(i) for i, nm in zip(t4['Flywire ID'], n4) if nm.startswith(p)]
+    g = lambda p: [int(i) for i, nm in zip(t4['Flywire ID'], n4) if str(nm).startswith(p)]
     t7 = pd.read_excel(XLS, sheet_name='Supplemental Table 7A Grooming ', header=0); n7 = t7.iloc[:, 1].astype(str)
-    j = lambda ps: [int(i) for i, nm in zip(t7.iloc[:, 0], n7) if any(nm.startswith(p) for p in ps)]
+    j = lambda ps: [int(i) for i, nm in zip(t7.iloc[:, 0], n7) if any(str(nm).startswith(p) for p in ps)]
     return {'sweet': g('sugar'), 'bitter': g('bitter'), 'water': g('water'), 'Ir94e': g('Ir94e'), 'touch': j(['JO_']), 'touchCE': j(['JO_C', 'JO_E']), 'touchF': j(['JO_F'])}
 # state: {sense: rate_hz}
 PRIMARY = {'F1': {'sweet': 100}, 'F2': {'sweet': 100, 'bitter': 100}, 'F3': {'sweet': 100, 'Ir94e': 100}, 'F4': {'sweet': 200, 'bitter': 100}, 'F5': {'sweet': 200, 'Ir94e': 100},
