@@ -49,7 +49,7 @@ How strong this is: the two predictors disagree on 5 cases and the simulation is
 
 ## Step count: our version does not match the paper's column
 
-The plan said to check our step counts against the paper's "Shortest Path" column and to report both if fewer than 90% matched. **Only 56 of 106 types match (53%).** In 45 mismatches ours is shorter, and in 5 the paper lists no path where we find one. The audit found the likely reason: counting only connections of 5 or more synapses reproduces the paper's column for 99 of the 101 types that have a number (we have not re-checked this ourselves, and we did not find the method stated in the paper). Both versions:
+The plan said to check our step counts against the paper's "Shortest Path" column and to report both if fewer than 90% matched. **Only 56 of 106 types match (53%).** In 45 mismatches ours is shorter, and in 5 the paper lists no path where we find one. The audit found the likely reason, and we re-ran it ourselves: counting only connections of 5 or more synapses reproduces the paper's column for 104 of 106 types (99 of the 101 with a number, plus all 5 with no path), and that step count ranks the types at 0.761 (`3A.json`, `P1_exploratory_5plus_synapses`). We did not find the method stated in the paper. Both versions:
 - **Ours** (every listed connection is a step): nearly uninformative, 0.51–0.60, because almost every type is within 2 steps of MN9.
 - **The paper's column** (v630 only): 0.771 on the 106 types.
 
@@ -92,7 +92,7 @@ We found 97 projects whose README states a firing rate for the feeding neuron, a
 - every project that claims a reproduction at any setting: 16 of 39 (41%), which compares unlike settings and is not a fair test.
 
 **R1 also depends on one coding choice.** Two projects (qp-hiro/flybrain, counted, 80.6 Hz; AkashaCorporation/FlyBrain, not counted, 81.0 Hz) both imply v630 without stating it in so many words. Counting both gives 6 of 9 (67%, inconclusive); counting neither gives 6 of 7 (86%, which would have met the bar). We leave the verdict at inconclusive.
-- The three outside the band all report higher values (80.6, 81.0, 88); two of them are single-trial runs by their own description.
+- The three outside the band all report higher values (80.6, 81.0, 88); two of them (81.0 and 88) are single-trial runs by their own description.
 - Our own run of this case gives 67.5 Hz (`RESULTS.md`, H1); the authors' shipped result is 67.0 Hz.
 
 **R3, what the spread looks like (descriptive, with the audit's corrections):**
@@ -116,7 +116,9 @@ We found 97 projects whose README states a firing rate for the feeding neuron, a
 
 **Other coding notes from the audit:** one extractor recorded a further scrambled-wiring report with no MN9 rate ("the fly does not feed"); we left it out of R2, and counting it as not silent would give 6 of 8 (75%, inconclusive). One included project (lingmulongtai/tsuyulabo) is doubtful: its own engine on a small extract, with no claim to use the paper's parameters. A few included projects add mechanisms or run in a closed loop. One excluded project (Flymagotchi, 68.0 Hz) is very probably the headline case but its table does not name MN9.
 
-**Not yet compiled (promised in the plan):** first-commit dates by month, licences and a tally of exclusion reasons for the final set.
+**Descriptives promised in the plan** (`results/plan3/3B_descriptives.json`): of the 72 included, 64 have a first commit in Sep 2026, 6 in Oct, and 1 each in Jun and Jul; licences are MIT 28, none detected 28, unclassified 12, GPL-3.0 3, Apache-2.0 1. Dates and licences come from the search agent's GitHub API pull, not re-fetched by us.
+
+**R1 under a consistent coding (added after the audit):** counting both projects that name the v630 data file gives 6 of 9 (67%). Three of those nine values (70, 81.0 and 88) are single short runs by their authors' own description.
 
 **Not run:** the plan called for our own re-check of any complete setting (map, stimulus set, rate) reported by at least 3 projects for which we had no reference. Only one setting met that bar, the paper's own (v630, the 21 sugar neurons, 100 Hz), and we already have that reference. So no new simulation was needed.
 
@@ -127,6 +129,6 @@ We found 97 projects whose README states a firing rate for the feeding neuron, a
 - **README only.** Projects that keep results in other files are missed or under-read. Three we know from our notes (Fugsukjit, flymsg, Fly.exe) are outside the frame. (flybench is in the frame and included, contrary to what the plan text said.)
 - **Outside the headline case, settings differ too much to compare.** On FlyWire v783 at 100 Hz, nine projects report 15.7 to 190 Hz, with different or unstated taste-neuron sets.
 - **Coverage unknown.** GitHub search caps results; other hosts were not searched.
-- **R1 sits on 8 projects,** two of them single short runs by their own description (88 is a spike count from one seed; 70 is one 500 ms trial).
+- **R1 sits on 8 projects** (9 under the consistent coding), with single short runs among them (88 is a spike count from one seed; 70 is one 500 ms trial; 81.0, in the wider set, is a single trial).
 - **R2 mixes maps and settings** (two on the male map, one at 150 Hz, one heavily modified), and is 7 of the 72 projects.
 - **Fairness:** no project is ranked or called a failure here. Before anything is published, named projects are contacted.

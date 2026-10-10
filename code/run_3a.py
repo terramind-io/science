@@ -75,13 +75,21 @@ idx630, W630 = load_map(glob.glob(str(V / '*ompleteness_630*.csv'))[0], glob.glo
 st3 = pd.Series({k: v['st3_50hz_left'] for k, v in SEZ.items()})
 out['DEV_v630_exploratory'], T = score_set('DEV_v630', idx630, W630, 'female_ids', MN9F, {'paperST3': st3}); tables.append(T)
 x = pd.read_excel(XLS, sheet_name='Sup Table 3 Predicted MN9 vs. o', header=0); x = x[x.iloc[:, 1].notna()]
-theirs = pd.Series(pd.to_numeric(x['Shortest Path'], errors='coerce').values, index=x.iloc[:, 0].astype(str).values)
-ours = T['steps'].astype(float)
+theirs = pd.Series(pd.to_numeric(x['Shortest Path'], errors='coerce').values, index=x.iloc[:, 0].astype(str).str.lower().values)  # names matched case-insensitively (corrected after the audit: 'Asteroid' was dropped)
+ours = T['steps'].astype(float); ours.index = ours.index.str.lower()
+OBSL = {k.lower(): v['observed_rate'] > 0 for k, v in SEZ.items()}
 common = [k for k in ours.index if k in theirs.index]
 same = int(((ours.reindex(common).fillna(99)) == (theirs.reindex(common).fillna(99))).sum())
 out['P1_validity_vs_paper_column'] = {'n_types': len(common), 'exact_match': same, 'frac': round(same / len(common), 3),
                                       'mismatches': {k: [None if np.isnan(ours[k]) else int(ours[k]), None if np.isnan(theirs[k]) else int(theirs[k])] for k in common if (np.nan_to_num(ours[k], nan=99) != np.nan_to_num(theirs[k], nan=99))},
-                                      'paper_column_auroc': round(auroc(-theirs.reindex(common).fillna(99), pd.Series([SEZ[k]['observed_rate'] > 0 for k in common], index=common)), 3)}
+                                      'paper_column_auroc': round(auroc(-theirs.reindex(common).fillna(99), pd.Series([OBSL[k] for k in common], index=common)), 3)}
+# exploratory, added after the audit: step count over connections of 5 or more synapses
+e5 = pd.read_parquet(glob.glob(str(V / '*onnectivity_630*.parquet'))[0]); e5 = e5[e5['Connectivity'].abs() >= 5]
+W5 = sparse.csr_matrix((np.ones(len(e5)), (e5['Postsynaptic_Index'].values, e5['Presynaptic_Index'].values)), shape=W630.shape)
+d5 = hop_dist(W5, idx630, MN9F)
+o5 = pd.Series({k.lower(): (lambda dd: np.nan if np.isinf(dd) else dd)(min([d5[idx630[i]] for i in v['female_ids'] if i in idx630], default=np.inf)) for k, v in SEZ.items()})
+same5 = int((o5.reindex(common).fillna(99) == theirs.reindex(common).fillna(99)).sum())
+out['P1_exploratory_5plus_synapses'] = {'n_types': len(common), 'exact_match_with_paper_column': same5, 'auroc': round(auroc(-o5.reindex(common).fillna(99), pd.Series([OBSL[k] for k in common], index=common)), 3)}
 # --- C2: v783 typed lists
 idx783, W783 = load_map(V / 'Completeness_783.csv', V / 'Connectivity_783.parquet')
 out['C2_v783'], T = score_set('C2_v783', idx783, W783, 'female783_typed_ids', MN9F, {'2A_F783T': sim_rates('2A_F783T', 'ro_720575940660219265')}); tables.append(T)
