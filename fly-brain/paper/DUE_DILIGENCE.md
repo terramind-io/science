@@ -147,3 +147,19 @@ Files: `paper/final/what-the-flys-wiring-map-predicts-v1.3.md`, `.html`, `.pdf` 
 **Checks:** the script's path score for Fdg (17,921,020) equals `P2_path3` for Fdg in `experiment/results/plan3/3A_per_type.csv`; every caption number is in `paper/final/figures_preview/brain_Fdg.json`; Fdg's real-fly result (8 of 10) is `observed_rate` 0.8 in `experiment/inputs/sez_screen.json`; figure references were renumbered by script and listed.
 
 **Not done:** an independent fact-check of the text since v1.0. `paper/` is still not under version control, so the figure script has no commit. The repository is not public, so the paper carries no code link.
+
+## Version 1.4 and the code repository (10 October 2026, evening)
+
+Files: `paper/final/what-the-flys-wiring-map-predicts-v1.4.md`, `.pdf` (15 pages).
+
+**Repository:** https://github.com/terramind-io/science, created private at Agrim's request as the home for all Science work, one folder per project. Local checkout: `~/Terramind/science-repo`. `fly-brain/experiment/` was imported with `git subtree`, so the original commits (for example `abb98a0`, `d91f86c`) keep their ids. `fly-brain/paper/` and `fly-brain/JOURNEY.md` are copied by `tools/sync_from_workspace.sh`. Left out: `paper/emails.md` (unsent correspondence), `sources/`, the lab, the research bible and the large connectome inputs.
+
+**Paper changes:** a "Companion materials" paragraph after the abstract (project page, repository, terramind.org) and the repository link in Section 9. Both say the repository is private until release. The project page was checked live and does carry a corrections section and the lab.
+
+**Known departure from the paper rules in AGENTS.md:** the repository link is not live for readers while the repository is private. Acceptable only because the paper is itself an unreleased candidate; the repository must be public before the paper is. Also not yet conformed to the new "Paper front matter and links" section: the "Preprint. Not peer-reviewed." line, the correspondence line under the author block, the order of the closing sections, and a version-history section.
+
+**Before the repository goes public (Agrim's go-ahead needed):**
+- Choose licences (code; text and figures). None is in the repository.
+- `fly-brain/experiment/census/readmes/` holds 97 README files copied from other people's repositories, and they are in the commit history. Decide whether to publish them; removing them from history would change the commit ids the paper cites.
+- Emails to the original authors and named projects; an independent fact-check of the paper text; the other release gates listed under version 1.0.
+- Zenodo archive and DOI after it is public.
