@@ -39,5 +39,19 @@
    "max": 0.397,
    "n_at_or_above_real": 0
   }
+ },
+ "exploratory_after_audit": {
+  "pairs_correct": 23,
+  "pairs_total": 28,
+  "primary_without_inhibitory_types": 0.643,
+  "primary_plus_three_mixed_P1_as_NO": 0.735,
+  "per_neuron": {
+   "primary": 0.821,
+   "all16": 0.857
+  },
+  "leave_one_out_primary": [
+   0.762,
+   0.952
+  ]
  }
 }

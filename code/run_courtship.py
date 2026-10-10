@@ -1,4 +1,5 @@
-"""PLAN4 Amendment B: map-only path score for courtship song on the male CNS. Writes results/plan4/courtship.json."""
+"""PLAN4 Amendment B: map-only path score for courtship song on the male CNS. Writes results/plan4/courtship.json.
+After the audit: the unscored pC1_2a,2b case uses exact names (a prefix had also matched a composite type), and exploratory fragility figures are recorded."""
 import json
 from pathlib import Path
 import numpy as np, pandas as pd
@@ -24,7 +25,7 @@ CASES = [('TN1a', 'YES', 'primary', dict(prefix=['TN1a_'])), ('dMS2', 'YES', 'pr
          ('DNp29,DNg10,DNg13', 'NO', 'indirect', dict(exact=['DNp29', 'DNg10', 'DNg13'])), ('LC16', 'NO', 'indirect', dict(exact=['LC16'])),
          ('pIP10', 'control', 'control', dict(exact=['pIP10'])), ('pMP2', 'control', 'control', dict(exact=['pMP2'])), ('dPR1', 'control', 'control', dict(exact=['dPR1'])),
          ('vPR6', 'mixed', 'unscored', dict(exact=['vPR6'])), ('vMS12', 'mixed', 'unscored', dict(prefix=['vMS12'])), ('pC1_1a', 'mixed', 'unscored', dict(exact=['pC1_1a'])),
-         ('pC1_2a,2b', 'mixed', 'unscored', dict(prefix=['pC1_2a', 'pC1_2b'])), ('pC1_15a,b,c', 'mixed', 'unscored', dict(exact=['pC1_15a', 'pC1_15b', 'pC1_15c'])), ('LC10', 'mixed', 'unscored', dict(prefix=['LC10']))]
+         ('pC1_2a,2b', 'mixed', 'unscored', dict(exact=['pC1_2a', 'pC1_2b'])), ('pC1_15a,b,c', 'mixed', 'unscored', dict(exact=['pC1_15a', 'pC1_15b', 'pC1_15c'])), ('LC10', 'mixed', 'unscored', dict(prefix=['LC10']))]
 def score(Wm, src, hops):
     x = np.zeros(n); x[src] = 1; tot = 0.0
     for _ in range(hops): x = np.maximum(Wm @ x, 0); tot += x[ro].sum()
@@ -52,4 +53,11 @@ for s in range(20):
     sc = {c: score(Ws, src, 4) for c, src in srcs.items()}
     sh.append({'primary': auroc([sc[c] for c in P.case], P.truth == 'YES'), 'all16': auroc([sc[c] for c in A.case], A.truth == 'YES')})
 S = pd.DataFrame(sh); out['scrambled_4steps'] = {k: {'mean': round(float(S[k].mean()), 3), 'min': round(float(S[k].min()), 3), 'max': round(float(S[k].max()), 3), 'n_at_or_above_real': int((S[k] >= a4[k]).sum())} for k in ('primary', 'all16')}
+# exploratory, added after the audit: fragility figures
+yes = P[P.truth == 'YES'].score_4.values; no = P[P.truth == 'NO'].score_4.values
+out['exploratory_after_audit'] = {'pairs_correct': int(sum(y > x for y in yes for x in no)), 'pairs_total': int(len(yes) * len(no)),
+    'primary_without_inhibitory_types': round(auroc(P[~P.case.isin(['mAL', 'vPR9'])].score_4, P[~P.case.isin(['mAL', 'vPR9'])].truth == 'YES'), 3),
+    'primary_plus_three_mixed_P1_as_NO': round(auroc(list(P.score_4) + list(T[T.case.isin(['pC1_1a', 'pC1_2a,2b', 'pC1_15a,b,c'])].score_4), list(P.truth == 'YES') + [False] * 3), 3),
+    'per_neuron': {'primary': round(auroc(P.score_4 / P.n_neurons, P.truth == 'YES'), 3), 'all16': round(auroc(A.score_4 / A.n_neurons, A.truth == 'YES'), 3)},
+    'leave_one_out_primary': [round(float(min(v)), 3), round(float(max(v)), 3)] if (v := [auroc(P.drop(i).score_4, P.drop(i).truth == 'YES') for i in P.index]) else None}
 json.dump(out, open(OUT / 'courtship.json', 'w'), indent=1); print(T.to_string()); print(json.dumps(out, indent=1))
