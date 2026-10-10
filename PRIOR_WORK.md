@@ -88,3 +88,16 @@ Only (d) survives, and only in a narrow form: "the Shiu split-GAL4 sufficiency b
 A re-check (GitHub code search, Zenodo, bioRxiv 20 Sep–10 Oct, arXiv) found **Fly.exe** (github.com/Ibtisam-Mohammad/Fly.exe, commit `cc25411e00f945e7330cb6f400372cce315c0802`, created 12 Sep 2026, last push 15 Sep 2026). Its `docs/evidence/STAGE1_SHIU_FEEDING.md` scores a male CNS model against Shiu et al. Supplementary Table 3 (101 types, 30 trials, 2,714-neuron sub-network): "Exact MaleCNS | 0.8077 | 0.8077 | 8 / 0 / 88 / 5" (balanced accuracy, AUROC, TP/FP/TN/FN). We fetched that file at the pinned commit and confirmed the quoted rows. The item we listed as "still open" on 9 Oct was not open.
 
 Unchanged on 10 Oct: Fugsukjit's repo (HEAD `c4ef087`, 6 Oct) and Zenodo record (one version, 29 Sep), flymsg (`cb3ed70`), flybench (v0.2.1). Not searched: Google Scholar, SSRN, OSF. GitHub code search is not exhaustive, so other small repos may exist.
+
+## Addendum 2, 10 Oct 2026: field map before choosing a new question
+
+A search agent mapped prior work for four candidate experiments on this model. Everything below is as reported by that search (fetched 10 Oct); we have not re-fetched or verified these records ourselves, and most are GitHub repos, Zenodo deposits or preprints, not peer-reviewed.
+
+- **Random brain damage ("how much can you delete?"): done.** zapret-digital/fly-brainloss (GitHub, HEAD `dab7cd1`, 23 Sep 2026) on both connectomes; An D. 2026, bioRxiv doi:10.64898/2026.09.19.752860 (edge removal); Lewis Z. 2026, Zenodo doi:10.5281/zenodo.23151591; dpl0xr/fly-granularity-sweep; danilo-lazovic/fly-bottlenecks; dhruvin-sarkar/fault-lines; structural version in Lin A. et al. 2024, Nature, doi:10.1038/s41586-024-07968-y.
+- **Gradual rewiring: done.** An 2026; fly-granularity-sweep; Zhang X. et al. 2024, arXiv:2404.17128; Guan I. et al. 2026, arXiv:2609.38665.
+- **Smallest sufficient circuit: partly done and near-trivial.** cryptoghost1ng/Flymagotchi (448-neuron reduced circuit); Pugliese S.M. et al., bioRxiv doi:10.1101/2025.09.12.675944 (nerve cord).
+- **Fly connectome vs artificial networks / language models: crowded.** Costi L. et al. 2025, doi:10.3390/biomimetics10050341; McAllister J. et al. 2026, bioRxiv doi:10.64898/2026.03.30.715411; Cho J. et al. 2026, arXiv:2610.10014; Wang B. et al. 2026, arXiv:2607.00025; Matyukhin V. 2026, doi:10.21203/rs.3.rs-10982367/v1 (pre-registered negative result); Dhiman N. 2026, arXiv:2604.04033. Not found: a direct comparison of the fly model's damage curve with published pruning curves for artificial networks (and it would be apples to oranges).
+- **Shiu et al. 2024 itself** already did the weight shuffle (1 of 100), one-at-a-time silencing of the top 200 responders, and ±30% weight checks.
+- **Search gaps:** Zenodo API failed; several full texts unread; GitHub covered by repo search only; Google Scholar, SSRN and OSF not searched.
+
+Conclusion: simulation-only perturbation experiments on this model are saturated. Any new question has to come from somewhere other people are not looking.
