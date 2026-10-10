@@ -1,0 +1,16 @@
+{
+ "job": "2A_Ms",
+ "shard": [
+  3,
+  4
+ ],
+ "n_items": 24,
+ "rate_hz": 50,
+ "n_trials": 30,
+ "w_syn_multiplier": 0.5611672278338945,
+ "readouts": [
+  10331,
+  16949
+ ],
+ "wall_s": 1905.7
+}

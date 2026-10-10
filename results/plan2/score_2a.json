@@ -18,5 +18,69 @@
    "trivial_all_negative_acc": 0.868
   },
   "mismatches": {}
+ },
+ "T2": {
+  "job": "2A_Ms",
+  "female_783T": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 1,
+   "FN": 4,
+   "TN": 85,
+   "accuracy": 0.949,
+   "acc_ci95": [
+    0.899,
+    0.99
+   ],
+   "trivial_all_negative_acc": 0.869
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 8,
+   "FP": 3,
+   "FN": 5,
+   "TN": 83,
+   "accuracy": 0.919,
+   "acc_ci95": [
+    0.859,
+    0.97
+   ],
+   "trivial_all_negative_acc": 0.869
+  },
+  "agreement_with_female": 0.97,
+  "observed_positive_mappable": 13,
+  "verdict": "supported"
+ },
+ "T3": {
+  "job": "2A_M698",
+  "female_783T": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 1,
+   "FN": 4,
+   "TN": 85,
+   "accuracy": 0.949,
+   "acc_ci95": [
+    0.899,
+    0.99
+   ],
+   "trivial_all_negative_acc": 0.869
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 8,
+   "FN": 4,
+   "TN": 78,
+   "accuracy": 0.879,
+   "acc_ci95": [
+    0.808,
+    0.939
+   ],
+   "trivial_all_negative_acc": 0.869
+  },
+  "agreement_with_female": 0.929,
+  "observed_positive_mappable": 13,
+  "verdict": "partial"
  }
 }
