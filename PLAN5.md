@@ -37,3 +37,20 @@ Reported but not used for a verdict: the first step at which anything positive a
 ## Limits, stated in advance
 
 One fly. Percentile rank among all neurons is our choice of yardstick. The hearing set is every neuron the map labels auditory, switched on together, which is not what a song does. A route on the map says nothing about timing or tuning. No new simulation is run in this plan; the simulation side rests on the exploratory runs and the prior work above, and has not been repeated in the reference implementation (Brian2).
+
+## Amendment A: repeat the simulation in the reference implementation (added 10 October 2026, after L1 and L2 were scored, before any Brian2 song run)
+
+Agrim wants the courtship result in the video, so the simulation side has to stand on the authors' own code, not only on our browser engine and another project's report.
+
+**Runs:** Shiu et al.'s Brian2 model, unmodified (commit `91bdd1e`), FlyWire v783, published parameters, 30 one-second trials per condition at 100 Hz (`code/run_song_sim.py`, sets in `inputs/song_sets.json`, built from the annotation table by the rules above):
+1. **Song:** the 387 hearing neurons on.
+2. **vpoEN:** the 4 vpoEN neurons on.
+3. **pC1:** the 10 pC1 neurons on.
+
+**Rules.**
+- **C1, the acceptance neurons stay silent under song:** confirmed if the mean vpoDN rate under condition 1 is below 1 Hz; not confirmed if it is 5 Hz or more; otherwise inconclusive.
+- **C2, the last link works:** confirmed if the mean vpoDN rate under condition 2 is 5 Hz or more; not confirmed if below 1 Hz; otherwise inconclusive.
+- Condition 3 is reported without a rule.
+
+**Already known:** the browser-engine values listed at the top (vpoDN 0 Hz under song; about 35 Hz with vpoEN on at 100 Hz; about 105 Hz with pC1 on at 150 Hz), and opifor's report. These are confirmations of expected values, not open tests.
+
