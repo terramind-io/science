@@ -1,0 +1,214 @@
+{
+ "n_common": 99,
+ "observed_positive": 13,
+ "female_F783T": {
+  "TP": 9,
+  "FP": 1,
+  "FN": 4,
+  "TN": 85,
+  "accuracy": 0.949,
+  "precision": 0.9,
+  "recall": 0.692,
+  "fisher_p_pred_vs_observed": 3.965267066584051e-09
+ },
+ "male_x0.561": {
+  "TP": 8,
+  "FP": 3,
+  "FN": 5,
+  "TN": 83,
+  "accuracy": 0.919,
+  "precision": 0.727,
+  "recall": 0.615,
+  "fisher_p_pred_vs_observed": 1.0658390973985488e-06
+ },
+ "male_x0.698": {
+  "TP": 9,
+  "FP": 8,
+  "FN": 4,
+  "TN": 78,
+  "accuracy": 0.879,
+  "precision": 0.529,
+  "recall": 0.692,
+  "fisher_p_pred_vs_observed": 7.15847767443461e-06
+ },
+ "paper_lists_female_2A_F_on_common": {
+  "TP": 9,
+  "FP": 1,
+  "FN": 4,
+  "TN": 85,
+  "accuracy": 0.949,
+  "precision": 0.9,
+  "recall": 0.692,
+  "fisher_p_pred_vs_observed": 3.965267066584051e-09
+ },
+ "types_any_positive": {
+  "FMIn": {
+   "observed_rate": 1.0,
+   "female_hz": 0.5,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.37,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "roundup": {
+   "observed_rate": 1.0,
+   "female_hz": 81.5,
+   "male_0.561_hz": 49.23,
+   "male_0.698_hz": 62.43,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "usnea": {
+   "observed_rate": 1.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.0,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "G2N_1": {
+   "observed_rate": 1.0,
+   "female_hz": 10.6,
+   "male_0.561_hz": 1.17,
+   "male_0.698_hz": 8.87,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "rattle": {
+   "observed_rate": 0.9,
+   "female_hz": 3.0,
+   "male_0.561_hz": 0.87,
+   "male_0.698_hz": 5.3,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "bract": {
+   "observed_rate": 0.8,
+   "female_hz": 31.87,
+   "male_0.561_hz": 5.77,
+   "male_0.698_hz": 24.8,
+   "n_female_neurons": 4,
+   "n_male_neurons": 4
+  },
+  "Fdg": {
+   "observed_rate": 0.8,
+   "female_hz": 21.7,
+   "male_0.561_hz": 6.2,
+   "male_0.698_hz": 43.23,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "diatom": {
+   "observed_rate": 0.6,
+   "female_hz": 21.77,
+   "male_0.561_hz": 98.2,
+   "male_0.698_hz": 105.2,
+   "n_female_neurons": 16,
+   "n_male_neurons": 20
+  },
+  "phantom": {
+   "observed_rate": 0.6,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.0,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "clavicle": {
+   "observed_rate": 0.5,
+   "female_hz": 9.8,
+   "male_0.561_hz": 2.0,
+   "male_0.698_hz": 6.53,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "tentacular": {
+   "observed_rate": 0.5,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.0,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "sink_sync": {
+   "observed_rate": 0.2,
+   "female_hz": 14.37,
+   "male_0.561_hz": 6.3,
+   "male_0.698_hz": 10.97,
+   "n_female_neurons": 6,
+   "n_male_neurons": 6
+  },
+  "marge": {
+   "observed_rate": 0.1,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.0,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "mime": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.27,
+   "n_female_neurons": 19,
+   "n_male_neurons": 16
+  },
+  "puddle": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 3.5,
+   "male_0.698_hz": 4.5,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "kitty": {
+   "observed_rate": 0.0,
+   "female_hz": 6.7,
+   "male_0.561_hz": 17.9,
+   "male_0.698_hz": 13.7,
+   "n_female_neurons": 4,
+   "n_male_neurons": 4
+  },
+  "justice": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.27,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "seagull": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.07,
+   "male_0.698_hz": 0.9,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "gnome": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 2.27,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "foxglove": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.5,
+   "n_female_neurons": 2,
+   "n_male_neurons": 2
+  },
+  "peahen": {
+   "observed_rate": 0.0,
+   "female_hz": 0.0,
+   "male_0.561_hz": 0.0,
+   "male_0.698_hz": 0.47,
+   "n_female_neurons": 4,
+   "n_male_neurons": 4
+  }
+ }
+}

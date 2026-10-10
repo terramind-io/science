@@ -1,0 +1,251 @@
+{
+ "w0.7": {
+  "trials_per_type": [
+   10,
+   10,
+   10,
+   10
+  ],
+  "female": {
+   "n_types": 99,
+   "TP": 5,
+   "FP": 1,
+   "FN": 8,
+   "TN": 85,
+   "accuracy": 0.909,
+   "acc_ci95": [
+    0.848,
+    0.96
+   ],
+   "positives": [
+    "Fdg",
+    "G2N_1",
+    "bract",
+    "kitty",
+    "roundup",
+    "sink_sync"
+   ]
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 4,
+   "FP": 1,
+   "FN": 9,
+   "TN": 85,
+   "accuracy": 0.899,
+   "acc_ci95": [
+    0.838,
+    0.949
+   ],
+   "positives": [
+    "bract",
+    "diatom",
+    "kitty",
+    "roundup",
+    "sink_sync"
+   ]
+  },
+  "agreement": 0.97,
+  "trivial_all_negative_acc": 0.869,
+  "T2_verdict": "partial"
+ },
+ "w1.3": {
+  "trials_per_type": [
+   10,
+   10,
+   10,
+   10
+  ],
+  "female": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 5,
+   "FN": 4,
+   "TN": 81,
+   "accuracy": 0.909,
+   "acc_ci95": [
+    0.848,
+    0.96
+   ],
+   "positives": [
+    "FMIn",
+    "Fdg",
+    "G2N_1",
+    "aster",
+    "bract",
+    "clavicle",
+    "diatom",
+    "fudog",
+    "kitty",
+    "mist",
+    "rattle",
+    "roundup",
+    "seagull",
+    "sink_sync"
+   ]
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 9,
+   "FN": 4,
+   "TN": 77,
+   "accuracy": 0.869,
+   "acc_ci95": [
+    0.798,
+    0.929
+   ],
+   "positives": [
+    "FMIn",
+    "Fdg",
+    "G2N_1",
+    "bract",
+    "clavicle",
+    "diatom",
+    "foxglove",
+    "gnome",
+    "kitty",
+    "mime",
+    "peacock",
+    "peahen",
+    "puddle",
+    "rattle",
+    "roundup",
+    "seagull",
+    "sink_sync",
+    "spirit"
+   ]
+  },
+  "agreement": 0.899,
+  "trivial_all_negative_acc": 0.869,
+  "T2_verdict": "supported"
+ },
+ "10hz": {
+  "trials_per_type": [
+   10,
+   10,
+   10,
+   10
+  ],
+  "female": {
+   "n_types": 99,
+   "TP": 5,
+   "FP": 1,
+   "FN": 8,
+   "TN": 85,
+   "accuracy": 0.909,
+   "acc_ci95": [
+    0.848,
+    0.96
+   ],
+   "positives": [
+    "Fdg",
+    "bract",
+    "clavicle",
+    "kitty",
+    "roundup",
+    "sink_sync"
+   ]
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 4,
+   "FP": 1,
+   "FN": 9,
+   "TN": 85,
+   "accuracy": 0.899,
+   "acc_ci95": [
+    0.838,
+    0.949
+   ],
+   "positives": [
+    "bract",
+    "diatom",
+    "kitty",
+    "rattle",
+    "roundup"
+   ]
+  },
+  "agreement": 0.949,
+  "trivial_all_negative_acc": 0.869,
+  "T2_verdict": "partial"
+ },
+ "200hz": {
+  "trials_per_type": [
+   10,
+   10,
+   10,
+   10
+  ],
+  "female": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 5,
+   "FN": 4,
+   "TN": 81,
+   "accuracy": 0.909,
+   "acc_ci95": [
+    0.848,
+    0.96
+   ],
+   "positives": [
+    "FMIn",
+    "Fdg",
+    "G2N_1",
+    "aster",
+    "bract",
+    "clavicle",
+    "diatom",
+    "fudog",
+    "kitty",
+    "mist",
+    "rattle",
+    "roundup",
+    "seagull",
+    "sink_sync"
+   ]
+  },
+  "male": {
+   "n_types": 99,
+   "TP": 9,
+   "FP": 7,
+   "FN": 4,
+   "TN": 79,
+   "accuracy": 0.889,
+   "acc_ci95": [
+    0.828,
+    0.949
+   ],
+   "positives": [
+    "FMIn",
+    "Fdg",
+    "G2N_1",
+    "TPN4",
+    "bract",
+    "clavicle",
+    "diatom",
+    "gnome",
+    "kitty",
+    "mist",
+    "peacock",
+    "peahen",
+    "rattle",
+    "roundup",
+    "seagull",
+    "sink_sync"
+   ]
+  },
+  "agreement": 0.939,
+  "trivial_all_negative_acc": 0.869,
+  "T2_verdict": "supported"
+ },
+ "summary": {
+  "verdicts": {
+   "w0.7": "partial",
+   "w1.3": "supported",
+   "10hz": "partial",
+   "200hz": "supported"
+  },
+  "T2_robust": false
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "job": "2A_M698",
+ "shard": [
+  0,
+  4
+ ],
+ "n_items": 25,
+ "rate_hz": 50,
+ "n_trials": 30,
+ "w_syn_multiplier": 0.698,
+ "readouts": [
+  10331,
+  16949
+ ],
+ "wall_s": 3619.5
+}

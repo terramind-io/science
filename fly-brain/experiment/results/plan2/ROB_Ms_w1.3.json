@@ -1,0 +1,13 @@
+{
+ "job": "ROB_Ms_w1.3",
+ "shard": null,
+ "n_items": 99,
+ "rate_hz": 50,
+ "n_trials": 10,
+ "w_syn_multiplier": 0.7295173961840629,
+ "readouts": [
+  10331,
+  16949
+ ],
+ "wall_s": 5189.9
+}

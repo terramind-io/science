@@ -1,0 +1,186 @@
+{
+ "X1_spread": {
+  "E1_fw630_shiu_real": {
+   "neurons_firing_mean_per_trial": 359.7,
+   "neurons_ge_10hz": 233,
+   "total_spikes_per_trial": 9746.8
+  },
+  "E3_fw783_typeset_real": {
+   "neurons_firing_mean_per_trial": 441.9,
+   "neurons_ge_10hz": 331,
+   "total_spikes_per_trial": 17720.8
+  },
+  "E3_mcns_typesetL_real": {
+   "neurons_firing_mean_per_trial": 12378.2,
+   "neurons_ge_10hz": 12693,
+   "total_spikes_per_trial": 593811.0
+  },
+  "S1_mcns_sugaronlyL_real": {
+   "neurons_firing_mean_per_trial": 14869.8,
+   "neurons_ge_10hz": 13334,
+   "total_spikes_per_trial": 789136.7
+  },
+  "E4_mcns_typesetL_shuffled": {
+   "neurons_firing_mean_per_trial": 124.7,
+   "neurons_ge_10hz": 57,
+   "total_spikes_per_trial": 4448.2
+  },
+  "E2_fw630_shiu_shuffled": {
+   "neurons_firing_mean_per_trial": 40.9,
+   "neurons_ge_10hz": 21,
+   "total_spikes_per_trial": 2312.5
+  }
+ },
+ "X2_laterality": {
+  "fw783_typeset(left GRNs)": {
+   "MN9_contra": 99.13,
+   "MN9_ipsi": 75.2
+  },
+  "fw783_sugaronly(left GRNs)": {
+   "MN9_contra": 73.03,
+   "MN9_ipsi": 48.43
+  },
+  "mcns_typesetL": {
+   "MN9_R(contra)": 28.67,
+   "MN9_L(ipsi)": 111.83
+  },
+  "mcns_typesetR": {
+   "MN9_L(contra)": 138.1,
+   "MN9_R(ipsi)": 28.83
+  },
+  "mcns_sugaronlyL": {
+   "MN9_R(contra)": 16.77,
+   "MN9_L(ipsi)": 76.3
+  }
+ },
+ "X3_male_inputs": {
+  "n_neurons": 165122,
+  "predicted_nt_missing_frac": 0.003,
+  "nt_counts": {
+   "acetylcholine": 94946,
+   "glutamate": 28055,
+   "gaba": 20218,
+   "unclear": 14365,
+   "dopamine": 4443,
+   "histamine": 2026,
+   "NaN": 502,
+   "serotonin": 465,
+   "octopamine": 102
+  },
+  "inhibitory_neuron_frac": 0.2923
+ },
+ "X3_network": {
+  "fw783": {
+   "edges": 15091983,
+   "synapses_total": 54492922,
+   "inhibitory_neuron_frac": 0.2995,
+   "inhibitory_synapse_frac": 0.4037
+  },
+  "mcns": {
+   "edges": 25563096,
+   "synapses_total": 124024573,
+   "inhibitory_neuron_frac": 0.2952,
+   "inhibitory_synapse_frac": 0.3744
+  }
+ },
+ "X4_wscaled": {
+  "w_syn_multiplier": 0.5233013784366783,
+  "MN9_R_contra": {
+   "active": 0,
+   "mean": 0.0,
+   "sd": 0.0
+  },
+  "MN9_L_ipsi": {
+   "active": 1,
+   "mean": 0.03
+  },
+  "neurons_firing_mean_per_trial": 111.6,
+  "total_spikes_per_trial": 4478.0,
+  "D1_style_vs_female": {
+   "n_types": 265,
+   "spearman_rho": 0.287,
+   "top50_jaccard": 0.351
+  },
+  "top10_male_types": {
+   "CB0248": 84.0,
+   "AN_GNG_30": 61.5,
+   "CB0118": 54.0,
+   "AN_GNG_68": 52.9,
+   "CB0366": 46.2,
+   "CB0192": 45.4,
+   "CB0020": 39.0,
+   "DNge031": 36.1,
+   "CB0499": 33.5,
+   "CB0062": 31.1
+  }
+ },
+ "A1_mn9_inputs": {
+  "female_right_720575940660219265": 5579,
+  "female_left_720575940618238523": 5886,
+  "male_MN9_L_10331": {
+   "input_synapses": 6012,
+   "statusLabel": "Roughly traced"
+  },
+  "male_MN9_R_16949": {
+   "input_synapses": 555,
+   "statusLabel": "RT Hard to trace"
+  }
+ },
+ "A2_spread_excluding_stimulated": {
+  "E3_fw783_typeset_real": 389.9,
+  "E3_mcns_typesetL_real": 12346.2,
+  "X4_mcns_typesetL_wscaled": 79.6,
+  "E1_fw630_shiu_real": 338.7
+ },
+ "A3_synapse_density": {
+  "type_matched_n_types": 7081,
+  "median_input_ratio_male_over_female": 1.782,
+  "iqr": [
+   1.42,
+   2.34
+  ],
+  "synapses_per_edge": {
+   "fw783": 3.61,
+   "mcns": 4.85
+  },
+  "input_synapses_per_neuron_all": {
+   "fw783": 393.1,
+   "mcns": 751.1
+  },
+  "mcns_brain_only_input_per_neuron": 716.6
+ },
+ "A4_rho_on_female_active_types": {
+  "n_types": 258,
+  "E3_mcns_typesetL_real": 0.428,
+  "X4_mcns_typesetL_wscaled": 0.348,
+  "E4_mcns_typesetL_shuffled": 0.456
+ },
+ "A5_male_MN9L_readout": {
+  "E3_mcns_typesetL_real": {
+   "active": 30,
+   "n": 30,
+   "rate_hz": 111.83
+  },
+  "E4_mcns_typesetL_shuffled": {
+   "active": 1,
+   "n": 100,
+   "rate_hz": 0.04
+  },
+  "S2_mcns_typesetR_real": {
+   "active": 30,
+   "n": 30,
+   "rate_hz": 138.1
+  },
+  "S1_mcns_sugaronlyL_real": {
+   "active": 30,
+   "n": 30,
+   "rate_hz": 76.3
+  },
+  "X4_mcns_typesetL_wscaled": {
+   "active": 1,
+   "n": 30,
+   "rate_hz": 0.03
+  },
+  "fisher_p_real_vs_shuffled": 1.1866762958902997e-28
+ }
+}

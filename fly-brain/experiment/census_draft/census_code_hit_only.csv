@@ -1,0 +1,1011 @@
+url,owner,repo_created,last_push,stars,licence,language,code_search_hits,description
+https://github.com/chaobrain/fitting_drosophila_whole_brain_spiking_model,chaobrain,2025-02-04,2026-01-19,7,none detected,Python,Completeness_630; Completeness_783; Connectivity_630; Connectivity_783,
+https://github.com/Vick1213/flybrain-rl,Vick1213,2026-09-20,2026-09-20,0,GPL-2.0,Python,"""Shiu"" ""leaky integrate"" flywire; Connectivity_783",RL on a frozen whole-Drosophila-brain connectome (FlyWire) spiking model — event-driven simulator + toy addiction task. Work in progress.
+https://github.com/michaela10c/connectome-fidelity,michaela10c,2026-04-25,2026-08-26,0,none detected,Jupyter Notebook,"""s41586-024-07763-9""",Representational geometry as a fidelity metric for connectome-constrained networks: evidence from the Drosophila visual system. Applies RSA and CKA to compare population codes across pretrained Flyvis
+https://github.com/Eriskii/flychip,Eriskii,2026-08-29,2026-08-29,0,none detected,C,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""Shiu"" ""MN9"" Hz; ""philshiu""",FlyWire-derived LIF brain simulation for the Adafruit Feather RP2350
+https://github.com/NavidEslamiGomeshTappeh/digital-life-form-flywire,NavidEslamiGomeshTappeh,2026-10-01,2026-10-10,0,MIT,Python,"""Shiu et al"" malecns",
+https://github.com/Lulzx/fly-brain,Lulzx,2026-09-10,2026-10-05,34,MIT,JavaScript,"""MN9"" ""sugar"" ""shuffle""; ""MN9"" flywire LIF; ""Shiu et al"" malecns; ""sugar"" ""MN9"" ""Hz"" connectome",Embodied whole-CNS Drosophila connectome simulation in the browser: 165k-neuron LIF brain (WASM) + MuJoCo flybody + flyvis vision
+https://github.com/NullLabTests/flybrain,NullLabTests,2026-09-08,2026-09-08,5,MIT,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""","Real MaleCNS v1.0 (166,700-neuron) current-injection arcade:  Buttons drive the actual fly connectome — the glow is the voltage field."
+https://github.com/lavallee/mk-jev-fly-brain,lavallee,2026-09-18,2026-09-18,2,MIT,JavaScript,"""Shiu et al"" malecns","A maleCNS fly-brain connectome fights a language model in mk.js — spiking simulation, dopamine learning, and the controls that say what each side contributes"
+https://github.com/Knaifu0030/fruitfly-simulation,Knaifu0030,2026-09-14,2026-09-14,2,MIT,JavaScript,"""Shiu et al"" malecns; ""s41586-024-07763-9""","Open MaleCNS connectome preprocessing, visualization, and virtual fruit-fly simulation foundation"
+https://github.com/ydchen0806/drosophila-mb-lateralization,ydchen0806,2026-07-20,2026-07-20,1,MIT,Python,"""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783","Reproducible connectome, functional-imaging and simulation analyses for Drosophila mushroom-body lateralization"
+https://github.com/leohio/connectome-fly-closedloop,leohio,2026-08-25,2026-10-02,0,none detected,Python,"""Drosophila_brain_model""; ""w_syn"" ""0.275""; Connectivity_783",Closed-loop simulation of the Drosophila connectome (MANC + FlyWire) with a physics body: quantifying where wiring specificity does and does not reach behavior
+https://github.com/steph4n-gh/fly-space-program,steph4n-gh,2026-09-14,2026-09-14,2,NOASSERTION,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""","A fruit-fly connectome in a rocket simulator. Explore neural control, reproducible experiments and the proposed Fly Cube."
+https://github.com/vasu-devs/fly-habitat,vasu-devs,2026-09-15,2026-09-22,0,MIT,TypeScript,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""w_syn"" ""0.275""","Measured fruit-fly connectome in a 3D habitat: WebGPU neural simulation, anatomical MuJoCo body, learned behavior and inherited lifetimes."
+https://github.com/immanuel-lam/flyscope,immanuel-lam,2026-09-19,2026-09-19,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",Fruit fly connectome visualizer with an experimental MaleCNS neural model and MuJoCo walking simulation
+https://github.com/cyanseek/flyglass,cyanseek,2026-09-12,2026-09-12,1,NOASSERTION,TypeScript,"""Drosophila_brain_model""; ""philshiu""","A playable fruit-fly circuit lab: real MaleCNS wiring, live interventions, reproducible replays, and an agent sandbox."
+https://github.com/dzhng/fly-escape,dzhng,2026-09-06,2026-09-17,50,none detected,Rust,"""s41586-024-07763-9""",Help the Fly Escape — MaleCNS connectome LIF tech demo (whimsical house escape)
+https://github.com/rison1337/droffel-isaac-brain,rison1337,2026-09-15,2026-09-16,6,none detected,Python,"""Drosophila_brain_model""; ""MN9"" malecns; ""Shiu et al"" malecns; ""philshiu""","A MaleCNS virtual fly nervous system playing The Binding of Isaac, with a live 3D brain viewer."
+https://github.com/artem-x-meta/fly-arena,artem-x-meta,2026-09-12,2026-09-12,9,MIT,Python,"""MN9"" flywire LIF; ""MN9"" malecns","Experimental Drosophila simulator using the MaleCNS connectome and FlyGym/MuJoCo physics, with autonomous hybrid behaviors, two-fly food competition, and neural state readout."
+https://github.com/shute2004/virtual-fly,shute2004,2026-09-19,2026-09-20,3,MIT,Python,"""Shiu et al"" malecns",Research simulator coupling the adult male Drosophila MaleCNS connectome to FlyBody/MuJoCo with local neural dynamics and plasticity.
+https://github.com/kristoferUA/FlyDecoder-MaleCNS-v1.0,kristoferUA,2026-09-29,2026-09-29,2,NOASSERTION,Python,"""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",
+https://github.com/lntegrals/flycube-public,lntegrals,2026-09-10,2026-09-10,2,MIT,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""","Measured MaleCNS connectome in the decision loop of a Rubik's cube solver: honest research code, viewer, checkpoints and results"
+https://github.com/jamesbiederbeck/flybody-connectome,jamesbiederbeck,2026-09-19,2026-09-21,0,MIT,Python,"""Shiu et al"" malecns",A Drosophila body in MuJoCo driven by the MaleCNS v1.0 connectome
+https://github.com/TingjiaInFuture/malecns-language-world,TingjiaInFuture,2026-09-12,2026-09-15,0,NOASSERTION,Python,"""s41586-024-07763-9""","Local 3D observation world using the complete published MaleCNS structural graph, with reproducible init and explicit modeling assumptions."
+https://github.com/aryap1804/fly-x-jev,aryap1804,2026-09-30,2026-09-30,2,MIT,JavaScript,"""MN9"" malecns","A robot fly driven by the real MaleCNS fruit fly connectome, with TypeSafe's Jev as action selection, plus a Memory Lab of classic fly memory experiments."
+https://github.com/xtensionlabs/anima-zero,xtensionlabs,2026-09-19,2026-09-20,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""",A language model wired to the complete nervous system of a fruit fly (MaleCNS connectome)
+https://github.com/Haor/fly-world,Haor,2026-09-08,2026-09-09,0,NOASSERTION,JavaScript,"""Drosophila_brain_model""; ""MN9"" malecns; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome","MaleCNS observation station, AI Passport companion, and portable neural inference API for local PCs and remote servers."
+https://github.com/nftechie/stonkfly,nftechie,2026-09-10,2026-09-10,874,MIT,Python,"""MN9"" malecns",A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.
+https://github.com/nftechie/doomfly,nftechie,2026-09-06,2026-09-09,430,MIT,Python,"""Drosophila_brain_model""; ""MN9"" ""sugar"" ""shuffle""; ""MN9"" malecns; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome","Fly-connectome simulation controlling a live Doom arena, with experimental neural plasticity, spectator UI, and scientific validation reports."
+https://github.com/HappyAny/fly-poker,HappyAny,2026-09-13,2026-09-13,0,none detected,JavaScript,"""Drosophila_brain_model""; ""philshiu""; ""s41586-024-07763-9""","A 13-card shedding game with a full-connectome fruit-fly simulation, running locally in your browser."
+https://github.com/jerryjliu/fly_ocr,jerryjliu,2026-09-13,2026-09-13,91,MIT,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""","Printed-character recognition through a fixed fruit-fly connectome, with a small trained decoder, compound-eye replays and a full research report."
+https://github.com/abbosaliboev/fly-brain-drone,abbosaliboev,2026-09-17,2026-09-17,4,NOASSERTION,Python,"""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire","A real 166,700-neuron fruit-fly connectome piloting a virtual drone to find food. Work in progress, honestly documented."
+https://github.com/blevlabs/fruit-fly-lab,blevlabs,2026-09-12,2026-09-12,2,GPL-3.0,Python,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_630; Completeness_783; Connectivity_783","Connectome-constrained fruit-fly research simulator, scientific references, reproducible data and explicit limitations"
+https://github.com/Hussaincodes01/Jackson-Connectome,Hussaincodes01,2026-09-19,2026-09-20,0,none detected,Python,"""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire",A fruit fly brain backed AI character
+https://github.com/InvaderSquibs/LoFly,InvaderSquibs,2026-09-15,2026-09-16,1,none detected,Python,"""Shiu et al"" malecns; ""r_poi"" ""w_syn"" ""tau""; ""w_syn"" ""0.275""",LoFly (Lord of Fly) — fruit-fly connectome console and Bug activities
+https://github.com/GugulothBhuvan/Fruit-Fly-Connectome-with-LLM-Modulatory-Layer,GugulothBhuvan,2026-09-19,2026-09-20,0,MIT,Python,"""Drosophila_brain_model""; ""MN9"" ""sugar"" ""shuffle""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome",A fly brain that gets hungry
+https://github.com/nedcut/flyrace,nedcut,2026-09-25,2026-09-25,0,MIT,TypeScript,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""",A small three.js racing game with an experimental fruit-fly connectome lab
+https://github.com/hcsolakoglu/fruit-fly-plays-fruit-ninja,hcsolakoglu,2026-09-13,2026-10-09,0,NOASSERTION,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""","A closed-loop MaleCNS connectome Fruit Ninja experiment with an orbitable 3D fly-at-PC scene, honest controls and six trace-backed videos."
+https://github.com/vikas1188/fruitfly-darts,vikas1188,2026-09-13,2026-09-13,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""","A fruit-fly connectome learns darts, controls a MuJoCo exoskeleton, and improves through an audited W&B and ARIA loop."
+https://github.com/heyobi/flysoul,heyobi,2026-09-19,2026-09-20,0,NOASSERTION,Python,"""Shiu et al"" malecns","A MaleCNS-derived spiking fly circuit plays Dark Souls III (SoulsGym): what a fly's mushroom body learns, and what a synthetic readout on its senses can do"
+https://github.com/nisbenz/flybrain-learns-english,nisbenz,2026-09-12,2026-09-12,3,NOASSERTION,Python,"""Drosophila_brain_model""; Completeness_783; Connectivity_783",an attempt to make a flybrain understand language semantics
+https://github.com/ragzur123-pixel/flybrain,ragzur123-pixel,2026-09-29,2026-09-29,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; ""w_syn"" ""0.275""",FAFB v783 connectome subnetwork and deterministic 2D vehicle research prototype
+https://github.com/Chieler/flybrain,Chieler,2026-09-11,2026-10-08,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""",
+https://github.com/lucianlavric/flybrain,lucianlavric,2026-09-15,2026-09-15,0,none detected,TypeScript,"""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783",
+https://github.com/Aeronleelucero/FLyBrain,Aeronleelucero,2026-09-17,2026-09-26,0,NOASSERTION,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/slickdomi/flybrain-fpv,slickdomi,2026-09-23,2026-09-24,0,NOASSERTION,TypeScript,"""Shiu et al"" malecns",
+https://github.com/GlebRazgar/Fly_Sim,GlebRazgar,2025-05-06,2025-06-21,0,Apache-2.0,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; Completeness_783; Connectivity_783","Simulating Drosophila frui-fly, brain and body"
+https://github.com/ReapeRAlan/fly-operator-lab,ReapeRAlan,2026-09-17,2026-09-17,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""","Conectoma completo de Drosophila (MaleCNS v1.0, 166,700 neuronas LIF) controlando un operador de Door Kickers 2: puente nativo, curriculo de aprendizaje, observatorio web y plan de mejora."
+https://github.com/anzal1/samesmell,anzal1,2026-09-11,2026-09-12,0,none detected,JavaScript,"""Drosophila_brain_model""; ""philshiu""; Connectivity_783","Two real fruit fly connectomes, male and female, react to the same pheromone in your browser and behave in opposite ways. Real MaleCNS + FlyWire data, CC-BY."
+https://github.com/pikabell/fly-tictactoe,pikabell,2026-09-14,2026-09-14,0,NOASSERTION,TypeScript,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""",A 98-cell measured Drosophila MaleCNS connectome circuit plays tic-tac-toe in the browser — with the silencing and rewiring controls that say what that does and does not mean.
+https://github.com/fsantibanezleal/CAOS_RES_Destello,fsantibanezleal,2026-09-23,2026-09-26,0,MIT,Python,"""Shiu et al"" malecns","Destello: the male fruit fly's whole nervous system (MaleCNS v1.0, 166,700 neurons) working through its two real compound eyes. Real neurons firing in 3D, vision read from them, against null wirings."
+https://github.com/evil-robot/supertruth-connectome-public,evil-robot,2026-09-20,2026-09-22,0,NOASSERTION,Python,"""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""","A fruit fly's brain beat Claude, GPT-5, Grok and Gemini at judging health records. Code, data and paper for SuperTruth's connectome study: the MaleCNS v1.0 fly nervous system held fixed and trained to"
+https://github.com/kai9987kai/supermix-archimedes,kai9987kai,2026-09-21,2026-09-22,0,MIT,Python,"""Shiu et al"" malecns","Supermix Archimedes is an experimental multi-source neural model built by grafting, distilling, fine-tuning, and connecting multiple Supermix/Omni checkpoints with a learned 22-brain Fly Lab system."
+https://github.com/Rexarrior/mosswild-fly-brain,Rexarrior,2026-09-22,2026-09-29,0,none detected,Python,Completeness_783; Connectivity_783,"Fly connectome controllers for insect colonies in Unreal Engine: SiliconFly, FlyBrainEngine, and a reactive baseline on Apple Silicon."
+https://github.com/kristianbonnici/fruit-fly-brain-snake,kristianbonnici,2026-09-15,2026-09-15,0,MIT,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""","A simulated fruit fly neural network playing Snake, with interactive 3D brain replay and research source."
+https://github.com/reiserlab/celltype-explorer-drosophila-female-adult-fly-brain,reiserlab,2025-10-01,2026-05-19,0,CC-BY-4.0,HTML,"""720575940660219265""",
+https://github.com/navis-org/navis,navis-org,2019-01-29,2026-10-07,137,GPL-3.0,Python,"""s41586-024-07763-9""",Python library for analysis of neuroanatomical data.
+https://github.com/swedishembedded/brain,swedishembedded,2026-06-24,2026-10-09,39,Apache-2.0,Rust,"""Drosophila_brain_model""",Open Source Brain Platform | AI training and inference in Rust
+https://github.com/adonis-singh/TMNF-C,adonis-singh,2026-09-06,2026-09-13,43,MIT,C,"""Shiu et al"" malecns",Deterministic TrackMania Forever physics and vector environments for reinforcement learning. Bring your own game assets.
+https://github.com/cesp99/fly-chess,cesp99,2026-09-12,2026-09-14,11,NOASSERTION,Python,"""Shiu"" ""leaky integrate"" flywire",What if a fruit fly could play chess?
+https://github.com/htem/BANC-project,htem,2025-07-31,2026-07-20,16,none detected,Jupyter Notebook,sez_neurons.pickle,
+https://github.com/ZeroXClem/closed-loop-fly,ZeroXClem,2026-09-07,2026-09-10,6,MIT,JavaScript,"""Shiu et al"" malecns; ""s41586-024-07763-9""","Closed-loop fly: a sensorimotor loop through the male Drosophila connectome, in the browser."
+https://github.com/pusulamkendim/flywire-neuro,pusulamkendim,2026-03-13,2026-07-16,6,MIT,Python,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783; sez_neurons.pickle",
+https://github.com/DeveloperKubilay/fruit-fly-plays-mc,DeveloperKubilay,2026-09-14,2026-10-05,2,MIT,Python,"""MN9"" malecns; ""sugar"" ""MN9"" ""Hz"" connectome",A real fruit fly is playing Minecraft without external intervention.
+https://github.com/Titanium-xd/neuroweave,Titanium-xd,2026-09-15,2026-09-27,3,MIT,TypeScript,"""Shiu et al"" malecns",Connectome-derived architectures vs conventional AI
+https://github.com/LxCenady/Fly-Is-All-You-Need,LxCenady,2026-09-16,2026-10-06,3,MIT,Python,"""s41586-024-07763-9""",
+https://github.com/arterialist/active-inference,arterialist,2026-03-09,2026-10-03,6,none detected,HTML,"""Drosophila_brain_model""; ""philshiu""; ""s41586-024-07763-9""; Completeness_783; Connectivity_783","Active inference sensorimotor simulations: artificial life built from PAULA neurons, biological connectomes (C. elegans), and MuJoCo physics"
+https://github.com/eudald-seeslab/connectome,eudald-seeslab,2023-06-02,2026-09-14,2,MIT,Jupyter Notebook,"""s41586-024-07763-9""",
+https://github.com/Moemu/Shouko,Moemu,2026-09-18,2026-10-01,15,NOASSERTION,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",We trained a fruit fly to drive an anime girl's body. | 我们训练了一只果蝇来操控美少女的身体
+https://github.com/harsha-vardhan-2006/fruitfly_paper,harsha-vardhan-2006,2026-09-18,2026-09-25,0,NOASSERTION,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/Ahmed-Xavier/FruitFly-Drone,Ahmed-Xavier,2026-10-08,2026-10-08,0,none detected,Python,"""720575940660219265""; ""MN9"" flywire LIF; ""Shiu"" ""leaky integrate"" flywire; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_783; Connectivity_783",
+https://github.com/Manav12-12/no-brainer,Manav12-12,2026-09-30,2026-10-01,0,NOASSERTION,Python,"""Drosophila_brain_model""; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; Completeness_783; Connectivity_783",
+https://github.com/TanVi3001/drosophila-pd-flygym-platform,TanVi3001,2026-08-11,2026-10-06,0,MIT,Python,Completeness_783; Connectivity_783,
+https://github.com/nishkarsh1215/flywire-neuromechfly,nishkarsh1215,2026-07-19,2026-07-23,0,none detected,Python,"""Shiu"" ""leaky integrate"" flywire",
+https://github.com/icewind-141/Algorithm-for-Evaluating-Neuronal-Contribution-in-Drosophila-Neural-Pathways,icewind-141,2026-08-27,2026-08-31,0,none detected,Python,"""MN9"" flywire LIF; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",This is a project that creates an algorithm to calculate the contribution of different neurons cell types to a specific pathway through drosophila connectome (starting and ending points can be set arb
+https://github.com/herhu/fly,herhu,2026-09-24,2026-09-24,0,NOASSERTION,Python,"""Shiu et al"" malecns",
+https://github.com/Jaiminp007/fly-ecosystem,Jaiminp007,2026-09-13,2026-09-13,0,MIT,JavaScript,"""MN9"" malecns; ""sugar"" ""MN9"" ""Hz"" connectome","An observable artificial-life ecosystem: inherited neural controllers, evolution, and reproducible experiments"
+https://github.com/sjcabs/fly_connectome_data_tutorial,sjcabs,2025-12-11,2026-06-07,66,MIT,HTML,"""720575940660219265""; ""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783",Tutorial on how to access the major fly connectome datasets
+https://github.com/ADM1SH/fly-connectome-sim,ADM1SH,2026-09-17,2026-09-17,0,none detected,TypeScript,"""MN9"" malecns",Biophysical Drosophila connectome embodiment engine in TypeScript with 100% test coverage.
+https://github.com/hemish22/swatter-flybody,hemish22,2026-10-05,2026-10-06,0,none detected,Python,"""Shiu et al"" malecns; ""w_syn"" ""0.275""",
+https://github.com/faouz-dev/NeuroFlight,faouz-dev,2026-09-16,2026-09-17,0,MIT,Python,"""Shiu et al"" malecns",
+https://github.com/sandbornm/housefly,sandbornm,2026-09-13,2026-09-14,1,NOASSERTION,TypeScript,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""","Six legs, many bad ideas. Experimental connectome-driven blackjack, piano, baseball and flight."
+https://github.com/a104174/NeuroFly,a104174,2026-09-10,2026-10-08,1,none detected,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/GNh0/Neurons,GNh0,2026-09-13,2026-09-13,0,none detected,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""",
+https://github.com/EricW9888/CNS,EricW9888,2026-09-12,2026-09-23,1,Apache-2.0,Python,"""Shiu et al"" malecns",Building a digital fruit fly from its mapped nervous system.
+https://github.com/TimLai666/coimnet,TimLai666,2026-09-13,2026-10-10,0,MIT,Go,"""s41586-024-07763-9""",
+https://github.com/Vishallakshmikanthan/VishalFly,Vishallakshmikanthan,2026-09-20,2026-10-06,0,none detected,TypeScript,"""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""sugar"" ""MN9"" ""Hz"" connectome",
+https://github.com/IrwinJam/FruitFly-repo-AMFly,IrwinJam,2026-09-28,2026-09-29,0,NOASSERTION,Python,"""Drosophila_brain_model""; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""",
+https://github.com/MisplacedOrange/flyverse-core,MisplacedOrange,2026-09-21,2026-09-25,1,MIT,Python,"""Drosophila_brain_model""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",Flyverse core
+https://github.com/gpue/flyyt,gpue,2026-09-24,2026-09-29,0,none detected,TypeScript,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/Harkit2004/fly-marshal,Harkit2004,2026-09-26,2026-09-27,0,none detected,Python,"""Shiu"" ""leaky integrate"" flywire; ""w_syn"" ""0.275""",
+https://github.com/ningane/banc-embodied,ningane,2026-09-18,2026-09-20,0,MIT,Python,"""MN9"" malecns; ""Shiu et al"" malecns","Embodying BANC, the female whole-CNS Drosophila connectome, in Minecraft."
+https://github.com/jagoff2/openfly,jagoff2,2026-03-09,2026-04-04,0,none detected,Python,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""Shiu"" ""MN9"" Hz; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_783; Connectivity_783",
+https://github.com/5RoD/FruitFly,5RoD,2026-09-14,2026-09-14,0,NOASSERTION,Java,"""Drosophila_brain_model""; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; Connectivity_783","Experimental Fabric 1.21.1 horror creature with real FlyWire neural modulation, multiplayer scenes and opt-in voice mimicry."
+https://github.com/alerodriargui/FruitFly,alerodriargui,2026-09-17,2026-09-17,0,none detected,Python,Completeness_783; Connectivity_783,
+https://github.com/Charmandiox9/Fly-Coder,Charmandiox9,2026-09-16,2026-09-16,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",
+https://github.com/rodenlab/hybrid001,rodenlab,2026-08-10,2026-09-23,3,MIT,HTML,"""Shiu"" ""leaky integrate"" flywire",digital hybrid nervous system. C. elegans + Drosophila connectome fusion.
+https://github.com/121786404/ffmpeg_msvc,121786404,2016-07-14,2016-11-17,6,MIT,HTML,"""r_poi"" ""w_syn"" ""tau""",使用visual studio 调试ffmpeg 源码
+https://github.com/12ziyad/NeuroGecko,12ziyad,2026-06-08,2026-09-13,1,Apache-2.0,HTML,"""Drosophila_brain_model""; ""MN9"" flywire LIF; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome","A leopard gecko simulated in MuJoCo from published biology. Every number is tagged published, derived, or invented. Runs live in your browser."
+https://github.com/1f916-ai/1fab0,1f916-ai,2026-09-17,2026-09-17,0,NOASSERTION,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""","A behavioural test for simulated fly brains, and the fly that has to pass it. A community project of the 1F916 society."
+https://github.com/03lenio/UntitledShoppingAssistant,03lenio,2024-09-16,2024-09-26,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",UntitledShoppingAssistant is a small chrome extension that allows you to shop more precisely and efficiently
+https://github.com/125hz/Tsubomi,125hz,2026-07-14,2026-10-03,16,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/0xCryden/Dungeon-Siege-Online,0xCryden,2025-05-06,2026-01-02,4,none detected,C++,"""w_syn"" ""0.275""",MMORPG Server for RPG Dungeon Siege 1
+https://github.com/385ahmet/pardus-security-vulnerability,385ahmet,2026-07-02,2026-07-02,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Pardus 58 repo guvenlik testi
+https://github.com/2001Haru/FG_DD,2001Haru,2026-08-15,2026-09-03,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/3gU11/project1,3gU11,2026-03-23,2026-09-29,1,none detected,Go,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/21cnbao/io-courses,21cnbao,2018-03-14,2018-04-17,36,none detected,C,"""w_syn"" ""0.275""",
+https://github.com/2001Haru/true_FG,2001Haru,2026-08-29,2026-09-20,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/APOM-Tawan/CSC234,APOM-Tawan,2024-02-29,2024-02-29,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/52CV/CVPR-2021-Papers,52CV,2021-03-03,2022-04-11,2530,none detected,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Aathisivabalan/-AI-Based-Predictive-Modeling-for-Network-Threat-Detection,Aathisivabalan,2025-08-15,2025-08-15,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/Aayush-Deshpande/Maverick,Aayush-Deshpande,2026-08-29,2026-10-01,0,none detected,Python,"""Drosophila_brain_model""; ""philshiu""",
+https://github.com/AbdulMateen015/CoinTrackBloc_Flutter-,AbdulMateen015,2025-12-05,2025-12-05,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Abhishek8229/adaptive-form-agent,Abhishek8229,2026-08-26,2026-08-28,1,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AcastaPaloma/genie,AcastaPaloma,2026-09-11,2026-09-24,0,none detected,TypeScript,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; Completeness_783; Connectivity_783",gurt
+https://github.com/AdithyaHerath/smart-parking-system,AdithyaHerath,2026-02-15,2026-04-27,1,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""","Smart Parking Management System 🚗📡 is an IoT-based solution that automates vehicle entry, parking allocation, and monitoring using ANPR, ESP32 devices, and a cloud-connected application ☁️. It provide"
+https://github.com/AdityaVatsS/medrec,AdityaVatsS,2025-01-02,2025-01-02,0,MIT,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Afriza90/testing,Afriza90,2024-10-06,2024-10-06,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AhmadAlali1212/wassetak-cars-backend,AhmadAlali1212,2026-08-16,2026-08-29,0,none detected,PHP,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Ahmed-Elkey/pharmacy-erp-complete-final,Ahmed-Elkey,2026-09-10,2026-09-10,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AhmedOmar2003/fi-elsekka,AhmedOmar2003,2026-03-10,2026-04-17,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Adyanth-212/Code_Collective,Adyanth-212,2025-02-08,2025-02-09,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AizenKai1001/AizenKai1001.github.io,AizenKai1001,2025-03-18,2026-09-16,0,none detected,HTML,"""s41586-024-07763-9""",This is a portfolio that I have made for myself
+https://github.com/AlexBlack2202/alexblack2202.github.io,AlexBlack2202,2018-10-01,2026-09-05,0,none detected,HTML,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/Akeel-Majeed/fruitfly,Akeel-Majeed,2026-09-14,2026-09-14,0,none detected,TypeScript,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""",
+https://github.com/Alex-Mathai-98/kGym-Kernel-Playground,Alex-Mathai-98,2024-09-06,2025-11-08,24,none detected,Python,"""w_syn"" ""0.275""",Kernel Playground - A playground to run large scale experiments on the Linux Kernel
+https://github.com/Alidev36/Vita3k-,Alidev36,2026-06-14,2026-09-01,0,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AnalyseDeCircuit/oxideterm,AnalyseDeCircuit,2026-01-21,2026-10-10,1658,GPL-3.0,Rust,"""r_poi"" ""w_syn"" ""tau""","AI-native workspace for local shells and remote machines.Zero Webview, zero OpenSSL, zero telemetry, and no app subscription."
+https://github.com/AndnixSH/Vita3K-PS-Vita-OS-Fork,AndnixSH,2025-12-19,2025-12-19,2,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",Zangetsu38's fork
+https://github.com/Andresparra0811/Machine-Learning,Andresparra0811,2024-09-28,2024-09-28,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/AnettVera/wordle_front,AnettVera,2025-07-31,2025-08-13,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AndBible/and-bible,AndBible,2011-09-26,2026-10-10,823,GPL-3.0,Kotlin,"""r_poi"" ""w_syn"" ""tau""",AndBible: Bible Study
+https://github.com/Ang11790/SafeHome,Ang11790,2026-05-26,2026-05-29,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/AnshadMV/SSB-Banking-App,AnshadMV,2024-02-17,2024-02-18,1,MIT,Dart,"""r_poi"" ""w_syn"" ""tau""","Unlocking opportunities with every transaction, paving the way to financial empowerment and prosperity."
+https://github.com/Ariellopez21/topicos-d,Ariellopez21,2026-04-07,2026-07-05,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/Artificial-Sweetener/SugarSubstitute,Artificial-Sweetener,2026-05-22,2026-10-10,19,GPL-3.0,Python,"""r_poi"" ""w_syn"" ""tau""",The desktop native Qt front-end for ComfyUI
+https://github.com/Arhamkhan18/Flutter_project,Arhamkhan18,2025-05-01,2025-05-01,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Arubadel/external_bluetooth,Arubadel,2017-05-16,2018-03-27,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Ash564738/9Lab,Ash564738,2026-09-30,2026-09-30,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/B-52405/ScrcpyTray,B-52405,2024-08-22,2024-10-15,0,GPL-3.0,Lua,"""r_poi"" ""w_syn"" ""tau""",基于Electron的托盘版scrcpy
+https://github.com/AzureKeys/KalosCrystal,AzureKeys,2024-02-13,2024-04-23,1,none detected,Assembly,"""r_poi"" ""w_syn"" ""tau""",Update to Kalos Crystal using Polished Engine
+https://github.com/Atomics-hub/consciousness-research,Atomics-hub,2026-03-28,2026-08-29,4,NOASSERTION,Python,"""Shiu"" ""leaky integrate"" flywire","Research papers and experiments on consciousness preservation, mind uploading, and functional continuity benchmarks."
+https://github.com/BITDeeper/llm_wiki_notebook,BITDeeper,2026-05-03,2026-09-30,0,none detected,,"""s41586-024-07763-9""",
+https://github.com/Basil-2759/JWebScan,Basil-2759,2022-09-19,2022-09-19,19,none detected,Java,"""r_poi"" ""w_syn"" ""tau""",毕业设计——基于Java的漏洞扫描系统
+https://github.com/BlackFoil/duckfly,BlackFoil,2026-09-16,2026-09-29,0,Apache-2.0,HTML,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""",DuckFly compound-eye robotics demo; V4 publication preparation
+https://github.com/Bornety/catalogo,Bornety,2024-11-27,2024-11-28,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Brandon7771066/TI-Sigma-New,Brandon7771066,2026-01-19,2026-10-05,1,none detected,Lean,"""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783",
+https://github.com/BrianHardyR/Subvators,BrianHardyR,2026-06-30,2026-07-02,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/BryanAyalaL/Ecovidrio-app,BryanAyalaL,2024-11-04,2024-11-22,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/BusnjukAn/HyperOS-XML-1.0-BELORUSSIAN,BusnjukAn,2023-10-22,2026-08-06,1,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/C0R3YY2/nexcom_hack,C0R3YY2,2025-06-18,2025-06-18,0,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/C0R3YY2/nexmon_linux_ubuntu_16_04_pixel_8,C0R3YY2,2025-07-08,2025-07-08,1,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/C0R3YY2/nexmon_sdr_nexus_5,C0R3YY2,2025-07-25,2025-07-25,0,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/CE1CECL/18_KantS,CE1CECL,2026-08-12,2026-08-12,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Samsung Open Source
+https://github.com/CODEwithZAKI2/My-flutter-Training,CODEwithZAKI2,2024-10-08,2024-11-07,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/CHARANSENTHIL/JIN-W,CHARANSENTHIL,2026-03-12,2026-03-12,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/CYL-Ken/Ken-OCR,CYL-Ken,2022-07-26,2022-10-12,0,none detected,C++,"""w_syn"" ""0.275""",
+https://github.com/CU-ESIIL/cubedynamics,CU-ESIIL,2025-11-17,2026-10-08,0,MIT,HTML,"""w_syn"" ""0.275""",
+https://github.com/Cajarty/PixelRealEstate-Server,Cajarty,2018-01-09,2022-12-07,0,MIT,C,"""r_poi"" ""w_syn"" ""tau""",Intermediary server for caching state of PixelRealEstate.
+https://github.com/CalandraLeslie/key,CalandraLeslie,2026-06-05,2026-06-05,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/CanelE452/pallet-6d-pose,CanelE452,2026-07-28,2026-10-10,1,NOASSERTION,Python,"""w_syn"" ""0.275""",Pallet 6D Pose Estimation - Geometry-aware Self-Training
+https://github.com/Cao-Thanh-Tung/filmInfoApp,Cao-Thanh-Tung,2024-07-25,2024-07-25,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""","Cung cấp thông tin về các bộ phim, trương trình truyền hình, lấy thông qua API của IMDB. Chức năng: tìm kiếm, lưu trữ phim yêu thích, xem thông tin chi tiết các phim, các phim liên quan"
+https://github.com/Celesca/SuperAI-SS5-Final,Celesca,2025-06-20,2026-06-05,4,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",My Super AI Engineer Season 5 Journey. Summarize all files from the hackathons
+https://github.com/Carine-69/temp-converter,Carine-69,2025-05-30,2025-05-30,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Celesca/spai_five_finals,Celesca,2025-07-05,2025-07-08,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/CenYun6/CodexBiaoPan,CenYun6,2026-08-01,2026-08-01,5,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""",Windows Codex quota dashboard with an interactive desktop pet.
+https://github.com/Cesarb72/id8,Cesarb72,2026-03-11,2026-08-13,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",the personal concierge
+https://github.com/Chiradipb02/KDSH_2025,Chiradipb02,2025-01-10,2025-06-25,1,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",All files
+https://github.com/ChristianDPeralta/FinalExam-Flutter,ChristianDPeralta,2025-05-22,2025-05-22,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Chaimaert/Medicinal_Plants_Catalog_App,Chaimaert,2024-11-09,2025-02-02,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""","A web and mobile application providing an extensive catalog of medicinal plants, allowing users to explore detailed information on plant properties, safe usage tips, and potential interactions with me"
+https://github.com/Chuanhuan/WSLdotfile,Chuanhuan,2021-07-28,2024-12-01,2,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ClarkWang-2013/Sysroot,ClarkWang-2013,2017-11-22,2018-02-23,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",sysroot image for loongson mips64el.
+https://github.com/CommanderPho/Spike3D,CommanderPho,2021-10-04,2026-10-09,4,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",A Diba lab repo for exploring position data using 3D visualization methods in Python/Jupyter-lab
+https://github.com/Croixen/pra-uts-mcc,Croixen,2024-09-26,2024-10-02,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",proyek pra-uts untuk mobile and cloud computing
+https://github.com/CommanderPho/Spike3DWorkEnv,CommanderPho,2023-03-08,2026-03-12,1,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",A super-folder that just contains all Spike3D repos as submodules (subfolders)
+https://github.com/CosmeFulanitoxD/movilesmsg,CosmeFulanitoxD,2024-09-12,2024-09-16,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Crons0609/Bifrost-S.A,Crons0609,2026-04-14,2026-05-23,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Cyuniq/DahuaMoxiang,Cyuniq,2026-07-20,2026-07-20,1,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",大话墨香
+https://github.com/D0gekong/Jaegar,D0gekong,2025-12-02,2025-12-02,6,MIT,Lua,"""r_poi"" ""w_syn"" ""tau""",Jaegar 是一个基于 LLM (大语言模型) 驱动的全栈式红队自动化侦察与渗透系统。
+https://github.com/Dafaafandi/provider-kalkulator-suhu,Dafaafandi,2025-04-22,2025-04-22,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/DUptain1993/Handheld,DUptain1993,2026-06-07,2026-06-07,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Danile71/tizen_proprietary_samsung_serranove,Danile71,2019-01-15,2019-01-16,0,none detected,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Daintybingz/VitaNS,Daintybingz,2025-07-05,2025-08-11,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/DarkCat2003-15/vmt.bootcamp,DarkCat2003-15,2026-03-10,2026-07-03,1,none detected,C#,"""r_poi"" ""w_syn"" ""tau""","Here my differents projects and activities about C#, Typescript, SQL and more..."
+https://github.com/DarkRagheb/Dark-Marijuana,DarkRagheb,2026-08-12,2026-08-25,2,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Devanshparekh24/salary-whatsapp-bot,Devanshparekh24,2026-04-24,2026-05-26,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/DavidAdolfoGomezUribe/proyecto,DavidAdolfoGomezUribe,2025-07-14,2025-07-14,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Devkalra/Aura,Devkalra,2024-09-11,2024-09-11,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/DhrubaAgarwalla/mukul-accounting,DhrubaAgarwalla,2026-05-14,2026-05-14,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Doruro2002/AgriMar,Doruro2002,2024-11-27,2024-11-29,2,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Dream4548/profile_app2,Dream4548,2024-07-09,2024-07-24,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Dsa-Terminal/Dsa-Terminal,Dsa-Terminal,2020-09-20,2022-10-31,11,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",Dsa Terminal Core
+https://github.com/DustinBrett/daedalOS,DustinBrett,2020-08-09,2026-10-10,13047,MIT,JavaScript,"""Shiu"" ""leaky integrate"" flywire",Desktop environment in the browser
+https://github.com/DuyAnh3223/EcommerceClothingApp,DuyAnh3223,2025-06-25,2025-07-07,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/DankHill2020/TheEntireWorld,DankHill2020,2025-04-28,2026-10-09,0,NOASSERTION,Wolfram Language,"""r_poi"" ""w_syn"" ""tau""","Source-available Tech Connector monorepo: Core, Official Tools, DCC bridges, and game-engine runtime."
+https://github.com/E-OS-S/E-OS,E-OS-S,2026-09-13,2026-10-05,0,AGPL-3.0,Shell,"""w_syn"" ""0.275""",
+https://github.com/EIT-team/AD9954_Current_Source,EIT-team,2017-08-25,2021-07-05,4,none detected,C++,"""w_syn"" ""0.275""",
+https://github.com/EggelB/sheet,EggelB,2025-08-30,2026-04-03,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Custom Character Sheet web-app.
+https://github.com/ETO-MQC/TaskAI,ETO-MQC,2026-05-06,2026-05-29,0,Apache-2.0,JavaScript,"""r_poi"" ""w_syn"" ""tau""",AI 驱动的桌面任务与学习计划管理应用。SmartFocus 使用 Tauri、React、TypeScript 和 SQLite 构建，把任务管理、专注计时、提醒、学习项目、资料库、AI 计划编排和数据统计整合到一个本地优先的桌面工作台中。
+https://github.com/Eiadgamal/Digital-IC-Projects,Eiadgamal,2024-11-30,2024-12-02,0,none detected,Verilog,"""w_syn"" ""0.275""",
+https://github.com/Elias7751/univer_books,Elias7751,2026-08-29,2026-08-30,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/EliotTtg/riskperu,EliotTtg,2025-04-04,2025-06-18,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/EnjoyLifeFund/AWS-AMI-cellars,EnjoyLifeFund,2017-08-04,2022-12-17,1,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/EnjoyLifeFund/AWS-RedHat-Linux-CentOS-7.3-cellars,EnjoyLifeFund,2017-08-02,2022-11-25,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/EnjoyLifeFund/Debian9-on-macLion-i686-Linuxbrew-cellars,EnjoyLifeFund,2017-09-13,2022-10-28,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/EriskReyes/Pers-nliche-Website,EriskReyes,2025-05-01,2026-07-24,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Eudouglas/grimorio-,Eudouglas,2024-03-28,2024-03-28,1,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",grimorio com flutter 
+https://github.com/Eugene-Mokrushin/mmhbmc-checkers,Eugene-Mokrushin,2026-09-18,2026-09-21,0,none detected,Python,"""720575940660219265""; ""MN9"" flywire LIF; ""Shiu"" ""leaky integrate"" flywire; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",
+https://github.com/EnjoyLifeFund/debian9-cellars,EnjoyLifeFund,2017-05-29,2022-10-28,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/EvDuch/apilx-landing,EvDuch,2026-05-23,2026-08-04,0,none detected,PHP,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Everloster/EverAgent,Everloster,2026-03-22,2026-10-10,6,none detected,Jupyter Notebook,"""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",因为爱所以AI，for love for study ai.
+https://github.com/FranFer03/MachineLearning,FranFer03,2024-08-07,2024-10-06,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/FlyBase/flybase-controlled-vocabulary,FlyBase,2015-06-11,2026-10-01,10,CC-BY-4.0,Shell,"""w_syn"" ""0.275""",The home of the FlyBase miscellaneous ontologies - incorporating the Drosophila Phenotype Ontology (see also FlyBase/drosophila-phenotype-ontology)
+https://github.com/Forend0/CSP3S,Forend0,2024-09-09,2024-12-26,0,none detected,Go,"""r_poi"" ""w_syn"" ""tau""",Программирование корпоративных систем 3 семестр
+https://github.com/Freika/dawarich,Freika,2024-03-24,2026-10-10,10635,AGPL-3.0,Ruby,"""r_poi"" ""w_syn"" ""tau""",Your favorite self-hostable alternative to Google Timeline (Google Location History)
+https://github.com/FreshTomato-Project/freshtomato-arm,FreshTomato-Project,2019-10-29,2026-10-10,194,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",Alternative open source firmware for Broadcom based routers (ARM)
+https://github.com/FuriLabs/gnome-software,FuriLabs,2024-03-20,2026-09-23,0,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/GNOME/gnome-software,GNOME,2013-08-14,2026-10-09,88,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",Read-only mirror of https://gitlab.gnome.org/GNOME/gnome-software
+https://github.com/Gabrielb0rn/kali,Gabrielb0rn,2024-06-10,2025-09-21,2,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/GNOME/glib,GNOME,2012-06-03,2026-10-09,1771,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Read-only mirror of https://gitlab.gnome.org/GNOME/glib
+https://github.com/GalaxyTab4/workbench,GalaxyTab4,2015-10-11,2015-10-11,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Gearleur/data-analysis-utseus,Gearleur,2025-12-16,2025-12-16,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/GalliumOS/xorg-server,GalliumOS,2015-11-25,2020-12-14,6,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",xorg-server with patches for galliumos
+https://github.com/GeorGie074/Lab6,GeorGie074,2024-09-10,2024-09-10,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Gh0s777tt/E-OS,Gh0s777tt,2026-06-06,2026-09-11,0,AGPL-3.0,Shell,"""w_syn"" ""0.275""","E-OS - a modern, memory-safe microkernel OS in Rust. A hardened AGPL-3.0 downstream of Redox OS."
+https://github.com/Geuens/curso_ai,Geuens,2024-01-16,2024-02-09,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/GiaHuy193/Macro_Facebook_Automation,GiaHuy193,2026-05-18,2026-05-18,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/GiovanniAmadei/SnapTask,GiovanniAmadei,2025-01-17,2026-10-10,1,none detected,Swift,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Gongdezhi1990/Qualcomm_sink_5124_64043,Gongdezhi1990,2019-11-30,2022-06-21,4,none detected,C,"""w_syn"" ""0.275""",
+https://github.com/Glaysia/ece2_26_2_2,Glaysia,2026-09-06,2026-09-21,0,none detected,TeX,"""w_syn"" ""0.275""",
+https://github.com/GrzegorzKozub/arch,GrzegorzKozub,2018-02-18,2026-10-09,2,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/GustavoHMoraes/PDM-Uematsu,GustavoHMoraes,2024-10-09,2024-11-14,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Hagrou/bricolabo,Hagrou,2026-09-26,2026-10-09,0,CC0-1.0,HTML,"""Drosophila_brain_model""; ""MN9"" flywire LIF; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome",des petites idées comme ça
+https://github.com/Gutto74/Linux-projeto2-iac,Gutto74,2025-04-28,2025-04-28,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",Script para aprovisionamento de um servidor apache. Projeto integrante do curso de linux da DIO.
+https://github.com/Han-g/Claim_Of_Core_Project,Han-g,2026-01-04,2026-08-05,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/HeangRean/Kun_flutters,HeangRean,2024-08-10,2024-08-12,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/HectorZL/resolver-auto,HectorZL,2026-03-02,2026-06-07,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Hao-Jui/Celephais-release,Hao-Jui,2026-07-08,2026-08-30,3,GPL-3.0,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Heshan-404/exercise_blocks_app_Dart,Heshan-404,2024-12-22,2024-12-23,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/HyHyZhaLee/BK2023_Thesis_SmartPole,HyHyZhaLee,2024-04-23,2024-12-22,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/IIICJXXIII/CampusTutor,IIICJXXIII,2026-01-04,2026-05-08,0,none detected,Java,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Iamabhi23/Arxiv,Iamabhi23,2023-05-29,2024-01-23,0,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/IkramRamadhan08/TAU-theArtificialUltimate,IkramRamadhan08,2026-06-15,2026-08-03,3,NOASSERTION,Rust,"""r_poi"" ""w_syn"" ""tau""",TAU ( The Artificial Ultimate)
+https://github.com/Igalia/wig,Igalia,2026-03-26,2026-10-09,9,MIT,C,"""r_poi"" ""w_syn"" ""tau""",A WPE WebKit browser using GTK
+https://github.com/JASONYANG1/qualcomm-qcc3034-,JASONYANG1,2020-12-29,2020-07-08,5,none detected,,"""w_syn"" ""0.275""",example adk64226
+https://github.com/InvestigacionUCU/Bloqueo-DNS-America-Latina-analisis-,InvestigacionUCU,2025-04-22,2025-07-03,1,none detected,Python,Connectivity_630; Connectivity_783,analisis de bloqueo ooni + dig + categorias
+https://github.com/JJ0236/JJ0236.github.io,JJ0236,2025-02-06,2026-09-24,0,none detected,JavaScript,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",
+https://github.com/Jabbslad/pocketbook,Jabbslad,2026-07-04,2026-07-18,0,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/JLGitHub66/rarefunctions,JLGitHub66,2023-07-31,2023-11-17,1,none detected,Java,"""w_syn"" ""0.275""",
+https://github.com/JeanC221/App_Conference,JeanC221,2025-04-02,2025-04-02,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/JesusSantiago31/CursoPython,JesusSantiago31,2024-04-24,2025-05-07,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/Jesus080/dos,Jesus080,2025-10-13,2025-10-13,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/JhonB-DEVLP/mangueflix,JhonB-DEVLP,2024-11-08,2025-03-21,6,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Johnnybyzhang/asuswrt_qca9563_yoru,Johnnybyzhang,2020-07-10,2020-04-19,2,GPL-2.0,,"""r_poi"" ""w_syn"" ""tau""",Source code from ASUS Support https://www.asus.com/jp/Networking/Lyra-Trio/HelpDesk_Download/
+https://github.com/Jetson-TK1-AndroidTV/jetson_external_bluetooth_bluez,Jetson-TK1-AndroidTV,2016-02-22,2016-02-22,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/JuanPabloPinza/Conjunta2PMoviles,JuanPabloPinza,2025-01-23,2025-01-23,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/JuniorCarti/aws-restart-tracker,JuniorCarti,2025-10-21,2025-10-21,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/JustinV200/OnTheFly,JustinV200,2026-09-12,2026-09-14,2,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""w_syn"" ""0.275""; Completeness_783; Connectivity_783","RHO_HACKATHON: A fruit fly managed B2B marketplace built on voluntary price transparency. Connect your business account, see every expense in a private dashboard, and flip the ones you want public. Pu"
+https://github.com/KarinaKhorostovska/final-task-epam,KarinaKhorostovska,2025-06-27,2025-06-27,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/KSJ-16-Project/KSJ-Recon,KSJ-16-Project,2026-04-27,2026-05-20,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",This K-Shield Junior Team Project of Team One 
+https://github.com/Kashyeb57/quant-finance-journey,Kashyeb57,2026-02-19,2026-10-04,0,none detected,JavaScript,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; Completeness_630; Connectivity_630","My learning journey through quantitative finance — notes, resources, and study log, built as a Docusaurus site"
+https://github.com/Karthik-Sudarsanan/flutter_application_1,Karthik-Sudarsanan,2025-02-28,2025-02-28,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/KieraKujisawa/gtk2-build-env,KieraKujisawa,2019-03-19,2019-03-19,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Kuberwastaken/flm,Kuberwastaken,2026-09-09,2026-09-26,10,NOASSERTION,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""","A language model trained from scratch through fly-connectome recurrence. ChatFLM: local conversations, live neural state, and controlled language and behavior studies."
+https://github.com/KushajveerSingh/archive,KushajveerSingh,2026-05-07,2026-05-07,0,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Kweinkauff29/Homepage,Kweinkauff29,2022-10-12,2026-10-02,0,NOASSERTION,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/KyleReginaldo/iconify_flutter,KyleReginaldo,2022-08-23,2022-08-23,3,MIT,Dart,"""w_syn"" ""0.275""",
+https://github.com/L1lNo1ses/Dotfiles,L1lNo1ses,2025-09-28,2025-09-29,0,none detected,GLSL,"""r_poi"" ""w_syn"" ""tau""",My Nixos bspwm Config
+https://github.com/Lecrapouille/Robotik,Lecrapouille,2025-02-20,2026-10-09,1,MIT,C++,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""w_syn"" ""0.275""; Completeness_783; Connectivity_783","[WIP Lib][Version 0.2.0, still experimental] Robot IK library and viewer. Use with care !"
+https://github.com/LelouBil/PhasBypass,LelouBil,2020-12-21,2021-09-19,11,GPL-3.0,C++,"""r_poi"" ""w_syn"" ""tau""","Small dll that disables the checks Phasmophobia uses to detect modding, to use Doorstop, BepInEx or MelonLoader"
+https://github.com/LeTranMinhKhoi2506/GymManagement,LeTranMinhKhoi2506,2026-04-01,2026-06-09,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/LittleRookie1115/TJ-CS-Coursework,LittleRookie1115,2025-08-27,2025-09-23,5,Apache-2.0,Roff,"""r_poi"" ""w_syn"" ""tau""",Tongji University CS Undergraduate Coursework
+https://github.com/Liagiba03/Flask-Predictions-Malware-Android,Liagiba03,2024-11-11,2024-11-13,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Predicciones de Malware en Android- Gráfico resultante
+https://github.com/LiuDaCheng666/LNU-LibSeat,LiuDaCheng666,2026-06-02,2026-07-25,11,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",辽宁大学图书馆约座小助手
+https://github.com/LogRhythm-Labs/SRP-Nmap,LogRhythm-Labs,2018-07-20,2018-07-20,2,MIT,Lua,"""r_poi"" ""w_syn"" ""tau""",Nmap SIEM Integration and Automation for LogRhythm
+https://github.com/Lonartie/CoroYori,Lonartie,2024-06-27,2025-04-27,0,MIT,C++,"""w_syn"" ""0.275""",
+https://github.com/Ludaprince/My_Admin_Panel,Ludaprince,2024-05-24,2025-08-27,1,MIT,Dart,"""r_poi"" ""w_syn"" ""tau""",Building an E-commerce App with Admin Panel with Postman and MongoDB database
+https://github.com/LuisKlt/ProgramacaoMobile1,LuisKlt,2024-08-02,2024-11-09,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/LuisOfL/Curso_MachineLearning_DataScience,LuisOfL,2024-12-22,2025-03-29,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/Luissalet/DoriansHoard,Luissalet,2026-09-12,2026-10-09,0,none detected,Python,"""s41586-024-07763-9""","What would they say, choose, and why? A local-first research prototype for evidence-backed personal reflections, contextual expression, preference evaluation and permissioned MCP."
+https://github.com/LyuDeveloper/HomeCode,LyuDeveloper,2024-06-21,2024-10-06,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Lulzx/molecular-compiler,Lulzx,2026-10-06,2026-10-08,0,Apache-2.0,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",A research framework for compiling connectomes and molecular profiles into executable nervous-system models.
+https://github.com/MC0803/coding,MC0803,2025-05-13,2026-10-02,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MRidhoPS/portofolio,MRidhoPS,2024-11-25,2024-11-30,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MatheusDuarteM/painelCeetModelo,MatheusDuarteM,2025-05-13,2025-05-13,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MOBO-OSS/systemd-relative,MOBO-OSS,2016-01-29,2016-01-29,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",systemd configure
+https://github.com/Maekawa96/Portfolio,Maekawa96,2024-09-30,2025-03-06,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MauricioSA5401/LibrosPy,MauricioSA5401,2024-09-30,2024-11-24,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Trabajos de estudio
+https://github.com/MelvinTo/not_fnm,MelvinTo,2018-04-12,2020-06-08,0,NOASSERTION,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MelvinTo/firewalla_nodemodules.aarch64,MelvinTo,2017-06-25,2017-06-25,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MelvinTo/not_fnm_64,MelvinTo,2018-11-07,2022-06-22,0,NOASSERTION,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MetaCell/ai-model-for-connectomics,MetaCell,2025-06-27,2025-10-20,0,none detected,Jupyter Notebook,"""720575940660219265""",AI Model for Connectomics
+https://github.com/Mia9469/ClaimCommons,Mia9469,2026-09-21,2026-09-28,0,MIT,HTML,"""s41586-024-07763-9""","An open-source claim-evidence commons for bounded, inspectable scientific knowledge."
+https://github.com/MichaelSquires/dotfiles,MichaelSquires,2017-10-24,2026-04-23,1,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",Various rc files
+https://github.com/Michaellovestocode/cambridgeinternationalschoolwarri,Michaellovestocode,2026-05-11,2026-10-07,0,none detected,Blade,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Michell-Figueroa/CareTracker,Michell-Figueroa,2025-11-20,2025-11-20,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MinaWagihz/NetSentry,MinaWagihz,2025-12-19,2025-12-19,0,NOASSERTION,Lua,"""r_poi"" ""w_syn"" ""tau""",Network Vulnerability Scanner with GUI - ARP & Port Scanning
+https://github.com/Minna-Abdelhady/MM-Internship,Minna-Abdelhady,2024-07-17,2024-08-03,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Mmdabb/QVDFE,Mmdabb,2026-07-24,2026-07-27,0,MIT,Python,"""w_syn"" ""0.275""",Reproduction and review archive for the QVDFE manuscript
+https://github.com/MinziiK/TYRO,MinziiK,2026-05-07,2026-06-19,0,none detected,Python,"""w_syn"" ""0.275""",Cooperative Dual-Robot System for Automated Truck Tire Replace
+https://github.com/Mohammad-QT/Flutter,Mohammad-QT,2026-04-12,2026-04-12,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",My Journey with Flutter
+https://github.com/Moerov/FireSOC,Moerov,2025-05-20,2026-05-22,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",List of tools and scripts to test the effectiveness of the SOC using Atomic Red Team Framework.
+https://github.com/MohamedHussein27/RTL2GDS_Implementation_of_Low_Power_Configurable_Multi_Clock_Digital_System,MohamedHussein27,2025-08-19,2025-11-20,0,none detected,Verilog,"""w_syn"" ""0.275""","An RTL-designed UART-based digital system, verified with a self-checking testbench and implemented through synthesis, STA, DFT, Formality, and full PnR to GDS."
+https://github.com/MoritzWillig/causalParrots,MoritzWillig,2023-02-01,2024-03-19,11,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MrCode97/sm-f1-toolchain,MrCode97,2025-05-04,2025-05-04,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Mungert69/FreeNetworkMonitorAgent,Mungert69,2024-11-30,2025-12-10,0,GPL-2.0,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/MurakawaTakuya/biohub-cell-tracking,MurakawaTakuya,2026-09-24,2026-10-03,0,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Mungert69/NetworkMonitorQuantumSecure,Mungert69,2024-07-05,2025-12-12,0,GPL-2.0,Lua,"""r_poi"" ""w_syn"" ""tau""",Quantum Secure App
+https://github.com/MyoungSoo7/MyoungSoo7.github.io,MyoungSoo7,2026-05-04,2026-10-10,1,none detected,HTML,"""Drosophila_brain_model""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/NNDipuIslam/Protibeshi-Bazar,NNDipuIslam,2023-09-18,2024-06-20,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/N-wrt/asuswrt-ipq6018,N-wrt,2022-11-28,2026-06-13,6,NOASSERTION,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/NNroc/SSGU-CD,NNroc,2023-09-13,2024-09-03,0,none detected,Roff,"""w_syn"" ""0.275""",
+https://github.com/Nanamiiiii/dotfiles,Nanamiiiii,2021-04-30,2026-10-08,11,none detected,Nix,"""r_poi"" ""w_syn"" ""tau""",Nix is awesome :)
+https://github.com/NathaliaLietuvaite/Quantenkommunikation,NathaliaLietuvaite,2025-05-31,2026-10-10,13,NOASSERTION,Python,"""Shiu"" ""leaky integrate"" flywire",Praktische Quantenkommunikation über synchronisierte Helfer-Systeme
+https://github.com/NaufalFairuz/smarthome,NaufalFairuz,2024-11-14,2024-12-19,3,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/NicolasBoeno/poke_app,NicolasBoeno,2024-07-20,2024-07-20,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/NikolenkoAV2020/Selena,NikolenkoAV2020,2019-10-13,2019-10-13,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",C++ TCP/IP
+https://github.com/Nishant1600/BrainstormingJARVIS,Nishant1600,2026-09-23,2026-09-23,0,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""","JARVIS voice assistant, native on Windows + OpenCode - every run recorded"
+https://github.com/OAAX-standard/hailo-acceleration,OAAX-standard,2024-11-11,2026-06-09,1,Apache-2.0,C++,"""w_syn"" ""0.275""",Wrappers around HailoRT & Hailo DFC
+https://github.com/Oilotakumaster/Agent_Factory_Lab,Oilotakumaster,2026-05-04,2026-05-12,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",Agent_Factory_Lab
+https://github.com/OctavioNovelo/Herramientas-Ejecutables-de-Reconocimineto-y-Auditoria,OctavioNovelo,2026-08-06,2026-08-27,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Oluwamayowa247/falling_in_love,Oluwamayowa247,2024-11-17,2024-11-17,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/OpenAdaptAI/openadapt-desktop,OpenAdaptAI,2026-03-03,2026-10-10,6,MIT,Python,"""r_poi"" ""w_syn"" ""tau""","Desktop application for local workflow authoring, operation, evidence review, and governed repair."
+https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster,OpenHEC,2019-12-08,2020-03-18,103,MIT,C++,"""w_syn"" ""0.275""",
+https://github.com/Ottitsch/correlation-matrix,Ottitsch,2026-02-28,2026-03-01,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/OraOpenSource/language-oracle,OraOpenSource,2015-10-24,2019-10-06,20,NOASSERTION,PLSQL,"""r_poi"" ""w_syn"" ""tau""",Language spec for Atom converted from TextMate bundle
+https://github.com/OwnMenu/OwnMenu-Dashboard,OwnMenu,2026-09-18,2026-09-18,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",OwnMenu的餐馆老板后台应用
+https://github.com/PDi-Communication-Systems-Inc/lollipop_external_bluetooth,PDi-Communication-Systems-Inc,2016-03-11,2016-05-17,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Bluez bluetooth protocol stack
+https://github.com/PMatrixMedia/Website-Rework,PMatrixMedia,2025-06-30,2026-04-21,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Pacifisty/YT_multi_publi,Pacifisty,2026-04-11,2026-09-05,0,MIT,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Palapluem/superai_engineer_ss6,Palapluem,2026-03-13,2026-06-16,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",This repositories is about the Super AI Engineer Season 6 of me for the all advantures of AI Engineer in 2026 career path.
+https://github.com/PandoraClub/WizaTV,PandoraClub,2018-09-04,2022-10-04,4,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Papkinspice/ProjectWeb,Papkinspice,2025-11-14,2026-02-20,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/PhearZero/scanner,PhearZero,2014-08-18,2021-03-31,3,MIT,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/PedroFerreiraDevv/flame-challenge-xennon,PedroFerreiraDevv,2024-11-22,2024-11-22,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",Flame engine prototype
+https://github.com/Polonity/ethglobaltokyo2026-bio-agent,Polonity,2026-09-25,2026-09-26,0,none detected,JavaScript,"""Shiu et al"" malecns",
+https://github.com/PieroJF/Robot-qarm-fruit-sorting,PieroJF,2026-04-16,2026-09-02,5,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",Autonomous fruit sorting with Quanser QArm 4-DOF + Intel RealSense D415 | Applied Robotics — University of Birmingham
+https://github.com/Pryancito/eclipse-old,Pryancito,2025-09-05,2026-05-02,1,MIT,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Radimelfi/Machine-Learning-y-Data-Science-con-Python,Radimelfi,2025-10-11,2026-01-01,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""","Repositorio sobre Machine Learning con Python 3, que combina teoría y práctica para aplicar técnicas de aprendizaje automático con Pandas, NumPy, Scikit-learn y Matplotlib usando datos reales. Ideal p"
+https://github.com/RPDJF/dotfiles,RPDJF,2025-03-03,2025-10-02,3,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",My arch dot files
+https://github.com/QORTEC/solus-package-recipes,QORTEC,2023-04-06,2023-03-31,0,none detected,,"""r_poi"" ""w_syn"" ""tau""",Just my local copy of the Solus package recipe repos
+https://github.com/RajendraKumarTVH/Playwright-Truevaluehub-main,RajendraKumarTVH,2026-02-08,2026-02-17,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Ramdam17/ConnectivityMetricsTutorials,Ramdam17,2025-11-25,2026-03-10,0,NOASSERTION,Jupyter Notebook,"""w_syn"" ""0.275""",Educational workshop series on hyperscanning and EEG connectivity metrics
+https://github.com/ResonanceEnergy/DIGITAL-LABOUR,ResonanceEnergy,2026-03-07,2026-08-07,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",BIT RAGE LABOUR
+https://github.com/Rizwanullah-Sheikh/AutoPenTest,Rizwanullah-Sheikh,2026-03-31,2026-05-14,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Richy-coder171/woodapp-project-app,Richy-coder171,2026-05-25,2026-07-04,1,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/RsvsNeeraj0306/Auto-apply,RsvsNeeraj0306,2025-08-17,2025-08-17,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Ryota-Kawamura/biohub-cell-tracking-during-development,Ryota-Kawamura,2026-09-20,2026-10-02,0,MIT,Python,"""r_poi"" ""w_syn"" ""tau""","Kaggle Biohub Cell Tracking (2026): 3D+time cell detection and tracking, with an automated submit-score loop. Silver medal, rank 183/4017 (private LB 0.924)."
+https://github.com/RiS3-Lab/p2im,RiS3-Lab,2020-03-08,2023-10-14,149,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",This is the source code for P2IM paper (accepted to Usenix Security'20)
+https://github.com/SHEFFcode/secretScript,SHEFFcode,2017-05-09,2017-05-30,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Sandeep131999/Python,Sandeep131999,2024-11-03,2026-06-03,1,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/SammmmAZ/WEB_APP_FLUTTER,SammmmAZ,2024-08-27,2024-08-27,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Sandern/lambdawars-game,Sandern,2020-11-14,2026-09-26,6,none detected,Python,"""w_syn"" ""0.275""","Lambda Wars game, available on the Steam "
+https://github.com/SanidhyaLabh/flysntax,SanidhyaLabh,2026-10-06,2026-10-06,0,Apache-2.0,HTML,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; Completeness_783; Connectivity_783",
+https://github.com/SariaMahmood20/CoreRep,SariaMahmood20,2024-06-01,2024-06-01,3,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""","Mobile posture correction application based on Flutter, Dart, FireBase and Google Ml Kit for pose detection"
+https://github.com/SchenLikun/PINN-for-Microgrid-and-Power-Distribution-Systems,SchenLikun,2024-03-15,2025-03-12,26,Apache-2.0,Python,"""w_syn"" ""0.275""",Physics Informed Neural Network for Microgrid synchronous- and inverter-based DERs
+https://github.com/Satvik374/Jarvis,Satvik374,2026-07-06,2026-10-05,1,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; Completeness_783; Connectivity_783",
+https://github.com/SchenLikun/PINNforMicrogrid,SchenLikun,2024-11-05,2024-11-05,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/ShaofengZou/CVPR-2020-Paper-Code-Statistics,ShaofengZou,2020-06-24,2020-06-30,9,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""","Crawl CVPR paper and code, make statistical visualization of topic and keyword"
+https://github.com/SelinKarpuzcu/bee_store_selin,SelinKarpuzcu,2025-03-08,2025-03-08,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/SharathHebbar/PCRevamp,SharathHebbar,2020-09-25,2020-10-03,1,none detected,Assembly,"""r_poi"" ""w_syn"" ""tau""",Polished Crystal (Rangi42 ) revamped beta 1
+https://github.com/Shinxyy/portable_binaries,Shinxyy,2025-08-01,2025-08-01,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""","Portable binaries, just unzip and run without any installation required."
+https://github.com/ShaunandDavid/content-engine-x,ShaunandDavid,2026-03-17,2026-04-14,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ShivamIT23/board.static,ShivamIT23,2026-04-03,2026-09-16,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Shmata/Outlook_Add-in,Shmata,2025-08-24,2025-09-19,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""","A React and TypeScript based Outlook Add-in that leverages the MSAL library to acquire user access tokens, enabling seamless integration with Microsoft Graph APIs. This solution allows users to intera"
+https://github.com/Shubhayu2004/Prakrit,Shubhayu2004,2024-01-17,2024-01-26,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",This is the project that we are going to represent in the 2024 Google Developments Solution Challenge
+https://github.com/ShubhamS40/MEDILIVE,ShubhamS40,2024-08-30,2024-09-19,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""","MEDILIVE , An application project that aspires to fill the management gap in hospitals . New age "" Hospital Management system  "" that helps in overall management in hospitals that include "
+https://github.com/Shxowy/Jazz,Shxowy,2025-06-16,2025-06-16,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/SimonBlancoE/ejecta,SimonBlancoE,2026-09-29,2026-09-29,0,MIT,C,"""r_poi"" ""w_syn"" ""tau""","Removable drives in your system tray, done right. Mount, open and safely eject USB drives — and when something is holding a drive busy, Ejecta tells you what it is and closes it for you."
+https://github.com/Soeun-Sovannarith/Model_Training,Soeun-Sovannarith,2025-12-02,2025-12-08,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/Spyderma9/ThisFlyPlaysDrums,Spyderma9,2026-09-26,2026-09-27,1,none detected,Python,"""Shiu et al"" malecns; Completeness_783; Connectivity_783",A fly that plays drums :)
+https://github.com/Steve0465/AI-Stick,Steve0465,2026-01-14,2026-01-14,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Portable AI toolkit for Raspberry Pi 5 with Ollama
+https://github.com/Stacced/netmonitor,Stacced,2020-05-25,2024-02-21,0,GPL-3.0,Lua,"""r_poi"" ""w_syn"" ""tau""","NetMonitor est une application permettant à une personne lambda d'utiliser l'outil de scan réseau Nmap, sans connaissances requises."
+https://github.com/Spunkbob/WhatsappMesajG-nder,Spunkbob,2025-09-15,2025-09-15,0,MIT,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Soupstraw/exec-spec-temporary,Soupstraw,2024-11-05,2025-03-13,0,none detected,Haskell,Completeness_630,
+https://github.com/SwooshyCueb/OSC,SwooshyCueb,2016-09-06,2016-09-15,0,MPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/T-Miguel/ThatDamnFly,T-Miguel,2026-09-13,2026-09-19,0,MIT,C++,"""Drosophila_brain_model""; ""w_syn"" ""0.275""",That Damn Fly
+https://github.com/SyafiqSuhairy/MyMemberlink,SyafiqSuhairy,2024-11-10,2024-12-11,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/TJUISTAJeff/CrossT5,TJUISTAJeff,2024-01-14,2024-01-17,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/T4RZH3N/pico-team20,T4RZH3N,2023-10-22,2023-11-30,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",INF2004 IS PROJECT
+https://github.com/TL-System/plato,TL-System,2020-10-21,2026-10-08,400,Apache-2.0,Python,"""w_syn"" ""0.275""",Plato: A Research Framework for Federated Learning
+https://github.com/TalhaBrother/School_Management_System,TalhaBrother,2026-03-05,2026-03-09,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/TanVi3001/drosophila-pd-neural-disease,TanVi3001,2026-08-28,2026-09-27,0,none detected,Python,"""720575940660219265""; Completeness_783; Connectivity_783; sez_neurons.pickle",Các thí nghiệm gây nhiễu bệnh thần kinh bằng máy tính có ràng buộc bằng chứng đối với chuyển động của ruồi giấm Drosophila trong FlyGym.
+https://github.com/TaeyanG4/biohub-cell-tracking-during-development,TaeyanG4,2026-10-01,2026-10-01,0,Apache-2.0,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""","Team Taeyang's research record for Kaggle Biohub - Cell Tracking During Development (3D zebrafish nucleus tracking): pipeline, 70 candidates, validation lessons and a postmortem against the top soluti"
+https://github.com/Team-Atlanta/atlantis-c-libafl-snapshot,Team-Atlanta,2025-10-16,2026-05-12,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Team-Atlanta/aixcc-afc-atlantis,Team-Atlanta,2025-08-06,2025-11-25,651,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Team-Auralis/orion,Team-Auralis,2026-08-18,2026-09-27,0,NOASSERTION,HTML,"""720575940660219265""; ""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; ""w_syn"" ""0.275""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",
+https://github.com/TerryMaloney/animalia-arcana,TerryMaloney,2025-08-10,2025-09-14,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",Flutter web + mobile tarot app (Animalia Arcana) for agent-assisted development
+https://github.com/TechSmith/CamtasiaOpenSourceLibraries,TechSmith,2015-08-20,2021-11-29,3,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Open source libraries used by Camtasia Studio and Camtasia:mac
+https://github.com/Teleo-org/ideation-app,Teleo-org,2026-07-24,2026-08-01,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",Simple app for my own ideation
+https://github.com/TheAndersMadsen/dashdance,TheAndersMadsen,2026-09-13,2026-09-29,7,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""","Dashdance: Super Smash Bros. Melee with Slippi rollback netplay, native on Mac, iPad, iPhone and Apple Vision Pro. Unofficial community client, no emulator."
+https://github.com/The-Uploading-Lab/fly-behavior-experiments,The-Uploading-Lab,2026-09-13,2026-09-13,0,MIT,Python,"""w_syn"" ""0.275""","Reproduce the Stockholm Longevity × AI Hackathon fly treatment comparison and neuronal aging experiment, with optional videos."
+https://github.com/TheCulliganMan/geothite,TheCulliganMan,2026-08-31,2026-10-10,2,none detected,Rust,"""Drosophila_brain_model""; ""philshiu""",Geothite Gen2 rewrite - A native Rust / Bevy recreation of Gen 2 Poke
+https://github.com/TheMulhima/Lumafly,TheMulhima,2022-08-30,2026-10-04,425,GPL-3.0,C#,"""w_syn"" ""0.275""",A cross platform mod manager for Hollow Knight written in Avalonia.  
+https://github.com/Thomas-Heisig/MHRN,Thomas-Heisig,2026-08-16,2026-10-08,0,MIT,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""",
+https://github.com/Theory-Y/tuxies-wiki,Theory-Y,2025-05-28,2026-10-03,10,MIT,Shell,"""r_poi"" ""w_syn"" ""tau""","Tuxie's Wiki tries to be a newcomer friendly source of documentation for all things Linux related. From common troubleshooting to cool programs that makes Linux fun, we try to improve Tuxie's Wiki so "
+https://github.com/ThitiwutBoss03/ITCS424_Project_018_025_079_215,ThitiwutBoss03,2024-01-11,2024-10-20,0,MIT,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Threx-code/cordon,Threx-code,2026-09-08,2026-10-08,2,Apache-2.0,Python,"""r_poi"" ""w_syn"" ""tau""","Language-agnostic software supply-chain security scanner. Detects malicious packages, suspicious install-time behaviour, secrets and dependency risk across any ecosystem."
+https://github.com/Timothe-2004/Friend,Timothe-2004,2024-04-24,2024-07-01,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ToMMYLiu868686/Tokopedia---UTS,ToMMYLiu868686,2024-05-06,2024-05-06,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/TuCore/CraftVision_3D,TuCore,2026-07-04,2026-10-09,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/TuxML/lastresults-ML,TuxML,2019-07-23,2019-08-15,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Last results of learning pipelines using IGRIDA
+https://github.com/TsujiiLaboratory/geniass,TsujiiLaboratory,2012-05-28,2011-07-20,3,NOASSERTION,C++,"""w_syn"" ""0.275""",GENIA Sentence Splitter
+https://github.com/TwinWhales/Hack-The-Box,TwinWhales,2026-01-09,2026-05-09,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/TuxML/size-analysis,TuxML,2019-05-20,2022-11-17,5,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Analysis of 125+ Linux configurations (this time for predicting/understanding kernel sizes) 
+https://github.com/UWCubeSat/BMS-EPS-HS2,UWCubeSat,2025-10-05,2026-05-21,0,none detected,Python,"""w_syn"" ""0.275""",Repository of the HS-2 Battery Management System
+https://github.com/Ugarba202/Medical_app,Ugarba202,2024-10-05,2024-10-06,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",A Beautiful Mediacl App User Built with flutter and Dart and has only three Screens
+https://github.com/VagnerGiraldinoJr/trabalhomobile,VagnerGiraldinoJr,2026-04-07,2026-04-10,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",Trabalho 1 Mobile ESOFT7S (ou ADSIS5S)
+https://github.com/ValveSoftware/steamlink-sdk,ValveSoftware,2018-07-26,2025-03-17,561,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/UkisAI/Swift-Qwen3.8-27B-evals,UkisAI,2026-09-13,2026-09-13,13,none detected,Python,"""w_syn"" ""0.275""","Raw benchmark logs for Swift-Qwen3.8-27B vs the Qwen3.8-27B BF16 base: every response, score, and config across 9 benchmarks"
+https://github.com/VernunftIstWirklich/bilibili,VernunftIstWirklich,2025-05-26,2025-06-05,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",start
+https://github.com/VillaKeth/Mario-Bathroom-AI,VillaKeth,2026-03-06,2026-10-06,0,none detected,Python,"""Drosophila_brain_model""; ""MN9"" ""sugar"" ""shuffle""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",
+https://github.com/Vertexwahn/third_party,Vertexwahn,2024-02-02,2026-02-01,1,none detected,C++,"""w_syn"" ""0.275""",Bazelized third party dependencies
+https://github.com/Vinay-N-Kashyap/Present-Career-os,Vinay-N-Kashyap,2026-08-17,2026-10-10,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/VishnuB01/Material3-Demo,VishnuB01,2024-09-12,2024-09-12,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Vita3K/Vita3K-Android,Vita3K,2023-02-12,2025-02-22,1665,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",Public releases and CI for the Vita3K Android app
+https://github.com/Vita3K/Vita3K,Vita3K,2018-01-26,2026-10-10,5805,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",Experimental PlayStation Vita emulator
+https://github.com/Vnntnn/Stopid_shxt_X,Vnntnn,2026-10-10,2026-10-10,0,none detected,HTML,"""720575940660219265""; ""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783",
+https://github.com/Vyacheslav-S/openwrt-rtk819,Vyacheslav-S,2023-04-18,2023-12-09,12,none detected,,"""r_poi"" ""w_syn"" ""tau""","OpenWrt for MTS S1010,  Beeline SmartBox ONE,  Dom.ru S1010.ER, WIFIRE S1010.NBN routers"
+https://github.com/WhiteArt666/admin_panal_app_Flutter,WhiteArt666,2025-07-19,2025-07-19,0,MIT,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/WeaveITMeta/Voltec-Operating-System,WeaveITMeta,2026-01-15,2026-10-04,1,none detected,C++,"""w_syn"" ""0.275""",LogosQ Rust based Redox Forked Operating System.
+https://github.com/Wimiiiiiii/quiz2om,Wimiiiiiii,2025-04-07,2025-06-25,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/WinVector/WVExamples,WinVector,2025-01-09,2026-05-21,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Win Vector technical articles and example code
+https://github.com/YanYihann/YYnotes,YanYihann,2026-04-18,2026-09-23,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/XperiaSTE/android_external_bluetooth_glib,XperiaSTE,2016-05-24,2016-05-24,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""", Automatically exported from code.google.com/p/aosp-bluez.glib
+https://github.com/Yanjin-ai/flywireconnectome,Yanjin-ai,2026-06-05,2026-06-09,0,none detected,Python,"""s41586-024-07763-9""",Cross-connectome MCIS solver for FlyWire Codex challenge; identifies structurally invariant sensorimotor circuits across Drosophila connectomes.
+https://github.com/Yaretzi-debug/Proyecto-final-Pasteleria-yaretzi-tagle-Mayo-2026,Yaretzi-debug,2026-06-03,2026-06-03,0,MIT,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Yashini-Hettiarachchi/app_voc,Yashini-Hettiarachchi,2025-05-24,2025-05-24,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Yaswanth192/VR192,Yaswanth192,2026-08-11,2026-08-11,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/YijieYin/llm_circuit_analysis,YijieYin,2026-03-13,2026-08-04,4,MIT,Jupyter Notebook,"""s41586-024-07763-9""","Using Large Language Models to analyse neural circuit data, especially connectomics data"
+https://github.com/Yebot32/xenra,Yebot32,2024-11-20,2026-09-06,367,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Xenra an xbox og/360 emulator
+https://github.com/YouChowMein/Information-Security,YouChowMein,2018-12-08,2018-12-09,2,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",2018年信息安全技能竞赛(我们学校举办的)，记录下比赛资料，CTF相关。
+https://github.com/YugiohCCG/YugiohCCG.github.io,YugiohCCG,2025-08-09,2026-10-07,0,none detected,C#,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ZafarQualitrix1/EducationalApplication,ZafarQualitrix1,2026-02-25,2026-02-26,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Z43L/davmoren.github.io,Z43L,2025-10-27,2026-09-20,0,none detected,JavaScript,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/ZeroVa/calhacks2015,ZeroVa,2015-10-11,2015-10-11,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/Zynx05/bmi-calculator-flutter,Zynx05,2024-08-01,2024-08-11,1,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/a3ro-dev/nerdy-fly-connectome-lab,a3ro-dev,2026-09-14,2026-09-17,0,MIT,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""",
+https://github.com/a81869033/ALS_Final,a81869033,2026-05-30,2026-06-15,0,none detected,Verilog,"""w_syn"" ""0.275""",115-2 NTHU ALS Final Project
+https://github.com/aaravsinhaofficial/website,aaravsinhaofficial,2026-03-11,2026-10-03,0,none detected,JavaScript,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",Personal website for research+cool stuff about me
+https://github.com/aditi-2827/mad,aditi-2827,2026-09-27,2026-09-27,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/adrianbaron/DelMarApp,adrianbaron,2024-12-05,2024-12-05,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/abhi123nith/Portfolio,abhi123nith,2024-08-24,2024-08-27,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/aaygan29/chorus,aaygan29,2026-07-18,2026-09-15,0,MIT,Python,"""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""sugar"" ""MN9"" ""Hz"" connectome",In-silico connectome-grounded BCI control study (dual-use neurosecurity research)
+https://github.com/aducci/stockModeller,aducci,2023-11-24,2026-10-10,0,GPL-3.0,TypeScript,"""sugar"" ""MN9"" ""Hz"" connectome",3D modeller using common building stock
+https://github.com/aflin/rampart-langtools,aflin,2025-09-28,2026-10-09,1,MIT,C,"""w_syn"" ""0.275""","llama.cpp, sentencepiece and faiss for rampart.  More to come."
+https://github.com/ahmdelbaz28-ux/ETAP-AI-WORK-,ahmdelbaz28-ux,2026-06-11,2026-10-07,2,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/akashche/itw_win_devkit,akashche,2019-01-07,2019-01-15,2,none detected,Perl,"""r_poi"" ""w_syn"" ""tau""",Development kit for building IcedTea-Web on windows
+https://github.com/aires-create/FINQZ_PRO,aires-create,2026-05-05,2026-08-12,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",Sistema FINQZ - Plataforma de automação e gestão financeira
+https://github.com/ajdroger/-Archivio_Gestionale_App,ajdroger,2025-12-26,2026-10-01,1,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",archivio gestionale per la digitalizzazione dei moduli soci 
+https://github.com/aistairc/PRISM-APIs,aistairc,2022-03-17,2023-05-26,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/alansntxs/automa-o-atendimento,alansntxs,2026-04-17,2026-04-17,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/albanread/FasterBASIC-public,albanread,2026-03-14,2026-03-14,0,MIT,Zig,"""r_poi"" ""w_syn"" ""tau""",Public source code repo for FasterBASIC
+https://github.com/alexmac/cygwinmac,alexmac,2013-02-10,2013-02-10,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Cygwin cross-compiler for OSX hosts
+https://github.com/alexanderbates/asbates,alexanderbates,2021-07-04,2026-07-07,0,none detected,HTML,"""s41586-024-07763-9""",A personal website for Alexander S Bates
+https://github.com/alinvdu/neuromorphic-connectome-approach,alinvdu,2024-01-22,2024-05-04,3,none detected,Jupyter Notebook,"""w_syn"" ""0.275""","Spiky neurons, bi-exponential synapses, larval zebrafish connectome analysis, STDP, HopField Networks."
+https://github.com/alkaline-software/emaki,alkaline-software,2026-07-29,2026-10-10,1,MIT,Rust,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/allgoodnow/fruit_fly_torment_nexus,allgoodnow,2026-09-09,2026-10-06,2,none detected,Python,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",
+https://github.com/alwin905/CONTEXT-AWARE-WEB-APPLICATION-FIREWALL,alwin905,2025-06-01,2025-06-02,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/amcchord/Hopscotch,amcchord,2026-04-09,2026-09-21,0,MIT,C++,"""w_syn"" ""0.275""",A robot with 4 motors and 2 arms
+https://github.com/amazedsaint/duckfly,amazedsaint,2026-09-11,2026-09-13,4,Apache-2.0,HTML,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""",Map fly-circuit signals to robot actions in an interactive Microduck simulator for the web and macOS.
+https://github.com/amyleesterling/ca3,amyleesterling,2026-07-29,2026-10-08,0,none detected,HTML,"""s41586-024-07763-9""",Hippocampus renderings for one of our publications
+https://github.com/amyleesterling/flywire-neuron-gallery,amyleesterling,2026-05-05,2026-05-07,0,none detected,TypeScript,"""s41586-024-07763-9""",gallery page for flywire renders
+https://github.com/amyleesterling/projects-overview,amyleesterling,2026-07-29,2026-09-21,0,none detected,TypeScript,"""s41586-024-07763-9""",Interactive exhibition and network map of Amy Sterling's 2026 public code projects
+https://github.com/amyleesterling/render,amyleesterling,2026-10-04,2026-10-05,0,MIT,Python,"""Drosophila_brain_model""",guide to rendering neurons with AI
+https://github.com/ananta888/ananta,ananta888,2025-07-23,2026-10-10,3,NOASSERTION,Python,"""s41586-024-07763-9""","Open, local-first multi-agent platform for secure AI-assisted development with hub-worker orchestration, dynamic role routing, and offline-capable execution."
+https://github.com/anbparts/anbparts,anbparts,2026-04-02,2026-10-10,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/andreaskuster/black-parrot-branch-predictor,andreaskuster,2020-03-09,2024-03-24,15,GPL-3.0,HTML,"""w_syn"" ""0.275""",Branch Predictor Optimization for BlackParrot
+https://github.com/andriaxd/octan-records,andriaxd,2026-01-30,2026-09-27,1,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",Website for my own Record Label - Octan Records.
+https://github.com/android-x86-mirror/external-bluetooth-glib,android-x86-mirror,2023-06-05,2023-06-05,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/anovruzov/NeuralGraph,anovruzov,2025-12-16,2026-10-10,161,MIT,Python,"""w_syn"" ""0.275""",
+https://github.com/andydavies/OpenSource-Software-Bundle,andydavies,2014-06-24,2014-06-15,0,none detected,Ruby,"""r_poi"" ""w_syn"" ""tau""",Open Source Software used at Appurify
+https://github.com/aprabhu-acelytix/Sound-Forge-VST,aprabhu-acelytix,2026-05-02,2026-05-07,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/anvaka/map-of-github-data,anvaka,2023-05-07,2026-06-05,107,none detected,JavaScript,"""w_syn"" ""0.275""",This repository contains tiles and data for the map of github
+https://github.com/arkilpatel/reviewing,arkilpatel,2026-04-11,2026-04-29,0,none detected,TeX,"""s41586-024-07763-9""",
+https://github.com/arnoldkelly299/tasksuiteapp,arnoldkelly299,2024-10-28,2026-03-07,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",its a tools app
+https://github.com/armadito/armadito-windows-deps,armadito,2016-06-06,2017-06-07,9,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Armadito MS-Windows dependencies
+https://github.com/armdevvel/glib,armdevvel,2021-01-05,2021-05-31,2,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",GLib with fixes for ARM32 Windows (LLVM-MinGW)
+https://github.com/astrotycoon/source-,astrotycoon,2012-02-19,2012-03-08,8,none detected,C,"""r_poi"" ""w_syn"" ""tau""",the source that I learn
+https://github.com/arturjordao/PaperSearch,arturjordao,2024-01-28,2026-01-29,1,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/atari-vcs/glib2.0,atari-vcs,2021-09-07,2025-12-04,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/aurellwrd/slicingdart,aurellwrd,2025-05-31,2025-05-31,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/atlas-nano/codes,atlas-nano,2026-07-20,2026-09-30,1,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",py-xPT (2PT/3PT density-of-states entropy) and lj-4d-md (4D Lennard-Jones MD engine) — code for the 3PT liquid-entropy paper
+https://github.com/bacharsabra/Hermes,bacharsabra,2024-03-23,2024-03-23,1,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",A Flutter Dart mobile application used for geolocalisation.
+https://github.com/bacemhlabba/Quiz-Game-IPSAS,bacemhlabba,2024-12-15,2025-12-12,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/balabit-deps/balabit-os-7-glib2.0,balabit-deps,2018-11-19,2021-12-21,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/banfjax-hash/banf,banfjax-hash,2026-03-04,2026-07-13,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/balabit-deps/balabit-os-9-glib2.0,balabit-deps,2022-11-15,2026-02-17,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/bang-olufsen/gpl,bang-olufsen,2021-01-20,2021-03-17,1,none detected,,"""r_poi"" ""w_syn"" ""tau""",Bang & Olufsen modified GPL source code
+https://github.com/bedwards/hex-index,bedwards,2025-12-13,2026-09-21,0,AGPL-3.0,HTML,"""s41586-024-07763-9""",
+https://github.com/bb-claw/kernel-test-data,bb-claw,2026-08-04,2026-10-01,1,MIT,HTML,"""w_syn"" ""0.275""",reporting data for kernel-test repository
+https://github.com/bennoleslie/glib,bennoleslie,2012-01-18,2012-01-18,1,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Glib import
+https://github.com/bernherre/dbtDatabricks,bernherre,2025-09-07,2025-09-11,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",dbt with databricks and application on flutter to control
+https://github.com/binaya-rijal/whiskautoz,binaya-rijal,2025-12-22,2025-12-27,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/binh-vu/iswc25,binh-vu,2025-08-01,2025-08-01,0,MIT,Julia,"""w_syn"" ""0.275""",
+https://github.com/bioinfoUQAM/method,bioinfoUQAM,2014-03-20,2014-04-30,0,none detected,C++,"""w_syn"" ""0.275""",Method developed
+https://github.com/bisratlike/flutter-2024-proj,bisratlike,2024-03-14,2024-05-30,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/blabla1337/Labs,blabla1337,2017-08-04,2017-05-11,4,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Labs for Evil Mainframe
+https://github.com/blackfuel/asuswrt-rt-ax88u,blackfuel,2018-10-23,2020-03-06,15,NOASSERTION,,"""r_poi"" ""w_syn"" ""tau""",AsusWRT RT-AX88U router GPL source code
+https://github.com/bitwiseworks/glib2-os2,bitwiseworks,2021-08-17,2025-10-27,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/blank157/uiux-example,blank157,2026-04-28,2026-04-28,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/blendi-remade/streaming-fly-throughts,blendi-remade,2026-09-12,2026-09-13,1,NOASSERTION,Java,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",
+https://github.com/bluez-android/glib,bluez-android,2015-10-30,2015-10-30,1,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/blurayne/claude-experiments,blurayne,2026-05-14,2026-09-24,3,none detected,HTML,"""s41586-024-07763-9""",A subfolder for each expiriment
+https://github.com/bm16ton/nexmon-raspberrypi4,bm16ton,2020-12-21,2022-11-23,0,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""","nexmon with no-ir radar removed and 5ghz channels 16-216 added 2.4ghz 12,13,14 enabled"
+https://github.com/bnsmb/clang19_toolchain_for_android,bnsmb,2024-12-27,2026-10-10,10,Apache-2.0,Roff,"""r_poi"" ""w_syn"" ""tau""",This repository contains a toolchain for clang19 on Android running on a arm64 CPU
+https://github.com/bobdouceur2/dashArt,bobdouceur2,2024-03-25,2024-04-10,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/bodgit/bkm-129x-ultimate,bodgit,2022-09-30,2024-03-11,1,none detected,OpenSCAD,"""w_syn"" ""0.275""",
+https://github.com/brandonbena07/simo-app1,brandonbena07,2026-04-06,2026-04-15,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/brettmartin4/Surface-Code-Simulation-For-Quantum-Error-Correction,brettmartin4,2021-12-14,2022-03-29,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Static and dynamic surface code simulations for quantum error correction. This was my master's thesis project while I was a student at AFIT.
+https://github.com/burakgulmez/fly-flappybird,burakgulmez,2026-10-03,2026-10-03,0,MIT,Python,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/burakgulmez/fly-pong,burakgulmez,2026-10-03,2026-10-03,0,MIT,Python,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/burakgulmez/fly-snake,burakgulmez,2026-10-03,2026-10-03,0,MIT,Python,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/buri34/poenavi,buri34,2026-02-19,2026-10-09,41,MIT,Python,"""r_poi"" ""w_syn"" ""tau""","PoE1/2 companion for Japanese game clients: leveling guides, price checking, timers, and OCR tools for Expedition and Abyss."
+https://github.com/butleraj017/DefAI,butleraj017,2025-05-12,2025-05-20,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/c-a/glib,c-a,2012-04-24,2012-04-24,3,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/c4studios/C4,c4studios,2026-03-12,2026-10-10,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/bycycomr/tickly,bycycomr,2025-11-05,2026-01-15,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/camihoy96/EDP_TECH,camihoy96,2026-06-24,2026-09-25,0,Apache-2.0,Lua,"""r_poi"" ""w_syn"" ""tau""","IT Helpdesk System to centralize the operation of the LSP company from their branches, departments has interaction between the users and the IT department tech team."
+https://github.com/cambridgeltl/BioNLP-2016,cambridgeltl,2016-06-22,2018-05-02,124,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/callmerishi1508/ATLAS,callmerishi1508,2026-09-13,2026-09-13,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/capitalch/trace-plus,capitalch,2023-10-22,2026-09-10,0,GPL-3.0,TypeScript,"""r_poi"" ""w_syn"" ""tau""",Trace accounting package next version
+https://github.com/cat916/dotfiles,cat916,2024-01-31,2024-09-24,0,none detected,CSS,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/cassiopeiaObelidor/ps-flutter,cassiopeiaObelidor,2025-06-12,2026-06-10,0,NOASSERTION,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/casept/samsung-rinato-sources,casept,2023-12-22,2024-06-04,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""","Samsung open source release for the Gear 2 / Gear 2 Neo (SM-R380/SM-R381, codename ""rinato"")"
+https://github.com/ceibal-tatu/glib2.0,ceibal-tatu,2015-05-18,2015-05-25,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/celerp/celerp,celerp,2026-04-16,2026-10-10,30,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""","Downloadable, self-hosted desktop ERP for business operations. Modular, source-available core, MIT modules, no cloud required."
+https://github.com/chaos-66/LLM4BPC,chaos-66,2026-06-16,2026-10-10,0,GPL-3.0,Python,"""w_syn"" ""0.275""",
+https://github.com/cemkesici/Space_Project,cemkesici,2024-02-26,2024-02-29,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/charles-yeager/PYNQ-Z2,charles-yeager,2026-07-11,2026-07-11,0,none detected,HTML,"""w_syn"" ""0.275""",
+https://github.com/chenhuanghui0310/financial-analysis-main,chenhuanghui0310,2025-11-03,2026-03-14,1,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/chengwang96/NeuroOracle-HFSpace,chengwang96,2026-05-23,2026-05-23,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/chenyingshu/advances_3d_neural_stylization,chenyingshu,2023-09-05,2026-09-01,149,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Awesome 3D Stylization - Advances in 3D Neural Stylization
+https://github.com/chlenonozka/wms,chlenonozka,2026-05-05,2026-06-18,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/chighfi1/PrivateTesting,chighfi1,2025-07-11,2025-08-30,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/chroblert/AssetManage,chroblert,2019-12-06,2021-06-02,274,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/chunlin007/VeRa,chunlin007,2023-07-15,2024-03-26,4,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",This is the repo for VeRa：Value Peripheral Register Values for  Fuzzing MCU Firmware
+https://github.com/cixr0x/chirper,cixr0x,2026-04-15,2026-05-04,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",Twitter clone
+https://github.com/clockwrk/meme-generator,clockwrk,2017-06-05,2017-06-05,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",testing out meme-generators
+https://github.com/clankwright/science,clankwright,2026-02-01,2026-07-23,11,none detected,Jupyter Notebook,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",A collection of scientific research projects using data science and machine learning.
+https://github.com/clozanoruiz/terrazgo,clozanoruiz,2026-07-09,2026-10-06,0,AGPL-3.0,Rust,"""r_poi"" ""w_syn"" ""tau""","Gestión agrícola de código abierto y modular para escritorio y móvil: diseñada para funcionar sin conexión (offline-first), pensada para el trabajo real en el campo con conectividad poco fiable."
+https://github.com/coapp-packages/glib,coapp-packages,2011-09-02,2013-09-02,1,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/codacy-open-source-projects-scans/glib,codacy-open-source-projects-scans,2024-03-27,2026-10-09,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",This is frozen/no-commits mirror of the https://github.com/GNOME/glib.git
+https://github.com/codeurjc/linux-bugs,codeurjc,2023-12-22,2025-07-30,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/codydunne/HGPolyVis,codydunne,2024-09-24,2024-09-24,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/creaitr/AI-conference-papers,creaitr,2021-08-28,2021-09-08,6,CC0-1.0,SCSS,"""r_poi"" ""w_syn"" ""tau""",The papers published in top-tier AI conferences in recent years.
+https://github.com/cogcommscience-lab/flow-dynamic,cogcommscience-lab,2018-10-04,2023-05-15,3,GPL-3.0,Jupyter Notebook,"""w_syn"" ""0.275""",Code for a study investigating the brain network basis of flow experiences.
+https://github.com/cosimoc/glib,cosimoc,2014-03-04,2017-10-01,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/creinike/Data_science_Machine_learning_cybersecurity,creinike,2021-05-29,2021-05-29,3,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Data analysis exercises in cybersecurity
+https://github.com/crispino/RealTek_Router,crispino,2019-05-14,2019-05-05,2,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/curtislam485/ECE-385,curtislam485,2024-10-01,2024-12-13,0,none detected,VHDL,"""w_syn"" ""0.275""",
+https://github.com/culjakluka/PrijaveProjekata,culjakluka,2023-11-19,2024-08-20,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/cxy17600428066/ui-cxy,cxy17600428066,2026-04-08,2026-07-26,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/daiv05/vynta,daiv05,2026-02-24,2026-09-03,2,MIT,Vue,"""r_poi"" ""w_syn"" ""tau""",Productivity application for drawing on screen and desktop utilities.
+https://github.com/dalloliogm/kaggle_competitions,dalloliogm,2025-03-03,2026-10-10,0,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/dancinlab/anima,dancinlab,2026-03-24,2026-08-14,149,MIT,Python,"""w_syn"" ""0.275""","🧠 Living Consciousness Agent — PureField repulsion-field engine · Engine A ⇄ Engine G · Ψ=1/2 fixed point · 2,448 laws + 392 hypotheses"
+https://github.com/dancinlab/anima-lab-0,dancinlab,2026-07-30,2026-07-30,0,MIT,Python,"""w_syn"" ""0.275""","🧠 Living Consciousness Agent — PureField repulsion-field engine · Engine A ⇄ Engine G · Ψ=1/2 fixed point · 2,448 laws + 392 hypotheses"
+https://github.com/dandev64/BasicGDocsDarkMode,dandev64,2025-07-10,2025-07-10,0,none detected,CSS,"""r_poi"" ""w_syn"" ""tau""",Basic Dark Mode for Google Docs to help your eyes when working at night
+https://github.com/danielgonzagat/Darwin-Engine,danielgonzagat,2025-10-07,2025-10-07,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Seleção Natural Real - 70% I³ - BACKUP COMPLETO
+https://github.com/danielgonzagat/penin3,danielgonzagat,2025-10-03,2025-10-07,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/dannymas-GIT/handball,dannymas-GIT,2024-06-04,2024-06-05,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Reference 
+https://github.com/darren-clark/android_platform_external_bluetooth_glib,darren-clark,2015-11-16,2015-12-15,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/darrenori/Wristky,darrenori,2026-03-24,2026-03-24,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/daviasaf/grazitur-v2,daviasaf,2026-05-18,2026-09-17,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/darthstm/meupsi_app,darthstm,2024-04-11,2024-04-13,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/deba-maity/asphalt,deba-maity,2026-10-01,2026-10-05,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/decal/werdlists,decal,2016-07-07,2024-08-14,368,Apache-2.0,HTML,"""r_poi"" ""w_syn"" ""tau""",":keyboard: Wordlists, Dictionaries and Other Data Sets for Writing Software Security Test Cases"
+https://github.com/decoverri/treasure-generator,decoverri,2012-11-09,2023-01-02,2,MIT,Java,"""w_syn"" ""0.275""",App to generate RPG treasure from Pathfinder Ultimate Equipment
+https://github.com/denizsokmen/dsl-ac68u,denizsokmen,2018-09-04,2020-03-08,5,NOASSERTION,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/delvison/dotfiles,delvison,2023-09-06,2026-07-22,0,none detected,Nix,"""r_poi"" ""w_syn"" ""tau""","dotfiles for vim, zsh, tmux, NixOS"
+https://github.com/deepsteve/deepsteve,deepsteve,2026-02-21,2026-10-08,9,MIT,JavaScript,"""s41586-024-07763-9""","A UI around your Claude Code and Codex terminals that your agents build, so the only model in your head is yours."
+https://github.com/deepin-community/gobject-introspection,deepin-community,2022-08-15,2026-09-22,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/develo-oper-piyush/BunkMate,develo-oper-piyush,2026-04-15,2026-04-15,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""","BunkMate is a web application which lets you decide to bunk or not, by using your attendance info. from the CyberVidya ERP"
+https://github.com/dgtoan/FlutterBasicProject,dgtoan,2024-03-20,2024-04-12,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",Learn Flutter By Building Projects
+https://github.com/dhivyaprabhanatarajan/to-do-app,dhivyaprabhanatarajan,2025-07-08,2025-07-08,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/disparter/toguwaka-discord-game,disparter,2025-06-04,2025-06-26,1,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/dilshodjonavezov/test,dilshodjonavezov,2024-09-11,2024-09-11,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/dkomyagin/snmonitor,dkomyagin,2024-11-10,2026-07-09,0,Unlicense,C++,"""r_poi"" ""w_syn"" ""tau""", This simple software is designed for a very basic low-level subnet monitoring
+https://github.com/dnobori/DN-OSS-Learn,dnobori,2018-12-01,2022-12-08,4,none detected,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/dorianborian/doriantodd.com,dorianborian,2026-09-14,2026-09-15,1,none detected,HTML,"""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""",
+https://github.com/douglance/nib,douglance,2025-12-29,2026-09-10,1,Apache-2.0,Rust,"""r_poi"" ""w_syn"" ""tau""",Native screenshot annotation tool with QML semantic protocol
+https://github.com/dnsdudrla97/glib-fuzz,dnsdudrla97,2021-12-26,2021-12-26,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/dradtke/battlechess,dradtke,2012-09-25,2012-11-25,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/druglogics/ags-paper,druglogics,2020-04-22,2023-09-15,0,MIT,R,"""w_syn"" ""0.275""",Sup. Material & Report for AGS paper
+https://github.com/dtch1997/jarvis,dtch1997,2026-08-17,2026-10-05,0,none detected,HTML,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_630; Connectivity_630",
+https://github.com/ds-modules/ecc-ai,ds-modules,2026-03-05,2026-10-09,0,none detected,Jupyter Notebook,"""s41586-024-07763-9""",Repository for AI Modules for El Camino College
+https://github.com/ds-modules/ecc-textbook.notebooks,ds-modules,2025-06-16,2026-10-09,0,BSD-3-Clause,Jupyter Notebook,"""s41586-024-07763-9""",Jupyter notebook files for ds-modules/ecc-textbook
+https://github.com/ds-modules/ecc-textbook,ds-modules,2025-06-16,2026-10-09,1,BSD-3-Clause,Jupyter Notebook,"""s41586-024-07763-9""",Workbook of El Camino Modules Notebooks
+https://github.com/dukad/EECE4632FinalProject,dukad,2024-02-26,2024-04-26,2,none detected,VHDL,"""w_syn"" ""0.275""",
+https://github.com/dwgx/UltimateTracker_FirmWare,dwgx,2026-06-07,2026-07-10,1,none detected,Python,"""w_syn"" ""0.275""",VIVE Ultimate Tracker firmware and updater research archive
+https://github.com/echutch/ece385,echutch,2026-02-04,2026-05-15,0,none detected,VHDL,"""w_syn"" ""0.275""",
+https://github.com/dzvelaiamarietta1-collab/seo-report-tool,dzvelaiamarietta1-collab,2026-05-08,2026-07-07,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",SEO audit tool with PowerPoint and PDF export — by Infinity Solutions
+https://github.com/ed-he/MA2-TicTacToe,ed-he,2024-11-12,2024-11-21,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/eightman999/kamimusuhi,eightman999,2026-09-07,2026-10-10,1,MIT,Python,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""; Completeness_783; Connectivity_783",
+https://github.com/eiaserinnys/seosoyoung-blog,eiaserinnys,2026-04-21,2026-10-08,6,MIT,HTML,"""Drosophila_brain_model""; ""philshiu""",서소영의 서재 블로그 소스입니다.
+https://github.com/emiliano0807/Proyecto_ML,emiliano0807,2025-01-20,2025-03-22,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/equalearn/AndroidScreenCapture,equalearn,2019-12-20,2017-07-31,1,none detected,,"""r_poi"" ""w_syn"" ""tau""","capture the screen of an android device, encode and stream the video/audio to a media server"
+https://github.com/estnltk/ettenten-experiments,estnltk,2018-11-28,2020-05-21,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Experiments with the etTenTen corpus
+https://github.com/endlessm/gnome-software,endlessm,2016-02-12,2026-09-16,8,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",Fork of GNOME Software with Endless customizations
+https://github.com/ethanplusai/jarvis,ethanplusai,2026-03-26,2026-09-10,847,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""","JARVIS — a voice assistant for Claude Code. Talk to your Mac and he brainstorms a project with you, builds it, and tells you out loud when a Claude Code session needs you. macOS, on your Claude subscr"
+https://github.com/fahimroslan/IPGSSy,fahimroslan,2025-11-20,2025-12-30,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/faatthy/RTL-to-GDS-Implementation-of-Low-Power-Configurable-Multi-Clock-Digital-System,faatthy,2024-09-03,2025-07-03,1,none detected,Verilog,"""w_syn"" ""0.275""",It is responsible for receiving commands through UART receivers to do different system functions such as register file reading/writing or doingsome processing using ALU block and sending results throu
+https://github.com/fanpu/flyjack,fanpu,2026-09-11,2026-09-12,5,GPL-2.0,Python,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" ""sugar"" ""shuffle""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""sugar"" ""MN9"" ""Hz"" connectome; ""w_syn"" ""0.275""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",Fruit fly plays blackjack
+https://github.com/fati199734/absence-manager,fati199734,2025-05-19,2025-05-20,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fatihfaritshi/FBOX-Flutter-UAS-MPL,fatihfaritshi,2025-05-20,2025-05-28,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",Final Project UAS Mobile Programming Lanjut | Semester 6
+https://github.com/fauby/TubesABP-flutter,fauby,2025-04-16,2025-04-16,0,GPL-3.0,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fdkofficial/novel,fdkofficial,2026-02-25,2026-03-30,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fhira21/QuizzApp,fhira21,2024-07-04,2025-08-29,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fipppi/Vita3k-win,fipppi,2024-01-14,2024-01-14,0,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fitz-s/zeus,fitz-s,2026-03-30,2026-10-10,2,NOASSERTION,Python,"""w_syn"" ""0.275""","Personal, risk-capped weather-contract engine: settlement-aware probabilities, frozen decisions, fail-closed execution, settled calibration."
+https://github.com/fkaempf/fkaempf.github.io,fkaempf,2026-02-02,2026-09-23,0,none detected,HTML,"""s41586-024-07763-9""",
+https://github.com/firewalla/fnm.node8.aarch64,firewalla,2018-05-04,2022-06-22,0,NOASSERTION,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/firewalla/firewalla_nodemodules.x86_64,firewalla,2017-01-22,2017-12-22,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fotrosi/expense_tracker,fotrosi,2024-07-28,2024-09-01,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/flayseca/Falabella,flayseca,2026-04-07,2026-04-07,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/fxzxmicah/fedora-rpm-rebuild,fxzxmicah,2024-08-02,2026-09-23,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",For OCD patients. For personal use.
+https://github.com/frida/glib,frida,2014-02-23,2026-10-08,25,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Frida depends on GLib
+https://github.com/frosch95/K8sFileBrowser,frosch95,2023-07-30,2025-11-13,2,MIT,C#,"""w_syn"" ""0.275""",Tool for easily downloading files from Kubernetes pods.
+https://github.com/gabrielepalladino/VisionAID,gabrielepalladino,2025-12-24,2026-06-23,0,none detected,PHP,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/gabmartinbr/ToDo_app_hive_db,gabmartinbr,2025-04-08,2025-04-22,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",Simple flutter ToDo app using hive database for internal storage
+https://github.com/galirous-ai/law-project,galirous-ai,2026-04-12,2026-04-12,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/gdgly/test1,gdgly,2020-10-27,2020-08-12,0,none detected,,"""w_syn"" ""0.275""",ddd
+https://github.com/geoJaSON/terra,geoJaSON,2026-06-13,2026-06-13,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/getsolus/packages,getsolus,2023-08-16,2026-10-10,140,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""",Solus Package Monorepo & Issue Tracker
+https://github.com/giantmons/bineil_flutter,giantmons,2024-07-19,2024-07-25,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/gol0g/BrainSimulation,gol0g,2025-12-21,2026-10-10,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; Connectivity_783","Brain simulation with SNN, Self-Model, and consciousness components"
+https://github.com/goutham414/kali-n900,goutham414,2016-03-21,2016-03-22,7,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Kali Linux for Nokia N900
+https://github.com/gsutanto/dmp,gsutanto,2021-02-08,2021-08-20,7,MIT,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""","A library for Dynamic Movement Primitive (DMP), a compact learning representation of (time-scale-invariant) behaviors/trajectories/time-series signals."
+https://github.com/guyleneatoo3/siad_education,guyleneatoo3,2025-09-03,2025-10-02,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",c'est un projet qui vise à aider les décideurs dans la prise des décisions sur les programmes scolaires 
+https://github.com/h3xagon0001/arduino-micro-badusb,h3xagon0001,2025-06-04,2026-07-22,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/gongwr/xpl,gongwr,2022-04-05,2022-06-19,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ha1phong/Dickies_shop_clothes,ha1phong,2024-06-20,2024-06-20,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/hamzanexadev/DOSS-Clone,hamzanexadev,2026-06-06,2026-06-06,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/hankleid/ProjectMundo,hankleid,2024-02-12,2025-06-12,0,none detected,Jupyter Notebook,"""s41586-024-07763-9""",
+https://github.com/hankleid/ProjectMundo-Anon,hankleid,2025-03-11,2025-06-10,0,none detected,Jupyter Notebook,"""s41586-024-07763-9""",
+https://github.com/hasanbulat/tshark-arm64,hasanbulat,2017-04-17,2017-04-18,34,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",tshark cross compiled for android arm64 architecture devices
+https://github.com/harveybc/predictor,harveybc,2014-11-06,2026-10-09,6,MIT,Python,"""w_syn"" ""0.275""","Deep learning platform for financial forecasting: phased CNN, LSTM, transformer and TFT training pipelines whose models are served by prediction-provider"
+https://github.com/hauwah414/sso-admin,hauwah414,2024-10-09,2024-10-09,0,none detected,Blade,"""w_syn"" ""0.275""",
+https://github.com/hauwah414/food-web-admin,hauwah414,2024-10-09,2024-10-09,0,none detected,Blade,"""w_syn"" ""0.275""",
+https://github.com/hauwah414/sso-be,hauwah414,2024-10-09,2024-10-09,0,none detected,Blade,"""w_syn"" ""0.275""",
+https://github.com/hcj8861/my-opemclaw,hcj8861,2026-04-03,2026-05-03,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/hd31520/gateway_client,hd31520,2026-04-30,2026-06-18,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/hdxdfff/MetaForge,hdxdfff,2026-04-03,2026-09-22,1,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Local-first control plane for multi-agent operations and experimentation.
+https://github.com/hekimoghlu/OpenSystem,hekimoghlu,2025-10-17,2025-10-22,7,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/helmerfmj/MachineLeaningESAM,helmerfmj,2023-06-11,2023-06-18,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/helmerfmj/MachineLearningUCB,helmerfmj,2023-06-07,2023-07-01,4,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/hexhowells/hexhowells.com,hexhowells,2023-01-04,2026-10-08,0,none detected,HTML,"""Drosophila_brain_model""; ""philshiu""; ""s41586-024-07763-9""",Code for my personal website
+https://github.com/hilaldonmez/relation_extraction,hilaldonmez,2021-08-30,2021-09-05,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Relation Extraction for Chemical and Protein Interactions from Biomedical Documents
+https://github.com/hippoley/FlyThink-Anatomy-Demo,hippoley,2026-09-19,2026-10-10,0,none detected,JavaScript,"""Drosophila_brain_model""; ""philshiu""",
+https://github.com/hiep1444/Mobile,hiep1444,2024-02-02,2024-04-04,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/hjonnala/snippets,hjonnala,2021-09-24,2023-06-15,4,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/hongshui3000/BluetoothEarbud,hongshui3000,2018-03-08,2018-03-06,2,none detected,C,"""w_syn"" ""0.275""",Study new Qualcomm QCC3026 platform for Earbud(TWS)
+https://github.com/howard-lynn-ye/Fin-RSI,howard-lynn-ye,2026-09-04,2026-10-08,1,MIT,Python,"""Drosophila_brain_model""; ""philshiu""; ""s41586-024-07763-9""","Source-verified knowledge base of the Python quantitative-finance ecosystem, packaged as Agent Skills. Every claim dated and marked verified/secondhand/unverified."
+https://github.com/hoangnguyen-z/pet-shop-1,hoangnguyen-z,2026-04-10,2026-04-22,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/hydrosaviours/Hydro-Saviors,hydrosaviours,2024-09-27,2024-10-05,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/iamjulies/VocaFlow,iamjulies,2026-08-17,2026-10-03,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""","Offline-first English vocabulary learning app with Flashcards, Quiz, IPA keyboard, and Excel sync"
+https://github.com/hwatheod/gnubg-web,hwatheod,2019-09-22,2026-09-01,24,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",A port of GNU Backgammon to the web.  Currently hosted at http://xenon.stanford.edu/~hwatheod/gnubg_web/gnubg_web.html
+https://github.com/iampbot/WindowsExploitsToRunAShareOn,iampbot,2022-07-02,2026-09-30,6,none detected,PowerShell,"""r_poi"" ""w_syn"" ""tau""",Repo of C# and PowerShell Scripts for windows priv esc exploitation and enumeration
+https://github.com/icradP/bluetoothZ,icradP,2024-02-02,2024-02-22,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/iesah/IPC-SDK,iesah,2023-11-28,2023-11-28,16,none detected,,"""r_poi"" ""w_syn"" ""tau""",Smart Doorbell IPC SDK for a certain Vendor.
+https://github.com/iluaii/fwm,iluaii,2026-06-20,2026-10-10,175,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""","Wayland compositor in C/wlroots where windows are physical objects (real Box2D rigid bodies) — and a full desktop besides: ten desktops on one scrolling world, tiling or floating per desktop, launcher"
+https://github.com/ikoshos-gland/website,ikoshos-gland,2025-12-29,2026-09-17,0,none detected,TypeScript,"""s41586-024-07763-9""",
+https://github.com/imagirelab/GreatWave_2026,imagirelab,2026-09-23,2026-10-10,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",『神奈川沖浪裏』の没入型3D/VR表現に向けた動的波浪と浮世絵表現の研究制作。
+https://github.com/imbhargavkalariya/country_hub,imbhargavkalariya,2024-04-10,2024-04-10,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/imlegend19/VidSpark,imlegend19,2020-02-14,2022-12-08,4,BSD-3-Clause,Python,"""r_poi"" ""w_syn"" ""tau""",VidSpark is a prototype video CMS backend system powered by spark and elasticsearch
+https://github.com/indigoai-us/hq-desktop-app,indigoai-us,2026-06-24,2026-10-10,1,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""","HQ Desktop — one app that installs HQ, then runs as the Sync menu-bar/tray agent. Tauri 2 + Svelte 5."
+https://github.com/input-output-hk/cardano-ledger-executable-spec,input-output-hk,2023-11-01,2024-08-01,0,none detected,Haskell,Completeness_630,Executable specification of `cardano-ledger` generated from Agda
+https://github.com/itsManjeet/softwares,itsManjeet,2024-08-21,2024-08-21,0,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/itsFDavid/PLyF-s7,itsFDavid,2025-09-03,2025-10-13,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/itznishantthapa/QuizApplication,itznishantthapa,2024-07-30,2024-07-31,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ivan-rm/tfg-fuzzing-glib-libsoup,ivan-rm,2026-04-19,2026-06-09,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",TFG en la UOC dentro del área de Seguridad Informática. Aplicación de técnicas de fuzzing al software libre
+https://github.com/ivn-mg/Cybersecurity-ML,ivn-mg,2024-07-01,2025-05-14,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Ejercicios prácticos aplicados a la seguridad de la información mediante técnicas de Machine Learning.
+https://github.com/jakujobi/SE_306_P2,jakujobi,2025-04-04,2026-03-25,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/jalavienrose/mental-health-tracker-mobile,jalavienrose,2024-10-31,2024-11-20,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/j1akai/KConfigFuzz_bug,j1akai,2025-09-12,2025-11-27,1,none detected,C,"""w_syn"" ""0.275""",
+https://github.com/jameshilliard/DD-WRT,jameshilliard,2013-11-09,2013-11-10,5,none detected,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/jaredpalmer/fly-dating-app,jaredpalmer,2026-09-11,2026-09-11,11,none detected,Python,"""MN9"" flywire LIF; ""MN9"" malecns",Born to fly. Forced to date.
+https://github.com/jas502n/nmap-zh,jas502n,2018-04-19,2018-04-19,8,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",nmap中文文档
+https://github.com/jaspreetgakhal1/SplitNGo,jaspreetgakhal1,2026-02-04,2026-04-24,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""","An AI-assisted travel planning app that helps users generate smart itineraries, budgets, and accessible trips."
+https://github.com/jayy007/Practical-ML-For-Cybersecurity,jayy007,2024-09-15,2024-09-15,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/jayeshmepani/CodSoft,jayeshmepani,2024-06-14,2024-07-19,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/jeloercc/fruit_fly,jeloercc,2026-09-12,2026-09-23,0,none detected,Python,"""Drosophila_brain_model""; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""w_syn"" ""0.275""",
+https://github.com/jdvelasq/tm2_kathleen,jdvelasq,2025-05-02,2025-05-06,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/jerr3n/flyblox,jerr3n,2026-09-17,2026-09-18,0,Apache-2.0,Python,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""philshiu""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",
+https://github.com/jianglei12138/Librsvg4Android,jianglei12138,2019-10-21,2019-10-21,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",LIBRSVG  CROSS BUILD FOR ANDROID PLATFORM
+https://github.com/jmlingeman/Network-Inference-Workspace,jmlingeman,2012-04-27,2013-11-06,12,none detected,Java,"""w_syn"" ""0.275""",A collection of algorithms and bridges for bringing together different network inference techniques.
+https://github.com/jeremaban/pos-dashboard-project,jeremaban,2025-02-24,2025-04-29,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/joaovittordjesus/Flutter,joaovittordjesus,2024-02-09,2024-06-18,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/jonathaneeckhout/pirate-zombies,jonathaneeckhout,2024-01-11,2024-01-26,6,BSD-2-Clause,GDScript,"""w_syn"" ""0.275""",multiplayer repo containing and showcasing all multiplayer components
+https://github.com/jonysahhh/mutil-message-system-,jonysahhh,2025-08-25,2025-08-25,0,none detected,Go,"""r_poi"" ""w_syn"" ""tau""",一个多渠道消息转发系统
+https://github.com/just-late/pokelavender,just-late,2025-07-23,2026-10-09,28,none detected,Assembly,"""r_poi"" ""w_syn"" ""tau""",pokemon lavender is a pokemon crystal romhack (based on the polishedcrystal engine)
+https://github.com/juyterman1000/entroly,juyterman1000,2026-03-07,2026-10-10,474,Apache-2.0,Python,"""r_poi"" ""w_syn"" ""tau""","Cut AI context cost without trusting the compressor. Every reduction is reversible, byte-exact recoverable, and carries an auditable receipt. Local-first, works through proxy, MCP, SDK, or agent wrapp"
+https://github.com/jyi/angelix-experiments,jyi,2021-11-08,2021-11-09,1,none detected,C,"""w_syn"" ""0.275""",
+https://github.com/kacskrz/miui-decompiled-xml-china,kacskrz,2018-08-02,2026-10-09,31,none detected,,"""r_poi"" ""w_syn"" ""tau""",Decompiled /values from various MIUI / HyperOS ROMs.
+https://github.com/kai9987kai/kai9987kai.github.io,kai9987kai,2018-04-27,2026-10-09,4,MIT,HTML,"""Shiu et al"" malecns; ""s41586-024-07763-9""",This repository contains my personal website hosted on GitHub Pages. It’s a mixed-purpose site that I use to:  Showcase projects and interactive web experiments (HTML/CSS/JS) Link social accounts (You
+https://github.com/kai9987kai/Supermix-Expanse-v2,kai9987kai,2026-09-26,2026-09-28,0,NOASSERTION,Python,"""Shiu et al"" malecns","Status: experimental research model. Expanse keeps and improves Archimedes' own skills, but its new code-writing and biomedical abilities are weak after one CPU training run — see Results. Qwen has no"
+https://github.com/kai9987kai/Supermix-expanse,kai9987kai,2026-09-23,2026-09-24,0,NOASSERTION,Python,"""Shiu et al"" malecns","Supermix Expanse: Archimedes + Omni v7 + Qwen2.5-Coder + BioMedLM + the full male fly CNS connectome grafted, distilled and fine-tuned into one model (CPU-trained). Model: huggingface.co/Kai9987kai/su"
+https://github.com/kan9667/sakhi-ai,kan9667,2026-05-24,2026-06-22,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""","Sakhi AI is a voice-first agricultural assistant designed for women farmers in India, enabling access to crop advice, government schemes, and disease support through multilingual AI and RAG-based know"
+https://github.com/kaozx001/Flutter_Exam_45706,kaozx001,2025-12-22,2025-12-22,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kartikay1725/SawrmCore,kartikay1725,2026-02-13,2026-02-22,1,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",My first startup
+https://github.com/katedering/polishedcrystal2,katedering,2024-12-15,2024-12-15,2,none detected,Assembly,"""r_poi"" ""w_syn"" ""tau""",unpolished crystal
+https://github.com/kasarmayur-40/Class_Assignment,kasarmayur-40,2024-08-11,2025-09-03,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kaykay0201/evo-b,kaykay0201,2025-01-13,2025-01-15,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kaytee124/Contact_Management_APP,kaytee124,2025-02-21,2025-03-21,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kevinburbanodev/DataScienceUdemyCourse,kevinburbanodev,2025-06-10,2025-06-12,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/kevin-guille/ChiroTool,kevin-guille,2026-06-04,2026-09-24,4,MIT,Python,"""r_poi"" ""w_syn"" ""tau""","Automatisation complète du traitement des enregistrements ultrason chiroptères — protocole Vigie-Chiro Point Fixe (MNHN). Renommage, expansion temporelle, upload + analyse Tadarida, nettoyage par seui"
+https://github.com/kevincoakley/the-ai-reproducibility-index,kevincoakley,2026-03-21,2026-05-12,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kevincoakley/the-shift-toward-open,kevincoakley,2025-10-29,2026-06-26,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/khafid33/mobile-ui,khafid33,2024-05-01,2024-07-18,0,none detected,PHP,"""r_poi"" ""w_syn"" ""tau""",ini adalah repositori untuk tugas UTS pemrograman mobile
+https://github.com/killo431/Auto_Install-Printers,killo431,2026-01-09,2026-07-01,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kimocoder/kali-nethunter-tools,kimocoder,2025-11-21,2026-10-08,19,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",Android tools for Kali NetHunter
+https://github.com/kimngan1805/iamrich,kimngan1805,2026-05-03,2026-05-03,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",bài tập lap 1 đa nền tảng 
+https://github.com/kindaephraim986-lang/job_research,kindaephraim986-lang,2026-06-24,2026-10-05,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kitajima2910/error404-labs,kitajima2910,2025-02-23,2026-10-04,3,MIT,TypeScript,"""r_poi"" ""w_syn"" ""tau""",Phòng Thí Nghiệm Hỗn Loạn
+https://github.com/kiwaku/Himorogi-OS,kiwaku,2025-05-04,2025-05-04,1,MIT,C,"""r_poi"" ""w_syn"" ""tau""",Minimal live Debian OS for secure RAM-booted recon
+https://github.com/kker4m/fruit-fly-minecraft-clone,kker4m,2026-08-21,2026-08-25,1,none detected,Python,Completeness_783; Connectivity_783,
+https://github.com/kj2811/interior_admin,kj2811,2024-12-03,2024-12-04,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kidus-23/local-storage-flutter,kidus-23,2024-12-16,2025-01-06,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kkidexx/flutter_taller_2,kkidexx,2024-07-11,2024-07-22,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kobolabs/glib,kobolabs,2019-04-07,2021-06-11,0,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kristiinavaik/limesurvey_data,kristiinavaik,2021-06-21,2024-03-06,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/krawaller/gleerups,krawaller,2013-05-22,2013-05-23,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/kristiinavaik/phd_project_vaik,kristiinavaik,2024-07-03,2024-12-05,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/kwattsorg/adbshellkit,kwattsorg,2018-10-01,2023-05-17,102,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",AdbShellkit Android app
+https://github.com/kwzery89/tood13,kwzery89,2022-02-27,2022-03-07,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/lab11/eagle,lab11,2013-12-30,2026-07-17,65,none detected,Python,"""w_syn"" ""0.275""",Custom scripts and libraries for Eagle PCB
+https://github.com/lab11/socitrack,lab11,2018-05-26,2026-10-08,22,Apache-2.0,C,"""w_syn"" ""0.275""",A wearable platform for social interaction studies
+https://github.com/lab11/polypoint,lab11,2015-03-28,2019-06-03,144,Apache-2.0,C,"""w_syn"" ""0.275""",Indoor localization based on the DecaWave DW1000.
+https://github.com/laoyuan2006/t40_zrt,laoyuan2006,2026-07-31,2026-07-31,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Ingenic t40 zrt
+https://github.com/lawrencejews/nexmon_csi_,lawrencejews,2021-12-05,2021-12-05,0,GPL-3.0,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/lauringlab/CodonShuffle,lauringlab,2015-08-05,2015-11-09,9,MIT,C,"""w_syn"" ""0.275""",
+https://github.com/lengyuner/lengyuner.github.io,lengyuner,2019-11-19,2026-08-29,0,none detected,HTML,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",personal website
+https://github.com/leonardosovienski/brasileirao-predictor,leonardosovienski,2026-07-19,2026-10-07,0,NOASSERTION,Python,"""w_syn"" ""0.275""",
+https://github.com/leothii/CSUAP,leothii,2026-08-25,2026-10-08,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/lilmayofuksu/tplink-ex530v1-gpl,lilmayofuksu,2026-02-15,2026-02-18,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",GPL sources for TP-Link EX530 v1 (Turkcell)
+https://github.com/linskybing/ntpc_hackathon_2026,linskybing,2026-09-12,2026-09-13,1,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",幼兒園財務與公開紀錄稽核平台：彙整決算書、財報、裁罰與輿情，數字可追溯至原始 PDF 頁面，預警中心排定核對優先順序。
+https://github.com/linuxhw/Dmesg,linuxhw,2021-10-22,2023-05-09,8,CC-BY-4.0,,"""w_syn"" ""0.275""",Collect dmesg reports
+https://github.com/liosha/osm2mp,liosha,2015-03-13,2018-08-31,12,none detected,Perl,"""r_poi"" ""w_syn"" ""tau""",Convert Openstreetmap data to MP format
+https://github.com/linuxkerneltravel/lmp,linuxkerneltravel,2020-04-03,2026-10-04,743,Apache-2.0,C,"""w_syn"" ""0.275""","LMP provides an eBPF Supermarket for developers, including eBPF tools, open-source projects based on eBPF, eBPF learning materials, Linux kernel learning materials, and more."
+https://github.com/lllpoiuy/Lsh-WeBlog,lllpoiuy,2021-04-24,2026-06-11,2,none detected,HTML,"""720575940660219265""; ""MN9"" flywire LIF; ""Shiu"" ""MN9"" Hz; ""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome","This is my blog from the period of my information science competitions (2020-2023), which is no longer maintained.  - If we unite our stories yours and mine <O>"
+https://github.com/lnxknl/ref_prj_linux_eBPF_collect,lnxknl,2025-05-24,2025-05-24,0,Apache-2.0,C,"""w_syn"" ""0.275""",
+https://github.com/lowmason/sec-edgar,lowmason,2026-10-05,2026-10-09,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/lucaplian/Veridion_Company_Classifier_Challenge,lucaplian,2025-05-05,2025-05-06,2,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/lukecleland/esp-cam-vr,lukecleland,2015-10-14,2015-10-14,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/lukejmann/libsignal-wasm,lukejmann,2024-11-19,2024-11-19,0,AGPL-3.0,Rust,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/lunchforsoup/FiDataLake,lunchforsoup,2022-01-19,2023-03-10,0,MIT,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/mabub03/dotfiles,mabub03,2020-07-22,2026-05-14,0,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/magicliang/magicliang.github.io,magicliang,2017-09-17,2026-10-10,3,none detected,HTML,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/magnusjahre/parvec,magnusjahre,2016-09-28,2019-05-02,10,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",PARVEC: Vectorized PARSEC benchmarks
+https://github.com/mahirkukreja/android_external_bluetooth,mahirkukreja,2014-08-01,2014-08-01,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/majesticgamesworld-maker/Majestic-demo2,majesticgamesworld-maker,2026-05-21,2026-05-27,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/makaraq/vocabworld,makaraq,2026-01-05,2026-10-08,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mao1756/condition_df,mao1756,2026-03-21,2026-08-20,0,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""",Conditioning Dirichlet-Ferguson Diffusion
+https://github.com/makerhacker/makerhacker.github.io,makerhacker,2014-02-28,2014-06-18,28,MIT,CSS,"""w_syn"" ""0.275""",blog for maker
+https://github.com/makesoftwaresafe/toyota-dcm,makesoftwaresafe,2022-01-31,2022-02-03,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Copy of OSS packages from the Toyota Free/Open Source Software Website.
+https://github.com/marcandrewessner/croc-4-ultrasound,marcandrewessner,2026-05-04,2026-08-27,1,NOASSERTION,SystemVerilog,"""r_poi"" ""w_syn"" ""tau""","A PULP SoC for education, easy to understand and extend with a full flow for a physical design."
+https://github.com/mariojimenez04/python_exercises,mariojimenez04,2024-07-08,2025-04-16,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Ejercicios de python
+https://github.com/marnanel/pkg-clippy,marnanel,2012-09-02,2012-09-18,0,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",hackery to pkg-config
+https://github.com/massmola/sim,massmola,2025-01-17,2025-01-18,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/matteo-pacini/theme-hospital-decomp,matteo-pacini,2026-10-02,2026-10-03,0,NOASSERTION,C++,"""r_poi"" ""w_syn"" ""tau""","Matching decompilation of Theme Hospital (DOS, 1997): C/C++ that rebuilds HOSPITAL.EXE byte for byte with Watcom 10.6. Bring your own copy of the game."
+https://github.com/martinpiper/C1541-Tweaks,martinpiper,2023-10-14,2024-01-30,2,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Tweaks to C1541 to support extra features
+https://github.com/mattyhempstead/fly-wirehead,mattyhempstead,2026-09-10,2026-09-12,129,none detected,Python,"""MN9"" flywire LIF; ""MN9"" malecns",
+https://github.com/mayhemheroes/glib,mayhemheroes,2022-08-25,2026-05-01,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mazoea/te-external,mazoea,2016-08-05,2023-05-10,2,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Unified Visual Studio 2015 friendly solutions for external dependencies
+https://github.com/mcd1992/steamlink-sdk,mcd1992,2016-01-14,2016-01-13,8,none detected,,"""r_poi"" ""w_syn"" ""tau""",An SDK for creating native Steam Link applications
+https://github.com/mdmahib10/mcfc,mdmahib10,2024-10-05,2024-12-02,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",Our minecraft server
+https://github.com/meagangardner/MDS-Lecture-Notes,meagangardner,2025-08-01,2026-03-22,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/meaytac/yurt-lojman-yonetim-sistemi,meaytac,2026-08-15,2026-09-10,0,none detected,PureBasic,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mfhh5wvskt-sudo/union-group-site,mfhh5wvskt-sudo,2026-06-14,2026-06-14,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/minixalpha/SourceLearning,minixalpha,2013-11-01,2015-05-06,105,Apache-2.0,C,"""r_poi"" ""w_syn"" ""tau""",Learning of source code
+https://github.com/microbiomedata/nmdc-schema,microbiomedata,2021-04-03,2026-10-09,51,CC0-1.0,Python,"""r_poi"" ""w_syn"" ""tau""",National Microbiome Data Collaborative (NMDC) unified data model
+https://github.com/mirsella/castle-duels-assets,mirsella,2026-05-14,2026-05-14,1,none detected,ShaderLab,"""r_poi"" ""w_syn"" ""tau""",Browseable extracted Castle Duels APK assets
+https://github.com/mintlify-atlas/docs-atlas-d588a6c9,mintlify-atlas,2026-10-06,2026-10-06,0,MIT,MDX,"""Shiu"" ""leaky integrate"" flywire; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; ""w_syn"" ""0.275""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",
+https://github.com/mit-acl/puma,mit-acl,2023-02-16,2026-07-28,45,BSD-3-Clause,C++,"""w_syn"" ""0.275""",PUMA: Fully Decentralized Uncertainty-aware Multiagent Trajectory Planner with Real-time Image Segmentation-based Frame Alignment
+https://github.com/mizly/FLIH,mizly,2026-09-19,2026-09-20,0,none detected,Python,"""Drosophila_brain_model""; ""philshiu""; Connectivity_783",
+https://github.com/mmjafet/arboles_de_decision,mmjafet,2024-11-06,2024-11-06,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/mmjafet/imprimir_pipeLine,mmjafet,2024-11-12,2024-11-13,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/mkemaln/pemrograman-mobile-sem5,mkemaln,2024-09-04,2024-10-12,0,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mnihad000/ronald,mnihad000,2026-05-04,2026-05-04,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mohamednasih/automation-scripts,mohamednasih,2025-07-17,2026-04-13,0,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mobius/flieshub,mobius,2026-09-16,2026-09-18,0,NOASSERTION,Python,"""Drosophila_brain_model""; ""MN9"" malecns; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome",
+https://github.com/mohammed-299kk/gizmo_store,mohammed-299kk,2025-08-21,2026-09-28,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/monarch-initiative/dismech-evals,monarch-initiative,2026-09-24,2026-10-05,1,BSD-3-Clause,Python,"""w_syn"" ""0.275""","Public corpus evaluation history, reusable model assessments, and recuration reports for DisMech"
+https://github.com/monheritier/danube-ai-task,monheritier,2026-03-04,2026-03-04,0,none detected,Python,"""w_syn"" ""0.275""",Danube ai task
+https://github.com/muellerberndt/cadence-demos,muellerberndt,2026-09-28,2026-10-10,19,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",Simple Cadence examples: Patch-net settlement brains that learn from live experience.
+https://github.com/muellerberndt/muellerberndt.github.io,muellerberndt,2025-12-17,2026-10-08,2,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""","Pragma Research: Cadence learning brains, working demonstrations, research preprints and the path to embodied AI."
+https://github.com/muhammadbalalansar/Network-Map-Scanner,muhammadbalalansar,2026-06-17,2026-09-09,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/muniressam/Low-Power-Configurable-Multi-Clock-Digital-System-,muniressam,2025-05-13,2025-05-13,0,none detected,Verilog,"""w_syn"" ""0.275""",
+https://github.com/mvegag/Machine_learning_Udemy,mvegag,2024-09-06,2025-03-27,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/murphy20-in/Hackathon,murphy20-in,2026-04-13,2026-05-12,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mweidle73/glib,mweidle73,2026-08-03,2026-09-28,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Historical Abuild archive of GLib
+https://github.com/myfin555-code/Vita3K-iOS,myfin555-code,2026-09-28,2026-09-29,0,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/myfin555-emu/Vita3K-iOS,myfin555-emu,2026-09-29,2026-10-08,0,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/mzabaluev/glib,mzabaluev,2013-05-04,2016-03-02,6,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""","My experiments in GLib, outdated by now"
+https://github.com/nandogmi/machine_learning,nandogmi,2026-04-13,2026-07-05,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/naiqili/DGPG-MLJ,naiqili,2021-12-07,2021-12-08,2,MIT,Python,"""w_syn"" ""0.275""",
+https://github.com/nate2211/moneroProject,nate2211,2025-06-23,2026-08-29,0,none detected,TeX,"""r_poi"" ""w_syn"" ""tau""",Monero Client and Monero Server with gui
+https://github.com/nayanikar/state-of-online-tracking-analysis,nayanikar,2023-06-01,2023-06-01,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""","This study decodes the usage of trackers, the websites that use them, and the organization that operates them."
+https://github.com/ndlspp/Kodeus,ndlspp,2026-05-02,2026-05-07,0,none detected,CSS,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/nichealpham/MY_THESIS,nichealpham,2016-12-24,2017-05-19,16,none detected,Matlab,"""r_poi"" ""w_syn"" ""tau""",DEVELOPMENT OF AN ECG RISK SCORE SYSTEM APPLIED FOR DETECTION AND QUANTIFICATION OF MYOCARDIAL DAMAGE WITH A FOCUS ON MORPHOLOGICAL FEATURES AND DE-TRENDED FLUCTUATION ANALYSIS
+https://github.com/nguyenkyanh2003/GR1,nguyenkyanh2003,2025-03-06,2025-06-06,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/nicodunks/fruitless,nicodunks,2026-09-10,2026-09-10,34,ISC,Python,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/nightingale-media-player/nightingale-deps,nightingale-media-player,2011-09-21,2018-07-22,24,none detected,C,"""r_poi"" ""w_syn"" ""tau""","Nightingale build deps - Windows, Linux, Mac - all the sources right here (for now)"
+https://github.com/nikihasrati/understanding_jailbreak_transfer,nikihasrati,2026-05-11,2026-06-01,0,none detected,Python,"""w_syn"" ""0.275""","Code to reproduce results from the paper ""Toward Understanding the Transferability of Adversarial Suffixes in Large Language Model"""
+https://github.com/noghartt/flybet,noghartt,2026-09-10,2026-09-10,0,none detected,Python,"""Shiu et al"" malecns; ""s41586-024-07763-9""",
+https://github.com/nourhan312/my-portfolio,nourhan312,2025-11-28,2026-04-23,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/noushad970/Ostad-Course-with-BD-apps,noushad970,2026-05-15,2026-06-23,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/nuomi68/failure_monitoring,nuomi68,2025-06-11,2026-01-18,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/ohnodev/neurosim,ohnodev,2026-03-10,2026-03-29,1,MIT,JavaScript,"""720575940660219265""; ""MN9"" flywire LIF; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_783; Connectivity_783",simulating biological brains
+https://github.com/ok-very/solido,ok-very,2026-02-05,2026-03-31,1,none detected,Rust,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/oivano/asuswrt-merlin.ng,oivano,2021-02-05,2026-10-10,16,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Custom Asus Merlin firmware for DSL-AC68U routers
+https://github.com/okbest2024/openclaw-backup,okbest2024,2026-03-18,2026-04-12,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",🦞 OpenClaw AI Assistant - Complete Configuration Backup
+https://github.com/olibd/pytorch-0.4.0-snapshot,olibd,2019-10-01,2022-11-01,0,NOASSERTION,C++,"""w_syn"" ""0.275""",A snapshot of pytorch 0.4.0 with all dependencies included to facilate building
+https://github.com/omix04/Repozytorium-zainfekowanych-plikow-binarnych-,omix04,2025-12-10,2026-01-29,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",Projekt szkolny
+https://github.com/ooni/data,ooni,2022-06-09,2026-10-08,11,none detected,Python,Connectivity_630,OONI Data CLI and Pipeline v5
+https://github.com/openbraininstitute/obi-one,openbraininstitute,2025-01-23,2026-10-09,4,Apache-2.0,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; Completeness_630; Completeness_783; Connectivity_630; Connectivity_783",Standardized workflows for biophysically-detailed brain modeling
+https://github.com/open-droid/android_external_bluetooth,open-droid,2017-02-19,2016-05-28,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Bluetooth HAL for S63xx
+https://github.com/orenmel/synth-clinical-notes,orenmel,2019-04-02,2020-04-28,15,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/openbraininstitute/sonata-extension,openbraininstitute,2025-01-13,2026-10-08,0,Apache-2.0,AGS Script,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""",
+https://github.com/open-vela/external_glib,open-vela,2024-11-25,2026-06-02,7,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/oscardbocanegra/udemy,oscardbocanegra,2023-08-26,2026-06-18,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",On this repository I'm going to update my learning about the differents courses that I'm doing in Udemy
+https://github.com/oscarxjauregui/tarea3mov,oscarxjauregui,2024-03-02,2024-03-02,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",tarea 3 moviles
+https://github.com/p4inthegod-cloud/orbitum-journal,p4inthegod-cloud,2026-03-07,2026-10-07,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/p-ai-org/p-web,p-ai-org,2021-02-27,2021-06-06,20,MIT,Jupyter Notebook,"""w_syn"" ""0.275""",Exploring Language Modeling of HTML - Spring 2021 P-ai project team
+https://github.com/pardus/pardus-software,pardus,2022-01-17,2026-09-30,62,GPL-3.0,Python,"""r_poi"" ""w_syn"" ""tau""",Software center front-end for debian based operating systems.
+https://github.com/parrot-opensource/anafi-opensource,parrot-opensource,2018-11-13,2019-07-03,12,none detected,,"""r_poi"" ""w_syn"" ""tau""",Open Source Software used in Parrot Anafi
+https://github.com/parrot-opensource/disco-opensource,parrot-opensource,2016-09-23,2018-11-13,6,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Open Source Software used in Parrot Disco
+https://github.com/parvati-faltankar/IDMS-UI,parvati-faltankar,2026-04-24,2026-08-01,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/patrickjohncedeno/fixifyMobile,patrickjohncedeno,2025-06-29,2025-06-29,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/pdemro/human-connectome-game,pdemro,2025-11-01,2026-07-14,0,none detected,TypeScript,"""sugar"" ""MN9"" ""Hz"" connectome",
+https://github.com/penpenguin/portfolio,penpenguin,2024-05-22,2026-10-10,0,none detected,TypeScript,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/petitstrawberry/moonlight-scarlet,petitstrawberry,2026-09-04,2026-10-07,0,GPL-3.0,Rust,"""w_syn"" ""0.275""",Moonlight for Scarlet
+https://github.com/peterdanieloliver/HGPolyVis,peterdanieloliver,2024-06-24,2024-08-08,3,none detected,,"""r_poi"" ""w_syn"" ""tau""",HGPolyVis is a desktop application for visualizing hypergraph data using the polygon visualization metaphor
+https://github.com/petitstrawberry/resonara,petitstrawberry,2026-10-01,2026-10-07,0,none detected,Rust,"""r_poi"" ""w_syn"" ""tau""; ""w_syn"" ""0.275""",
+https://github.com/pghk13/Kernel-Bug,pghk13,2025-01-04,2026-01-22,0,none detected,C,"""w_syn"" ""0.275""",
+https://github.com/pexip/glib,pexip,2013-09-02,2026-09-28,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Glib
+https://github.com/pexip/pexlgpl,pexip,2025-10-25,2026-08-26,1,LGPL-2.1,Meson,"""r_poi"" ""w_syn"" ""tau""",The Pexip's LGPL bundle meson project
+https://github.com/phg1024/MultilinearReconstruction,phg1024,2015-06-11,2018-02-25,31,MIT,C++,"""w_syn"" ""0.275""",Refactored multilinear reconstruction code.
+https://github.com/phoenixrepo/flores-flywire-exercise,phoenixrepo,2025-05-26,2025-05-26,0,none detected,JavaScript,"""MN9"" flywire LIF",
+https://github.com/phonewinttun-dev/SCMS,phonewinttun-dev,2026-05-26,2026-08-25,1,none detected,C#,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/pinkysworld/CKU-Sim,pinkysworld,2026-04-06,2026-05-10,0,MIT,Python,"""w_syn"" ""0.275""",An Open-Source Toolkit for Quantifying Structural Opacity and Computational Knightian Uncertainty in Software-Intensive Systems
+https://github.com/pnnl/NWQLib,pnnl,2026-09-30,2026-10-09,1,BSD-2-Clause,Python,"""r_poi"" ""w_syn"" ""tau""","NWQLib applies quantum algorithms to scientific problems. A workflow connects your inputs and requested output to a selected method, execution and a report of the result, evidence and resources. Nativ"
+https://github.com/polter-rnd/dotfiles,polter-rnd,2020-05-20,2026-05-04,0,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/princedimond/garuda-nix,princedimond,2025-07-11,2026-10-03,1,GPL-3.0,Nix,"""r_poi"" ""w_syn"" ""tau""",NixOs with dr460nized module 
+https://github.com/pqcu77/2025SYSU-SE,pqcu77,2025-05-07,2025-07-09,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/praneel1/network-recon-dashboard,praneel1,2026-07-27,2026-09-12,1,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/pramod9100/TalentServe-project,pramod9100,2024-03-11,2024-03-11,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/priyansupattanaik/ez-copy,priyansupattanaik,2026-07-06,2026-07-19,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/protocol/neuro-atlas,protocol,2026-08-24,2026-10-07,0,none detected,TypeScript,"""s41586-024-07763-9""",Interactive dashboard on the state of brain-computer interfaces
+https://github.com/pyon-3/market-regime-research-notes,pyon-3,2026-05-22,2026-05-23,0,NOASSERTION,,"""w_syn"" ""0.275""",
+https://github.com/pygojrc/ms_debug,pygojrc,2026-08-17,2026-08-22,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/quent1vky/WoodyCraftAdmin,quent1vky,2025-04-08,2025-05-26,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/r1skers/r1skers.github.io,r1skers,2025-10-29,2026-10-06,1,none detected,HTML,"""w_syn"" ""0.275""",
+https://github.com/rajjaiswal3858/betterpitch,rajjaiswal3858,2026-09-29,2026-09-29,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/rakayl/sso-be-view,rakayl,2023-05-02,2025-10-03,0,none detected,Blade,"""w_syn"" ""0.275""",
+https://github.com/rakayulian/bekasi-sso-be,rakayulian,2025-06-23,2025-06-26,0,none detected,Blade,"""w_syn"" ""0.275""",
+https://github.com/rainy75x/sjr-btm-334-firmware,rainy75x,2026-05-27,2026-07-27,0,none detected,C,"""w_syn"" ""0.275""",QCC3034 Firmware SourceCode based on ADK 6.4.2.26
+https://github.com/rakeshnagarajan04/MDC-101,rakeshnagarajan04,2025-05-29,2025-05-29,0,Apache-2.0,Dart,"""r_poi"" ""w_syn"" ""tau""",MDC course 101 
+https://github.com/rakeshnagarajan04/MDC-102,rakeshnagarajan04,2025-05-29,2025-05-29,0,Apache-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",MDC course 102 
+https://github.com/ranahassan9/Network-Security-Scanner-And-Firewall-visualizer,ranahassan9,2026-04-21,2026-04-21,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",This project successfully demonstrates the core concepts of Network Security. It shows a clear understanding of how to identify network vulnerabilities (via scanning open ports) and how to mitigate th
+https://github.com/randalkoene/netmorph,randalkoene,2020-11-07,2024-07-29,9,GPL-3.0,C++,"""r_poi"" ""w_syn"" ""tau""",A Framework for the Generation of Large Scale Neuronal Networks that is based on the Simulated Development of Neuron Morphology and Synaptic Connectivity by means of Neurite Growth and Synapse Formati
+https://github.com/realdeepresearch/realdeepresearch.github.io,realdeepresearch,2025-10-08,2025-11-30,15,none detected,HTML,"""s41586-024-07763-9""","Website for ""Real Deep Research for AI, Robotics and Beyond"""
+https://github.com/ratankmvt73-hub/myweb,ratankmvt73-hub,2026-05-10,2026-05-10,0,none detected,CSS,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/redox-os/redox,redox-os,2015-04-20,2026-09-27,16613,MIT,Rust,"""w_syn"" ""0.275""",Mirror of https://gitlab.redox-os.org/redox-os/redox
+https://github.com/research-team/gdp,research-team,2016-07-08,2016-11-19,0,none detected,C++,"""w_syn"" ""0.275""",Simulation of Giant depolarization potential project
+https://github.com/research-team/neucogar-nest,research-team,2017-08-23,2018-09-16,0,GPL-2.0,C++,"""w_syn"" ""0.275""",
+https://github.com/reteren/marknote,reteren,2026-09-20,2026-10-02,1,MIT,TypeScript,"""r_poi"" ""w_syn"" ""tau""",Fast Markdown editor for Windows
+https://github.com/riskprofiler/CloudFrontier,riskprofiler,2020-08-06,2025-11-16,135,Apache-2.0,Lua,"""r_poi"" ""w_syn"" ""tau""","Monitor the internet attack surface of various public cloud environments. Currently supports AWS, GCP, Azure, DigitalOcean and Oracle Cloud."
+https://github.com/rithulbm/fruitfly-QM,rithulbm,2026-09-13,2026-09-13,0,none detected,Rust,"""Shiu et al"" malecns",
+https://github.com/rodrigo47363/dotfiles,rodrigo47363,2024-11-09,2026-10-06,0,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",Cross-platform Dotfiles to customize and streamline development configurations on Windows and Linux.
+https://github.com/rivianpratama/Fruitfly-the-Doomscroller,rivianpratama,2026-09-11,2026-09-11,0,MIT,Python,"""MN9"" malecns",
+https://github.com/rodj6/everythingequation-site,rodj6,2026-02-05,2026-10-10,0,none detected,HTML,"""s41586-024-07763-9""",
+https://github.com/rodrigomacedo07/gympro,rodrigomacedo07,2025-07-10,2026-01-18,0,MIT,TypeScript,"""r_poi"" ""w_syn"" ""tau""",Plataforma Mobile-First para gestão de treinos e alunos. Foco em UX para Personal Trainers e performance em ambiente de produção (Next.js + Supabase).
+https://github.com/runshine/euler_test,runshine,2023-10-26,2023-10-31,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/s-takekawa/takefits,s-takekawa,2025-11-19,2026-09-28,0,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",An astronomical FITS viewer and analysis tool.
+https://github.com/sabbir-of/Playwright-Framework-Template,sabbir-of,2024-03-06,2026-08-25,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/rus187/fipla-dashboard,rus187,2026-03-23,2026-05-02,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sabbir-of/for-demo,sabbir-of,2024-09-26,2024-10-14,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sabbir-of/uhc,sabbir-of,2024-11-08,2024-12-02,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sagecodes/ai-build-and-learn,sagecodes,2026-02-03,2026-09-18,64,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; ""w_syn"" ""0.275""; Completeness_783; Connectivity_783",
+https://github.com/saifgithub/AMI_MarketApp,saifgithub,2026-06-02,2026-10-10,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",AMI Trade — 12-agent AI trading education app (iOS + Android)
+https://github.com/sai-nirish/glib-for-ios,sai-nirish,2014-12-24,2014-12-24,11,none detected,C,"""r_poi"" ""w_syn"" ""tau""","The C++ library - ""glib"" built for ios-simulator and ios-devices"
+https://github.com/sailfishos-mirror/glib,sailfishos-mirror,2020-04-01,2026-10-10,0,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",https://gitlab.gnome.org/GNOME/glib.git
+https://github.com/saisj2002/Ecommerce-app,saisj2002,2024-09-08,2024-09-08,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/salma71/ted_scrapping,salma71,2020-12-15,2020-12-15,2,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""","bash script to fetch ted talks transcripts in technology, suitable for NLP"
+https://github.com/sarvesh5316/msoko_seller,sarvesh5316,2024-02-01,2024-02-01,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sashkinbro/EmuCoreV,sashkinbro,2026-04-23,2026-10-09,231,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""","PlayStation Vita emulator for Android with a custom UI, game library, catalog, and Vita3K-based core."
+https://github.com/sbalci/ParaPathology,sbalci,2019-05-08,2026-10-10,8,none detected,HTML,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""",My Notes related to Pathology and ParaPathology
+https://github.com/sayenah/Vita3kPlus-NoInstall,sayenah,2026-07-05,2026-10-01,2,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""","Vita3K+ NoInstall: Vita3K with the Vita3K-Plus enhancements, playing PS Vita games straight from .zip/.7z/.pkg archives without installing them."
+https://github.com/scarmonger/dms,scarmonger,2025-11-19,2026-09-07,0,none detected,Shell,"""r_poi"" ""w_syn"" ""tau""",Danklinux.com / Dank Material Shell
+https://github.com/scb26/erp,scb26,2026-04-07,2026-07-22,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/scarmonger/ubuntu,scarmonger,2023-11-25,2025-11-19,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",ubuntu build
+https://github.com/scortua/Machine-Learning-Study-2025,scortua,2025-09-09,2025-09-15,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/sdbjhksvbd/check,sdbjhksvbd,2025-07-13,2025-07-14,0,none detected,Roff,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sec-staff-lilithgames/Sunda,sec-staff-lilithgames,2025-10-30,2026-04-06,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",a bro of frida
+https://github.com/sendi1808/SPINOVA,sendi1808,2025-03-18,2025-03-18,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/shatter9652/vita3k,shatter9652,2026-06-20,2026-09-01,1,GPL-2.0,C++,"""r_poi"" ""w_syn"" ""tau""",Playstation Vita Emulator
+https://github.com/sharksvn2804/Topic-15---Firebase-Authentication,sharksvn2804,2025-11-07,2025-11-10,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""","Đây là nơi chứa folder code, file powerpoint và file word của nhóm Khánh - Tâm trong môn lập trình đa nền tảng (lớp 22.44)"
+https://github.com/shaikhhabib001/Adven-Tour,shaikhhabib001,2024-05-21,2024-05-24,1,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sheng-eatamath/S3A,sheng-eatamath,2023-08-24,2024-05-16,25,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",repo for paper titled: Towards Realistic Zero-Shot Classification via Self Structural Semantic Alignment (AAAI'24 Oral)
+https://github.com/shirenchuang/agentbro,shirenchuang,2026-04-26,2026-10-01,203,Apache-2.0,Rust,"""r_poi"" ""w_syn"" ""tau""","A macOS Dynamic Island for AI coding agents: Claude Code, Codex, Gemini CLI, Cursor, hooks, skills, and local agent management."
+https://github.com/shivin9/ExpertNet,shivin9,2021-09-23,2023-08-22,1,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/shitada/english-app,shitada,2026-03-29,2026-04-22,1,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",AI-powered English learning app focused on listening & speaking — with Karpathy-style autoresearch autonomous improvement loop
+https://github.com/shustinski/kraken,shustinski,2026-04-24,2026-10-08,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/shtrombelger-dev/bot-stavok,shtrombelger-dev,2026-03-12,2026-03-12,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/sibawnick/horse,sibawnick,2025-06-12,2025-12-15,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",lets debug ruby
+https://github.com/siemaxinh0/mountaindex,siemaxinh0,2026-02-12,2026-02-12,0,none detected,Dart,"""r_poi"" ""w_syn"" ""tau""",Mobile app to track your mountain progress and connect with friends
+https://github.com/silverenternal/flowa-multistep-reinference,silverenternal,2026-08-18,2026-10-01,0,MIT,Python,"""w_syn"" ""0.275""",
+https://github.com/signalapp/libsignal,signalapp,2020-09-12,2026-10-07,6067,AGPL-3.0,Rust,"""r_poi"" ""w_syn"" ""tau""",Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
+https://github.com/skril349/Machine_Learning_and_Data_Science,skril349,2024-01-25,2024-02-14,1,MIT,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/skyfallsin/flyiverse,skyfallsin,2026-09-10,2026-09-10,0,none detected,Astro,"""Drosophila_brain_model""; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/smith-and-web/kindling,smith-and-web,2026-01-12,2026-09-24,72,MIT,Rust,"""r_poi"" ""w_syn"" ""tau""","Free, open-source fiction writing software. Your outline stays visible while you draft. Import from Scrivener, Plottr, yWriter, or Obsidian. macOS, Windows & Linux."
+https://github.com/slaimrayane/Afriha,slaimrayane,2024-06-13,2024-06-14,2,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",in demand home maintenacne service with flutter and django
+https://github.com/soegaard/racket-osx-libs,soegaard,2013-11-24,2019-04-28,4,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Source files and build instructions for the dynamic libraries used by Racket on OS X
+https://github.com/songwenhao/WinMIME,songwenhao,2021-08-11,2026-09-29,2,LGPL-2.1,C,"""r_poi"" ""w_syn"" ""tau""",GMime for windows.
+https://github.com/sosamandara/Places_of_the_world,sosamandara,2022-11-02,2022-11-20,0,none detected,HTML,"""MN9"" ""sugar"" ""shuffle""; ""w_syn"" ""0.275""",Repository for 3rd homework of ADM/Data Science @Sapienza
+https://github.com/spacestate1/VST-ace,spacestate1,2026-08-28,2026-10-09,40,MIT,C,"""w_syn"" ""0.275""",A linux  VST loader for all VST instruments
+https://github.com/sory-x/Redox,sory-x,2026-08-01,2026-08-11,0,MIT,Rust,"""w_syn"" ""0.275""",Redox clonne
+https://github.com/spivanatalie64/gnome-software-gtk3,spivanatalie64,2026-01-22,2026-06-02,0,GPL-2.0,C,"""r_poi"" ""w_syn"" ""tau""",GTK3 port of GNOME Software with performance improvements
+https://github.com/spandx/cache,spandx,2020-02-02,2026-08-23,0,MIT,Ruby,"""w_syn"" ""0.275""",
+https://github.com/ssc-oscar/dev-migration,ssc-oscar,2019-03-17,2019-03-17,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",Characterize developer migration among software ecosystems
+https://github.com/staceyson/glib-2.0,staceyson,2014-09-04,2014-09-04,1,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",glib 2.36.3 and the FreeBSD patches from devel/glib20
+https://github.com/star-externals/autotools,star-externals,2015-06-25,2015-09-15,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",My own working autotools setup.
+https://github.com/storytold/photocraft,storytold,2026-09-30,2026-10-10,39383,Apache-2.0,Rust,"""r_poi"" ""w_syn"" ""tau""","An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust"
+https://github.com/sumegim/libternsorflowlite_c,sumegim,2021-09-15,2021-10-18,0,none detected,C++,"""w_syn"" ""0.275""",
+https://github.com/student1304/third-edition,student1304,2026-05-17,2026-05-17,0,none detected,,"""w_syn"" ""0.275""",
+https://github.com/sw7ft/qnx-packages,sw7ft,2025-06-25,2025-08-09,3,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Professional pre-compiled packages for QNX 8 ARM / BlackBerry 10
+https://github.com/suny-downstate-medical-center/thalamus_netpyne,suny-downstate-medical-center,2025-08-18,2025-08-18,1,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/swotstudio/FlyBridge,swotstudio,2026-09-22,2026-09-22,12,NOASSERTION,Python,"""s41586-024-07763-9""",
+https://github.com/symeen/soul,symeen,2021-07-31,2021-04-20,0,none detected,,"""w_syn"" ""0.275""",qcc3020
+https://github.com/symeen/Raptor,symeen,2021-07-31,2021-04-20,0,none detected,,"""w_syn"" ""0.275""",qcc3024 adk64226
+https://github.com/t0mezz/robot-swarm,t0mezz,2026-03-11,2026-10-07,0,none detected,HTML,"""w_syn"" ""0.275""",
+https://github.com/tanioklyce-dev/robot_research,tanioklyce-dev,2026-05-07,2026-10-08,1,none detected,HTML,"""Drosophila_brain_model""; ""MN9"" flywire LIF; ""MN9"" malecns; ""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/tawada/fly-miko,tawada,2026-09-15,2026-09-16,0,none detected,Python,"""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783",
+https://github.com/tebl/BulkyMIDI-32,tebl,2022-01-24,2025-03-24,80,CC-BY-SA-4.0,C++,"""w_syn"" ""0.275""","A HW build of the MT32-PI project, allowing you to emulate a Roland MT-32 using a Raspberry Pi. Includes enough additional modules to build a MIDI-mountain as well as adapters for connecting to most t"
+https://github.com/teanalab/pfsdm,teanalab,2015-04-26,2016-04-15,7,none detected,Jupyter Notebook,"""r_poi"" ""w_syn"" ""tau""; ""w_syn"" ""0.275""",Parameterized Fielded Dependence Models from SIGIR'16 paper
+https://github.com/testmana2/QChartist,testmana2,2015-12-13,2015-12-09,1,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",Technical analysis software
+https://github.com/thanamn/KMITL_geospace_analysis_dossier,thanamn,2026-04-19,2026-04-19,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",Unsanctioned and independent analysis of KMITL's program of Space and Geospatial Engineering as a degree to peruse for highschooler.
+https://github.com/thanhchatvn/capital_fish,thanhchatvn,2021-06-15,2021-04-09,0,none detected,,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/thelanranger/EdgeProfileModifications,thelanranger,2025-05-29,2025-05-29,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",Compare Default Edge Profile to Modified
+https://github.com/theohg/bq25756e_multiplatform,theohg,2025-02-26,2026-07-06,4,MIT,C++,"""r_poi"" ""w_syn"" ""tau""",Multiplatform library for the BQ25756 family of I²C-controlled bidirectional buck-boost charge controller from Texas Instrument
+https://github.com/the-omega-institute/fly-arena,the-omega-institute,2026-09-15,2026-09-29,0,MIT,Python,"""w_syn"" ""0.275""",
+https://github.com/theplaceyoung/draft-home,theplaceyoung,2024-12-03,2026-08-03,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",A home for unfinished ideas and evolving projects.
+https://github.com/thesyzling/fly-doom,thesyzling,2026-09-26,2026-10-10,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/thewriterben/Oh-Ben-Claw,thewriterben,2026-03-15,2026-09-29,1,MIT,Rust,"""720575940660219265""; ""Drosophila_brain_model""; ""MN9"" flywire LIF; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""r_poi"" ""w_syn"" ""tau""; ""s41586-024-07763-9""; ""sugar"" ""MN9"" ""Hz"" connectome; Completeness_783; Connectivity_783","Advanced multi-device AI assistant built on the ZeroClaw architecture. Distributed peripheral nodes, MQTT communication bus, multi-modal I/O, and a full GUI."
+https://github.com/thnetii/windows-api,thnetii,2016-11-25,2021-05-25,5,MIT,C#,"""w_syn"" ""0.275""",.NET C# P/Invoke Repository for the native Windows API - TH-NETII Rasch Solutions
+https://github.com/tianyexing2008/c_cpp,tianyexing2008,2020-10-30,2025-11-19,7,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/timetoai/TimeDiffusion_synth,timetoai,2022-10-09,2022-12-17,6,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",Research Project on synthetic time-series generation
+https://github.com/tom-m-2020/ComfyUI-Blueprint-Diffusion-worktree,tom-m-2020,2026-08-29,2026-09-16,0,none detected,Python,"""w_syn"" ""0.275""",Not meant for users.
+https://github.com/tobyw121/Openwrt_RTL,tobyw121,2026-06-07,2026-09-21,1,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/tommasodesanto/Fertility_Spring26,tommasodesanto,2025-12-19,2026-10-10,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/tomoaniki93/TomoMod,tomoaniki93,2026-01-27,2026-10-09,1,NOASSERTION,Lua,"""r_poi"" ""w_syn"" ""tau""","Tired of juggling 15 addons to get a clean UI? TomoMod replaces Blizzard's default interface with a dark, modern, teal-accented design. UnitFrames, Nameplates, Action Bars, Bags, Chat, Tooltips, Objec"
+https://github.com/tuanle277/medical-interpreter,tuanle277,2024-07-15,2024-08-08,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""","Project:  A real-time medical interpreter mobile app built with Flutter and a Python backend. The app uses ML Kit for face detection and analysis, providing dynamic visual cues to understand patient e"
+https://github.com/trailofbits/debloater-eval,trailofbits,2023-12-20,2024-06-12,3,Apache-2.0,C,"""r_poi"" ""w_syn"" ""tau""",Dataset and resources for evaluating software debloating tools.
+https://github.com/tushkum34-cloud/pylibsmeta,tushkum34-cloud,2026-02-14,2026-10-10,3,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",pylibsmeta
+https://github.com/tux4kids/Tuxpaint-Android,tux4kids,2015-08-27,2026-07-25,81,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Port Tux Paint to Android made by Jianwei in GSOC 2015
+https://github.com/twist84/ManagedDonkey,twist84,2022-08-22,2026-05-13,46,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",Home of ᴅᴏɴᴋᴇʏ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ
+https://github.com/ubitechdevelopers/ubicons,ubitechdevelopers,2024-02-29,2024-02-29,1,MIT,Dart,"""w_syn"" ""0.275""",1000+ open source ubicons sets for flutter to make you app more beautiful
+https://github.com/ubuntupunk/zathura-liberated,ubuntupunk,2025-08-02,2025-08-12,2,Zlib,C,"""r_poi"" ""w_syn"" ""tau""",ubuntupunk's extensions for zathura pdf reader
+https://github.com/ultralight-ux/GStreamer,ultralight-ux,2021-06-15,2024-04-25,1,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Fork of GStreamer for Ultralight.
+https://github.com/uzfm/ML-PY,uzfm,2025-02-26,2026-09-20,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/v5ma/v5ma.github.io,v5ma,2018-12-26,2026-10-04,4,none detected,Python,"""Shiu et al"" malecns; ""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",
+https://github.com/vankel/rtl819x-SDK,vankel,2021-10-17,2022-04-21,12,none detected,,"""r_poi"" ""w_syn"" ""tau""",REALTEK 11nRouter SDK. Master is original code. The others is modified code. The code can not build on WSL1 because toolchain binary is ELF32.
+https://github.com/vianarmurilo/finapp,vianarmurilo,2026-05-28,2026-06-03,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/vido89/Open-Wrt-RTK,vido89,2020-03-15,2020-03-16,12,AGPL-3.0,,"""r_poi"" ""w_syn"" ""tau""","rtl819xd, rtl8196e and rtl8881a"
+https://github.com/wala2301/DT133G,wala2301,2026-04-14,2026-05-19,0,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/wabiverse/GNOME,wabiverse,2024-01-18,2024-01-18,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",SwiftPM packages across the GNOME Project.
+https://github.com/wangyufeng86/qcc-sdk-6.4.2.26,wangyufeng86,2020-05-27,2022-06-22,2,none detected,C,"""w_syn"" ""0.275""",
+https://github.com/wecepedaa/Udemy_ML_Casos,wecepedaa,2026-03-17,2026-03-20,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/wbrsnda/kinematic,wbrsnda,2024-11-28,2025-12-22,1,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/wickywanka/Android_Malware_Detection,wickywanka,2021-10-19,2022-09-09,0,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/wilhelmbraun/CA1Ripples,wilhelmbraun,2021-12-07,2022-02-07,1,none detected,Python,"""r_poi"" ""w_syn"" ""tau""","Code for ""High-frequency oscillations and sequence generation in two-population models of hippocampal region CA1"""
+https://github.com/winsignares/FPD,winsignares,2023-06-14,2024-05-24,0,none detected,Makefile,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/wordingone/ember,wordingone,2026-06-29,2026-10-10,1,NOASSERTION,Python,Completeness_783; Connectivity_783,"A local intelligence that improves only by verified experience - receipts-gated accumulation loop (harness, state ledger, episode ledger)"
+https://github.com/winlibs/glib,winlibs,2012-11-14,2026-10-03,37,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""","glib Windows repository, used by PHP builds and various other projects"
+https://github.com/wuzirui/conference-accepted-papers,wuzirui,2025-04-12,2025-04-13,1,MIT,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/xchataqua/glib,xchataqua,2012-05-02,2013-06-05,2,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",Unofficial glib clone for XChat Azure
+https://github.com/xel3/VulnerabilityNetworkScanner,xel3,2024-12-27,2025-02-13,1,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/xlaesch/Win-Hardening,xlaesch,2025-11-24,2026-10-03,0,none detected,HTML,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/xiaodongQ/xiaodongq.github.io,xiaodongQ,2016-05-14,2026-10-04,2,MIT,HTML,"""w_syn"" ""0.275""",use GitHub Pages & Jekyll to create blog
+https://github.com/xincun/tools,xincun,2020-05-05,2020-05-05,1,none detected,Assembly,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/xiaoyuhenguai/AuAttack,xiaoyuhenguai,2026-08-04,2026-08-21,8,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",一个以证据为主的ai自动化渗透测试项目
+https://github.com/xln3/panda-datasets,xln3,2026-01-11,2026-01-12,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/xqyww123/MLML,xqyww123,2025-03-21,2026-10-09,5,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""","Machine Leanring for Mini Lang, Mini Lang for Machine Learnining"
+https://github.com/xuanloctn/Backup,xuanloctn,2018-03-22,2018-03-22,0,none detected,C,"""r_poi"" ""w_syn"" ""tau""",Backup
+https://github.com/xyxyxyrex/evite,xyxyxyrex,2026-08-09,2026-08-16,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/yangbooom/oraclarva,yangbooom,2026-03-10,2026-09-23,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""",
+https://github.com/yangbooom/bttf-blog,yangbooom,2026-03-15,2026-08-29,0,none detected,CSS,"""s41586-024-07763-9""",
+https://github.com/yarkable/Awesome-Computer-Vision-Paper-List,yarkable,2021-05-14,2024-04-06,766,MIT,Python,"""r_poi"" ""w_syn"" ""tau""","This repository contains all the papers accepted in top conference of computer vision, with convenience to search related papers."
+https://github.com/yaserbr/NETSCOPE-On-Desktop,yaserbr,2026-03-30,2026-04-12,0,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/yasufumi-nakata/mind-upload,yasufumi-nakata,2025-10-19,2026-08-11,1,none detected,HTML,"""Shiu"" ""leaky integrate"" flywire; ""s41586-024-07763-9""",Core site and research hub for mind upload feasibility work.
+https://github.com/ybeststudio/Mount-Upgrade-System,ybeststudio,2026-06-10,2026-06-10,2,none detected,C++,"""r_poi"" ""w_syn"" ""tau""","Bu paket, Metin2 için hazırlanmış **Resmi At Geliştirme Sistemi** exportudur. Sistem `__MOUNT_UPGRADE__` ve `ENABLE_MOUNT_UPGRADE_SYSTEM` flagleri ile çalışır; at seviyesi, at geliştirme deneyimi, yem"
+https://github.com/ykogr/Nieh_et_al_2025_dual_sync,ykogr,2025-12-19,2026-09-18,0,none detected,Python,"""w_syn"" ""0.275""",data and codes for Nieh et al 2025
+https://github.com/ymkrak-ctrl/PeopleReact,ymkrak-ctrl,2025-09-30,2025-09-30,0,none detected,JavaScript,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/yshifeng41/rtl819x,yshifeng41,2016-02-22,2016-05-10,1,none detected,C,"""r_poi"" ""w_syn"" ""tau""",rtl8196e for elanview
+https://github.com/yuan9/DTA-aes,yuan9,2019-02-14,2021-01-12,0,none detected,Verilog,"""w_syn"" ""0.275""",
+https://github.com/yurukute/dotfiles,yurukute,2021-07-14,2026-06-15,2,none detected,Lua,"""r_poi"" ""w_syn"" ""tau""",Archlinux dotfiles
+https://github.com/zaidanalrsyd/PBM,zaidanalrsyd,2025-05-07,2025-07-04,0,none detected,Objective-C,"""r_poi"" ""w_syn"" ""tau""",
+https://github.com/zakad00e2/deema1,zakad00e2,2026-04-03,2026-09-29,0,none detected,TypeScript,"""r_poi"" ""w_syn"" ""tau""",1
+https://github.com/zcrawling/LOONARover,zcrawling,2026-08-17,2026-10-09,0,none detected,PostScript,"""Drosophila_brain_model""; ""philshiu""; Completeness_783; Connectivity_783",2026 LOONAR Rover project 
+https://github.com/zengzhi2015/SS_TC_BS,zengzhi2015,2019-02-08,2020-12-02,4,none detected,Jupyter Notebook,"""w_syn"" ""0.275""",
+https://github.com/zeetwii/sunflower,zeetwii,2024-02-18,2026-09-28,0,none detected,Python,"""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; Completeness_783; Connectivity_783",
+https://github.com/zhaoyang97/Paper-Notes,zhaoyang97,2026-03-18,2026-10-03,2116,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""; ""w_syn"" ""0.275""",📚 数千篇 AI、LLM、NLP、CV 顶会论文解读，每篇 5 分钟读懂核心思想。
+https://github.com/zeyadahmed465/RTL_TO_GDS_Project,zeyadahmed465,2023-09-24,2023-09-24,2,none detected,Verilog,"""w_syn"" ""0.275""","""Low Power Configurable  Multi Clock Communication System"" system executes commands (unsigned arithmetic operations, logical operations, register file read & write operations) that received from UART "
+https://github.com/zhaoyang97/Paper-Notes-en,zhaoyang97,2026-05-08,2026-09-18,283,NOASSERTION,Python,"""r_poi"" ""w_syn"" ""tau""; ""w_syn"" ""0.275""",📚 Read a top-tier AI paper in 5 minutes.
+https://github.com/zhouhaoyuan/structured-light,zhouhaoyuan,2019-09-20,2019-09-20,13,none detected,C++,"""r_poi"" ""w_syn"" ""tau""",结构光测量
+https://github.com/zigapusnik/SAILoR,zigapusnik,2023-04-07,2025-06-30,1,none detected,Python,"""w_syn"" ""0.275""",
+https://github.com/ziozzang/novigrad,ziozzang,2026-09-14,2026-09-23,0,MIT,Rust,"""720575940660219265""; ""Drosophila_brain_model""; ""Shiu"" ""leaky integrate"" flywire; ""philshiu""; ""s41586-024-07763-9""; Completeness_783; Connectivity_783","Software-defined Bionic NPU: a Mac-focused, connectome-constrained Rust learning engine with Safetensors models"
+https://github.com/zsx/glib,zsx,2009-08-13,2011-07-07,2,NOASSERTION,C,"""r_poi"" ""w_syn"" ""tau""",glib for OAH
+https://github.com/zw87652015/ImageLayoutManager,zw87652015,2025-12-16,2026-10-09,45,Apache-2.0,Python,"""r_poi"" ""w_syn"" ""tau""",Academic Image Layout Manager
+https://github.com/zyh-yy/scipt,zyh-yy,2025-05-15,2025-05-22,0,none detected,Python,"""r_poi"" ""w_syn"" ""tau""",

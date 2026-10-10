@@ -1,0 +1,57 @@
+{
+ "n_readout_neurons": 24,
+ "primary": {
+  "n_yes": 7,
+  "n_no": 4
+ },
+ "all": {
+  "n_yes": 7,
+  "n_no": 9
+ },
+ "auroc_3steps": {
+  "primary": 0.786,
+  "all16": 0.778
+ },
+ "auroc_4steps": {
+  "primary": 0.821,
+  "all16": 0.794
+ },
+ "auroc_5steps": {
+  "primary": 0.75,
+  "all16": 0.698
+ },
+ "K1": "supported",
+ "sensitivity_mAL_inhibitory_only": {
+  "n_neurons": 134,
+  "mAL_score_4": 0.0,
+  "auroc_primary": 0.821
+ },
+ "scrambled_4steps": {
+  "primary": {
+   "mean": 0.346,
+   "min": 0.25,
+   "max": 0.429,
+   "n_at_or_above_real": 0
+  },
+  "all16": {
+   "mean": 0.299,
+   "min": 0.19,
+   "max": 0.397,
+   "n_at_or_above_real": 0
+  }
+ },
+ "exploratory_after_audit": {
+  "pairs_correct": 23,
+  "pairs_total": 28,
+  "primary_without_inhibitory_types": 0.643,
+  "primary_plus_three_mixed_P1_as_NO": 0.735,
+  "per_neuron": {
+   "primary": 0.821,
+   "all16": 0.857
+  },
+  "leave_one_out_primary": [
+   0.762,
+   0.952
+  ]
+ }
+}

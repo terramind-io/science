@@ -1,0 +1,12 @@
+{
+ "job": "SPEC_M1.000",
+ "n_items": 10,
+ "rate_hz": 100,
+ "n_trials": 10,
+ "w_syn_multiplier": 1.0,
+ "readouts": [
+  10331,
+  16949
+ ],
+ "wall_s": 460.9
+}

@@ -1,0 +1,206 @@
+{
+ "cases": {
+  "F1": {
+   "output": "extend",
+   "real_flies": "yes",
+   "mean_rate_hz": 69.0,
+   "frac_trials_firing": 1.0,
+   "answer": "yes",
+   "match": true,
+   "answer_gt0": "yes",
+   "answer_10hz": "yes"
+  },
+  "F2": {
+   "output": "extend",
+   "real_flies": "no",
+   "mean_rate_hz": 4.3,
+   "frac_trials_firing": 0.97,
+   "answer": "no",
+   "match": true,
+   "answer_gt0": "yes",
+   "answer_10hz": "no"
+  },
+  "F3": {
+   "output": "extend",
+   "real_flies": "no",
+   "mean_rate_hz": 16.1,
+   "frac_trials_firing": 1.0,
+   "answer": "yes",
+   "match": false,
+   "answer_gt0": "yes",
+   "answer_10hz": "yes"
+  },
+  "F4": {
+   "output": "extend",
+   "real_flies": "no",
+   "mean_rate_hz": 55.97,
+   "frac_trials_firing": 1.0,
+   "answer": "yes",
+   "match": false,
+   "answer_gt0": "yes",
+   "answer_10hz": "yes"
+  },
+  "F5": {
+   "output": "extend",
+   "real_flies": "yes",
+   "mean_rate_hz": 79.17,
+   "frac_trials_firing": 1.0,
+   "answer": "yes",
+   "match": true,
+   "answer_gt0": "yes",
+   "answer_10hz": "yes"
+  },
+  "F6": {
+   "output": "extend",
+   "real_flies": "yes",
+   "mean_rate_hz": 0.0,
+   "frac_trials_firing": 0.0,
+   "answer": "no",
+   "match": false,
+   "answer_gt0": "no",
+   "answer_10hz": "no"
+  },
+  "G1": {
+   "output": "groom",
+   "real_flies": "yes",
+   "mean_rate_hz": 23.87,
+   "frac_trials_firing": 1.0,
+   "answer": "yes",
+   "match": true,
+   "answer_gt0": "yes",
+   "answer_10hz": "yes"
+  },
+  "G2": {
+   "output": "aBN1",
+   "real_flies": "yes",
+   "mean_rate_hz": 25.5,
+   "frac_trials_firing": 1.0,
+   "answer": "yes",
+   "match": true,
+   "answer_gt0": "yes",
+   "answer_10hz": "yes"
+  },
+  "G3": {
+   "output": "aBN1",
+   "real_flies": "no",
+   "mean_rate_hz": 0.93,
+   "frac_trials_firing": 0.63,
+   "answer": "no",
+   "match": true,
+   "answer_gt0": "yes",
+   "answer_10hz": "no"
+  }
+ },
+ "I1": {
+  "matched": 6,
+  "of": 9,
+  "verdict": "inconclusive",
+  "matched_gt0": 4,
+  "matched_10hz": 6
+ },
+ "unscored": {
+  "U_Ir94e": {
+   "MN9_hz": 0.0,
+   "aBN1_hz": 0.0,
+   "aDN1_hz": 0.0,
+   "aDN2_hz": 0.0
+  },
+  "U_bitter": {
+   "MN9_hz": 0.0,
+   "aBN1_hz": 0.0,
+   "aDN1_hz": 0.0,
+   "aDN2_hz": 0.0
+  },
+  "U_nothing": {
+   "MN9_hz": 0.0,
+   "aBN1_hz": 0.0,
+   "aDN1_hz": 0.0,
+   "aDN2_hz": 0.0
+  },
+  "U_strong_sweet": {
+   "MN9_hz": 92.07,
+   "aBN1_hz": 0.0,
+   "aDN1_hz": 0.0,
+   "aDN2_hz": 0.0
+  },
+  "U_sweet_water": {
+   "MN9_hz": 86.23,
+   "aBN1_hz": 0.0,
+   "aDN1_hz": 0.0,
+   "aDN2_hz": 0.0
+  },
+  "U_water_bitter": {
+   "MN9_hz": 0.0,
+   "aBN1_hz": 0.0,
+   "aDN1_hz": 0.0,
+   "aDN2_hz": 0.0
+  }
+ },
+ "cross_checks": {
+  "touch_read_at_extend_MN9_hz": 0.0,
+  "sweet_read_at_groom_max_hz": 0.0
+ },
+ "I2": {
+  "pairs": 50,
+  "n_scrambles": 10,
+  "yes": 9,
+  "frac_yes": 0.18,
+  "max_rate_hz": 51.67,
+  "verdict": "inconclusive",
+  "mean_nonstim_neurons_firing": 57.9
+ },
+ "sensitivity": {
+  "P_sugar": {
+   "MN9_hz": 39.27,
+   "frac_trials_firing": 1.0
+  },
+  "P_sugar_Ir94e": {
+   "MN9_hz": 0.27,
+   "frac_trials_firing": 0.23
+  },
+  "P_sugar_bitter": {
+   "MN9_hz": 0.03,
+   "frac_trials_firing": 0.03
+  },
+  "P_water": {
+   "MN9_hz": 36.8,
+   "frac_trials_firing": 1.0
+  },
+  "P_water_bitter": {
+   "MN9_hz": 9.93,
+   "frac_trials_firing": 1.0
+  },
+  "S_sweet100_Ir94e200": {
+   "MN9_hz": 3.33,
+   "frac_trials_firing": 0.97
+  },
+  "S_sweet100_Ir94e50": {
+   "MN9_hz": 47.43,
+   "frac_trials_firing": 1.0
+  },
+  "S_sweet100_bitter200": {
+   "MN9_hz": 0.0,
+   "frac_trials_firing": 0.0
+  },
+  "S_sweet100_bitter50": {
+   "MN9_hz": 37.8,
+   "frac_trials_firing": 1.0
+  },
+  "S_sweet200_Ir94e200": {
+   "MN9_hz": 63.57,
+   "frac_trials_firing": 1.0
+  },
+  "S_sweet200_Ir94e50": {
+   "MN9_hz": 87.8,
+   "frac_trials_firing": 1.0
+  },
+  "S_sweet200_bitter200": {
+   "MN9_hz": 9.2,
+   "frac_trials_firing": 1.0
+  },
+  "S_sweet200_bitter50": {
+   "MN9_hz": 78.0,
+   "frac_trials_firing": 1.0
+  }
+ }
+}

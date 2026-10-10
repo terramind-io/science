@@ -1,0 +1,256 @@
+# flybench
+
+**A reflex benchmark for whole-brain fruit fly connectome simulations.**
+
+[![CI](https://github.com/brandoncho369/flybench/actions/workflows/ci.yml/badge.svg)](https://github.com/brandoncho369/flybench/actions/workflows/ci.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22886374.svg)](https://doi.org/10.5281/zenodo.22886374)
+
+In 2024 the [FlyWire](https://flywire.ai) consortium published the complete wiring diagram of an adult *Drosophila* brain: ~140,000 neurons, ~50 million synapses. Since then people have dropped that graph into a leaky integrate-and-fire model and wired it to Minecraft, Doom and Beat Saber. Every one of those demos had to make the same undocumented choices — synaptic weight, a global gain knob, which transmitters count as inhibitory, how many synapses an edge needs to exist — and then hand-tune them until something looked alive.
+
+[![the FlyWire connectome running live in the browser: sugar receptors fire, the taste pathway lights up, the proboscis motor neuron fires](https://raw.githubusercontent.com/brandoncho369/fly-explorer/master/docs/explorer.gif)](https://www.fly-bench.com)
+
+*Above: the same model running live at [www.fly-bench.com](https://www.fly-bench.com) — press a sense, watch the wiring answer. The benchmark below is what keeps it honest.*
+
+**In one screen.** 36 tasks, each a published fly behaviour with a citation and a pre-registered prediction; two connectomes (FlyWire v783, MaleCNS v1.0 with its nerve cord); shuffled-wiring controls on every row; a real optic-lobe model in front of the brain and a physics body behind it. Six things it has found so far, each with its RFC:
+
+- The reference model's working gain is **0.45**, not the published 1.0 — at 1.0 a fifth of the brain fires at 29 Hz ([docs/FINDINGS.md](docs/FINDINGS.md)).
+- Given a real eye, the reference giant fiber fires at a **flash and not at a loom** — the opposite of the fly ([RFC 32](docs/rfcs/32_flyvis_loom_escape.md)); given a body too, it jumps at the flash ([RFC 33](docs/rfcs/33_embodied_loom_escape.md)).
+- On the male CNS a loom reaches the jump muscle **without the giant fiber**, through nine descending types onto the GF-coupled interneurons; the flash's route *is* the GF ([RFCs 34–35](docs/rfcs/)).
+- A whole-CNS point-neuron model lets ascending neurons **fire backwards** from their brain-side terminals. Keeping 0.6–4 % of synapses off the soma (no free parameters) makes the mushroom body sparse on both brains and takes the male core tier from 0.57 to 0.90 ([RFC M1](docs/rfcs/M1_terminal_synapses.md), [M1b](docs/rfcs/M1b_terminal_everywhere.md)).
+- Spike-frequency adaptation, applied uniformly, is still the best open-division row (graded 0.75 vs 0.64) and explains robustness, not selectivity.
+- With the loop closed through its own eyes, the male brain **jumps before contact — and at a near miss** ([RFC 36](docs/rfcs/36_closed_loop_escape.md)). Nobody passes that task yet.
+
+```
+pip install -e .          # then, in ~2 min on the bundled toy:
+flybench run -c toy
+```
+
+flybench asks the one question that keeps those choices honest:
+
+> **Does the simulated fly still do the things a real fly is known to do?**
+
+Scope, stated once so it is never overstated: the benchmark measures *these cited manipulations* — the tasks listed below, each a published stimulus → response with a threshold and a basis. It does not measure "biological realism" or how close to a fly a model is; a higher score reproduces more of the listed behaviours, nothing else ([docs/GOVERNANCE.md](docs/GOVERNANCE.md)).
+
+It ships a small suite of reflexes with citations, a reference LIF simulator, and a scoring harness, so any set of model parameters (or any alternative simulator that can run the tasks) gets a number you can compare.
+
+```
+$ flybench run -c flywire783 --config configs/shiu2024.yaml
+flywire783: 139,255 neurons, 2,7xx,xxx edges · gain=1.0 w_syn=0.275 mV
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ task                                   ┃ result ┃ checks                              ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Silence in, silence out                │ PASS   │ ✓ network rate[baseline] < 0.5 Hz   │
+│ Sugar → proboscis extension            │ PASS   │ ✓ readout rate[sugar] > 5 Hz  [..]  │
+│ Bitter suppresses the sugar response   │ ...    │                                     │
+│ Looming → giant fiber escape           │ ...    │                                     │
+│ Bitter alone does not extend proboscis │ ...    │                                     │
+└────────────────────────────────────────┴────────┴─────────────────────────────────────┘
+```
+
+## First result: the reflex window on FlyWire v783
+
+Run against the real connectome (Codex v783, Princeton-filtered connections, ≥5 synapses, 139,255 neurons / 3.7 M edges), sweeping only the global gain:
+
+| gain | sugar → MN9 | bitter cancels sugar | looming → GF | brain awake during sugar | verdict |
+|---|---|---|---|---|---|
+| 0.30 | no | – | yes | 0.1 % | taste pathway never ignites |
+| 0.35 | no | – | yes | 0.2 % | same |
+| **0.40** | **yes** | **yes (to 0 Hz)** | **yes** | **8 %** | **passes everything** |
+| **0.45** | **yes** | **yes** | **yes** | **9 %** | **passes everything** |
+| 0.50 | yes | partially | yes | 10 % | bitter can't hold it down |
+| 0.70 | yes | yes | yes | 14 % | too much of the brain firing |
+| 1.00 (Shiu 2024) | yes | yes | yes | 19 % | a fifth of the brain at 29 Hz — not a reflex, a seizure |
+
+So on the July-2025 synapse predictions the working window is around **gain 0.45**, less than half of the 1.0 that Shiu et al. calibrated on the earlier Buhmann predictions. That is the kind of thing this benchmark exists to catch: the connectome got re-predicted, the weights shifted, and a parameter that used to be right silently stopped being right.
+
+Re-running with three random seeds (`--seeds 3`) sharpened it further: **0.40 is a knife edge** — sugar reaches the proboscis on only 2 of 3 seeds, and it "passed" the adaptation task purely because one seed's second pulse failed to ignite. **0.45 passes every core task on every seed.** With more than one seed a check only counts as passed if it holds on every seed, so single-seed luck cannot climb the leaderboard.
+
+Inside that window the reference model then fails most of the **hard** tier. The starkest failure is the simplest: after a half-second taste of sugar, ~8 % of the brain keeps firing at a perfectly constant rate *forever* (MN9 at 354 Hz one second after the stimulus ended, unchanged at three seconds). Recurrent excitation sustains itself and nothing in the model can switch it off. A real fly is at rest a second later. The other failures are informative, not embarrassing: MN9 ignition is all-or-nothing (0 Hz or ~400 Hz, nothing in between — no dose response); a second sugar pulse gets exactly the response of the first (no adaptation, because the model has no state that outlives 20 ms); driving one olfactory glomerulus fires ~84 % of all projection neurons (no lateral inhibition, the antennal lobe is a broadcast); looming recruits ~30 % of all descending neurons rather than a takeoff ensemble. Full table in [`LEADERBOARD.md`](LEADERBOARD.md).
+
+**Two things the reflex tasks alone could not see.** Measuring spikes rather than "did it fire" (task 13) shows the giant fiber firing **129 times** per looming stimulus where the real GF fires once, and MN9 at 360 Hz — the reflexes "work" only in the sense that the wire conducts. And re-running the core reflexes on a copy of the connectome with every synapse count jittered ±25 % (task 14, a stand-in for a second individual) shows that at gain 0.45 **escape is robust and taste is a coin flip**: one of three jittered brains never extends the proboscis. At gain 1.0 taste becomes robust across individuals — and a fifth of the brain fires, a flash triggers escape, and bitter no longer reliably cancels sugar. One global gain trades robustness for sparseness; there is no setting that buys both, and every real fly has both. That gap is not in the wiring diagram.
+
+**One real mechanism, and what it does and doesn't buy.** Adding spike-frequency adaptation (a documented property of fly neurons; 2 mV per spike, 200 ms decay, applied identically to every neuron, no per-neuron tuning) changes things nobody tuned it for: the reflexes survive a different individual's synapse counts on every seed, the brain returns to rest (0 Hz two seconds after sugar), MN9 fires at tens of Hz instead of 360, and looming recruits 13 % of descending neurons instead of 30 %. Over all 36 tasks (28 applicable on FlyWire) it passes the core tier and beats the reference on the hard tier, 0.65 against 0.51, with the highest shuffled-wiring specificity of any row (+0.31) — and it loses on the tasks whose pass depended on a *sustained* response (the compass bump, egg laying, halting). It went through `flybench evaluate` like any submission and is verified. The per-task table is in docs/FINDINGS.md (2026-09-16; refreshed 2026-09-21). That is a research agenda, not a leaderboard win: adaptation explains part of the fly's robustness and none of its selectivity.
+
+**A second mechanism, earned the same way.** Task 35 found that a whole-CNS point-neuron model lets brain-side axo-axonic inputs fire ascending neurons *backwards* into the nerve cord. The terminal-aware LIF (`flybench/models/terminal_lif.py`, RFCs M1 and M1b) keeps axo-axonic inputs off the soma — a synapse in a neuropil where its target is ≥ 80 % presynaptic sits on the axon (3.7 % of FlyWire's synapses, 4.2 % of MaleCNS's) — with no free parameters. It raises the graded score from 0.655 to 0.711 on FlyWire and from 0.660 to 0.700 on MaleCNS, with every shuffled-wiring control unchanged and half the spikes: the mushroom body goes sparse on both brains (Kenyon cells active per odour 60 % → 1.3 %), MaleCNS's core tier goes from 0.57 to 0.90, and the embodied fly stops jumping at a flash. It also thins the GF-free loom route of tasks 34–35 to a single spike. docs/FINDINGS.md (2026-09-20).
+
+**The first task with a real eye in front of the brain.** Task 32 renders a looming disc, runs it through the pretrained flyvis optic-lobe model (Lappalainen et al. 2024) and drives the connectome's own T4/T5/Tm cells column by column instead of putting 150 Hz on the loom detectors by hand. On both brains the loom never reaches LPLC2, LC4 or the giant fiber (0/3, pre-registered), while a full-field flash fires the giant fiber at 37 Hz on FlyWire: a point-neuron model that sums synapses prefers a synchronous step to a sparse expanding edge. The escape reflex that tasks 4–16 pass was being handed the answer. docs/rfcs/32, docs/FINDINGS.md (2026-09-17).
+
+## The tasks
+
+Two tiers. **Core** is the reflexes the reference LIF model is known to reproduce; a model that fails these is broken. **Hard** is behaviours a real fly shows that a static wiring diagram with five constants is *not* expected to reproduce; these are the research agenda, and the reference model fails most of them on purpose.
+
+| tier | task | what it tests | source |
+|---|------|---------------|--------|
+| core | `stability` | no input → (almost) no output. Guards against "everything fires so everything passes" | Shiu et al. 2024 |
+| core | `sugar_to_proboscis` | sugar GRNs → MN9 (proboscis motor neuron) fires | Dethier 1976; Shiu et al. 2024 Fig. 2 |
+| core | `bitter_suppression` | sugar + bitter → MN9 fires less than sugar alone | Shiu et al. 2024 Fig. 3; Jaeger et al. 2018 |
+| core | `looming_to_giant_fiber` | LPLC2 / LC4 → Giant Fiber (escape) fires | von Reyn et al. 2014; Ache et al. 2019 |
+| core | `taste_specificity` | bitter alone does **not** drive MN9 (negative control) | Shiu et al. 2024 |
+| hard | `dose_response` | weak sugar → weaker MN9 than strong sugar, and MN9 is graded, not saturated | Dethier 1976; Dahanukar et al. 2007 |
+| hard | `adaptation` | a second sugar pulse evokes a smaller response than the first | Duerr & Quinn 1982; Paranjpe et al. 2012 |
+| hard | `olfactory_sparse_coding` | one glomerulus's ORNs (DA1) fire their own PNs, not most of the antennal lobe | Olsen & Wilson 2008; Wilson 2013 |
+| hard | `crosstalk` | sugar does not fire the Giant Fiber; looming does not extend the proboscis | von Reyn et al. 2014 |
+| hard | `looming_dn_ensemble` | looming drives DNp02/DNp11 but not most of the ~1300 descending neurons | Ache et al. 2019; Namiki et al. 2018 |
+| hard | `flash_is_not_loom` | a full-field flash on every photoreceptor does not fire the Giant Fiber | von Reyn et al. 2014; Klapoetke et al. 2017 |
+| hard | `return_to_rest` | one second after a 500 ms taste of sugar, the brain is quiet again | Dethier 1976; Shiu et al. 2024; Benda & Herz 2003 |
+| hard | `physiological_rates` | the giant fiber spikes ~once per loom, not 100+ times; MN9 fires at tens of Hz, not at its refractory ceiling | von Reyn et al. 2014; Schwarz et al. 2017 |
+| hard | `wiring_robustness` | the core reflexes still work when every synapse count is jittered ±25 % (a different individual) | Schlegel et al. 2024; Marder & Goaillard 2006 |
+| hard | `looming_to_jump_muscle` | brain → body: looming fires the giant fiber, then the jump-muscle (TTMn) and flight-power (DLMn) motor neurons in the nerve cord; sugar does not. Needs a connectome with a VNC (MaleCNS); skipped elsewhere | Tanouye & Wyman 1980; Allen et al. 2006; von Reyn et al. 2014 |
+| hard | `gf_azimuth_invariance` | **recording-match.** A loom at −45°, 0° or +45° (left / both / right detectors) evokes one giant-fiber spike, the measured count, with no directional selectivity across azimuth (DSI < 0.5 as a ratio). Skipped on datasets without side labels. Pre-registered in docs/rfcs/16 | Ache et al. 2019; von Reyn et al. 2014; J Exp Biol 2023 226:jeb244790 |
+| hard | `pn_transfer_function` | **recording-match.** DA1 ORNs at 10 / 30 / 100 Hz: the projection neurons stay ≤ 170 Hz (the measured saturating rate), rise monotonically, and compress the way the fitted divisive-normalisation curve says (ratios < 3 and < 2). Absolute rates are not checked; the shape is. Pre-registered in docs/rfcs/17 | Olsen, Bhandawat & Wilson 2010; Schlief & Wilson 2007 |
+| hard | `da1_sparseness` | **recording-match.** Lifetime sparseness of the DA1 projection neurons across an eight-glomerulus odour panel ≥ 0.90 (the measured value), cVA the strongest of the eight. The panel is a stated convention (one glomerulus per "odour"). Pre-registered in docs/rfcs/18 | Schlief & Wilson 2007; Willmore & Tolhurst 2001 |
+| hard | `gf_to_muscle_latency` | **recording-match, MaleCNS only.** First-spike latency from the giant fiber to the jump motor neuron ≤ 1.5 ms (measured ≈ 0.6 ms: the synapse is electrical) and to the flight motor neurons < 3 ms, DLMn after TTMn. Written to fail on any model with one chemical delay per synapse: it names a missing mechanism, not a wrong parameter. Pre-registered in docs/rfcs/19 | Augustin et al. 2019; Engel & Wu 1996 |
+| hard | `taste_modalities` | **Phase 3, first of the taste family.** Water GRNs (ppk28 / LB3a) drive MN9; high-salt GRNs (Ir7c / LB3d) alone do not (null check); sugar + high salt gives less than half the sugar response. Skipped where a dataset lacks water or high-salt types. Pre-registered in docs/rfcs/20 | Cameron et al. 2010; Zhang et al. 2013; Jaeger et al. 2018 |
+| hard | `lc_dn_matrix` | **Phase 3, first `matrix` task.** Six lobula columnar types (LC4, LPLC2, LC6, LPLC1, LC16, LC10a) each driven at the loom rate; four descending readouts (GF, DNp02, DNp11, MDN); a 16-cell sign grid — LC4/LPLC2 must reach the takeoff DNs, LC16 must reach the moonwalker DNs, and neither may reach the other's (11 null cells). Pre-registered in docs/rfcs/21 | Wu et al. 2016; Sen et al. 2017; Dombrovski et al. 2023; Ache et al. 2019 |
+| hard | `courtship_song_chain` | **Phase 3, MaleCNS only (`dataset_only`).** The male song command chain: P1 (pMP-e lineage) → pIP10 → song premotor → the ten song wing MNs; one pIP10 is enough, either wing, no side bias; pIP10 must not drive the leg motor pool (null). Not applicable on the female brain — a different statement from "matches no neurons". Pre-registered in docs/rfcs/22 | von Philipsborn et al. 2011; Lillvis et al. 2024; O'Sullivan et al. 2018; Cande et al. 2018 |
+| hard | `leg_mn_size_principle` | **MaleCNS only; expected to fail any uniform point model.** A 0 → 100 Hz ramp on the front-left leg's excitatory premotor pool must recruit its 57 motor neurons smallest first (Spearman ρ between input-synapse count and first-spike time > 0.5), recruit most of them, and spread the recruitment over the ramp. The wiring makes premotor contact proportional to MN size, so drive alone recruits largest first — the paper's own inference. Pre-registered in docs/rfcs/23 | Azevedo et al. 2020; Lesser, Azevedo et al. 2024; Henneman 1957 |
+| hard | `optic_flow_rotation` | HS + H2 → DNp15 (yaw) and → the bilateral bIPS, which inhibits the other DNp15. A right yaw turn drives the left DNp15 and not the right (null); DNp15 prefers rotation to forward translation; the contralateral symmetric component suppresses it; bIPS prefers symmetric flow. Pre-registered in docs/rfcs/24 | Nat Neurosci 2025 (10.1038/s41593-025-01948-9); Suver et al. 2016 |
+| hard | `antennal_grooming_vs_backward` | Johnston's-organ subtypes: JO-C/E and JO-F both reach the antennal-grooming DNs (aDN1/aDN2); only JO-F reaches the moonwalker DN; JO-C/E must not (null). The bristle version (BM-Ant vs BM-InOm) waits for those types to be annotated. Pre-registered in docs/rfcs/25 | Hampel et al. 2015, 2020; Bidaye et al. 2014 |
+| hard | `mb_sparseness_apl` | **First silencing task (`silence:`, `requires_capabilities: [can_silence]`).** The eight-odour panel with the mushroom body intact and with APL silenced: fewer than a fifth of Kenyon cells respond per odour with APL; silencing APL raises the fraction and lowers population sparseness. Pre-registered in docs/rfcs/26 | Lin et al. 2014; Honegger et al. 2011 |
+| hard | `co2_pathway_specificity` | ORN_V (CO2) → the bilateral V PN, the extraglomerular LN23 → PNm1 channel, and LHPD5c1 all fire; DA1 and DM1 must not reach PNm1 or the V PN (nulls). Pre-registered in docs/rfcs/27 | bioRxiv 2026.01.05.697655; Suh et al. 2004; Lin et al. 2013 |
+| hard | `steering_dna02_vs_dna01` | **MaleCNS only.** DNa02 (490 direct leg-MN synapses) vs DNa01 (104): both recruit the leg pool, DNa02 sooner and harder, on its own side, without waking its twin (null). Pre-registered in docs/rfcs/28 | Rayshubskiy et al. 2025; Bidaye et al. 2020 |
+| hard | `epg_ring_attractor` | **Expected-fail tier (`expected_fail`).** Eight EPG wedges by PB glomerulus; a cued wedge must give one bump (population-vector length > 0.5) at the cue, keep it 200–700 ms into the dark, and pick one of two opposite cues. New `bump` check. Pre-registered in docs/rfcs/29 | Seelig & Jayaraman 2015; Kim et al. 2017; Turner-Evans et al. 2017 |
+| hard | `egg_laying_ovidn` | **FlyWire only (`dataset_only`), the female twin of the song chain.** oviEN (SMP550, by motif) drives oviDN; oviIN halves it; pC1 drives oviIN and must not drive oviDN (the virgin null). Pre-registered in docs/rfcs/30 | Wang et al. 2020, 2021 |
+| hard | `halt_walk_off` | Foxglove and Bluebell (the walk-OFF halt neurons, under the paper's own FlyWire labels) must halve BDN2 / oDN1 under a declared walking stand-in; sugar must drive Foxglove. Skipped where Foxglove is unlabelled (MaleCNS). Pre-registered in docs/rfcs/31 | Sapkal et al. 2024 |
+| hard | `flyvis_loom_escape` | **First task with a sensory front end (`requires_frontends: [flyvis]`).** A rendered dark loom (r/v 40 ms) goes through the pretrained flyvis optic-lobe model (Lappalainen et al. 2024); its T4/T5/T2/T3/Tm/TmY output rates drive those cells column by column, and the connectome's own wiring must carry it to LPLC2, LC4 and the giant fiber. A flash is measured, not scored. Front-end output is cached in `data/frontends/flyvis/` so runs need neither torch nor flyvis. Pre-registered in docs/rfcs/32 | Lappalainen et al. 2024; von Reyn et al. 2014; Klapoetke et al. 2017 |
+| hard | `embodied_loom_escape` | **First embodied task (`body:`).** The brain's TTMn spikes (or the GF plus the measured 0.93 ms delay where there is no nerve cord) command a fixed middle-leg extension on NeuroMechFly in FlyGym/MuJoCo; takeoff is a physics event (all six feet off the ground). A loom must make the body jump within the drive; rest and a flash through the eye must not. Feed-forward: nothing returns to the brain. Skipped without `pip install -e .[embodied]`. Pre-registered in docs/rfcs/33 | Card & Dickinson 2008; von Reyn et al. 2014; Lobato-Rios et al. 2022 |
+| hard | `ttmn_without_gf` | **MaleCNS in practice (needs TTMn).** The long-mode escape: with the giant fiber's synapses silenced, a loom through the eye must still reach TTMn and make the body take off before the movie's collision; the convention loom must also have a GF-free route; a flash through the eye and rest must not jump. Follows task 33's unasked-for finding (disclosed in the RFC). Pre-registered in docs/rfcs/34 | von Reyn et al. 2014; Card & Dickinson 2008; Engel & Wu 1996 |
+| hard | `gf_free_route_to_ttmn` | **MaleCNS in practice.** Which descending neurons carry task 34's GF-free loom route to the jump muscle: the rendered loom with the GF silenced plus, per condition, every DN (the route must descend), the three direct loom-DN inputs (predicted not to matter), the nine-type candidate set named by a fixed procedure from one disclosed spike dump (predicted to abolish it), and the top five one at a time (redundancy). Pre-registered in two disclosed stages, docs/rfcs/35 | von Reyn et al. 2014; Dombrovski et al. 2023; Allen et al. 2006 |
+| hard | `closed_loop_escape` | **The closed loop (Phase 7b).** The brain's visual input is the body's: NeuroMechFly's two compound eyes are rendered every 10 ms, mapped onto flyvis's 721-hexal retina, run through flyvis frame by frame, and drive the connectome's own optic-lobe cells; TTMn (or the GF + 0.93 ms) starts the jump; the eyes see the world from wherever the body now is. A 2 mm sphere approaching at 50 mm/s (r/v 40 ms) must produce a takeoff before contact; a 10 mm near miss and a motionless sphere must not. Nobody is predicted to pass. Needs flygym + flyvis + torch; skipped otherwise. Pre-registered in docs/rfcs/36 | Card & Dickinson 2008; von Reyn et al. 2014; Lappalainen et al. 2024; Lobato-Rios et al. 2022 |
+
+A task can carry a `body:` block (the embodied track, `flybench/embodied/`): a named readout's spikes command a physics body and what the body did (`takeoff`, `takeoff_latency`, …) is scored like any measurement; the body is a declared, fixed transducer and every embodied task runs with the shuffled-wiring controls. A condition can be a `closed_loop:` world instead of a stimulus list: the body's own eyes, through flyvis, are the brain's input, and the brain's command moves the body that carries the eyes. A task can declare `requires_frontends: [flyvis]` to drive the optic lobe from a rendered movie through a published model instead of the "100 Hz on the cells a stimulus would drive" convention (`flybench frontend flyvis status`). A task can declare `requires_readouts:`; if this connectome has none of those neurons the task is skipped and not scored, not failed (so brain-only datasets are not penalised for lacking a nerve cord). A task can also declare `dataset_only: [malecns, toy]` when the circuit exists on one dataset by construction (a male-specific pathway on the female brain): elsewhere it is reported as *not applicable*, which is a different statement from "the annotation lacks the type". `flybench run --tier core` / `--tier hard` / `--tier all`. Each task is a YAML file in [`tasks/`](tasks/): a readout population, one or more stimulus conditions, and a list of checks. A task passes if every check passes; the suite score is the mean fraction of checks passed. Adding a task is adding a file. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit results, tasks, or a different simulator (`--simulator mymodule:MyModel`).
+
+## Install
+
+Or skip the install: the toy notebook runs the whole thing in Colab in ~2 minutes — [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brandoncho369/flybench/blob/master/notebooks/01_toy.ipynb) (`notebooks/01_toy.ipynb`, executed in CI).
+
+```bash
+pip install -e ".[dev]"
+flybench toy          # builds a 3.6k-neuron synthetic connectome hand-wired so every circuit-level task can pass
+flybench run          # runs the suite on it (≈2 min; --jobs 6 for ≈20 s)
+pytest
+```
+
+### The real connectome
+
+1. Sign in at [codex.flywire.ai](https://codex.flywire.ai) (free, Google account), open **Download Data**, dataset FAFB v783, and grab: *Connections (Filtered)*, *Neurotransmitter Type Predictions*, *Classification / Hierarchical Annotations*, *Community Labels (Raw)*, *Marked Neuron Coordinates*, *Cell Types*.
+2. Save them as `connections.csv.gz`, `neurons.csv.gz`, `classification.csv.gz`, `labels.csv.gz`, `coordinates.csv.gz`, `cell_types.csv.gz` in one directory and build the cache (one-time, ~30 s, ~2 GB RAM):
+
+```bash
+flybench build data/ --name flywire783
+flybench run -c flywire783 --gain 0.45 -v -o results/gain0.45.json
+flybench run -c flywire783 --config configs/shiu2024.yaml -o results/shiu2024.json
+flybench compare results/ -o LEADERBOARD.md
+```
+
+**Other connectomes.** Any neuPrint dataset can be pulled into the same layout, no login needed. The male CNS the viral Minecraft/Beat Saber demos ran on:
+
+```bash
+flybench fetch-neuprint data-malecns              # male-cns:v1.0 from neuprint.janelia.org, resumable
+flybench build data-malecns --name malecns
+flybench run -c malecns --config configs/malecns_minecraft.yaml --seeds 3 -o results/malecns-gain-0.65.json
+```
+
+Result (3 seeds each, [docs/MALECNS.md](docs/MALECNS.md)): on the male CNS there is **no gain at which the reference model does both taste and vision**. At 0.45 looming → giant fiber is clean but sugar never reaches the proboscis; at the demo's 0.65 sugar works but so does quinine, a shadow triggers feeding, 39% of descending neurons fire, and the network never quiets. Part of the gap is the dataset's transmitter predictions (13% of the male sugar neurons are called glutamatergic, which the model treats as inhibitory). Selectors for that dataset were identified from wiring onto named second-order neurons; the table is in the doc.
+
+A full 31-task run with 3 seeds and the rewired control is ~18 min on a laptop with `--jobs 6` (≈5× real time per CPU, 0.4 GB per worker; the cost column in LEADERBOARD.md). Real neuron sets the tasks resolve to on v783: sugar GRNs = `sub_class: sugar/water` (129), bitter GRNs = `sub_class: bitter` (65), MN9 = `cell_type: CB0701` (2, labelled "Motor neuron 9; MN9"), Giant Fiber = `cell_type: DNp01` (2), looming = `LPLC2` + `LC4` (314).
+
+Edges with fewer than 5 synapses are dropped (`--min-synapses`), matching Shiu et al.
+
+## The model
+
+Every neuron is the same leaky integrate-and-fire unit, parameters from [Shiu et al. 2024, *Nature*](https://www.nature.com/articles/s41586-024-07763-9):
+
+| | |
+|---|---|
+| resting / reset potential | −52 mV |
+| threshold | −45 mV |
+| membrane τ | 20 ms |
+| synaptic τ | 5 ms |
+| refractory | 2.2 ms |
+| synaptic delay | 1.8 ms |
+| weight per synapse | 0.275 mV × `gain` |
+| sign | ACh +, GABA −, glutamate −, monoamines + |
+
+No per-neuron tuning, on purpose. If the network reproduces a reflex, the wiring did it.
+
+Stimuli are Poisson spike trains forced onto a selected population (e.g. "all sensory neurons whose community label contains *sugar*"). Readouts are mean firing rates of a selected population over a window. Selectors are small YAML expressions over the Codex annotation columns — run `flybench select '{labels_regex: sugar, super_class: sensory}'` to see what one matches on your build. **The FlyWire community labels are free text and evolve between data versions; if a task reports "matched 0 neurons", the fix is to update the selector in the YAML, and a PR with the corrected root IDs is very welcome.**
+
+The simulator is event-driven on the synaptic side (only neurons that spiked propagate), so a full-brain run at 0.1 ms resolution takes seconds to low minutes on a laptop depending on how much of the brain you wake up.
+
+## What a score means — and what it doesn't
+
+A score is the fraction of listed behaviours a model reproduces under fixed, cited conditions. **A higher score does not mean a model is closer to a real fly's biology.** A model can pass more tasks by adding a mechanism flies don't have, or a real mechanism with wrong numbers, or by being tuned to the public tasks. Three habits keep the leaderboard honest:
+
+1. Every row carries its constants and a one-line note; read it as a hypothesis with its evidence attached, not as a ranking of truth.
+2. Mechanisms added to a model should be ones neuroscience has independent evidence for (spike-frequency adaptation, synaptic depression, gap junctions, neuromodulation) with constants in literature ranges, and the citation goes in the note.
+3. A change that fixes one task while breaking a core reflex is a finding, not a failure to hide; it usually means the mechanism is real but the numbers are not.
+
+The reference model is deliberately the simplest thing that works. Every improvement on it is a claim to be argued with, and the benchmark exists so the argument can happen with numbers. It is also a *submission*, not the benchmark's answer: it has a model card (`flybench/models/reference_lif.py`), goes through `configs/submissions/` and `flybench evaluate` like anyone else's model, declares its conflict of interest (the maintainers wrote it), and its row is tagged **baseline** on the leaderboard. Nothing here scores the benchmark by its own model.
+
+**How good is the ruler itself?** Honestly: calibrated at the coarse end. It reliably tells "this brain is seizing" from "this pathway is dead" from "this reflex works"; it cannot yet rank two nearly-right models. What keeps it honest, and what we changed once we noticed the gaps:
+
+- *Every threshold has a provenance.* Each check carries a `basis`: a citation for the number, or an explicit `convention:` explaining the judgement call. The lint refuses tasks without one. Most of our numbers are conventions and say so.
+- *Effect sizes, not just pass/fail.* Every check reports a margin (how far from the line, in decades, e.g. `+3.2x` or `-1.4x`) and a **graded** score in [0, 1] with no cliff (0.5 on the line, 0.91 at 3.2× on the passing side). Runs report the interquartile mean of graded task scores with a seed-bootstrap 95 % CI, and a performance profile (pass rate as a function of how strict the line is). Checks that compare to a recording carry `observed: {mean, sd, n, source}` and pass by |z| < 2 instead of a threshold; a `ceiling` says what the real, non-deterministic fly would score. `flybench diff a.json b.json` compares two runs by paired per-check differences. docs/SCORING.md.
+- *A comparison between two ceilings is not a pass, and neither is one between two silences.* Ratio and sparseness checks whose every compared condition sits at the refractory limit are marked saturated and fail (RFC S1); three recording-match tasks had passed that way before the rule. Checks whose every side is under 2 Hz are marked floored and fail (RFC S2); the steering task had passed two ratios on eight spikes against three.
+- *Ceilings, not only floors.* The reflex tasks only ask that a pathway conducts; the reference model passes them with the giant fiber at ~430 Hz, its refractory ceiling, when the real GF fires **once** per escape (von Reyn et al. 2014). Task 13 (`physiological_rates`) measures spikes per neuron and fails saturation. The reference model fails it.
+- *Circuits count once.* Seven tasks hinge on the sugar → MN9 pathway, so the task-weighted score is dominated by one circuit. Reports also carry `core_by_circuit` / `hard_by_circuit`: the mean over circuits of the mean within each.
+- *It's one animal.* A connectome is one fly; synapse counts differ between individuals by tens of percent while behaviour does not. Task 14 (`wiring_robustness`) reruns the core reflexes on a copy where every synapse count is jittered ±25% (lognormal). A model that only works at one specimen's exact counts has fit the specimen, not the species. This is also the answer to "wouldn't a different female's connectome give different results?" — it would, somewhat, and the benchmark now measures how much.
+- *Hold-out, and the gap.* CI runs a small set of unpublished tasks (`FLYBENCH_HOLDOUT_URL` secret) and reports only pass/fail plus **gap = public − hold-out score**. For a model whose parameters were searched rather than chosen, the gap is the number that says whether the search found the fly or found the tests.
+- *Shuffled wiring as the floor.* `--controls rewired,random,signflip` scores every task again on a brain whose wiring has been destroyed but whose neurons, annotations and synapse counts are kept (docs/CONTROLS.md). The difference is the task's **specificity**; a task the shuffled brain also passes is flagged non-diagnostic. This is the answer to the "digital sphinx" result (a worm connectome driving a fly body realistically, bioRxiv 2026): a behavioural pass without a wiring control proves nothing.
+- *Closed and open divisions.* A submission is `closed` (the reference LIF, only the gain changed) or `open` (anything else), and open submissions must declare `n_free_parameters` and `fit_data`. Fitting on benchmark tasks makes a submission ineligible. A one-knob model and a 400-parameter fit are different scientific claims and are not ranked in one column.
+
+What is still weak: the thresholds are conventions far more often than measurements (no MN9 electrophysiology exists at all; every MN9 rate in this field is a model number), nine circuits is not a fly, and only five tasks compare to a recorded number. The model has no eyes, no nose and no body, so every stimulus is "the neurons a stimulus would drive, at 100 Hz" — a convention the ratio checks cancel and the rate checks do not. Two outcomes turned on a single transmitter annotation (LN23 in the CO2 task, ExR6 in the compass task), which is an argument for a documented transmitter-override list as a dataset correction. docs/ROADMAP.md lists what comes next, docs/FINDINGS.md logs what the runs have said, including every wrong prediction; contributions that replace a `convention:` with a citation are the most valuable kind.
+
+## What this is not
+
+* **Not a fly.** No neuromodulation, no neuropeptides, no gap junctions, no plasticity, no spontaneous activity, no body. Absolute firing rates from this model should not be trusted; only which populations respond, and roughly in what order.
+* **Not evidence of anything about consciousness.** A static graph with a five-constant neuron model is closer to a very large truth table than to an experience. The interesting ethical question is where on the fidelity curve that stops being obviously true; this project is nowhere near it, and says so.
+* **Not a leaderboard of "who made the most lifelike fly".** It's a regression suite. The point is to notice when a parameter choice breaks something that used to work.
+
+## Versions, pins and reproducing the numbers
+
+The task set is **v0.x**: tasks are added freely (each one first as an RFC in `docs/rfcs/` with
+predictions written before its first run) and every score-affecting change to the scoring rules
+is its own RFC (`S1` the ceiling gate, `S2` the response floor) applied to every archived result
+by rerun, with the before and after recorded in the RFC. At **v1.0** the task set freezes:
+additions come in minor versions, a task can be retired or rotated (its RFC says why) but not
+silently changed, and a result file states the task-set version it ran under. Every result also
+records the connectome fingerprint it ran on (`flybench/manifests.json`; `flybench run` refuses a
+connectome that does not match its pin unless `--allow-unpinned`, and such results rank last).
+`reproduce.ps1` / `make reproduce` regenerate `LEADERBOARD.md` and the explorer snapshot from the
+committed results; `-Full` / `make reproduce-full` rerun the two headline result files on the
+pinned connectomes; `make docker` runs the toy suite in a container. Cite with `CITATION.cff`.
+
+## Use it from Python
+
+```python
+from flybench import load_connectome, LIFSimulator, LIFParams, Stimulus
+
+c = load_connectome("flywire783")
+sim = LIFSimulator(c, LIFParams(gain=1.0))
+sugar = c.select({"labels_regex": "sugar", "super_class": "sensory"})
+mn9 = c.select("MN9")
+res = sim.run(1000, [Stimulus(sugar, rate_hz=100, t_start_ms=200, t_end_ms=800)])
+print(res.rate_hz(mn9, 250, 800), "Hz")
+```
+
+`flybench export -c flywire783 -o ../fly-explorer/public/data/flywire783` writes the compact binary layout that [fly-explorer](../fly-explorer) (sibling repo) loads to run the same model live in the browser.
+
+## Citations
+
+* Dorkenwald, S. et al. *Neuronal wiring diagram of an adult brain.* Nature 634, 124–138 (2024).
+* Schlegel, P. et al. *Whole-brain annotation and multi-connectome cell typing of Drosophila.* Nature 634, 139–152 (2024).
+* Shiu, P. K. et al. *A Drosophila computational brain model reveals sensorimotor processing.* Nature 634, 210–219 (2024).
+* von Reyn, C. R. et al. *A spike-timing mechanism for action selection.* Nat. Neurosci. 17, 962–970 (2014).
+* Ache, J. M. et al. *Neural basis for looming size and velocity encoding in the Drosophila giant fiber escape pathway.* Curr. Biol. 29, 1073–1081 (2019).
+* Jaeger, A. H. et al. *A complex peripheral code for salt taste in Drosophila.* eLife 7, e37167 (2018).
+
+MIT © Brandon Cho
+
+## Citing
+
+Archived on Zenodo: concept DOI [10.5281/zenodo.22886374](https://doi.org/10.5281/zenodo.22886374) (every version), v0.2.0 [10.5281/zenodo.22886375](https://doi.org/10.5281/zenodo.22886375). `CITATION.cff` has the metadata; cite the connectomes (FlyWire, MaleCNS) and the behavioural papers each task names as well.
+
+```
+Cho, B. (2026). flybench: a behavioural benchmark for whole-connectome simulations of Drosophila (v0.2.0). Zenodo. https://doi.org/10.5281/zenodo.22886375
+```

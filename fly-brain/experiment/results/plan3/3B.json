@@ -1,0 +1,270 @@
+{
+ "frame": 97,
+ "extractor_agreement": {
+  "inclusion_same": 90,
+  "of": 97,
+  "both_included": 72,
+  "mn9_exact_string_match": 62,
+  "mn9_first_value_match": 72
+ },
+ "resolutions": {
+  "ruiluohub/drosophila-lif-reproduction": {
+   "include": "no",
+   "reason": "only MN9 rates are for sugar plus bitter; not sugar-only"
+  },
+  "sikimsonikisler/sinek-beyni": {
+   "include": "no",
+   "reason": "only MN9 rate is for sugar plus bitter"
+  },
+  "NileshArnaiya/flybrain-RL": {
+   "include": "no",
+   "reason": "number is an expected value in a setup comment"
+  },
+  "lixiang1076/fly-brain": {
+   "include": "no",
+   "reason": "number appears only in a sample transcript"
+  },
+  "mertefesensoy/FlyBatch": {
+   "include": "no",
+   "reason": "the line with the number does not name MN9"
+  },
+  "cryptoghost1ng/Flymagotchi": {
+   "include": "no",
+   "reason": "the table with the number does not name MN9"
+  },
+  "danilo-lazovic/fly-bottlenecks": {
+   "include": "no",
+   "reason": "stimulus is a connectivity-selected taste set, not labelled sugar neurons"
+  }
+ },
+ "included": 72,
+ "excluded": 25,
+ "connectome_counts_included": {
+  "v783": 33,
+  "maleCNS": 18,
+  "v630": 13,
+  "not stated": 6,
+  "not stated | v630": 2
+ },
+ "R1_strict_v630_100Hz": {
+  "n": 8,
+  "within_5Hz": 6,
+  "frac": 0.75,
+  "values": {
+   "dpl0xr/fly-granularity-sweep": 67.0,
+   "Kisame76/drosophila-brain-mlx": 67.3,
+   "jingsong-wang/fruit-fly": 88.0,
+   "spider2449/MaleCNS-Sim": 67.0667,
+   "ameerul-muminin/fly-tamagotchi": 68.4,
+   "rootcastleco/fly-brain": 70.0,
+   "qp-hiro/flybrain": 80.6,
+   "znatgost/fly67": 68.6
+  },
+  "verdict": "inconclusive"
+ },
+ "R1_wide_adds_compares_with_67.0": {
+  "n": 11,
+  "within_5Hz": 8,
+  "frac": 0.727,
+  "values": {
+   "dpl0xr/fly-granularity-sweep": 67.0,
+   "Kisame76/drosophila-brain-mlx": 67.3,
+   "jingsong-wang/fruit-fly": 88.0,
+   "spider2449/MaleCNS-Sim": 67.0667,
+   "ameerul-muminin/fly-tamagotchi": 68.4,
+   "rootcastleco/fly-brain": 70.0,
+   "qp-hiro/flybrain": 80.6,
+   "znatgost/fly67": 68.6,
+   "AshishKumar4/sparx": 67.1,
+   "FuatKacar/FlyInfo": 66.9,
+   "AkashaCorporation/FlyBrain": 81.0
+  },
+  "verdict": "inconclusive"
+ },
+ "R2": {
+  "n_reporting": 7,
+  "silent": 6,
+  "frac": 0.857,
+  "rows": {
+   "dpl0xr/fly-granularity-sweep": [
+    "other:graded partial degree-preserving rewiring (10% of connections rewired costs 15%, 30% 'kills it')",
+    "10% of connections rewired with degrees preserved costs 15%, 30% kills it"
+   ],
+   "CornyBirdy/flybrainSDK": [
+    "silent",
+    "exactly 0.00 Hz across three seeds"
+   ],
+   "Kisame76/drosophila-brain-mlx": [
+    "silent",
+    "MN9 fires no spike at all (seed 0); four more shuffles (seeds 1 to 4) leave MN9 silent as well"
+   ],
+   "gabrycina/doom-fly-control": [
+    "silent",
+    "0 Hz with it scrambled"
+   ],
+   "ameerul-muminin/fly-tamagotchi": [
+    "silent",
+    "Sugar 150 Hz: real 85.8 ± 5.8 Hz, shuffled 0.0 ± 0.0 Hz"
+   ],
+   "RealBlxckCodex/fly-brainlabs": [
+    "silent",
+    "Shuffle 0 Hz"
+   ],
+   "joshuabradley012/brainfly": [
+    "silent",
+    "both kinds of rewiring abolish the route in 20 of 20 networks; within-neuron weight shuffles: MN9 falls from 41 Hz to a median of 3"
+   ]
+  },
+  "verdict": "supported"
+ },
+ "R3": {
+  "n": 14,
+  "values": {
+   "blendi-remade/fly-brain-minecraft": 0.65,
+   "Felix471/ask-the-fly": 0.65,
+   "BEXAI/DoomFly": 0.5,
+   "advaitsridhar/FruitFly": 0.65,
+   "s31fdev/fly-terrarium": 0.556,
+   "RealBlxckCodex/fly-brainlabs": 0.545,
+   "sjy20100819mc-cmyk/fly-sim": 0.42,
+   "freewangfei/digitalfly": 0.124,
+   "proto-cool/bosco": 0.582,
+   "rabdelaal/myfly": 0.596,
+   "JRTaylord/XRP-Fly-Brain": 0.556,
+   "SamiulH25/FlyRarria": 0.8,
+   "Adarsh-Aravind/Fruit-Fly-Brain-Mincecraft-Controller": 0.65,
+   "JaronKBragg7337/fly-school": 0.35
+  },
+  "min": 0.124,
+  "max": 0.8,
+  "median": 0.569,
+  "max_over_min": 6.45,
+  "n_between_0.5_and_0.65": 10,
+  "stated_unchanged_weight_on_male_map": [
+   "CornyBirdy/flybrainSDK",
+   "Pronexsteam/brainlab",
+   "sksat/kobae",
+   "Pacsy1/MaleCNSBee"
+  ],
+  "state_no_single_factor_works": [
+   "brandoncho369/flybench",
+   "joshuabradley012/brainfly"
+  ],
+  "verdict": "supported"
+ },
+ "settings_with_3_or_more": {
+  "v783 @ not stated Hz": {
+   "n": 14,
+   "mn9_values": [
+    40.0,
+    66.9,
+    67.8,
+    70.0,
+    71.5,
+    77.7,
+    78.7,
+    80.0,
+    90.0,
+    92.1,
+    94.41,
+    100.0,
+    140.0,
+    282.0
+   ]
+  },
+  "maleCNS @ not stated Hz": {
+   "n": 11,
+   "mn9_values": [
+    3.93,
+    5.8,
+    6.7,
+    16.7,
+    26.0,
+    27.0,
+    69.0,
+    100.0,
+    115.625,
+    130.0,
+    175.0
+   ]
+  },
+  "v783 @ 100 Hz": {
+   "n": 9,
+   "mn9_values": [
+    15.7,
+    47.0,
+    60.0,
+    62.8,
+    67.2,
+    70.0,
+    75.0,
+    157.0,
+    190.0
+   ]
+  },
+  "v630 @ 100 Hz": {
+   "n": 8,
+   "mn9_values": [
+    67.0,
+    67.0667,
+    67.3,
+    68.4,
+    68.6,
+    70.0,
+    80.6,
+    88.0
+   ]
+  },
+  "not stated @ not stated Hz": {
+   "n": 5,
+   "mn9_values": [
+    60.0,
+    67.1,
+    98.0,
+    115.0,
+    146.0
+   ]
+  },
+  "v783 @ 150 Hz": {
+   "n": 4,
+   "mn9_values": [
+    77.6,
+    99.0,
+    112.0,
+    150.0
+   ]
+  },
+  "v630 @ 150 Hz": {
+   "n": 3,
+   "mn9_values": [
+    66.7,
+    83.47,
+    110.0
+   ]
+  },
+  "maleCNS @ 150 Hz": {
+   "n": 3,
+   "mn9_values": [
+    0.5,
+    13.6,
+    106.5
+   ]
+  },
+  "maleCNS @ 100 Hz": {
+   "n": 3,
+   "mn9_values": [
+    15.0,
+    41.0,
+    201.2
+   ]
+  },
+  "v783 @ 200 Hz": {
+   "n": 3,
+   "mn9_values": [
+    50.0,
+    95.0,
+    100.0
+   ]
+  }
+ }
+}

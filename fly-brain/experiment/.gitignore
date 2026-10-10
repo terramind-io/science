@@ -1,0 +1,7 @@
+.venv/
+data/
+vendor/
+inputs/*.parquet
+inputs/*.csv
+results/*.parquet
+__pycache__/

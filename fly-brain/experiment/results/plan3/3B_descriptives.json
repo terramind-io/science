@@ -1,0 +1,57 @@
+{
+ "first_commit_month_included": {
+  "2026-06": 1,
+  "2026-07": 1,
+  "2026-09": 64,
+  "2026-10": 6
+ },
+ "first_commit_month_frame": {
+  "2026-01": 1,
+  "2026-03": 1,
+  "2026-06": 1,
+  "2026-07": 1,
+  "2026-08": 1,
+  "2026-09": 86,
+  "2026-10": 6
+ },
+ "licence_included": {
+  "MIT": 28,
+  "none detected": 28,
+  "NOASSERTION": 12,
+  "GPL-3.0": 3,
+  "Apache-2.0": 1
+ },
+ "exclusion_reasons": {
+  "threshold_or_stimulus_rate_not_measurement": 7,
+  "not_sugar_to_MN9": 4,
+  "other | other": 3,
+  "resolved by us: only MN9 rates are for sugar plus bitter; not sugar-only": 1,
+  "resolved by us: number is an expected value in a setup comment": 1,
+  "quoted_from_paper_or_other_project": 1,
+  "resolved by us: number appears only in a sample transcript": 1,
+  "not_LIF_connectome_model | other": 1,
+  "resolved by us: the line with the number does not name MN9": 1,
+  "resolved by us: the table with the number does not name MN9": 1,
+  "not_sugar_to_MN9 | other": 1,
+  "ui_or_example_text": 1,
+  "resolved by us: only MN9 rate is for sugar plus bitter": 1,
+  "resolved by us: stimulus is a connectivity-selected taste set, not labelled sugar neurons": 1
+ },
+ "R1_consistent_rule": {
+  "n": 9,
+  "within_5Hz": 6,
+  "frac": 0.667,
+  "values": {
+   "dpl0xr/fly-granularity-sweep": 67.0,
+   "Kisame76/drosophila-brain-mlx": 67.3,
+   "jingsong-wang/fruit-fly": 88.0,
+   "spider2449/MaleCNS-Sim": 67.0667,
+   "ameerul-muminin/fly-tamagotchi": 68.4,
+   "rootcastleco/fly-brain": 70.0,
+   "qp-hiro/flybrain": 80.6,
+   "znatgost/fly67": 68.6,
+   "AkashaCorporation/FlyBrain": 81.0
+  },
+  "note": "qp-hiro and Akasha both name the v630 data file without writing the version in the sentence; both counted"
+ }
+}
