@@ -62,7 +62,7 @@ Of the 14 cell types that are positive in the screen, **10 had already been publ
 ## Limits
 
 - **Same real-fly labels throughout.** The two confirmation sets test other maps and a broader choice of neurons against the same real-fly screen. They are not new fly experiments.
-- **Only the male map is a new brain.** FlyWire v783 is a later version of the same female brain as the v630 development data; 52 of its 101 types use identical neuron lists and the path scores correlate at 0.92 between the two (audit). The male result is the independent one, and there M1 holds narrowly (lower bound 0.511; 0.511–0.516 across bootstrap seeds).
+- **Only the male map is a new brain.** FlyWire v783 is a later version of the same female brain as the v630 development data; 52 of its 101 types use identical neuron lists and the path scores correlate at 0.92 between the two (audit). The male result is the independent one, and there M1 holds narrowly (lower bound 0.511; 0.506–0.513 across seeds 0–11, `results/plan3/3A_checks.json`; an earlier figure of 0.511–0.516 from the audit used other seeds that were not recorded).
 - **13 or 14 positive cases.** Intervals are wide. The v783 difference excludes zero under a paired bootstrap; the male difference does not.
 - **The path score is a crude rate calculation,** not "no model at all". We chose its form (signed, 3 steps) on the v630 data, which is why v630 is reported as exploratory.
 - **Silencing set is small** (18 cases, 11 cell types, sugar and water overlapping), and the simulation ratios are the paper's published values, not our re-run.
@@ -88,8 +88,7 @@ We found 97 projects whose README states a firing rate for the feeding neuron, a
 
 **R1, the readings (from the audit).** The plan's rule had a second clause, "or state they reproduce the paper's shipped sugar result", which we did not define tightly enough in advance. The table above uses the strict first clause only. Other readings:
 - adding projects that compare their own number with the paper's 67.0 Hz: 8 of 11 (73%), inconclusive;
-- adding projects that claim a reproduction at 100 Hz on a female map: 10 of 15 (67%), inconclusive;
-- every project that claims a reproduction at any setting: 16 of 39 (41%), which compares unlike settings and is not a fair test.
+- the audit also reported two broader readings (10 of 15, and 16 of 39 across unlike settings); a later fact-check could not reproduce the second exactly (it found 15 of 39), and neither is in a result file, so we do not rely on them.
 
 **R1 also depends on one coding choice.** Two projects (qp-hiro/flybrain, counted, 80.6 Hz; AkashaCorporation/FlyBrain, not counted, 81.0 Hz) both imply v630 without stating it in so many words. Counting both gives 6 of 9 (67%, inconclusive); counting neither gives 6 of 7 (86%, which would have met the bar). We leave the verdict at inconclusive.
 - The three outside the band all report higher values (80.6, 81.0, 88); two of them (81.0 and 88) are single-trial runs by their own description.
@@ -97,7 +96,7 @@ We found 97 projects whose README states a firing rate for the feeding neuron, a
 
 **R3, what the spread looks like (descriptive, with the audit's corrections):**
 - 10 of the 14 corrections fall between 0.5 and 0.65 and the median is 0.57, close to the 0.581 scaling reported with the male map itself (Berg et al.) and to our own type-matched 0.561. Five of those ten sit exactly on the band's edges.
-- **They are not ten independent results.** All four 0.65 values trace to one project (blendi-remade/fly-brain-minecraft); the two 0.556 values come from synapse-density arithmetic, not from tuning a response; one value adds a mechanism. About five look like independent calibrations: 0.65, 0.545, 0.582, 0.596 and arguably 0.5.
+- **They are not ten independent results.** All four 0.65 values trace to one project (blendi-remade/fly-brain-minecraft); the two 0.556 values come from synapse-density arithmetic, not from tuning a response; one value adds a mechanism. About four look like independent calibrations: 0.65, 0.545, 0.582 and 0.596 (0.5 comes from a model with an added mechanism).
 - The outliers are 0.124, 0.35, 0.42 and 0.8, and they were tuned to different targets (for example whole-brain rates, or the point where activity stops sustaining itself).
 - **The verdict rests on the extremes.** Without 0.124 and 0.8 the largest is 1.86× the smallest, which would be inconclusive.
 - The plan did not restrict R3 to included projects. Two excluded projects also state a factor (0.455 and 0.5); with them there are 16, 11 in the band, median 0.556, same verdict.
