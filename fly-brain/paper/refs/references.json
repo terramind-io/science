@@ -1,0 +1,87 @@
+[
+ {
+  "key": "Berg2026",
+  "doi": "10.1016/j.cell.2026.08.015",
+  "text": "Berg S, Beckett IR, Costa M et al. (2026). Sexual dimorphism in the complete Drosophila male central nervous system connectome. *Cell* 189, 5504-5526.e15. https://doi.org/10.1016/j.cell.2026.08.015"
+ },
+ {
+  "key": "Marella2012",
+  "doi": "10.1016/j.neuron.2011.12.032",
+  "text": "Marella S, Mann K, Scott K (2012). Dopaminergic Modulation of Sucrose Acceptance Behavior in Drosophila. *Neuron* 73, 941-950. https://doi.org/10.1016/j.neuron.2011.12.032"
+ },
+ {
+  "key": "Flood2013",
+  "doi": "10.1038/nature12208",
+  "text": "Flood TF, Iguchi S, Gorczyca M et al. (2013). A single pair of interneurons commands the Drosophila feeding motor program. *Nature* 499, 83-87. https://doi.org/10.1038/nature12208"
+ },
+ {
+  "key": "Botvinik-Nezer2020",
+  "doi": "10.1038/s41586-020-2314-9",
+  "text": "Botvinik-Nezer R, Holzmeister F, Camerer CF et al. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. *Nature* 582, 84-88. https://doi.org/10.1038/s41586-020-2314-9"
+ },
+ {
+  "key": "Dorkenwald2024",
+  "doi": "10.1038/s41586-024-07558-y",
+  "text": "Dorkenwald S, Matsliah A, Sterling AR et al. (2024). Neuronal wiring diagram of an adult brain. *Nature* 634, 124-138. https://doi.org/10.1038/s41586-024-07558-y"
+ },
+ {
+  "key": "Schlegel2024",
+  "doi": "10.1038/s41586-024-07686-5",
+  "text": "Schlegel P, Yin Y, Bates AS et al. (2024). Whole-brain annotation and multi-connectome cell typing of Drosophila. *Nature* 634, 139-152. https://doi.org/10.1038/s41586-024-07686-5"
+ },
+ {
+  "key": "Shiu2024",
+  "doi": "10.1038/s41586-024-07763-9",
+  "text": "Shiu PK, Sterne GR, Spiller N et al. (2024). A Drosophila computational brain model reveals sensorimotor processing. *Nature* 634, 210-219. https://doi.org/10.1038/s41586-024-07763-9"
+ },
+ {
+  "key": "Lin2024",
+  "doi": "10.1038/s41586-024-07968-y",
+  "text": "Lin A, Yang R, Dorkenwald S et al. (2024). Network statistics of the whole-brain connectome of Drosophila. *Nature* 634, 153-165. https://doi.org/10.1038/s41586-024-07968-y"
+ },
+ {
+  "key": "Pospisil2024",
+  "doi": "10.1038/s41586-024-07982-0",
+  "text": "Pospisil DA, Aragon MJ, Dorkenwald S et al. (2024). The fly connectome reveals a path to the effectome. *Nature* 634, 201-209. https://doi.org/10.1038/s41586-024-07982-0"
+ },
+ {
+  "key": "Bates2026",
+  "doi": "10.1038/s41586-026-10735-w",
+  "text": "Bates AS, Phelps JS, Kim M et al. (2026). Distributed control circuits across a brain-and-cord connectome. *Nature* 656, 957-970. https://doi.org/10.1038/s41586-026-10735-w"
+ },
+ {
+  "key": "Trisovic2022",
+  "doi": "10.1038/s41597-022-01143-6",
+  "text": "Trisovic A, Lau MK, Pasquier T et al. (2022). A large-scale study on research code quality and execution. *Scientific Data* 9, 60. https://doi.org/10.1038/s41597-022-01143-6"
+ },
+ {
+  "key": "Pimentel2019",
+  "doi": "10.1109/msr.2019.00077",
+  "text": "Pimentel JF, Murta L, Braganholo V et al. (2019). A Large-Scale Study About Quality and Reproducibility of Jupyter Notebooks. *2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)*, 507-517. https://doi.org/10.1109/msr.2019.00077"
+ },
+ {
+  "key": "Silberzahn2018",
+  "doi": "10.1177/2515245917747646",
+  "text": "Silberzahn R, Uhlmann EL, Martin DP et al. (2018). Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results. *Advances in Methods and Practices in Psychological Science* 1, 337-356. https://doi.org/10.1177/2515245917747646"
+ },
+ {
+  "key": "An2026",
+  "doi": "10.64898/2026.09.19.752860",
+  "text": "An D (2026). How sparse can a fly-brain model be? Connection strength, wiring placement, network state and task jointly determine function-preserving compression of the\n                  <i>Drosophila</i>\n                  connectome. *bioRxiv (preprint)*. https://doi.org/10.64898/2026.09.19.752860"
+ },
+ {
+  "key": "Stimberg2019",
+  "doi": "10.7554/elife.47314",
+  "text": "Stimberg M, Brette R, Goodman DF (2019). Brian 2, an intuitive and efficient neural simulator. *eLife* 8, e47314. https://doi.org/10.7554/elife.47314"
+ },
+ {
+  "key": "Sterne2021",
+  "doi": "10.7554/elife.71679",
+  "text": "Sterne GR, Otsuna H, Dickson BJ et al. (2021). Classification and genetic targeting of cell types in the primary taste and premotor center of the adult Drosophila brain. *eLife* 10, e71679. https://doi.org/10.7554/elife.71679"
+ },
+ {
+  "key": "Shiu2022",
+  "doi": "10.7554/elife.79887",
+  "text": "Shiu PK, Sterne GR, Engert S et al. (2022). Taste quality and hunger interactions in a feeding sensorimotor circuit. *eLife* 11, e79887. https://doi.org/10.7554/elife.79887"
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "type": "Fdg",
+ "n_source": 2,
+ "n_with_position": 138625,
+ "n_neurons": 138639,
+ "arrive_step1": 0.0,
+ "arrive_step2": 4708.0,
+ "arrive_step3": 17916312.0,
+ "path_score": 17921020.0,
+ "n_active_after": [
+  402,
+  5782,
+  21267
+ ],
+ "n_two_step_relays": 20,
+ "n_step3_deliverers": 47,
+ "source_have_pos": 2,
+ "mn9_has_pos": true,
+ "relays_have_pos": 20
+}
