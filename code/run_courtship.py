@@ -11,7 +11,7 @@ rows, cols, w = e['Postsynaptic_Index'].values, e['Presynaptic_Index'].values, e
 W = sparse.csr_matrix((w, (rows, cols)), shape=(n, n))
 ann = pd.read_csv(I / 'malecns_neurons.csv'); ann['type'] = ann['type'].astype(str)
 def ids(exact=(), prefix=()):
-    m = ann['type'].isin(exact) | ann['type'].map(lambda t: any(t.startswith(p) for p in prefix))
+    m = ann['type'].isin(exact) | ann['type'].map(lambda t: any(str(t).startswith(p) for p in prefix))
     return [idx[int(b)] for b in ann.loc[m, 'bodyId'] if int(b) in idx], ann.loc[m]
 MN = ['hg1 MN', 'hg2 MN', 'hg3 MN', 'hg4 MN', 'i1 MN', 'i2 MN', 'b3 MN', 'ps1 MN', 'tp1 MN', 'tp2 MN', 'tpn MN', 'MNwm35']
 ro, _ = ids(exact=MN)
