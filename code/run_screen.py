@@ -86,6 +86,9 @@ def main(job, n_proc, shard=None):
     meta = {'job': job, 'shard': shard, 'n_items': len(idx_items), 'rate_hz': rate, 'n_trials': n, 'w_syn_multiplier': wmul, 'readouts': readouts,
             'wall_s': round(time.time() - t0, 1)}
     json.dump(meta, open(out.with_suffix('.json'), 'w'), indent=1); print(json.dumps(meta))
+    # Fallback copy of the result table in the log, in case output files are not fetched back from a cloud run.
+    import base64, gzip
+    print('RESULT_B64 ' + tag + ' ' + base64.b64encode(gzip.compress(df.to_csv(index=False).encode())).decode(), flush=True)
 
 if __name__ == '__main__':
     sh = tuple(int(x) for x in sys.argv[3].split('/')) if len(sys.argv) > 3 else None
