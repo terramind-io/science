@@ -1,6 +1,7 @@
 """PLAN4 part A: the simulation as an instinct function. Pre-registered in PLAN4.md.
-usage: run_instinct.py real|shuffle|sens NPROC  -> results/plan4/instinct_{mode}.parquet"""
-import json, sys, time
+usage: run_instinct.py real|shuffle|sens NPROC [i/n]  -> results/plan4/instinct_{mode}[__s{i}of{n}].parquet
+The optional i/n shard only splits the work across machines; seeds are keyed on the global case or scramble index."""
+import json, os, sys, time
 from pathlib import Path
 import numpy as np, pandas as pd
 from joblib import Parallel, delayed
@@ -10,7 +11,7 @@ from model import create_model, default_params  # noqa: E402
 from brian2 import Network, PoissonGroup, Synapses, Hz, ms, seed as b2seed, prefs  # noqa: E402
 V = ROOT / 'vendor' / 'Drosophila_brain_model'
 COMP, CON = V / '2023_03_23_completeness_630_final.csv', V / '2023_03_23_connectivity_630_final.parquet'
-XLS = ROOT.parent / 'sources/papers/S2_supplementary/S2_Shiu2024_MOESM2_ESM.xlsx'
+XLS = Path(os.environ.get('INSTINCT_XLS', ROOT.parent / 'sources/papers/S2_supplementary/S2_Shiu2024_MOESM2_ESM.xlsx'))  # env override for cloud runs
 OUT = ROOT / 'results' / 'plan4'; OUT.mkdir(parents=True, exist_ok=True)
 READ = {'MN9': 720575940660219265, 'aBN1': 720575940630907434, 'aDN1': 720575940616185531, 'aDN2': 720575940629806974}
 
@@ -51,11 +52,13 @@ def worker(jobs, n_trials, shuffle_seed, base_seed):
 
 if __name__ == '__main__':
     mode, nproc = sys.argv[1], int(sys.argv[2]); t0 = time.time()
+    sh = tuple(int(x) for x in sys.argv[3].split('/')) if len(sys.argv) > 3 else (0, 1); tag = mode if len(sys.argv) <= 3 else f'{mode}__s{sh[0]}of{sh[1]}'
     if mode == 'shuffle':
-        res = Parallel(n_jobs=nproc)(delayed(worker)([(k, (c, PRIMARY[c])) for k, c in enumerate(SHUF_CASES)], 3, 7000 + s, 40_000_000 + 100_000 * s) for s in range(10))
+        res = Parallel(n_jobs=nproc)(delayed(worker)([(k, (c, PRIMARY[c])) for k, c in enumerate(SHUF_CASES)], 3, 7000 + s, 40_000_000 + 100_000 * s) for s in list(range(10))[sh[0]::sh[1]])
     else:
-        cases = list((PRIMARY if mode == 'real' else SENS).items()); idx = list(enumerate(cases)); chunks = [idx[i::nproc] for i in range(nproc)]
+        cases = list((PRIMARY if mode == 'real' else SENS).items()); idx = list(enumerate(cases))[sh[0]::sh[1]]; chunks = [idx[i::nproc] for i in range(nproc)]
         res = Parallel(n_jobs=nproc)(delayed(worker)(c, 30, None, 41_000_000 if mode == 'real' else 42_000_000) for c in chunks if c)
-    df = pd.DataFrame([r for rr in res for r in rr]); df.to_parquet(OUT / f'instinct_{mode}.parquet')
-    S = senses(); json.dump({'mode': mode, 'wall_s': round(time.time() - t0, 1), 'n_rows': len(df), 'sense_sizes': {k: len(v) for k, v in S.items()}}, open(OUT / f'instinct_{mode}.json', 'w'), indent=1)
+    df = pd.DataFrame([r for rr in res for r in rr]); df.to_parquet(OUT / f'instinct_{tag}.parquet')
+    S = senses(); json.dump({'mode': mode, 'wall_s': round(time.time() - t0, 1), 'n_rows': len(df), 'sense_sizes': {k: len(v) for k, v in S.items()}}, open(OUT / f'instinct_{tag}.json', 'w'), indent=1)
+    import base64, gzip; print('RESULT_B64 ' + tag + ' ' + base64.b64encode(gzip.compress(df.to_csv(index=False).encode())).decode(), flush=True)  # log fallback for cloud runs
     print(df.groupby('case')[list(READ)].mean().round(2).to_string()); print('wall', round(time.time() - t0, 1))
