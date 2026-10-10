@@ -1,6 +1,6 @@
 # Results 5: does the wiring map carry a male's song to the female's "yes" neurons?
 
-**Status:** our own analysis, not peer-reviewed. Pre-specified in `PLAN5.md` (commit `3a7ca53`, 10 October 2026, before the scores were computed). Numbers: `results/plan5/song.json` (`code/run_song.py`). Not independently re-computed and not cleared for publication.
+**Status:** our own analysis, not peer-reviewed. Pre-specified in `PLAN5.md` (commit `3a7ca53`, 10 October 2026, before the scores were computed). Numbers: `results/plan5/song.json` (`code/run_song.py`). The map-only numbers were re-computed by a separate automated run with its own code (`AUDIT5.md`, 10 October 2026): every number matched. Not cleared for publication until C1 is scored.
 
 ## Verdicts
 
@@ -36,3 +36,14 @@ Rules fixed in `PLAN5.md` (commit `d047d48`) after L1 and L2 were scored and bef
 ## Limits
 
 One fly. Percentile rank is our yardstick. One connection rule. No new simulation; the simulation side has not been repeated in Brian2. The percentiles fall as more steps are added (vpoEN: 62, 84, 61, 44, 31 for one to five steps), so the choice of step matters; the rule fixed three and four in advance.
+
+## Corrections and additions after the audit (`AUDIT5.md`, 10 October 2026)
+
+- **"Unrelated senses" was wrong.** All 145 neurons of the touch comparison set are Johnston's-organ neurons (78 wind and gravity, 60 grooming, 7 unlabelled), the same antennal organ as the hearing set. The comparison is with neighbouring senses of that organ and with sugar taste.
+- **Ties.** From the hearing neurons, 52% of other neurons have received nothing after three steps and 41% after four. One of the four vpoEN neurons receives nothing at any step up to five. The sugar comparison for vpoDN (59th against 55th percentile) reverses if ties are counted strictly; the touch comparison does not (touch is higher on 6 of 6 target neurons).
+- **The direct hearing-to-vpoEN connection is a single synapse.**
+- **Plan errata.** `PLAN5.md` says the lab's exploratory runs covered 20 to 200 Hz; the script runs 40 to 200 Hz (the 20 Hz figure is from the website fact-checker's own extra run). The plan does not write out the pC1 rule; it is cell types pC1a to pC1e (10 neurons).
+- **opifor's result is not the same test as ours.** It used a synthesised song through its own auditory front end in an independent reimplementation, and its README (scope note dated 2026-09-16) narrows every hearing result to "a stress test of this front end, not a measurement of the female's hearing".
+- **The plan-to-result margin is short** (plan committed 16:37:30, results 16:38:24), so the git record alone cannot exclude an earlier uncommitted run. There was none: the script was written after the plan commit.
+- **Browser runs now have a saved output:** `playground/build/validation/courtship_explore.log`.
+
