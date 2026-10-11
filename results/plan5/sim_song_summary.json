@@ -1,0 +1,14 @@
+{
+ "n_trials_done": 26,
+ "missing_seeds": [
+  510000,
+  510006,
+  510018,
+  510024
+ ],
+ "vpoDN_spikes_total": 0,
+ "vpoEN_spikes_total": 0,
+ "pC1_spikes_total": 0,
+ "n_firing_nonstim_mean": 202.0,
+ "bound": "the 30-trial mean is below 1 Hz unless the 4 missing trials average 7.5 Hz or more"
+}
