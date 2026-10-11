@@ -26,7 +26,7 @@ Rules fixed in `PLAN5.md` (commit `d047d48`) after L1 and L2 were scored and bef
 
 | | Statement | Result | Verdict |
 |---|---|---|---|
-| **C1** | The acceptance neurons stay silent under song | The run did not complete: two cloud attempts ran out of memory. A third, with one process per trial (commit `e6a8253`), needs an approval that timed out while Agrim was away | **Not yet scored** |
+| **C1** | The acceptance neurons stay silent under song | 26 of the 30 trials are done (11 October): vpoDN and vpoEN fired no spike in any of them (`results/plan5/sim_song_summary.json`). Four trials (seeds 510000, 510006, 510018, 510024) are missing: they were cut off by time limits we set too short, not by anything seen in the model. The 30-trial mean is below 1 Hz unless those four average 7.5 Hz or more | **Not yet scored** (26 of 30, all silent) |
 | **C2** | The last link works | With the 4 vpoEN neurons on, vpoDN fires at 36.2 Hz on average, in 30 of 30 trials (bar: 5 Hz) | **Confirmed** |
 
 - With the 10 pC1 neurons on at 100 Hz, vpoDN fires at 81.7 Hz and vpoEN stays at 0 Hz (no rule set).
@@ -46,4 +46,8 @@ One fly. Percentile rank is our yardstick. One connection rule. No new simulatio
 - **opifor's result is not the same test as ours.** It used a synthesised song through its own auditory front end in an independent reimplementation, and its README (scope note dated 2026-09-16) narrows every hearing result to "a stress test of this front end, not a measurement of the female's hearing".
 - **The plan-to-result margin is short** (plan committed 16:37:30, results 16:38:24), so the git record alone cannot exclude an earlier uncommitted run. There was none: the script was written after the plan commit.
 - **Browser runs now have a saved output:** `playground/build/validation/courtship_explore.log`.
+
+## How the song runs went (10 and 11 October)
+
+Honest record, because it cost more than planned. Attempt 1: four workers per machine, out of memory within a minute. Attempt 2: two workers; the vpoEN and pC1 conditions finished, the song condition ran out of memory after 13 minutes. Fix: one process per trial and shards (commit `e6a8253`). Attempt 3 (11 October): three shards of ten; two finished (20 trials), one hung and was cancelled at 31 minutes. Attempt 4: its ten trials as two shards of five; one finished (5 trials), one hit a 30-minute limit. Attempt 5: the five remaining trials on one machine each with a 13-minute limit; a fresh machine needs about 12 minutes before its first trial completes, so only one finished. A sixth dispatch for the last four was not approved in time. Spend on these runs: roughly 390,000 credits.
 
