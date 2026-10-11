@@ -181,3 +181,15 @@ Agrim's decision: the repository goes public now. https://github.com/terramind-i
 **Still to do:** licence files (none, so all rights reserved by default); independent fact-check; emails; Zenodo archive and DOI; the front-matter items listed under version 1.4.
 
 **Licences added (10 October 2026, Agrim's decision):** MIT for our code and CC BY 4.0 for our text, figures and result files, with the licence texts taken from GitHub's licence API. The repository README says they do not cover the copied third-party README files, FlyWire-derived data (CC BY-NC 4.0 per flywire.ai) or the fetched citation records. The paper itself does not yet state its licence.
+
+## Version 1.6: the courtship note (11 October 2026)
+
+Files: `paper/final/what-the-flys-wiring-map-predicts-v1.6.md`, `.pdf` (17 pages).
+
+**Added:** Supplementary Note 2 (does switching on the hearing neurons reach the female's acceptance neurons?), reference 32 (Wang et al. 2021, from the Crossref record), and one sentence in the introduction. The earlier note is now Supplementary Note 1. Section 8 now says the work ran over 9–11 October.
+
+**Evidence:** plan `experiment/PLAN5.md` (commit `3a7ca53`), amendment (`d047d48`), results `experiment/RESULTS5.md` and `results/plan5/`. Verdicts: L1 inconclusive, L2 not supported, C1 confirmed (30 of 30 trials, no spike), C2 confirmed (36.2 Hz, 30 of 30).
+
+**Checks:** an independent agent re-computed the map-only numbers with its own code and fact-checked the note and the video beat (`experiment/AUDIT5.md`); four wordings failed and were rewritten, and the smaller changes it asked for were applied. **Not re-checked:** the sentences changed after that audit once C1 came in (the C1 result sentence, the last two sentences of "Prior work", and line three of the video beat).
+
+**Prior work:** opifor's femaleflybrain is credited and its own narrowing of its hearing results is quoted. Search beyond our survey: one Europe PMC query and two GitHub queries, which is thin.
