@@ -193,3 +193,13 @@ Files: `paper/final/what-the-flys-wiring-map-predicts-v1.6.md`, `.pdf` (17 pages
 **Checks:** an independent agent re-computed the map-only numbers with its own code and fact-checked the note and the video beat (`experiment/AUDIT5.md`); four wordings failed and were rewritten, and the smaller changes it asked for were applied. **Not re-checked:** the sentences changed after that audit once C1 came in (the C1 result sentence, the last two sentences of "Prior work", and line three of the video beat).
 
 **Prior work:** opifor's femaleflybrain is credited and its own narrowing of its hearing results is quoted. Search beyond our survey: one Europe PMC query and two GitHub queries, which is thin.
+
+## Published as a preprint (11 October 2026), version 1.6 edited in place
+
+Agrim's decisions: publish now, keep the number 1.6, edit the existing files.
+
+**Edits to v1.6 (from Agrim's review):** header now "Version 1.6, 11 October 2026. Preprint. Not peer-reviewed."; the acknowledgements say we have not yet written to the original authors or named projects and invite corrections (the earlier promise to contact them before release was not kept); Section 6 reports a shorter repeat of the prior-work search on 11 October (Europe PMC, bioRxiv, arXiv, OpenAlex, GitHub repository search; nothing further found) in place of "will be repeated at public release"; Section 2.5 says the repository history is public; Section 9 states the licences.
+
+**Where it is public:** https://github.com/terramind-io/science/blob/main/fly-brain/paper/final/what-the-flys-wiring-map-predicts-v1.6.pdf (HTTP 200 without a login), linked from https://terramind.org/ and https://terramind.org/fly-brain/ (deployed 11 October).
+
+**Not done at publication:** no DOI (no Zenodo credentials in this workspace; organisation-as-first-author not checked against Zenodo's rules); emails to the original authors and named projects unsent (`paper/emails.md`, updated for v1.6); flyconn's code and two possibly overlapping items unread; the published Cell text not checked for the 0.581 figure; the closing-section order and version-history section from AGENTS.md not applied; the website rows not checked on screen or by an independent reviewer.
