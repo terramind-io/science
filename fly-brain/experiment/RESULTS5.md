@@ -1,6 +1,6 @@
 # Results 5: does the wiring map carry a male's song to the female's "yes" neurons?
 
-**Status:** our own analysis, not peer-reviewed. Pre-specified in `PLAN5.md` (commit `3a7ca53`, 10 October 2026, before the scores were computed). Numbers: `results/plan5/song.json` (`code/run_song.py`). The map-only numbers were re-computed by a separate automated run with its own code (`AUDIT5.md`, 10 October 2026): every number matched. Not cleared for publication until C1 is scored.
+**Status:** our own analysis, not peer-reviewed. Pre-specified in `PLAN5.md` (commit `3a7ca53`, 10 October 2026, before the scores were computed). Numbers: `results/plan5/song.json` (`code/run_song.py`). The map-only numbers were re-computed by a separate automated run with its own code (`AUDIT5.md`, 10 October 2026): every number matched. C1 was scored on 11 October.
 
 ## Verdicts
 
@@ -26,7 +26,7 @@ Rules fixed in `PLAN5.md` (commit `d047d48`) after L1 and L2 were scored and bef
 
 | | Statement | Result | Verdict |
 |---|---|---|---|
-| **C1** | The acceptance neurons stay silent under song | 26 of the 30 trials are done (11 October): vpoDN and vpoEN fired no spike in any of them (`results/plan5/sim_song_summary.json`). Four trials (seeds 510000, 510006, 510018, 510024) are missing: they were cut off by time limits we set too short, not by anything seen in the model. The 30-trial mean is below 1 Hz unless those four average 7.5 Hz or more | **Not yet scored** (26 of 30, all silent) |
+| **C1** | The acceptance neurons stay silent under song | All 30 trials done (11 October): with the 387 hearing neurons on at 100 Hz, vpoDN and vpoEN fired no spike in any trial; mean 0.0 Hz (bar: below 1 Hz). About 203 other neurons fire per trial (172 to 231). `results/plan5/sim_song_summary.json` | **Confirmed** |
 | **C2** | The last link works | With the 4 vpoEN neurons on, vpoDN fires at 36.2 Hz on average, in 30 of 30 trials (bar: 5 Hz) | **Confirmed** |
 
 - With the 10 pC1 neurons on at 100 Hz, vpoDN fires at 81.7 Hz and vpoEN stays at 0 Hz (no rule set).
@@ -49,5 +49,5 @@ One fly. Percentile rank is our yardstick. One connection rule. No new simulatio
 
 ## How the song runs went (10 and 11 October)
 
-Honest record, because it cost more than planned. Attempt 1: four workers per machine, out of memory within a minute. Attempt 2: two workers; the vpoEN and pC1 conditions finished, the song condition ran out of memory after 13 minutes. Fix: one process per trial and shards (commit `e6a8253`). Attempt 3 (11 October): three shards of ten; two finished (20 trials), one hung and was cancelled at 31 minutes. Attempt 4: its ten trials as two shards of five; one finished (5 trials), one hit a 30-minute limit. Attempt 5: the five remaining trials on one machine each with a 13-minute limit; a fresh machine needs about 12 minutes before its first trial completes, so only one finished. A sixth dispatch for the last four was not approved in time. Spend on these runs: roughly 390,000 credits.
+Honest record, because it cost more than planned. Attempt 1: four workers per machine, out of memory within a minute. Attempt 2: two workers; the vpoEN and pC1 conditions finished, the song condition ran out of memory after 13 minutes. Fix: one process per trial and shards (commit `e6a8253`). Attempt 3 (11 October): three shards of ten; two finished (20 trials), one hung and was cancelled at 31 minutes. Attempt 4: its ten trials as two shards of five; one finished (5 trials), one hit a 30-minute limit. Attempt 5: the five remaining trials on one machine each with a 13-minute limit; a fresh machine needs about 12 minutes before its first trial completes, so only one finished. Attempt 6 (11 October): the last four trials, one machine each with a 25-minute limit; all finished. The 30 trials come from eight result files, one seed each, none duplicated. Spend on the song runs: roughly 510,000 credits.
 

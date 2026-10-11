@@ -1,14 +1,27 @@
 {
- "n_trials_done": 26,
- "missing_seeds": [
-  510000,
-  510006,
-  510018,
-  510024
+ "condition": "song",
+ "n_trials": 30,
+ "rate_hz": 100,
+ "n_stim": 387,
+ "vpoDN_mean_hz": 0.0,
+ "vpoEN_mean_hz": 0.0,
+ "pC1_mean_hz": 0.0,
+ "vpoDN_trials_with_any_spike": 0,
+ "vpoEN_trials_with_any_spike": 0,
+ "n_firing_nonstim_mean": 203.2,
+ "n_firing_nonstim_range": [
+  172,
+  231
  ],
- "vpoDN_spikes_total": 0,
- "vpoEN_spikes_total": 0,
- "pC1_spikes_total": 0,
- "n_firing_nonstim_mean": 202.0,
- "bound": "the 30-trial mean is below 1 Hz unless the 4 missing trials average 7.5 Hz or more"
+ "C1_verdict": "confirmed",
+ "shard_files": [
+  "sim_song__s0of30.json",
+  "sim_song__s12of30.json",
+  "sim_song__s18of30.json",
+  "sim_song__s1of3.json",
+  "sim_song__s24of30.json",
+  "sim_song__s2of3.json",
+  "sim_song__s3of6.json",
+  "sim_song__s6of30.json"
+ ]
 }
