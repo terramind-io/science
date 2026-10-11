@@ -6,7 +6,7 @@ https://terramind.org
 Agrim  
 agrim@terramind.com
 
-Version 1.6 (release candidate), 11 October 2026. Our own analysis; not peer-reviewed.
+Version 1.6, 11 October 2026. Preprint. Not peer-reviewed.
 
 ---
 
@@ -76,7 +76,7 @@ Ranking quality is the area under the ROC curve (AUROC; 0.5 is chance), ties cou
 
 ### 2.5 What was fixed in advance, and what was already known
 
-The predictors, test sets, statistics and rules were written to a plan file and committed to a local version-control repository at 10:34 on 10 October 2026 (`PLAN3.md`, commit `abb98a0`), before the map-only scores and the survey extraction; the first results were committed seven minutes later. This is a pre-specified plan, not a registration with a third party; the repository history is to be released with the paper. The predictors were fixed in the plan's text; the code implementing them was committed with the results.
+The predictors, test sets, statistics and rules were written to a plan file and committed to a local version-control repository at 10:34 on 10 October 2026 (`PLAN3.md`, commit `abb98a0`), before the map-only scores and the survey extraction; the first results were committed seven minutes later. This is a pre-specified plan, not a registration with a third party; the repository history is public (Section 9). The predictors were fixed in the plan's text; the code implementing them was committed with the results.
 
 | Verdict | Already known when the rule was written |
 |---|---|
@@ -189,7 +189,7 @@ This work began as a different question: does the Shiu model, unchanged, transfe
 
 ## 6. Related work
 
-- **Map-only predictors.** Linear and graph-based summaries of connectome influence exist [17, 18, 19], and Shiu et al. discuss graph-traversal and signal-cascade models, which they consider "unlikely to be useful for predicting what neurons contribute most to a given circuit" [1]; our step-count result (Section 3.4) bears on that remark only loosely, since it is a plain shortest-path count scored on a different question. The flywire-fly-lab project compares wiring metrics with the simulation's own knockout effects [20]. Fly.exe includes a control in which connections are averaged within cell types, still run as a spiking simulation [9]. The flyconn project enumerates signed one-to-three-step routes beside simulated silencing effects [21]. In searches up to 10 October 2026 (GitHub repositories and READMEs, bioRxiv titles and abstracts from 1 September, arXiv, OpenAlex and Europe PMC; Zenodo's search failed, and Google Scholar, SSRN and OSF were not searched) we found no scoring of a map-only predictor against the real-fly screen alongside the simulation. We have not read flyconn's code, nor two further items in our notes that may overlap; the search will be repeated at public release.
+- **Map-only predictors.** Linear and graph-based summaries of connectome influence exist [17, 18, 19], and Shiu et al. discuss graph-traversal and signal-cascade models, which they consider "unlikely to be useful for predicting what neurons contribute most to a given circuit" [1]; our step-count result (Section 3.4) bears on that remark only loosely, since it is a plain shortest-path count scored on a different question. The flywire-fly-lab project compares wiring metrics with the simulation's own knockout effects [20]. Fly.exe includes a control in which connections are averaged within cell types, still run as a spiking simulation [9]. The flyconn project enumerates signed one-to-three-step routes beside simulated silencing effects [21]. In searches up to 10 October 2026 (GitHub repositories and READMEs, bioRxiv titles and abstracts from 1 September, arXiv, OpenAlex and Europe PMC; Zenodo's search failed, and Google Scholar, SSRN and OSF were not searched) we found no scoring of a map-only predictor against the real-fly screen alongside the simulation. A shorter repeat on 11 October 2026 (Europe PMC, bioRxiv, arXiv, OpenAlex and a GitHub repository search) found nothing further. We have not read flyconn's code, nor two further items in our notes that may overlap.
 - **Perturbation studies of the model.** Removal of neurons or connections has been examined by several groups, for example An [22].
 - **Reproducibility studies.** Many-analysts studies [13, 14] and repository-scale audits of research code [11, 12] are the methodological neighbours of Section 2.6. Curated lists of fly-brain projects exist but do not extract or compare reported numbers; we found no survey of re-runs of this model.
 
@@ -227,13 +227,13 @@ The re-computations and fact-checks were separate runs without access to the mai
 
 ## 9. Data and code availability
 
-All plans, code, result files, the frozen survey frame with README copies, both extraction passes and the resolved table are in the project repository, https://github.com/terramind-io/science (folder `fly-brain/`), with its full history. An archive DOI will be added in a later version. Third-party data are used under their own licences: the authors' model code (MIT) [6]; the male CNS (CC BY 4.0) [4]; FlyWire data carry CC BY-NC 4.0 terms on flywire.ai (its Zenodo deposits state CC BY 4.0); this is a non-commercial project, and FlyWire-derived tables are shared for non-commercial use with attribution.
+All plans, code, result files, the frozen survey frame with README copies, both extraction passes and the resolved table are in the project repository, https://github.com/terramind-io/science (folder `fly-brain/`), with its full history. An archive DOI will be added in a later version. Our text, figures and result files are released under CC BY 4.0 and our code under the MIT licence. Third-party data are used under their own licences: the authors' model code (MIT) [6]; the male CNS (CC BY 4.0) [4]; FlyWire data carry CC BY-NC 4.0 terms on flywire.ai (its Zenodo deposits state CC BY 4.0); this is a non-commercial project, and FlyWire-derived tables are shared for non-commercial use with attribution.
 
 ## Acknowledgements
 
 Correspondence: Agrim, agrim@terramind.com.
 
-We thank the authors of [1] for releasing code and data that make this kind of check possible, and the people behind the public projects whose READMEs we read. As of this version the original authors and the named projects have not yet been contacted; they will be before public release, and their corrections will be incorporated.
+We thank the authors of [1] for releasing code and data that make this kind of check possible, and the people behind the public projects whose READMEs we read. As of this version we have not yet written to the original authors or the named projects. Corrections from them, or from any reader, are welcome at the correspondence address and will be recorded in a later version.
 
 ---
 
