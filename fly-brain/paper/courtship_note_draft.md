@@ -6,8 +6,8 @@ Status (11 October): C1 is confirmed. The video beat is in `research-bible.md` Â
 
 > We tried one more thing. In a real fly, a female answers a male's courtship song by opening her vaginal plates. That is how she says yes. [S44]
 > The pair of neurons that gives that command is in the map, and in the model it works: switch on the song-tuned neurons that feed it, and it fires. [E11]
-> But when we switched on every hearing neuron in her brain, those neurons stayed silent. [E12]
-> Our stand-in for a song was crude: every hearing neuron on at once, with no rhythm. [E13] In a real fly, those song-tuned neurons respond to specific features of his song. [S44]
+> But when we switched on all 387 sound-sensing neurons the map labels, the song-tuned neurons and the yes neurons all stayed silent. [E12]
+> Our stand-in for a song was crude: every sound-sensing neuron on at once, with no rhythm. [E13] In a real fly, those song-tuned neurons respond to specific features of his song. [S44]
 > So the last step of yes is in the wiring. How a song gets that far, this simple model doesn't show us, and we don't yet know why.
 
 On-screen credit: "Reported earlier, with a synthesised song, by opifor: femaleflybrain (GitHub)".
